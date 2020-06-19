@@ -1,0 +1,28 @@
+{{with .context}}
+<div class="bg-transparent w-100 d-flex flex-column">
+    {{with .head}}
+    <div class="pricing-heading">{{.}}</div>
+    {{end}}
+    {{range .labels}}
+    <!--@formatter:off-->
+    <div class="d-flex w-100 pricing-line">
+        {{with .title}}
+            <span class="align-self-center {{$.widthcss}}">
+                {{.}}
+            </span>
+        {{end}}
+        {{range $index, $value := .values}}
+            <span class="text-center align-self-center {{index $.headings $index}} {{if eq $index $.highlight}}d-block{{end}} {{$.widthcss}}">
+            {{$pre := (index (where $.pagecontext.Site.Data.pricing.keywords "keyword" "eq" $value) 0).pre}}
+            {{with $pre}}
+                {{$pre | safeHTML}}
+            {{else}}
+                {{$value}}
+            {{end}}
+            </span>
+        {{end}}
+    </div>
+    <!--@formatter:on-->
+    {{end}}
+</div>
+{{end}}

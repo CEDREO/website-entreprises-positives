@@ -1,0 +1,38 @@
+---
+label: Galerie
+hide_body: true
+fields:
+- type: include
+  name: template_meta
+  label: template meta
+  template: page-metadata
+- type: field_group
+  name: header
+  label: Header background
+  description: Header background parameter.
+  fields:
+  - type: text
+    label: Header Title
+    name: title
+    description: Title text
+  - type: include
+    name: template
+    label: template
+    template: image-de-fond
+- type: text
+  label: All category title
+  name: alltitle
+  description: All category title
+- type: number
+  name: imagesperpage
+  label: Number of images
+  description: Number of images per page
+  config:
+    min: '1'
+    step: '1'
+- type: include
+  name: template_seo
+  label: template seo
+  template: bloc-seo
+pages:
+- content/galerie/_index.md

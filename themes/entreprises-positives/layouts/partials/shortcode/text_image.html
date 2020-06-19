@@ -1,0 +1,50 @@
+{{with .content}}
+{{$imagemarkdown := index (last 1 (findRE "!\\[.*" .)) 0}}
+{{$contentmarkdown := replace . $imagemarkdown "" }}
+{{$firstimage := false}}
+{{$first := $contentmarkdown}}
+{{$second := $imagemarkdown}}
+{{if eq $.position "left"}}
+    {{$firstimage = not $firstimage}}
+    {{$invert := $first}}
+    {{$first = $second}}
+    {{$second = $invert}}
+{{end}}
+
+{{$customcss := false}}
+{{with $.cssleft}}
+{{$customcss = true}}
+{{end}}
+{{with $.cssright}}
+{{$customcss = true}}
+{{end}}
+
+<div class="{{with $customcss}}d-flex flex-wrap{{else}}text-image-shortcode{{end}}{{if not $firstimage}} media-last{{end}}">
+    <div class="{{with $.cssleft}}{{.}}{{end}} shortcode-content">
+        {{- if $firstimage -}}
+            {{- with $.imagelink -}}
+            <a href="{{.}}" {{with $.imagelinktarget}}target="{{.}}"{{end}}>
+            {{- end -}}
+        {{- end -}}
+        {{$first | markdownify}}
+        {{- if $firstimage -}}
+            {{- with $.imagelink -}}
+            </a>
+            {{- end -}}
+        {{- end -}}
+    </div>
+    <div class="{{with $.cssright}}{{.}}{{end}} shortcode-content">
+        {{- if not $firstimage -}}
+            {{- with $.imagelink -}}
+            <a href="{{.}}" {{with $.imagelinktarget}}target="{{.}}"{{end}}>
+            {{- end -}}
+        {{- end -}}
+        {{$second | markdownify}}
+        {{- if not $firstimage -}}
+            {{- with $.imagelink -}}
+            </a>
+            {{- end -}}
+        {{- end -}}
+    </div>
+</div>
+{{end}}

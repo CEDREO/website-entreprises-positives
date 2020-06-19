@@ -1,0 +1,3 @@
+{{ with .context }}
+<a href="{{with .internal}}{{($.pagecontext.Site.GetPage .).Permalink}}{{else}}{{.external}}{{end}}">{{.text}}</a>
+{{end}}

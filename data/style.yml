@@ -1,0 +1,85 @@
+blockbackgrounds:
+  - name: "Blanc"
+    css: "bg-cedreo-white"
+  - name: "Gris Clair"
+    css: "bg-cedreo-gray"
+  - name: "Vert Cedreo"
+    css: "bg-cedreo-green"
+  - name: "Noir Carbone"
+    css: "bg-cedreo-carbon"
+  - name: "Spear (S)"
+    css: "bg-cedreo-spear-s"
+  - name: "Spear (P)"
+    css: "bg-cedreo-spear-p"
+  - name: "Spear (E)"
+    css: "bg-cedreo-spear-e"
+  - name: "Spear (A)"
+    css: "bg-cedreo-spear-a"
+  - name: "Spear (R)"
+    css: "bg-cedreo-spear-r"
+  - name: "Transparent"
+    css: "bg-transparent"
+blockstyles:
+  - name: "Mise en valeur"
+    css: "block-highlighted"
+  - name: "Standard"
+    css: "block-standard"
+  - name: "Fond image"
+    css: "block-bg-image"
+  - name: "Compact top"
+    css: "block-compact-top"
+  - name: "Compact bottom"
+    css: "block-compact-bottom"
+textaligns:
+  - name: "Center"
+    css: "text-center"
+  - name: "Right"
+    css: "text-right"
+  - name: "Left"
+    css: "text-left"
+  - name: "Justify"
+    css: "text-justify"
+mediapositions:
+  - name: "Left"
+    position: "left"
+  - name: "Right"
+    position: "right"
+  - name: "Top"
+    position: "top"
+  - name: "Bottom"
+    position: "bottom"
+mediasizes:
+  - name: "Small"
+    size: 5
+    smallsize: 20
+  - name: "Between Small and Medium"
+    size: 10
+    smallsize: 30
+  - name: "Medium"
+    size: 20
+    smallsize: 100
+  - name: "Large"
+    size: 50
+    smallsize: 100
+  - name: "Icon"
+    size: 20
+    smallsize: 40
+mediaoptions:
+  - name: "shadowed"
+    css: "shadowed"
+backgroundimageoptions:
+  - name: "fixed"
+    css: "bg-image-fixed"
+  - name: "darken"
+    css: "bg-image-darkened"
+  - name: "centered"
+    css: "bg-image-centered"
+titlelevels:
+  - level: 1
+    tag: "h1"
+  - level: 2
+    tag: "h2"
+  - level: 3
+    tag: "h3"
+  - level: 4
+    tag: "h4"

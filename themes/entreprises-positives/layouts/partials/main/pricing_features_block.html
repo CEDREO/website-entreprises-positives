@@ -1,0 +1,69 @@
+{{with .context}}
+{{- partial "utils/block_style.html" (dict "context" .style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+<div class="block-pricing-features container-fluid p-0 {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="d-flex flex-column container p-0">
+        {{with .title}}
+        {{$titlecontext := dict "text" . "level" 2}}
+        <div class='w-100 rich-content text-center pb-4'>
+            {{- partial "utils/block_title.html" (dict "context" $titlecontext "pagecontext" $.pagecontext "cssclasses" "w-100") -}}
+        </div>
+        {{end}}
+
+        {{$headingtitles := slice}}
+        {{$highlightindex := -1}}
+
+        <div class="pb-4 pricing-buttons">
+            <ul class="nav nav-pills">
+                {{range $index, $heading := .headings}}
+                    {{$headingtitles = union $headingtitles (slice $heading.title)}}
+                    {{with $heading.highlight}}
+                        {{$highlightindex = $index}}
+                    {{end}}
+                    <li class="nav-item w-len-{{len $.context.headings}}">
+                        <a class="nav-link {{with $heading.highlight}}active{{end}}" data-toggle="pill" href="#" onclick="javascript:showFeatures({{$heading.title}})">{{$heading.title}}</a>
+                    </li>
+                {{end}}
+            </ul>
+        </div>
+
+        {{$widthcss := printf "column-%s" (string (len .headings))}}
+
+        <div class="d-flex w-100">
+            <div class="{{$widthcss}}"></div>
+            {{range .headings}}
+            {{- partial "pricing/pricing_feature_head_block.html" (dict "pagecontext" $.pagecontext "context" . "widthcss" $widthcss) -}}
+            {{end}}
+        </div>
+        {{range .parts}}
+        <div class="d-flex w-100">
+            {{- partial "pricing/pricing_feature_part_block.html" (dict "pagecontext" $.pagecontext "context" . "widthcss" $widthcss "headings" $headingtitles "highlight" $highlightindex) -}}
+        </div>
+        {{end}}
+        {{with .headbottom}}
+        <div class="d-flex w-100">
+            <div class="{{$widthcss}}"></div>
+            {{range $.context.headings}}
+            {{- partial "pricing/pricing_feature_head_block.html" (dict "pagecontext" $.pagecontext "context" . "widthcss" $widthcss) -}}
+            {{end}}
+        </div>
+        {{end}}
+    </div>
+</div>
+
+<!--@formatter:off-->
+<script>
+    function showFeatures(p_heading){
+
+        {{range $headingtitles}}
+            $("." + {{.}}).removeClass("d-block");
+        {{end}}
+
+        $("." + p_heading).addClass("d-block");
+    }
+</script>
+<!--@formatter:on-->
+
+
+{{end}}

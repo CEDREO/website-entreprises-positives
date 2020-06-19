@@ -1,0 +1,15 @@
+#register-form, #signup-form {
+  button:disabled {
+    background-color: $cedreo-gray-border !important;
+    border-color: $cedreo-gray-dark-border !important;
+  }
+  button[form-valid='false'] {
+    background-color: $cedreo-gray-border !important;
+    border-color: $cedreo-gray-dark-border !important;
+    pointer-events: none;
+  }
+}
+
+.bottleneck-mh {
+  min-height: 620px !important;
+}

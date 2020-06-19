@@ -1,0 +1,13 @@
+$seofooterwidth: 25%;
+$seotop: 2rem;
+
+.seo-footer {
+  @extend .bg-cedreo-carbon;
+  @extend .text-cedreo-white;
+  padding: 2.5rem 0 !important;
+}
+
+.link-footer {
+  @extend .bg-cedreo-gray-footer;
+  padding: 2.5rem 0 !important;
+}

@@ -1,0 +1,85 @@
+<!--
+ * 3 columns template compose of an uper center title and paragraph.
+ * .context is expect to be a dict of:
+ * headtitle (centered h2)
+ * headparagraph (centered Standard)
+ * image1 Top image medium
+ * alt1 Alt of image
+ * title1 Title justify
+ * richtext1 Richtext justify
+ * cta1 center
+ * same for 2 and 3.
+ * background: name of the background.
+-->
+
+<!-- Create styles. -->
+{{- $background := slice -}}
+{{- with .context.background -}}
+{{- $background = $background | append (dict "color" . "template" "couleur-de-fond") -}}
+{{- end -}}
+
+{{- $stylehead := dict "compactbottom" true "compacttop" false "content" "Standard" "background" $background -}}
+{{- $stylecontent := dict "compactbottom" false "compacttop" false "content" "Standard" "background" $background -}}
+{{- $stylecta := dict "compactbottom" true "compacttop" true "content" "Standard" "background" $background -}}
+
+{{with .context}}
+
+<!-- Bloc for head -->
+{{- $bloccontent := dict "title" .headtitle "titlelevel" "2" "richtext" .headparagraph "align" "Center" "cta" "" -}}
+{{- $blocmedia := dict "position" "Top" "media" (slice) -}}
+{{- $bloc := dict "style" $stylehead "content" $bloccontent "media" $blocmedia -}}
+{{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+
+<!-- Bloc for content -->
+{{- partial "utils/block_style.html" (dict "context" $stylecontent "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="d-flex flex-column container p-0">
+        <div class="nested-block d-flex">
+            {{- $cssclass :=  printf "nested-block-%d" 3 -}}
+
+            <!-- Iterates on content -->
+            <div class="mx-4 {{$cssclass}} d-flex align-content-stretch flex-column">
+                {{- $bloccontent := dict "title" .title1 "titlelevel" "3" "richtext" .richtext1 "align" "Justify" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" .alt1 "image" $.context.image1 "size" "Large" "shadowed" false)) -}}
+                {{- $bloc := dict "style" $stylecontent "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+
+                <div class="flex-grow-2"></div>
+
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.cta1 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice) -}}
+                {{- $bloc := dict "style" $stylecta "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+            <div class="mx-4 {{$cssclass}} d-flex align-content-stretch flex-column">
+                {{- $bloccontent := dict "title" .title2 "titlelevel" "3" "richtext" .richtext2 "align" "Justify" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" .alt2 "image" $.context.image2 "size" "Large" "shadowed" false)) -}}
+                {{- $bloc := dict "style" $stylecontent "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+
+                <div class="flex-grow-2"></div>
+
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.cta2 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice) -}}
+                {{- $bloc := dict "style" $stylecta "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+            <div class="mx-4 {{$cssclass}} d-flex align-content-stretch flex-column">
+                {{- $bloccontent := dict "title" .title3 "titlelevel" "3" "richtext" .richtext3 "align" "Justify" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" .alt3 "image" $.context.image3 "size" "Large" "shadowed" false)) -}}
+                {{- $bloc := dict "style" $stylecontent "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+
+                <div class="flex-grow-2"></div>
+
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.cta3 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice) -}}
+                {{- $bloc := dict "style" $stylecta "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}

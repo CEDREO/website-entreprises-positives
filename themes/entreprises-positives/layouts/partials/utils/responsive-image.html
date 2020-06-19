@@ -1,0 +1,30 @@
+<!-- Required params  -->
+<!-- image with path -->
+<!-- alt with image alt  -->
+<!-- class with css class  -->
+<!-- context as .  -->
+<!-- smallSize: size hint for small screen for srcset -->
+<!-- largeSize: size hint for large screen for srcset -->
+{{ $imageResource := (.context.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" (replaceRE "^/[a-z][a-z]/" "/" .image) ) }}
+{{ if $imageResource}}
+    <!-- Force to do two if as hugo if syntax is trash -->
+    {{ if and (eq "image" $imageResource.ResourceType) (not (eq $imageResource.MediaType.SubType "svg") ) }}
+        {{ $srcset := slice }}
+        {{ $defaultsrc := $imageResource.Permalink }}
+        {{ range .context.Site.Data.image.resizesize }}
+            {{ $resized := $imageResource.Resize (printf "%s Lanczos" .) }}
+            {{ $srcset = $srcset | append (printf "%s %s" $resized.Permalink (replaceRE "x" "w" .))}}
+            {{ if findRE "1920" . }}
+                {{ $defaultsrc = $resized.Permalink }}
+            {{ end }}
+        {{ end }}
+        {{$srcsetattr := delimit $srcset ", " ", " }}
+            <img src="{{$defaultsrc}}" class="{{.class}}" alt="{{.alt}}"
+             {{ printf "srcset=%q" $srcsetattr | safeHTMLAttr }}
+             sizes="(min-width: 992px) {{.largeSize}}vw , {{.smallSize}}vw" />
+    {{ else }}
+        <img src="{{(replaceRE "^/[a-z][a-z]/" "/" .image) | relURL}}" class="{{.class}}" alt="{{.alt}}"/>
+    {{end }}
+{{ else }}
+    <img src="{{(replaceRE "^/[a-z][a-z]/" "/" .image) | relURL}}" class="{{.class}}" alt="{{.alt}}"/>
+{{ end }}

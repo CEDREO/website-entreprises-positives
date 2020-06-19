@@ -1,0 +1,55 @@
+{{$uniqueid := printf "video-frame-%s" (md5 (delimit .context ""))}}
+{{$functionname := printf "show_%s" (replaceRE "-" "_" $uniqueid)}}
+{{- partial "utils/background.html" (dict "context" .pagecontext "background" .context.background) -}}
+{{$background := .pagecontext.Scratch.Get "background"}}
+
+<div class="video-block container-fluid {{$background.cssclasses}}"
+     style="{{$background.inlinestyle}}">
+    <div class="row p-5">
+        <div class="col-lg-6 pb-2">
+            <div class="d-flex align-items-start flex-column h-100">
+                <h1 class="mb-auto">
+                    {{ .context.title }}
+                </h1>
+                <h2 class="mb-auto mt-auto">
+                    {{ .context.text }}
+                </h2>
+                <div class="mt-auto d-flex align-items-center">
+                    {{- partial "utils/cta.html" (dict "context" .pagecontext "cta" (.context.cta | safeHTML)) -}}
+                </div>
+            </div>
+        </div>
+        {{with .context.video}}
+        <div class="video-container col-lg-4 offset-lg-2 align-self-center p-0 cornered-border">
+            <div class="top-left-corner"></div>
+            <div class="top-right-corner"></div>
+            <div class="bottom-left-corner"></div>
+            <div class="bottom-right-corner"></div>
+            <a onclick="{{printf " javascript:%s()" $functionname | safeJS}}"
+            title="{{ .text }}">
+            <iframe id="{{$uniqueid}}"
+                    width="100%"
+                    height="100%"
+                    enablejsapi="1"
+                    data-src="{{ .url }}"
+                    frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            {{with .button}}
+            {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid w-100" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "50") -}}
+            {{end}}
+            <p>{{ .text }}</p>
+            </a>
+        </div>
+        {{end}}
+    </div>
+</div>
+<!--@formatter:off-->
+<script language="JavaScript">
+    function {{printf "%s()" $functionname | safeJS}} {
+        var iframe = $({{printf "#%s" $uniqueid}});
+        iframe.show();
+        iframe.attr("src", iframe.attr("data-src") + "?autoplay=1");
+    }
+</script>
+<!--@formatter:on-->

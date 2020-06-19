@@ -1,0 +1,132 @@
+<!--
+ * 3 columns template compose of an uper center title and paragraph.
+ * .context is expect to be a dict of:
+ * headtitle (centered h2)
+ * headparagraph (centered Standard)
+ * tableheadings (list of text)
+ * tablelines (list of line that contains (name and list of values)
+-->
+
+{{- $background := slice -}}
+{{- with .context.background -}}
+{{- $background = $background | append (dict "color" . "template" "couleur-de-fond") -}}
+{{- end -}}
+
+{{with .context}}
+{{$widthcss := printf "column-%s" (string (len  (index .tablelines 0).values))}}
+
+<!-- Bloc for head -->
+{{- with .headtitle -}}
+    {{- $stylehead := dict "compactbottom" false "compacttop" false "content" "Standard" "background" $background -}}
+    {{- $bloccontent := dict "title" $.context.headtitle "titlelevel" "2" "richtext" $.context.headparagraph "align" "Left" "cta" "" -}}
+    {{- $blocmedia := dict "position" "Top" "media" (slice) -}}
+    {{- $bloc := dict "style" $stylehead "content" $bloccontent "media" $blocmedia -}}
+    {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+{{- end -}}
+
+{{- $styletable := dict "compactbottom" false "compacttop" true "content" "Standard" "background" $background -}}
+{{- partial "utils/block_style.html" (dict "context" $styletable "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+
+<!-- Bloc for table on large screen  -->
+<div class="block-pricing-features container-fluid p-0 {{$blockstyle.cssclasses}} d-none d-lg-block">
+    <div class="d-flex flex-column container p-0">
+        <div class="w-100 d-flex">
+            <div class="bg-transparent w-100 d-flex flex-column">
+                {{- if gt (len .tableheadings) 0 -}}
+                <!--@formatter:off-->
+                <div class="d-flex w-100 pricing-line">
+                    <span class="{{$widthcss}}">
+                    </span>
+                    {{range $heading := .tableheadings}}
+                    <span class="text-center align-self-center font-weight-bold {{$widthcss}}">
+                            {{$heading | safeHTML}}
+                    </span>
+                    {{end}}
+                </div>
+                <!--@formatter:on-->
+                {{- end -}}
+                {{range .tablelines}}
+                <!--@formatter:off-->
+                <div class="d-flex w-100 pricing-line">
+                    <span class="align-self-center {{$widthcss}}">
+                        {{.name}}
+                    </span>
+                    {{range $value := .values}}
+                        <span class="text-center align-self-center {{$widthcss}}">
+                            {{$pre := (index (where $.pagecontext.Site.Data.pricing.keywords "keyword" "eq" $value) 0).pre}}
+                            {{with $pre}}
+                                {{$pre | safeHTML}}
+                            {{else}}
+                                {{$value | safeHTML}}
+                            {{end}}
+                        </span>
+                    {{end}}
+                </div>
+                <!--@formatter:on-->
+                {{end}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bloc for table on responsive screen  -->
+{{$mobileid := printf "tableblock-%s" (md5 (delimit .headtitle ""))}}
+<div class="block-pricing-features container-fluid p-0 block block-standard block-compact-top d-block d-lg-none table-block-mobile">
+    <div id="{{$mobileid}}" class="container p-0">
+        <!-- Select for column -->
+        <div class="select-alternative-wrapper">
+            <select class="select-alternative" onchange="changeColumn(this, '{{$mobileid}}')">
+                {{range $index, $heading := .tableheadings}}
+                <option value="tableblock-{{md5 (delimit $heading "")}}-{{$index}}">{{$heading | safeHTML}}</option>
+                {{end}}
+            </select>
+        </div>
+
+        {{range $index, $heading := .tableheadings}}
+        <div class="pt-4 {{if not (eq $index 0)}}d-none{{end}} mobile-line" id="tableblock-{{md5 (delimit $heading "")}}-{{$index}}">
+            {{range $indexline, $valueline := $.context.tablelines}}
+            <!--@formatter:off-->
+            <div class="d-flex w-100 pricing-line {{if eq $indexline 0 }}first{{end}}">
+                <span class="text-left align-self-center d-block w-60">
+                    {{$valueline.name}}
+                </span>
+                {{with (index $valueline.values $index)}}
+                    <span class="text-center align-self-center d-block w-40">
+                        {{$pre := (index (where $.pagecontext.Site.Data.pricing.keywords "keyword" "eq" .) 0).pre}}
+                        {{with $pre}}
+                            {{$pre | safeHTML}}
+                        {{else}}
+                            {{. | safeHTML}}
+                        {{end}}
+                    </span>
+                {{end}}
+            </div>
+            <!--@formatter:on-->
+            {{end}}
+        </div>
+        {{end}}
+    </div>
+</div>
+{{end}}
+
+<script cedreo-script='true' type='text/javascript'>
+function changeColumn(p_select, p_parentId) {
+    var parent = document.getElementById(p_parentId);
+    for (var i = 0; i < parent.children.length; i++) {
+        var doc = parent.children[i];
+        if (doc.className.indexOf("mobile-line") != -1) {
+            if (doc.id === p_select.value)
+            {
+                doc.className = doc.className.replace("d-none", "")
+                    .replace("d-block", "") + " d-block";
+            }
+            else
+            {
+                doc.className = doc.className.replace("d-none", "")
+                    .replace("d-block", "") + " d-none";
+            }
+        }
+    }
+}
+</script>

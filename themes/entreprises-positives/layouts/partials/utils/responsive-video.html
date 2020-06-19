@@ -1,0 +1,53 @@
+{{with .context}}
+{{$uniqueid := printf "video-frame-%s" (md5 (delimit . ""))}}
+{{$functionname := printf "show_%s" (replaceRE "-" "_" $uniqueid)}}
+
+<div class="{{with .borders}}cornered-border{{end}}{{with .button}} link-hover-trigger{{end}}" {{with .button}}onclick="{{printf " javascript:%s()" $functionname | safeJS}}" title="{{.text}}"{{end}}>
+
+{{with .borders}}
+<div class="top-left-corner"></div>
+<div class="top-right-corner"></div>
+<div class="bottom-left-corner"></div>
+<div class="bottom-right-corner"></div>
+{{end}}
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe id="{{$uniqueid}}"
+            class="embed-responsive-item"
+            enablejsapi="1"
+            {{with .button}}
+            style="display: none"
+            data-src="{{$.context.youtubeurl}}"
+            {{else}}
+            src="{{.youtubeurl}}"
+            {{end}}
+            frameborder="0"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; autoplay"
+            allowfullscreen></iframe>
+    {{with .button}}
+    <div class="d-flex embed-responsive-item">
+        <!--we dont use the responsive image partial here to avoid image resizing.-->
+        {{- $imageResource := ($.pagecontext.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" (replaceRE "^/[a-z][a-z]/" "/" .image) ) -}}
+        <img src="{{$imageResource.Permalink}}" class="img-fluid-h-1dot5r m-auto" alt="{{.alt}}"/>
+        <p class="d-flex position-absolute text-center w-100 m-0 p-0 video-sub-text" style=""><a class="m-auto link-hover">{{ .text }}</a></p>
+    </div>
+    {{end}}
+</div>
+
+</div>
+
+<!--@formatter:off-->
+{{with .button}}
+<script language="JavaScript">
+    function {{printf "%s()" $functionname | safeJS}} {
+        var iframe = $({{printf "#%s" $uniqueid}});
+        iframe.show();
+        iframe.next().removeClass("d-flex");
+        iframe.next().addClass("d-none");
+        iframe.attr("src", iframe.attr("data-src") + "?autoplay=1&rel=0");
+    }
+</script>
+{{end}}
+<!--@formatter:on-->
+
+{{end}}

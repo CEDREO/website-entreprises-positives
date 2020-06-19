@@ -1,0 +1,28 @@
+---
+label: Further reading block
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Block title
+  default: Pour aller plus loin
+- type: field_group_list
+  name: parts
+  label: Pages
+  fields:
+  - type: text
+    name: text
+    label: Link text
+    description: Button link text.
+  - type: text
+    name: link
+    label: Link
+    description: Link to the page like /en/presentation-commerciale/
+  - type: file
+    name: image
+    label: Image
+    description: Image above the button.
+  config:
+    labelField: text

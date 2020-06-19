@@ -1,0 +1,47 @@
+<!-- Metadata part -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="true">
+<title>{{.Page.Title}}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ if not (eq .Page.Description "") }}
+<meta name="description" content="{{.Page.Description}}">
+{{ end }}
+{{ with .Page.Params.noindex }}
+  {{ if . }}
+<meta name="robots" content="noindex">
+  {{ end }}
+{{ end }}
+{{ $fav32 := "/images/cropped-favicon-1-32x32.png" | relURL }}
+<link rel="icon" href="{{ $fav32 }}" sizes="32x32">
+{{ $fav192 := "/images/cropped-favicon-1-192x192.png" | relURL }}
+<link rel="icon" href="{{ $fav192 }}" sizes="192x192">
+
+{{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "assets/node_modules")) }}
+{{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options | resources.Fingerprint "md5" }}
+<link href="{{ $style.RelPermalink }}" rel="stylesheet" type="text/css">
+{{ $cssFA := "/css/fa-all.min.1cc6c92172d124fbd305ba3d8e263333.css" | relURL }}
+<link href="{{ $cssFA }}" rel="stylesheet" type="text/css">
+
+<!-- Preconnect for fastest load -->
+<link rel="preconnect" href="//widget.trustpilot.com">
+<link rel="preconnect" href="//js.hsforms.net">
+<link rel="preconnect" href="//js.hscta.net">
+<link rel="preconnect" href="//no-cache.hubspot.com">
+<!-- Fallback dns-prefetch for fastest load -->
+<link rel="dns-prefetch" href="//widget.trustpilot.com">
+<link rel="dns-prefetch" href="//js.hsforms.net">
+<link rel="dns-prefetch" href="//js.hscta.net">
+<link rel="dns-prefetch" href="//no-cache.hubspot.com">
+
+<!--@formatter:off-->
+<!--link those hreflangs for seo-->
+{{- partial "utils/hreflangs.html" . -}}
+
+{{- with $.Page.Params.trackers -}}
+{{- range . -}}
+{{- if (eq "head" .location) -}}
+{{ .tracker | safeHTML }}
+{{- end -}}
+{{- end -}}
+{{- end -}}

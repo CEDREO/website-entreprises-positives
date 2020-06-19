@@ -1,0 +1,9 @@
+{{ range .Pages }}
+    location ~ "{{ .Params.source }}$" {
+{{ if hasPrefix .Params.dest "http" }}
+        return {{ .Params.code }} {{ .Params.dest }};
+{{ else }}
+        return {{ .Params.code }} https://$host{{ .Params.dest }};
+{{ end }}
+    }
+{{ end }}

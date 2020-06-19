@@ -1,0 +1,87 @@
+$share-link-height: 1.3rem;
+
+.modal-xl {
+  .close {
+    position: absolute;
+    right: 0;
+    top: -1px;
+    z-index: 10;
+    @extend .p-1;
+  }
+
+  .prevnext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    pointer-events: none;
+
+    .prev, .next {
+      @extend .bg-cedreo-white;
+      @extend .my-auto;
+      @extend .p-2;
+      @extend .text-cedreo-green;
+      pointer-events: all;
+      z-index: 10;
+
+      i {
+        font-size: 2rem !important;
+      }
+    }
+
+    .prev {
+      @extend .mr-auto;
+    }
+
+    .next {
+      @extend .ml-auto;
+    }
+  }
+
+  .modal-content {
+    @extend .p-1;
+  }
+}
+
+.galerie-item {
+  position: relative;
+
+  .overlay-360 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+
+    .overlay-360-image-container {
+      width: 40%;
+    }
+  }
+}
+
+.galerie-modal-item-social {
+  position: absolute;
+  top: $modal-inner-padding;
+  right: $modal-inner-padding;
+  display: flex;
+  flex-direction: column;
+  @extend .p-2;
+  @extend .text-center;
+  @extend .bg-cedreo-transparent-black-7;
+
+  .galerie-modal-item-social-link {
+    font-size: $share-link-height !important;
+    line-height: $share-link-height;
+    padding-bottom: 0.25rem;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    .fab {
+      font-size: $share-link-height !important;
+      line-height: $share-link-height;
+    }
+  }
+}

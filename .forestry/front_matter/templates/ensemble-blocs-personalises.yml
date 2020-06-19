@@ -1,0 +1,44 @@
+---
+label: Ensemble blocs personalisés
+hide_body: false
+display_field: forestrylabel
+fields:
+- type: text
+  name: forestrylabel
+  label: Forestry label
+  description: Forestry label for list display
+- type: field_group
+  name: style
+  label: Style
+  description: Block style parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: text
+  label: Title
+  name: title
+  description: Block title
+- name: titlelevel
+  type: select
+  default: '2'
+  config:
+    required: false
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Title level
+- type: blocks
+  name: parts
+  label: Blocks
+  description: Blocks list
+  template_types:
+  - bloc-personalise

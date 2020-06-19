@@ -1,0 +1,179 @@
+{{define "canonical"}}
+<link rel="canonical" href="{{.Page.Permalink}}">
+{{ end }}
+{{define "meta"}}
+{{ $imageResource := (.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" (replaceRE "^/[a-z][a-z]/" "/" .Params.image) ) }}
+{{ with $imageResource}}
+<meta name="image" property="og:image" content="{{$imageResource.Permalink}}">
+{{end}}
+{{end}}
+
+{{ define "main" }}
+
+<!--initialize arrays-->
+{{$blogpages := slice}}
+{{$blogs := slice}}
+{{$bloglinks := slice}}
+
+<!--build the related blog list pages (taxonomy)-->
+{{range (sort .Params.blogs)}}
+{{$blogpages = union $blogpages (slice ($.Site.GetPage (printf "/blogs/%s" .)))}}
+{{end}}
+
+<!--build the related blog list page titles and links-->
+<!--@formatter:off-->
+{{range $blogpages}}
+    {{if eq (len $blogpages) 1}}
+        {{$blogs = union $blogs (slice (printf "%s : %s" .Title .Description))}}
+    {{else}}
+        {{$blogs = union $blogs (slice .Title)}}
+    {{end}}
+    {{$bloglinks = union $bloglinks (slice (printf "<a href='%s'>%s</a>" .Permalink .Title))}}
+{{end}}
+<!--@formatter:on-->
+<div class="breadcrumb-placeholder"></div>
+
+<div class="block block-compact-top block-compact-bottom">
+    <div class="container mt-5 position-relative p-0">
+        {{- partial "utils/responsive-image.html" (dict "image" .Params.image "class" "img-fluid w-100" "alt" .Params.alt "context" . "smallSize" "100" "largeSize" "100") -}}
+        <h1 class="text-cedreo-green pt-3">{{.Title}}</h1>
+    </div>
+    <div class="container p-0 mb-5">
+        <div class="border-bottom border-1 border-cedreo-gray">
+            <div class="d-flex py-2 px-0 m-0">
+                <span class="mr-auto my-auto"><em>{{- partial "utils/date.html" (dict "date" .PublishDate "pattern" "02 January 2006" "context" .) -}} - {{delimit $bloglinks ", "}}</em></span>
+                <div class="ml-auto">
+                    {{- partial "blog/blog_social_block.html" . -}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{- with .Content -}}
+    <div class="container p-0 mb-5 blog-article">
+        {{ . }}
+    </div>
+    {{- end -}}
+</div>
+
+{{- with .Params.blocs -}}
+{{range .}}
+{{if eq .template "bloc-accueil"}}
+{{- partial "main/welcome_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-success-stories"}}
+{{- partial "main/success_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-arguments"}}
+{{- partial "main/argument_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-galerie"}}
+{{- partial "main/gallery_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-features"}}
+{{- partial "main/feature_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-trustpilot"}}
+{{- partial "main/trustpilot_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-blog"}}
+{{- partial "main/blog_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-team"}}
+{{- partial "main/team_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-personalise"}}
+{{- partial "main/custom_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "ensemble-blocs-personalises"}}
+{{- partial "main/custom_block_list.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "recrutement"}}
+{{- partial "main/recrutement_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "pour-aller-plus-loin"}}
+{{- partial "main/for_further_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if or (eq .template "bloc-prelaunch") (eq .template "bloc-tarifs")}}
+{{- partial "main/pricing_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-tarif-features"}}
+{{- partial "main/pricing_features_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "faq"}}
+{{- partial "main/faq_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{end}}
+{{end}}
+{{- end -}}
+
+<!--get the related blog taxonomy page -->
+{{$relatedblog := index $blogpages 0}}
+
+<!--get first 3 articles by date-->
+{{$relatedposts := first 3 (where $relatedblog.Data.Pages.ByPublishDate.Reverse "Permalink" "ne" .Permalink)}}
+
+<!--initialize array-->
+{{$relatedpostpaths := slice}}
+
+<!--range over related posts to get their paths-->
+{{range $relatedposts}}
+{{$relatedpostpaths = union $relatedpostpaths (slice .File.Path)}}
+{{end}}
+
+<!--avoid if array is empty-->
+{{if ne (len $relatedpostpaths) 0}}
+
+<!--build the related posts-->
+<div class="block block-compact-top block-compact-bottom">
+    <div class="container block-standard px-0">
+        <div class="border-top border-1 border-cedreo-gray pt-4">
+            <h4 class="cedreo-smaller-h4 mb-4 font-weight-bold">{{.Parent.Params.relatedpoststext}}</h4>
+        </div>
+    </div>
+</div>
+<!--build the blog blog parameters dictionary to use the same partial -->
+{{$blogbloc := dict "nopadding" true "parts" $relatedpostpaths "style" (dict "compacttop" true "compactbottom" true "background" (slice (dict "color" "Blanc" "template" "couleur-de-fond")))}}
+{{- partial "main/blog_block.html" (dict "pagecontext" . "context" $blogbloc) -}}
+
+{{ end }}
+{{ end }}
+
+{{define "schema"}}
+{{- with $.Page.Params.schemajson -}}
+<script type="application/ld+json">
+    {{ safeHTML (replace $.Page.Params.schemajson "\n" "") }}
+</script>
+{{- else -}}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "url": "{{$.Page.Permalink}}",
+        "name": "{{$.Page.Params.Title}}",
+        "inLanguage": "{{$.Site.LanguageCode}}",
+    {{- $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" (replaceRE "^/[a-z][a-z]/" "/" .Params.image) ) -}}
+    {{- with $imageResource -}}
+    "primaryImageOfPage": "{{$imageResource.Permalink}}",
+    {{- end -}}
+    {{- with $.Page.Params.publishdate -}}
+    "datePublished": "{{dateFormat "2006-01-02T15:04:05Z07:00" .}}",
+    {{- end -}}
+    {{- with $.Page.Params.date -}}
+    "dateModified": "{{dateFormat "2006-01-02T15:04:05Z07:00" .}}",
+    {{- end -}}
+    "potentialAction": [
+    {
+    "@type": "ReadAction",
+    "target": [
+    "{{$.Page.Permalink}}"
+    ]
+    }
+    ],
+    {{- $author := index $.Site.Data.authors.authors $.Site.Data.authors.default -}}
+    {{- with $.Page.Params.author -}}
+        {{- with index $.Site.Data.authors.authors $.Page.Params.author -}}
+        {{- $author = . -}}
+        {{- end -}}
+    {{- end -}}
+    "author": {
+    "@type": "Person",
+    "@id": "https://cedreo.com/#{{ anchorize $author.name}}",
+    "name": "{{ $author.name }}",
+    "sameAs": [
+    "{{ delimit $author.sameas "\", \"" "\", \"" }}"
+    ]
+    },
+    "publisher": {
+    "@type": "Corporation",
+    "name": "Cedreo",
+    "url": "https://cedreo.com"
+    }
+    }
+</script>
+{{- end -}}
+{{end}}

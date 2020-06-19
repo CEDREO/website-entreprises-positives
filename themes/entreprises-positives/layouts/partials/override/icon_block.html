@@ -1,0 +1,81 @@
+<!--
+ * Icon template compose of Up to 5 pictos and 5 rich texts (forestry name "bloc-icon").
+ * .context is expect to be a dict of with icon1, richtext1, alt1, etc...
+-->
+
+<!-- Create default style. -->
+{{- $background := slice -}}
+{{- with .context.background -}}
+{{- $background = $background | append (dict "color" . "template" "couleur-de-fond") -}}
+{{- end -}}
+
+{{- $style := dict "compactbottom" false "compacttop" false "content" "Standard" "background" $background -}}
+
+<!-- Compute the number of parts -->
+{{- $numberpart := 0 -}}
+{{- with .context.icon1 -}}{{- $numberpart = add $numberpart 1 -}}{{- end -}}
+{{- with .context.icon2 -}}{{- $numberpart = add $numberpart 1 -}}{{- end -}}
+{{- with .context.icon3 -}}{{- $numberpart = add $numberpart 1 -}}{{- end -}}
+{{- with .context.icon4 -}}{{- $numberpart = add $numberpart 1 -}}{{- end -}}
+{{- with .context.icon5 -}}{{- $numberpart = add $numberpart 1 -}}{{- end -}}
+
+<!-- size -->
+{{- $size := "Icon" -}}
+{{- with .context.size -}}
+{{- $size = . -}}
+{{- end -}}
+
+{{with .context}}
+{{- partial "utils/block_style.html" (dict "context" $style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="d-flex flex-column container p-0">
+        <div class="nested-block d-flex">
+            {{- $cssclass :=  printf "nested-block-%d" ($numberpart) -}}
+
+            <!-- Iterates on icon -->
+            {{- with .icon1 -}}
+            <div class="mx-4 {{$cssclass}}">
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.richtext1 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" $.context.alt1 "image" $.context.icon1 "size" $size "shadowed" false)) -}}
+                {{- $bloc := dict "style" $style "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+            {{- end -}}
+            {{- with .icon2 -}}
+            <div class="mx-4 {{$cssclass}}">
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.richtext2 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" $.context.alt2 "image" $.context.icon2 "size" $size "shadowed" false)) -}}
+                {{- $bloc := dict "style" $style "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+            {{- end -}}
+            {{- with .icon3 -}}
+            <div class="mx-4 {{$cssclass}}">
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.richtext3 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" $.context.alt3 "image" $.context.icon3 "size" $size "shadowed" false)) -}}
+                {{- $bloc := dict "style" $style "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+            {{- end -}}
+            {{- with .icon4 -}}
+            <div class="mx-4 {{$cssclass}}">
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.richtext4 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" $.context.alt4 "image" $.context.icon4 "size" $size "shadowed" false)) -}}
+                {{- $bloc := dict "style" $style "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+            {{- end -}}
+            {{- with .icon5 -}}
+            <div class="mx-4 {{$cssclass}}">
+                {{- $bloccontent := dict "title" "" "titlelevel" "2" "richtext" $.context.richtext5 "align" "Center" "cta" "" -}}
+                {{- $blocmedia := dict "position" "Top" "media" (slice (dict "template" "image" "alt" $.context.alt5 "image" $.context.icon5 "size" $size "shadowed" false)) -}}
+                {{- $bloc := dict "style" $style "content" $bloccontent "media" $blocmedia -}}
+                {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" $bloc) -}}
+            </div>
+            {{- end -}}
+        </div>
+    </div>
+</div>
+{{end}}

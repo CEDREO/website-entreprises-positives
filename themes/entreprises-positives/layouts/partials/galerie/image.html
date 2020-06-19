@@ -1,0 +1,54 @@
+<div data-toggle="modal" class="galerie-item" data-target="#{{.htmlid}}">
+    {{ if .visite }}
+    {{ $v360 := "/images/icon-360-degres.png" | relURL }}
+    <div class="overlay-360 d-flex justify-content-end">
+        <div class="overlay-360-image-container">
+            <img class="img-fluid" alt="360" src="{{ $v360 }}">
+        </div>
+    </div>
+    {{ end }}
+    {{- partial "utils/responsive-image.html" (dict "image" $.image "class" "img-fluid w-100" "alt" $.alt "context" $.pagecontext "smallSize" "100" "largeSize" "30") -}}
+</div>
+<div class="modal fade" id="{{.htmlid}}">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="prevnext">
+                    {{with .prevhtmlid}}
+                    <div class="prev" data-toggle="modal" data-dismiss="modal" data-target="#{{.}}" onclick="removeModalFade();">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    {{end}}
+                    {{with .nexthtmlid}}
+                    <div class="next" data-toggle="modal" data-dismiss="modal" data-target="#{{.}}" onclick="removeModalFade();">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    {{end}}
+                </div>
+                {{ if .visite }}
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="{{ .visite }}" allowfullscreen="true"></iframe>
+                </div>
+                {{ else }}
+                <div class="galerie-modal-item-social">
+                    {{ range $.pagecontext.Site.Data.socialshare.socials }}
+                    {{$link := .urlscheme }}
+                    {{$link := replaceRE "%permalink" (strings.TrimPrefix "=" (querify "" $.pagecontext.Permalink)) $link }}
+                    {{$link := replaceRE "%title" (strings.TrimPrefix "=" (querify "" $.alt)) $link }}
+                    {{$link := replaceRE "%image" (strings.TrimPrefix "=" (querify "" $.image)) $link }}
+                    {{$link := replaceRE "%description" (strings.TrimPrefix "=" (querify "" "")) $link }}
+                    <a class="galerie-modal-item-social-link" rel="nofollow" title="{{ .title }}"
+                       {{ printf "href=%s" $link | safeHTMLAttr }} target="_blank">
+                    {{ .pre | safeHTML }}
+                    </a>
+                    {{ end }}
+                </div>
+                {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid w-100" "alt" .alt "context" .pagecontext "smallSize" "100" "largeSize" "100") -}}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

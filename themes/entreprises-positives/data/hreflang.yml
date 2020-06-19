@@ -1,0 +1,15 @@
+noxdefaultpermalink: true
+noxdefaulturl: https://cedreo.com/my-x-default-page/
+hreflangs:
+  - lang: x-default
+    urlscheme: /(de|fr)/
+    reverse: true
+  - lang: fr
+    urlscheme: /fr/
+    reverse: false
+  - lang: en
+    urlscheme: /(de|fr)/
+    reverse: true
+  - lang: de
+    urlscheme: /de/
+    reverse: false

@@ -1,0 +1,63 @@
+span.nav-link{
+  cursor: pointer;
+}
+
+.nav-cedreo-tab {
+
+  @extend .justify-content-center;
+  @extend .border-bottom;
+  @extend .border-1;
+  @extend .border-cedreo-gray;
+
+  @include media-breakpoint-down(md){
+    flex-direction: column !important;
+    border: none !important;
+
+    .nav-item {
+      //text-align: left !important;
+
+      .nav-link {
+        //display: inline-block;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-bottom: map_get($spacers, 4) !important;
+        padding-bottom: map_get($spacers, 2) !important;
+      }
+    }
+  }
+
+  .nav-item {
+    flex: unset;
+    text-align: center;
+    margin-bottom: -2px;
+  }
+
+  .nav-item .nav-link {
+    @extend .pt-0;
+    @extend .pb-2;
+    @extend .px-3;
+    @extend .mx-3;
+    border-radius: 0;
+    position: relative;
+    color: unset;
+    background: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-item .nav-link.active {
+    @extend .text-cedreo-green;
+    border-bottom: 2px solid $cedreo-green;
+    font-weight: bold;
+  }
+
+  .nav-item.nav-home .nav-link {
+  }
+
+  .nav-item .nav-link:not(.active) {
+  }
+
+  .nav-item .nav-link:not(.active):hover {
+    @extend .text-cedreo-green;
+    border-bottom: 2px solid $cedreo-green;
+  }
+}

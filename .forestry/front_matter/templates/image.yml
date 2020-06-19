@@ -1,0 +1,23 @@
+---
+label: Image
+hide_body: false
+fields:
+- type: include
+  name: templateimage
+  label: template image
+  template: alt-image
+- type: select
+  name: size
+  config:
+    source:
+      type: simple
+    options:
+    - Small
+    - Medium
+    - Large
+  label: Size
+  description: Image size
+- type: boolean
+  name: shadowed
+  label: Ombre
+  description: Image shadow effect

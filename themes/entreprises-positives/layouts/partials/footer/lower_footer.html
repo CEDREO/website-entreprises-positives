@@ -1,0 +1,7 @@
+<section class="w-100 d-flex justify-content-around mt-3">
+    <nav class="nav ">
+        {{ range .Site.Menus.footer }}
+        <a class="nav-link text-uppercase" href="{{.URL}}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+</section>

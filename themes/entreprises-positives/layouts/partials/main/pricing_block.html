@@ -1,0 +1,91 @@
+{{with .context}}
+{{$prelaunch := eq .template "bloc-prelaunch"}}
+{{- partial "utils/block_style.html" (dict "context" .style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}} block-pricing {{with $prelaunch}}prelaunch{{end}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="d-flex flex-column container p-0">
+        {{with .title}}
+        {{$titlecontext := dict "text" . "level" 1}}
+        <div class='w-100 rich-content text-center'>
+            {{- partial "utils/block_title.html" (dict "context" $titlecontext "pagecontext" $.pagecontext "cssclasses" "w-100") -}}
+        </div>
+        {{end}}
+        {{with .textbuttons}}
+        <div class="pb-5 d-flex pricing-buttons m-auto">
+            <ul class="align-self-center nav nav-pills">
+                {{range $index, $text := .}}
+                <li class="nav-item">
+                    <a class="nav-link {{if eq $index (sub (len $.context.textbuttons) 1)}}active{{end}}" price-index="{{$index}}" data-toggle="pill" href="#" onclick="javascript:changePricing({{$index}})">{{$text}}</a>
+                </li>
+                {{end}}
+            </ul>
+            {{with $.context.image}}
+            <div class="img-container">
+                <img class="img-fluid" src="{{(replaceRE "^/[a-z][a-z]/" "/" .) | relURL}}" alt="{{$.context.alt}}" />
+            </div>
+            {{end}}
+        </div>
+        {{else}}
+        <div style="margin-bottom: 1rem"></div>
+        {{end}}
+        <div class="nested-block d-flex justify-content-center">
+            {{$parts := slice}}
+            {{if $prelaunch}}
+            {{$parts = slice .part}}
+            {{else}}
+            {{$parts = .parts}}
+            {{end}}
+            {{- $cssclass := printf "nested-block-%d" (len $parts) -}}
+            {{$maxlenfeatures := 0}}
+            {{range $parts}}
+            {{if gt (len .features) $maxlenfeatures}}
+            {{$maxlenfeatures = len .features}}
+            {{end}}
+            {{end}}
+            {{range $parts}}
+            <div class="{{$cssclass}} p-0 block-pricing-part {{with .highlight}}block-pricing-part-highlighted {{end}}{{with $prelaunch}}prelaunch{{end}}">
+                {{if $prelaunch}}
+                {{- partial "pricing/prelaunch_part_block.html" (dict "pagecontext" $.pagecontext "context" .) -}}
+                {{else}}
+                {{- partial "pricing/pricing_part_block.html" (dict "pagecontext" $.pagecontext "context" . "maxlenfeatures" $maxlenfeatures) -}}
+                {{end}}
+            </div>
+            {{end}}
+        </div>
+    </div>
+</div>
+
+{{if not $prelaunch}}
+<script>
+    function changePricing(p_index){
+        if(p_index == 0){
+            $("a.nav-link[price-index = '1']").removeClass("active");
+            $("a.nav-link[price-index = '0']").addClass("active");
+            $("p[price-index = '1']").addClass("d-none");
+            $("p[price-index = '0']").removeClass("d-none");
+        }
+        else {
+            $("a.nav-link[price-index = '0']").removeClass("active");
+            $("a.nav-link[price-index = '1']").addClass("active");
+            $("p[price-index = '0']").addClass("d-none");
+            $("p[price-index = '1']").removeClass("d-none");
+        }
+    }
+
+    function scrollToFeatures(){
+        let blocfeatures = $(".block-pricing-features");
+        if(blocfeatures){
+            let size = detectDeviceSize();
+            // Will substract the sticky header offset on lg and xl sizes.
+            let sticky = (size == "lg" || size == "xl") ? $("#sticky-header")[0].offsetHeight : 0;
+            window.scrollTo({
+                top: blocfeatures[0].offsetTop - sticky,
+                behavior: "smooth",
+            });
+        }
+        return false;
+    }
+</script>
+{{end}}
+{{end}}

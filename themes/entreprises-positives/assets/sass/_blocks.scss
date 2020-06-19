@@ -1,0 +1,232 @@
+.block {
+  > .container {
+    @extend .p-block;
+
+    @include media-breakpoint-down(xs) {
+      padding-left: map_get($spacers, 2) !important;
+      padding-right: map_get($spacers, 2) !important;
+    }
+  }
+}
+
+.block.block-compact-top {
+  > .container {
+    padding-top: 0 !important;
+  }
+}
+
+.block.block-compact-bottom {
+  > .container {
+    padding-bottom: 0 !important;
+  }
+}
+
+.nested-block {
+
+  @extend .d-flex;
+
+  // Default to justify content between.
+  @extend .justify-content-between;
+
+  // nested block size control
+  $nested-sizes: (
+  );
+
+  // Computational initialization of map.
+  $nested-sizes-count: 6;
+  @for $i from 1 to $nested-sizes-count {
+    $nested-sizes: map-merge($nested-sizes, ($i: 0% + (100 / $i)));
+  }
+
+  @include media-breakpoint-up(lg) {
+
+    @each $i, $percent in $nested-sizes {
+      .nested-block-#{$i} {
+        width: $percent;
+      }
+
+      @each $index, $space in $spacers {
+        .nested-block-#{$i}.mx-#{$index} {
+          width: calc(#{$percent} - 2 * #{$space}) !important;
+        }
+      }
+
+      .nested-block-#{$i}:first-child {
+        margin-left: 0 !important;
+      }
+      .nested-block-#{$i}:last-child {
+        margin-right: 0 !important;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    flex-direction: column !important;
+    @each $i, $percent in $nested-sizes {
+      .nested-block-#{$i} {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+
+      .nested-block-#{$i}:not(:last-child) {
+        margin-bottom: map-get($spacers, 4);
+      }
+    }
+
+    &.media-last {
+      flex-direction: column-reverse !important;
+    }
+  }
+
+  .block {
+    > .container {
+      padding: 0 0 !important;
+    }
+
+    .rich-content {
+      padding: 0 !important;
+    }
+
+    @include media-breakpoint-down(md) {
+      img {
+        margin-bottom: map_get($spacers, 3);
+      }
+    }
+  }
+}
+
+// Allows justify content override with bootstrap classes
+.nested-block.justify-content-center {
+  @extend .justify-content-center;
+}
+
+.nested-block.justify-content-start {
+  @extend .justify-content-start;
+}
+
+.nested-block.justify-content-end {
+  @extend .justify-content-end;
+}
+
+.block-bg-image {
+  @extend .text-cedreo-white;
+}
+
+.block-standard {
+  h1, h2, h3, h4 {
+    @extend .text-cedreo-green;
+  }
+}
+
+.block-highlighted {
+  @extend .text-highlighted;
+
+  h1, h2, h3, h4 {
+    @extend .text-cedreo-green;
+  }
+
+  ul li {
+    padding-bottom: 0.5rem;
+  }
+
+  ul li:last-child {
+    padding-bottom: 0 !important;
+  }
+}
+
+.block-welcome {
+  h1 {
+    @extend h2
+  }
+
+  h2 {
+    @extend h1
+  }
+
+  @include media-breakpoint-down(md) {
+    > div > div.d-flex {
+      flex-direction: column !important;
+    }
+  }
+}
+
+.block-features {
+
+  .feature-title {
+    display: none;
+    margin-top: map_get($spacers, 5);
+    padding: map_get($spacers, 2) map_get($spacers, 4);
+    color: $cedreo-green;
+    font-weight: bold;
+    @extend .mb-0;
+    @extend .mt-5;
+    @extend .px-3;
+    @extend .pt-0;
+    border-bottom: 2px solid $cedreo-green;
+  }
+
+  @include media-breakpoint-down(md) {
+    .tab-content > .tab-pane {
+      display: block;
+      opacity: unset;
+
+      > div.d-flex {
+        flex-direction: column !important;
+      }
+    }
+
+    .features-menu {
+      display: none !important;
+    }
+
+    .feature-title {
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.block-team {
+  .team-member {
+    position: relative;
+
+    &:hover .team-overlay {
+      display: block !important;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .team-overlay {
+      display: none;
+    }
+  }
+
+  .team-overlay {
+    @extend .text-cedreo-white;
+    @extend .bg-cedreo-transparent-black-7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    .team-job {
+      @extend .text-cedreo-green;
+      font-style: italic;
+      text-transform: uppercase;
+    }
+  }
+
+  .rich-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.block-gallery {
+  @include media-breakpoint-down(md) {
+    img {
+      margin-bottom: map_get($spacers, 2);
+    }
+  }
+}

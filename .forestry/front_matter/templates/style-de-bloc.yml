@@ -1,0 +1,28 @@
+---
+label: Style de bloc
+hide_body: false
+fields:
+- type: include
+  name: template
+  label: template
+  template: fond-du-bloc
+- type: select
+  name: content
+  config:
+    source:
+      type: simple
+    options:
+    - Standard
+    - Mise en valeur
+    - Fond image
+  label: Block content
+  description: Style du contenu
+  default: ''
+- type: boolean
+  name: compacttop
+  label: Compact "haut"
+  description: Remove block top padding.
+- type: boolean
+  name: compactbottom
+  label: Compact "Bas"
+  description: Remove block bottom padding.

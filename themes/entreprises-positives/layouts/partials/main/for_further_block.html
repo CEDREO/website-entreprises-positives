@@ -1,0 +1,27 @@
+{{ with .context }}
+
+<!--build some style to call partial-->
+{{$style := dict "background" (slice (dict "color" "Vert Cedreo" "template" "couleur-de-fond"))}}
+{{- partial "utils/block_style.html" (dict "context" $style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+
+<div class="container-fluid p-0 text-cedreo-white for-further {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="container p-0 d-flex flex-column">
+        {{with .title}}
+        <h2 class="m-auto">
+            {{.}}
+        </h2>
+        {{end}}
+        <div class="w-100 d-flex justify-content-center pt-5">
+        {{range .parts}}
+            <div class="w-20 mx-5 d-flex flex-column">
+                {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid m-auto" "alt" .text "context" $.pagecontext "smallSize" "20" "largeSize" "5") -}}
+                <a class="btn btn-transparent" href="{{.link}}">{{.text}}</a>
+            </div>
+        {{end}}
+        </div>
+    </div>
+</div>
+
+{{end}}

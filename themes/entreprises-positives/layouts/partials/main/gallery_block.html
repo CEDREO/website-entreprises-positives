@@ -1,0 +1,42 @@
+{{with .context}}
+{{- partial "utils/block_style.html" (dict "context" .style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}} block-gallery"
+     style="{{$blockstyle.inlinestyle}}">
+
+    <div class="container">
+        {{- partial "utils/block_content.html" (dict "context" .content "pagecontext" $.pagecontext "cssclasses" "w-100 pb-5") -}}
+        <div class="w-100 d-flex flex-wrap align-items-stretch home-gallery-grid">
+            <!--@formatter:off-->
+            {{ range first 1 .parts }}
+                <div class="w-100 w-lg-50 gallery-grid-first">
+                {{with .image}}
+                {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "50") -}}
+                {{ end }}
+                </div>
+            {{ end }}
+            <div class="w-100 w-lg-50 d-flex flex-wrap">
+            {{ range first 2 (after 1 .parts) }}
+                <div class="w-100 w-lg-50 gallery-grid-top-item">
+                {{with .image}}
+                    {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "25") -}}
+                {{ end }}
+                </div>
+            {{ end }}
+            <div class="w-100 flex-fill flex-grow-0"></div>
+            <div class="d-flex flex-wrap w-100 align-items-end">
+                {{ range first 2 (after 3 .parts) }}
+                    <div class="w-100 w-lg-50 gallery-grid-bottom-item">
+                    {{with .image}}
+                        {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "25") -}}
+                    {{ end }}
+                    </div>
+                {{ end }}
+            </div>
+            </div>
+        <!--@formatter:on-->
+        </div>
+    </div>
+</div>
+{{end}}

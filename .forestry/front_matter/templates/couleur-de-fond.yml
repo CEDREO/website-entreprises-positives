@@ -1,0 +1,22 @@
+---
+label: Couleur de fond
+hide_body: false
+fields:
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Blanc
+    - Gris Clair
+    - Vert Cedreo
+    - Noir Carbone
+    - Spear (S)
+    - Spear (P)
+    - Spear (E)
+    - Spear (A)
+    - Spear (R)
+    - Transparent
+  label: Couleur
+  name: color
+  description: Block background color

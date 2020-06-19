@@ -1,0 +1,19 @@
+---
+label: Bloc SEO
+hide_body: false
+fields:
+- type: field_group_list
+  name: seotexts
+  label: SEO Texts
+  description: List of SEO text display at bottom of the page.
+  fields:
+  - type: textarea
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+    name: text
+    description: Text
+  config:
+    labelField: text

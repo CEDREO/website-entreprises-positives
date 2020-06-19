@@ -1,0 +1,56 @@
+---
+label: Table template
+hide_body: false
+display_field: forestrylabel
+fields:
+- type: text
+  name: forestrylabel
+  label: Forestry label
+  description: Forestry label for list display
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Blanc
+    - Gris Clair
+    - Vert Cedreo
+    - Noir Carbone
+    - Spear (S)
+    - Spear (P)
+    - Spear (E)
+    - Spear (A)
+    - Spear (R)
+    - Transparent
+  label: Couleur
+  name: color
+  description: Block background color
+- type: text
+  name: headtitle
+  label: Head title
+  description: Head title
+- type: textarea
+  name: headparagraph
+  label: Head paragraph
+  description: Head paragraph
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: list
+  name: tableheadings
+  label: Table column names
+  description: Table column names
+- type: field_group_list
+  name: tablelines
+  label: Lines of table
+  description: Lines of table
+  fields:
+  - type: text
+    name: name
+    label: Line label
+    description: Line label
+  - type: list
+    name: values
+    label: Value for each column
+    description: List of value for each column for this line.

@@ -1,0 +1,79 @@
+<!--delete any previously set scratch variables from partial call-->
+{{.pagecontext.Scratch.Delete "blockstyle"}}
+
+<!--initialize our values-->
+{{$inlinestyle := ""}}
+{{$cssclasses := "block"}}
+
+{{with .context}}
+
+<!-- get the background from background which is an array of size 1 because of how it is configured in forestry frontmatter-->
+{{$background := index .background 0}}
+
+<!--we have an image-->
+{{with $background.image}}
+
+<!--make it a decent size-->
+{{$srcattr := .}}
+{{$imageResource := ($.pagecontext.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" (replaceRE "^/[a-z][a-z]/" "/" .))}}
+{{if $imageResource}}
+{{$srcattr = ($imageResource.Resize "1920x Lanczos").RelPermalink}}
+{{end}}
+
+<!--build inline style-->
+{{if $background.darken}}
+{{$inlinestyle = printf "background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('%s');" $srcattr}}
+{{else}}
+{{$inlinestyle = printf "background-image: url('%s');" $srcattr}}
+{{end}}
+{{if not $.nominh}}
+{{$inlinestyle = printf "%s%s" $inlinestyle "min-height: 30vh;"}}
+{{end}}
+
+<!--check for properties and setup corresponding css classes-->
+{{if $background.fixed}}
+{{$cssclass := (index (where $.pagecontext.Site.Data.style.backgroundimageoptions "name" "eq" "fixed") 0).css }}
+{{$cssclasses = printf "%s %s" $cssclass $cssclasses}}
+{{end}}
+{{if $background.darken}}
+{{$cssclass := (index (where $.pagecontext.Site.Data.style.backgroundimageoptions "name" "eq" "darken") 0).css }}
+{{$cssclasses = printf "%s %s" $cssclass $cssclasses}}
+{{end}}
+{{if $background.centered}}
+{{$cssclass := (index (where $.pagecontext.Site.Data.style.backgroundimageoptions "name" "eq" "centered") 0).css }}
+{{$cssclasses = printf "%s %s" $cssclass $cssclasses}}
+{{end}}
+
+<!--we dont have an image, process color if we have one-->
+{{else}}
+{{with $background.color}}
+<!--get the css class from human-readable-value in site data)-->
+{{$cssclass := (index (where $.pagecontext.Site.Data.style.blockbackgrounds "name" "eq" .) 0).css}}
+{{$cssclasses = printf "%s %s" $cssclass $cssclasses}}
+{{end}}
+{{end}}
+
+<!--add our mapped style-->
+{{with .content}}
+{{$contentcssclasses := (index (where $.pagecontext.Site.Data.style.blockstyles "name" "eq" .) 0).css }}
+{{$cssclasses = printf "%s %s" $cssclasses $contentcssclasses}}
+{{end}}
+
+<!--add our mapped style-->
+{{with .compacttop}}
+{{$compactcssclasses := (index (where $.pagecontext.Site.Data.style.blockstyles "name" "eq" "Compact top") 0).css }}
+{{$cssclasses = printf "%s %s" $cssclasses $compactcssclasses}}
+{{end}}
+
+<!--add our mapped style-->
+{{with .compactbottom}}
+{{$compactcssclasses := (index (where $.pagecontext.Site.Data.style.blockstyles "name" "eq" "Compact bottom") 0).css }}
+{{$cssclasses = printf "%s %s" $cssclasses $compactcssclasses}}
+{{end}}
+
+
+{{end}}
+
+<!--save in context scratch to return computed values -->
+{{.pagecontext.Scratch.SetInMap "blockstyle" "cssclasses" $cssclasses }}
+{{.pagecontext.Scratch.SetInMap "blockstyle" "inlinestyle" (safeCSS $inlinestyle)}}

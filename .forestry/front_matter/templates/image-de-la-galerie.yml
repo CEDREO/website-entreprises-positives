@@ -1,0 +1,67 @@
+---
+label: Image de la galerie
+hide_body: true
+fields:
+- type: include
+  name: template_image
+  label: template image
+  template: alt-image
+- type: text
+  name: visite
+  label: Virtual visit link (with &embbed=true at the end)
+  description: Virtual visit link (with &embbed=true at the end)
+- type: list
+  name: galeries
+  label: Galeries
+  description: Galery category
+  config:
+    min: '1'
+    use_select: true
+    source:
+      type: simple
+    options:
+    - 360
+    - axonom
+    - exterieur
+    - interieur
+- type: datetime
+  name: publishdate
+  label: Publish date
+  description: Publish date of image
+- type: boolean
+  name: sitemapexclude
+  label: Exclude from sitemap
+  hidden: true
+  default: true
+pages:
+- content/galerie/3D-floor-plan-of-american-house-designed-with-cedreo.md
+- content/galerie/3D-view-of-master-bedroom-with-modern-home-decor.md
+- content/galerie/Bedroom grey_Cedreo.md
+- content/galerie/Dinning room green.md
+- content/galerie/Dinning room tapestry.md
+- content/galerie/Master bedroom blue.md
+- content/galerie/Master bedroom four-poster bed.md
+- content/galerie/Master bedroom.md
+- content/galerie/US colonial house front.md
+- content/galerie/US house kitchen grey.md
+- content/galerie/US house kitchen wood.md
+- content/galerie/US house kitchen.md
+- content/galerie/US house living room.md
+- content/galerie/US house red cladding.md
+- content/galerie/US house street.md
+- content/galerie/US house sunset.md
+- content/galerie/US one floor house with deck.md
+- content/galerie/US one floor house with patio.md
+- content/galerie/Us house front craftsman.md
+- content/galerie/american-house-exterior-view-designed-with-cedreo-3D-software.md
+- content/galerie/american-modern-dining-room-in-3D.md
+- content/galerie/american-ranch-and-pool-at-night.md
+- content/galerie/american-ranch-exterior-3D-view.md
+- content/galerie/american-ranch-with-pool-outside-view-in-3D.md
+- content/galerie/colonial-style-house-garden-terrace.md
+- content/galerie/front-outdoor-view-of-modern-house-with-driveway.md
+- content/galerie/interior-view-of-dining-room-with-modern-home-decor.md
+- content/galerie/master-bedroom-with-wooden-floor-in-3D.md
+- content/galerie/modern-american-house-with-driveway-at-sunset-in-3D.md
+- content/galerie/modern-american-house-with-garden-at-sundown.md
+- content/galerie/modern-house-with-garden-and-driveway.md

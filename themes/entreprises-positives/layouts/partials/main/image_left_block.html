@@ -1,0 +1,14 @@
+<div class="">
+    <div class="d-flex justify-content-center container p-0">
+        {{ with .context }}
+        <div class="w-50">
+            {{with .image}}
+            {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid mx-auto" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "20") -}}
+            {{end}}
+        </div>
+        <div class="w-50">
+            {{- partial "shortcode/decode_shortcode_markdownify.html" (dict "content" .content "pagecontext" $.pagecontext) -}}
+        </div>
+        {{ end }}
+    </div>
+</div>

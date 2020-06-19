@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "forestry:install" : "cd themes/cedreo/assets && npm ci"
+    }
+}

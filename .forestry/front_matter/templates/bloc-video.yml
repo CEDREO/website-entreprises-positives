@@ -1,0 +1,51 @@
+---
+label: Bloc Vidéo
+hide_body: false
+fields:
+- type: field_group
+  name: style
+  label: Style
+  description: Block style parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+  description: Block title
+- type: text
+  name: text
+  label: Text
+  config:
+    required: true
+  description: Subtitle text
+- type: text
+  name: cta
+  label: Call to Action
+  description: Hubspot code (embed)
+- type: field_group
+  name: video
+  label: Video
+  description: Video parameters
+  fields:
+  - type: field_group
+    name: button
+    label: Button
+    description: Button image
+    fields:
+    - type: include
+      name: image
+      label: Image
+      template: alt-image
+  - type: text
+    name: text
+    label: Text
+    description: Text beneath image
+  - type: text
+    name: url
+    label: Url
+    description: Youtube video (embed)

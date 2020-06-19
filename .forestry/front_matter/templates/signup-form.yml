@@ -1,0 +1,102 @@
+---
+label: Signup form
+hide_body: true
+fields:
+- type: text
+  name: emaillabel
+  label: Email label
+  description: Label of email field
+  default: Email
+- type: text
+  label: Email placeholder
+  name: emailplaceholder
+  description: Email field placeholder
+  default: constructor@exemple.com
+- type: text
+  name: confirmemaillabel
+  label: Confirm email label
+  description: Label of confirm email field
+  default: Confirm email
+- type: text
+  name: confirmemailplaceholder
+  label: Confirm email placeholder
+  description: Confirm email field placeholder
+  default: constructor@exemple.com
+- type: text
+  label: RGPD label
+  name: rgpdlabel
+  description: The rgpd label, accepts pure html.
+  default: I wish to receive Cedreo tips and news <a href="#">See more</a>
+- type: text
+  label: Privacy label
+  name: privacylabel
+  description: The privacy label, accepts pure html.
+  default: We guarantee 100% privacy. Your information will not be shared.
+- type: text
+  name: buttonlabel
+  label: Submit button label
+  description: Label inside the button
+  default: Sign up!
+- type: text
+  name: buttoncss
+  label: Specific css of button
+  description: To change the display of button
+  default: btn-primary
+- type: text
+  name: successurl
+  label: Success url
+  description: Url of the success page
+  default: "/fr/merci/"
+- type: text
+  name: fillform
+  label: Fill form error
+  description: The text display if the form is not full
+  default: Please fill in the whole form
+- type: text
+  name: email
+  label: Email field error
+  description: Text display when email not present
+  default: Please enter your email
+- type: text
+  name: emailinvalid
+  label: Email invalid error
+  description: Text display when email is not valid
+  default: Your email seems invalid
+- type: text
+  name: emailconfirm
+  label: Email confirm error
+  description: Text display when email confirm is empty
+  default: Please confirm your email
+- type: text
+  name: emailnomatch
+  label: Email not match error
+  description: Text display when email and confirm mismatch
+  default: Emails do not match
+- type: text
+  name: rgpd
+  label: RGPD error
+  description: Text display hen rgpd is not check
+  default: Please accept our terms of use
+- type: text
+  name: wait
+  label: Wait message
+  description: Text display when subscription is being performed
+  default: Please wait while process your subscription...
+- type: text
+  name: errorregistered
+  label: Already registered error
+  description: Text display when the email is already registered, html is supported
+  default: It seems your are already registered into our database. You may <a href='#'
+    style='font-size:inherit !important'>sign in</a>.
+- type: text
+  name: error
+  label: Subscription error
+  description: Text display when subscription failed
+  default: Sorry, there was an error with your subscription, please try again.
+- type: text
+  description: The url part like "2a273769-XXXX-4b42-XXXX-1ddc366d7989" when editing
+    the form in hubspot
+  config:
+    required: false
+  label: Hubspot form GUID
+  name: hubspotguid

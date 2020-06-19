@@ -1,0 +1,28 @@
+---
+label: Video
+hide_body: false
+display_field: youtubeurl
+fields:
+- type: text
+  name: youtubeurl
+  label: Youtube URL
+  description: youtube video url (embed)
+  config:
+    required: true
+- type: boolean
+  name: borders
+  label: Border
+  description: Display corner border
+- type: field_group
+  name: button
+  label: button
+  description: Button parameters
+  fields:
+  - type: include
+    name: template_image
+    label: template image
+    template: alt-image
+  - type: text
+    name: text
+    label: Text
+    description: Button text

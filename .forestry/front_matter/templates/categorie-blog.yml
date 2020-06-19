@@ -1,0 +1,20 @@
+---
+label: Catégorie Blog
+hide_body: true
+fields:
+- type: text
+  label: titre
+  name: Title
+  hidden: true
+  config:
+    required: true
+  default: _index
+- type: include
+  template: page-metadata
+  label: Metadata
+  name: metadonnees
+  description: Category metadata
+- type: include
+  name: templateseo
+  label: template seo
+  template: bloc-seo

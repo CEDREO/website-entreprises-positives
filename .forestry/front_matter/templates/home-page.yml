@@ -1,0 +1,90 @@
+---
+label: Page d'accueil
+hide_body: true
+fields:
+- type: include
+  name: metadata
+  label: Metadata
+  template: page-metadata
+  description: Page metadata
+- type: field_group
+  name: videobloc
+  label: Video block
+  description: Block video parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-video
+- type: field_group
+  name: successstoriesbloc
+  label: Success stories block
+  description: Success stories parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-success-stories
+- type: field_group
+  name: argumentsbloc
+  label: Arguments
+  description: Arguments parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-arguments
+- type: field_group
+  name: gallerybloc
+  label: Galery block
+  description: Galery block parameter
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-galerie
+- type: field_group
+  name: featuresbloc
+  label: Features block
+  description: Feature block parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-features
+- type: field_group
+  name: offerbloc
+  label: Offer blocks
+  description: Offer block parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-offre
+- type: field_group
+  name: trustpilotbloc
+  label: Trustpilot block
+  description: Trustpilot block parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-trustpilot
+- type: field_group
+  name: blogbloc
+  label: Blog block
+  description: Blog block parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-blog
+- type: field_group
+  name: seobloc
+  label: SEO block
+  description: SEO block parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: bloc-seo

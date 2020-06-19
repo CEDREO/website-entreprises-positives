@@ -1,0 +1,45 @@
+<!--bootstrap device size detection hack-->
+<div id="device-sizes">
+    <div size="xs" class="d-block d-sm-none"></div>
+    <div size="sm" class="d-none d-sm-block d-md-none"></div>
+    <div size="md" class="d-none d-md-block d-lg-none"></div>
+    <div size="lg" class="d-none d-lg-block d-xl-none"></div>
+    <div size="xl" class="d-none d-xl-block"></div>
+    <script type="text/javascript">
+        function detectDeviceSize(){
+            return $('#device-sizes').find('div:visible').attr('size');
+        }
+    </script>
+</div>
+<div id="pre-sticky">
+    {{with $.Site.Data.cta.headertrustpilot}}
+    <!-- TrustBox widget - Horizontal -->
+    <div class="bg-cedreo-gray-footer p-2">
+        {{. | safeHTML}}
+    </div>
+    {{end}}
+</div>
+<!-- End TrustBox widget -->
+<nav id="sticky-header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="header-nav-container w-100 d-flex flex-nowrap align-items-center justify-content-between">
+        <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler mr-5" data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        {{ $rootUrl := "/" | relURL }}
+        <a class="navbar-brand m-0" href="{{ $rootUrl }}">
+            {{ $logoUrl := "/images/logo_brand.svg" | relURL }}
+            <img alt="Logo" src="{{ $logoUrl }}">
+        </a>
+
+        <!-- Empty growing div for pushing to the right the rest of menu. -->
+        <div class="collapse flex-grow-1 justify-content-between navbar-collapse navbar-header-main" id="navbarNavDropdown">
+            {{- partial "utils/header_menu.html" (dict "pagecontext" . "menu" .Site.Menus.main) -}}
+            <div>
+                {{- partial "utils/cta.html" (dict "context" . "cta" (.Site.Data.cta.headercta | safeHTML)) -}}
+            </div>
+        </div>
+    </div>
+</nav>
+{{- partial "breadcrumb.html" . -}}

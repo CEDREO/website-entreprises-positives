@@ -1,0 +1,3 @@
+{{with $.Site.GetPage (.Get "page")}}
+{{- partial "shortcode/link_block.html" (dict "page" . "text" ($.Get "text")) -}}
+{{end}}

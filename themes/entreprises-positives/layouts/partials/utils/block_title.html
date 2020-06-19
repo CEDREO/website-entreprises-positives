@@ -1,0 +1,12 @@
+{{$cssclasses := ""}}
+{{with .cssclasses}}
+{{$cssclasses = .}}
+{{end}}
+{{with .context}}
+{{- $titlelevelsanitize := 2 -}}
+{{- with .level -}}
+{{- $titlelevelsanitize = int . -}}
+{{- end -}}
+{{$data := (index (where $.pagecontext.Site.Data.style.titlelevels "level" "eq" ($titlelevelsanitize)) 0)}}
+{{(printf "<%s class='%s'>%s</%s>" $data.tag $cssclasses .text $data.tag) | safeHTML}}
+{{end}}

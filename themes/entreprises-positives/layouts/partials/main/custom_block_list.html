@@ -1,0 +1,23 @@
+{{with .context}}
+{{- partial "utils/block_style.html" (dict "context" .style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="d-flex flex-column container p-0">
+        {{with .title}}
+        {{$titlecontext := dict "text" . "level" $.context.titlelevel}}
+        <div class='w-100 rich-content text-center pb-4'>
+            {{- partial "utils/block_title.html" (dict "context" $titlecontext "pagecontext" $.pagecontext "cssclasses" "w-100") -}}
+        </div>
+        {{end}}
+        <div class="nested-block d-flex">
+        {{- $cssclass :=  printf "nested-block-%d" (len .parts) -}}
+        {{range .parts}}
+        <div class="mx-4 {{$cssclass}}">
+            {{- partial "main/custom_block.html" (dict "pagecontext" $.pagecontext "context" .) -}}
+        </div>
+        {{end}}
+        </div>
+    </div>
+</div>
+{{end}}

@@ -1,0 +1,37 @@
+
+// Remove border radius from bootstrap.
+.progress {
+  border-radius: 0 !important;
+}
+
+$base-color: $cedreo-green;
+
+// builds 10 color with darken ... base color (break index value) ... lighten
+// Values are based on loop index. Example: break on 5 generates : 5 4 3 2 1 basecolor 1 2 3 4
+// Step is applied to indexed values for darken/ligten functions.
+$break: 8;
+$step: 3;
+@for $i from 0 through 10 {
+
+  $darken-value: $break - $i;
+  $lighten-value: $i - $break;
+  $current-color: $base-color;
+  @if  $i < $break {
+    $current-color: darken($current-color, $darken-value * $step);
+  }
+  @else if  $i > $break {
+    $current-color: lighten($current-color, $lighten-value * $step);
+  }
+
+  // Build class for step with color and size.
+  .cedreo-progress-#{$i * 10} {
+    color: $current-color;
+    lighten: $lighten-value * $step;
+    darken: $darken-value * $step;
+
+    .progress-bar {
+      width: 0% + $i * 10;
+      background-color: $current-color;
+    }
+  }
+}

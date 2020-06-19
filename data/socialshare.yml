@@ -1,0 +1,14 @@
+---
+socials:
+- name: facebook
+  title: partager cet article sur facebook
+  pre: <i class="fab fa-facebook"></i>
+  urlscheme: https://www.facebook.com/sharer.php?u=%permalink
+- name: Linkedin
+  title: partager cet article sur linkedin
+  pre: <i class="fab fa-linkedin"></i>
+  urlscheme: https://www.linkedin.com/shareArticle?mini=true&ro=true&trk=JuizSocialPostSharer&title=%title&url=%permalink
+- name: twitter
+  title: twitter cet article
+  pre: <i class="fab fa-twitter"></i>
+  urlscheme: https://twitter.com/intent/tweet?source=webclient&original_referer=%permalink&text=%title&url=%permalink&related=cedreo&via=cedreo

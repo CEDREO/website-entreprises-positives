@@ -1,0 +1,18 @@
+---
+label: Titre de bloc
+hide_body: false
+display_field: text
+fields:
+- type: text
+  label: Text
+  name: text
+  description: Title text
+- type: number
+  name: level
+  label: Title level
+  description: Title level (1, 2, 3)
+  config:
+    min: '1'
+    max: '3'
+    step: '1'
+    required: false

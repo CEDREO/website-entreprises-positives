@@ -1,0 +1,4 @@
+
+<a href="{{.Get "url"}}" title="{{.Get "title"}}" {{with (.Get "target")}}target="{{.}}"{{end}}>
+{{.Inner | markdownify}}
+</a>

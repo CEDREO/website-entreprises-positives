@@ -1,0 +1,40 @@
+{{- $activelanguagecode := "" -}}
+<div class="dropdown pt-3">
+    <p class="dropdown-toggle c-pointer"
+            id="dropdownLangMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+        {{- range $.Site.Data.langmenu.langs -}}
+            {{- if eq .languagecode $.Site.LanguageCode -}}
+                {{.text}}
+            {{- end -}}
+        {{- end -}}
+    </p>
+    <div class="dropdown-menu" aria-labelledby="dropdownLangMenuButton">
+        {{- range $.Site.Data.langmenu.langs -}}
+            {{- $css := "" -}}
+            {{- $link := .defaulturl -}}
+
+            {{- if eq .languagecode $.Site.LanguageCode -}}
+                {{- $css = "active" -}}
+                {{- $link = $.Permalink -}}
+            {{- end -}}
+
+            <!-- Search hreflang for quality link -->
+            {{- $currentlang := . -}}
+            {{- range $.Params.hreflangs -}}
+                {{- if (findRE $currentlang.hreflang.re .) -}}
+                    {{- if not $currentlang.hreflang.reverse -}}
+                        {{- $link = . -}}
+                    {{- end -}}
+                {{- else -}}
+                    {{- if $currentlang.hreflang.reverse -}}
+                        {{- $link = . -}}
+                    {{- end -}}
+                {{- end -}}
+            {{- end -}}
+            <a class="dropdown-item {{$css}}" href="{{$link}}">{{.text}}</a>
+        {{- end -}}
+    </div>
+</div>

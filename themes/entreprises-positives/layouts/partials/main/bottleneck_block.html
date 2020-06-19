@@ -1,0 +1,55 @@
+{{- with .Params.bloc -}}
+<div class="container small-container no-padding mt-4">
+    <div class="bg-cedreo-gray shadowed">
+        <!-- Split in two the image will be a background so we need to force the sizing -->
+        <div class="d-flex bottleneck-mh">
+            <!-- Deal with left image -->
+            {{$style := ""}}
+            {{- with .image -}}
+            {{- $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" (replaceRE "^/[a-z][a-z]/" "/" .) ) -}}
+            {{- if $imageResource -}}
+            <!-- Force to do two if as hugo if syntax is trash -->
+            {{- if (eq "image" $imageResource.ResourceType) -}}
+            {{- $resized := $imageResource.Resize "x1080 Lanczos" -}}
+            {{- $style = (printf "background-image: url(%s); background-position: center; background-repeat: no-repeat; background-size: cover" $resized.Permalink) -}}
+            {{else}}
+            {{- $style = (printf "background-image: url(%s); background-position: center; background-repeat: no-repeat; background-size: cover" .) -}}
+            {{end}}
+            {{else}}
+            {{- $style = (printf "background-image: url(%s); background-position: center; background-size: cover" .) -}}
+            {{end}}
+            {{- end -}}
+            <div class="d-none d-lg-block w-50" style="{{$style | safeCSS}}">
+            </div>
+
+            <!-- Deal with right content -->
+            <div class="w-100 w-lg-50 w-xl-50">
+                {{- with .content -}}
+                <div class="m-4 d-flex flex-column align-items-center">
+                    <div class="w-40">
+                        <img class="img-fluid" src="{{(replaceRE "^/[a-z][a-z]/" "/" .logo) | relURL}}" alt="logo">
+                    </div>
+                    <div class="text-center my-3">
+                        {{- partial "shortcode/decode_shortcode_markdownify.html" (dict "pagecontext" $ "content" .header) -}}
+                    </div>
+                    {{- if not .noform -}}
+                    <div class="d-flex cta rich-content w-100">
+                        {{- partial "shortcode/signup_form.html" (dict "isdraft" $.Site.BuildDrafts "form" .form) -}}
+                    </div>
+                    {{- end -}}
+                    <div class="text-left mb-2">
+                        {{- partial "shortcode/decode_shortcode_markdownify.html" (dict "pagecontext" $ "content" .postform) -}}
+                    </div>
+                </div>
+                {{- end -}}
+            </div>
+        </div>
+    </div>
+
+    {{- with .bottomtext -}}
+    <div class="mt-4 mb-0 text-center">
+        {{- partial "shortcode/decode_shortcode_markdownify.html" (dict "pagecontext" $ "content" .) -}}
+    </div>
+    {{- end -}}
+</div>
+{{- end -}}

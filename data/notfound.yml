@@ -1,0 +1,9 @@
+---
+breadcrumb: Lost ?
+html: |-
+  <div class='breadcrumb-placeholder'></div>
+  <div class='content-only d-flex flex-column w-100 p-5 text-center bg-cedreo-gray'>
+  <h1 class='w-100  pb-1'>404</h1>
+  <h2 class='w-100  pb-5'>Sorry, we can't find that page...</h2>
+  <p><a href="/en/" class="btn btn-green mt-0">Go back to the home page</a></p>
+  </div>

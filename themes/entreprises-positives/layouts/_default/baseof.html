@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}" class="h-100">
+    <head>
+        {{- partial "head.html" . -}}
+        {{- block "canonical" . }}{{- end }}
+        {{- block "meta" . }}{{- end }}
+        {{- block "schema" . }}{{- end }}
+        {{- if .Site.BuildDrafts -}}
+            <!-- Only display in ppd -->
+            <meta name="robots" content="noindex">
+        {{- end -}}
+    </head>
+    <body class="d-flex flex-column minh-100">
+        <header>
+            {{- partial "header.html" . -}}
+        </header>
+        <div id="content" class="flex-grow-1">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+
+        {{- partial "javascript.html" . -}}
+
+        <!-- Forestry live preview  -->
+        {{- with .Params.forestry_instant_preview_id -}}
+        {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+        {{- end -}}
+    </body>
+</html>

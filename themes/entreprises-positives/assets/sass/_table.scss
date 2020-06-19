@@ -1,0 +1,7 @@
+// Override of pricing table.
+.table-block-mobile.block-pricing-features {
+  .pricing-line.first {
+    @extend .border-1;
+    @extend .border-top;
+  }
+}

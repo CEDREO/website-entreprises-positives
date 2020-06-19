@@ -1,0 +1,33 @@
+{{with .context}}
+{{- partial "utils/block_style.html" (dict "context" .style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+
+<div class="block-welcome container-fluid p-0 {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="padding-nav-bias">
+        <div class="d-flex w-100 align-items-center">
+            <div class="d-flex flex-column w-100 w-lg-55 p-0">
+                <h2 class="mb-auto pb-5">
+                    {{ .title }}
+                </h2>
+                <h1 class="mb-auto mt-auto pb-5">
+                    {{ .subtitle }}
+                </h1>
+                <div class="mt-auto">
+                    {{- partial "utils/cta.html" (dict "context" $.pagecontext "cta" (.cta | safeHTML)) -}}
+                </div>
+                {{- with .ctacaption -}}
+                <div class="mt-auto">
+                    {{ . | safeHTML }}
+                </div>
+                {{- end -}}
+            </div>
+            <div class="ml-auto w-100 w-lg-45 pt-5 pt-lg-0 p-0 pl-lg-5">
+                {{with .video}}
+                {{- partial "utils/responsive-video.html" (dict "context" . "pagecontext" $.pagecontext) -}}
+                {{end}}
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}

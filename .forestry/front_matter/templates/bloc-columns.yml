@@ -1,0 +1,112 @@
+---
+label: 3 columns template
+hide_body: false
+display_field: forestrylabel
+fields:
+- type: text
+  name: forestrylabel
+  label: Forestry label
+  description: Forestry label for list display
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Blanc
+    - Gris Clair
+    - Vert Cedreo
+    - Noir Carbone
+    - Spear (S)
+    - Spear (P)
+    - Spear (E)
+    - Spear (A)
+    - Spear (R)
+    - Transparent
+  label: Couleur
+  name: color
+  description: Block background color
+- type: text
+  name: headtitle
+  label: Head title
+  description: Head title
+- type: textarea
+  name: headparagraph
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Head paragraph
+- type: file
+  name: image1
+  label: Image 1
+  description: Image 1
+- type: text
+  name: alt1
+  label: Alt 1
+  description: Content of image 'alt' attribute
+- type: text
+  name: title1
+  label: Title block 1
+  description: Title block 1
+- type: textarea
+  name: richtext1
+  label: Rich text beneath image 1
+  description: Rich text beneath icon 1
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: cta1
+  label: CTA 1
+  description: CTA 1
+- type: file
+  name: image2
+  label: Image 2
+  description: Image 2
+- type: text
+  name: alt2
+  label: Alt 2
+  description: Content of image 'alt' attribute
+- name: title2
+  type: text
+  config:
+    required: false
+  label: Title block 2
+  description: Title block 2
+- type: textarea
+  name: richtext2
+  label: Rich text beneath image 2
+  description: Rich text beneath icon 2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: cta2
+  label: CTA 2
+  description: CTA 2
+- type: file
+  name: image3
+  label: Image 3
+  description: Image 3
+- type: text
+  name: alt3
+  label: Alt 3
+  description: Content of image 'alt' attribute
+- type: text
+  name: title3
+  label: Title block 3
+  description: Title block 3
+- type: textarea
+  name: richtext3
+  label: Rich text beneath icon 3
+  description: Rich text beneath icon 3
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: cta3
+  label: CTA 3
+  description: CTA 3

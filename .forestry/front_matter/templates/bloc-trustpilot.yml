@@ -1,0 +1,26 @@
+---
+label: Bloc Trustpilot
+hide_body: false
+fields:
+- type: field_group
+  name: style
+  label: Style
+  description: Block style parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: field_group
+  name: content
+  label: Content
+  description: Block content
+  fields:
+  - type: include
+    label: template
+    name: template
+    template: contenu-de-bloc
+- type: text
+  name: widget
+  label: Widget
+  description: Trustpilot code (embed)

@@ -1,0 +1,27 @@
+.nav-taxonomies {
+
+  .nav-item {
+    text-align: left;
+  }
+
+  .nav-item .nav-link {
+    padding: 0;
+    margin-left: 1rem;
+    border-radius: 0;
+    position: relative;
+  }
+
+  .nav-item.nav-home .nav-link {
+    margin-left: 0;
+  }
+
+  .nav-item .nav-link:not(.active) {
+    background: $cedreo-gray-light-1;
+    color: #fff;
+  }
+
+  .nav-item .nav-link:not(.active):hover {
+    background-color: #00afa7;
+  }
+
+}

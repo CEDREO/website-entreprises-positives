@@ -1,0 +1,4 @@
+{{ define "main" }}
+<!-- Test by loading /404.html server does not pick it up -->
+{{$.Site.Data.notfound.html | safeHTML}}
+{{ end }}

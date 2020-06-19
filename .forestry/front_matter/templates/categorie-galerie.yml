@@ -1,0 +1,17 @@
+---
+label: Catégorie galerie
+hide_body: false
+fields:
+- type: text
+  name: Title
+  label: Title
+  hidden: true
+  default: _index.md
+- type: include
+  name: template_meta
+  label: template meta
+  template: page-metadata
+- type: include
+  name: template_seo
+  label: template seo
+  template: bloc-seo

@@ -1,0 +1,58 @@
+---
+label: Page Metadata
+hide_body: false
+display_field: title
+fields:
+- type: text
+  label: Title
+  name: title
+  config:
+    required: true
+  description: Page title (meta)
+- type: text
+  name: description
+  label: description
+  description: Page description (meta)
+- type: textarea
+  name: schemajson
+  label: Schema.org json (do not include the script surrounding tag)
+  description: Schema.org json that override default behaviour, leave empty for automatic
+    Schema.org.
+  config:
+    wysiwyg: false
+- type: list
+  name: hreflangs
+  label: hreflang link
+  description: External link to other language page (https://...)
+- type: text
+  name: slug
+  label: Slug
+  description: Last portion of url
+- type: text
+  name: breadcrumb
+  label: Breadcrumb
+  description: Breadcrumb text (use title if not defined)
+- type: field_group_list
+  label: PIXEL Tracking
+  name: trackers
+  description: Trackers dedicated to this page.
+  fields:
+  - type: select
+    name: location
+    config:
+      source:
+        type: simple
+      options:
+      - head
+      - body
+    label: Position in web page.
+    description: Indicate if tracker should be added to the head section or at the
+      end of body.
+  - type: textarea
+    name: tracker
+    label: Tracker code
+    description: Usually the code to paste from tracker interface.
+- type: boolean
+  name: noindex
+  label: Meta no-index
+  default: false

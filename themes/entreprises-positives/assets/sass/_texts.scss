@@ -1,0 +1,24 @@
+$texts: (
+        white: $cedreo-white,
+        duck: $cedreo-duck,
+        gray: $cedreo-gray-text,
+        carbon: $cedreo-carbon,
+        green: $cedreo-green,
+        green-dark: $cedreo-green-dark,
+        pink: $cedreo-pink,
+        pink-dark: $cedreo-pink-dark,
+);
+
+@each $text, $textcolor in $texts {
+  .text-cedreo-#{$text} {
+    color: $textcolor;
+  }
+}
+
+a.text-cedreo-gray:hover {
+  opacity: .7;
+}
+
+.ft-9 {
+  font-size: 0.9rem !important;
+}

@@ -1,0 +1,20 @@
+---
+langs:
+  - languagecode: fr-FR
+    defaulturl: /fr/
+    hreflang:
+      re: /fr/
+      reverse: false
+    text: Français
+  - languagecode: de-DE
+    defaulturl: /de/
+    hreflang:
+      re: /de/
+      reverse: false
+    text: Deutsch
+  - languagecode: en-EN
+    defaulturl: /
+    hreflang:
+      re: /(de|fr)/
+      reverse: true
+    text: English

@@ -1,0 +1,130 @@
+{{ $jquery := resources.Get "node_modules/jquery/dist/jquery.js" | resources.Minify }}
+<script src="{{ $jquery.RelPermalink }}" type="application/javascript"></script>
+{{ $popper := resources.Get "node_modules/popper.js/dist/umd/popper.js" | resources.Minify }}
+<script src="{{ $popper.RelPermalink }}" type="application/javascript"></script>
+{{ $bootstrap := resources.Get "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" }}
+<script src="{{ $bootstrap.RelPermalink }}" type="application/javascript"></script>
+
+{{ $scratchy := .Page.Scratch }}
+{{ range $scratchy.Get "ctascript" }}
+{{ if in ($scratchy.Get "ctascripttreated") (. | md5) | not }}
+{{ $scratchy.Add "ctascripttreated" (. | md5) }}
+{{ . | safeHTML }}
+{{ end }}
+{{ end }}
+
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script -->
+
+<!-- Hover menu. -->
+<script type="text/javascript">
+    function toggleDropdown(e) {
+        let _d = $(e.target).closest('.dropdown'),
+            _m = $('.dropdown-menu', _d);
+        setTimeout(function () {
+            let shouldOpen = e.type !== 'click' && _d.is(':hover');
+            _m.toggleClass('show', shouldOpen);
+            _d.toggleClass('show', shouldOpen);
+            $('[data-toggle="dropdown"]', _d).attr('aria-expanded', shouldOpen);
+        }, e.type === 'mouseleave' ? 150 : 0);
+    }
+
+    $('body')
+        .on('mouseenter mouseleave', 'ul.navbar-nav .dropdown', toggleDropdown)
+        .on('click', '.dropdown-menu a', toggleDropdown);
+</script>
+
+<!-- sticky header -->
+<script type="text/javascript">
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () {
+        stickyHeader()
+    };
+
+    // When the user resizes the page, execute myFunction
+    window.onresize = function () {
+        stickyHeader()
+    };
+
+    // Get the header
+    let header = document.getElementById("sticky-header");
+    let preSticky = document.getElementById("pre-sticky");
+
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function stickyHeader() {
+        if (preSticky)
+        {
+            let preHeaderHeight = preSticky.offsetHeight;
+            if (window.pageYOffset >= preHeaderHeight) {
+                // Add our css class.
+                header.classList.add("header-top");
+            } else if (header.classList.contains("header-top")) {
+                // Remove our css class
+                header.classList.remove("header-top");
+            }
+
+            // Check we actually applied sticky header (css is not applied under 'lg' size)
+            if ($(header).css("position") == "fixed") {
+                // Setup some inline style to body (add margin) so it does not "jump" with sticky header.
+                window.document.body.style = "margin-top:" + header.offsetHeight + "px";
+            }
+            // Remove the inline style from body if we have the attribute.
+            else if (window.document.body.getAttribute("style")) {
+                window.document.body.removeAttribute("style");
+            }
+        }
+    }
+</script>
+
+<!-- Javascript cookie banner -->
+<script async type="text/javascript">
+    var cookieBannerSelector = ".cookie-bar";
+    cookieBanner = {
+        acceptByNavigation: function () {
+            if (!(/cookie/.test(document.url)) && /{{$.Site.BaseURL}}/.test(document.referrer)) {
+                this.accept();
+                return true;
+            }
+            return false;
+        },
+        display: function () {
+            // display if not the cookie
+            if ("true" !== window.localStorage.getItem("acceptCookie"))
+            {
+                if (!this.acceptByNavigation())
+                {
+                    var bannerHtml = "<div class=\"cookie-bar text-center text-light bg-cedreo-carbon\"><p>" +
+                        "{{$.Site.Data.cookie.text | safeHTML}}" +
+                        "<a class=\"btn btn-secondary\" onclick=\"cookieBanner.accept()\">" +
+                        "{{$.Site.Data.cookie.buttontext}}" +
+                        "</a></p></div>";
+                }
+                jQuery(document.body).append(bannerHtml);
+            }
+        },
+        accept: function () {
+            window.localStorage.setItem("acceptCookie", "true");
+            window.localStorage.setItem("acceptCookieDate", new Date());
+            jQuery(cookieBannerSelector).remove();
+        }
+    };
+
+    jQuery(document).ready(function () {
+        cookieBanner.display();
+    })
+</script>
+
+{{- with $.Site.Data.cta.globaltrackers -}}
+{{- range . -}}
+{{ . | safeHTML }}
+{{- end -}}
+{{- end -}}
+
+{{- with $.Page.Params.trackers -}}
+{{- range . -}}
+{{- if (eq "body" .location) -}}
+{{ .tracker | safeHTML }}
+{{- end -}}
+{{- end -}}
+{{- end -}}

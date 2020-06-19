@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}" class="h-100">
+<head>
+    {{- partial "head.html" . -}}
+    {{- block "canonical" . }}{{- end }}
+    {{- if .Site.BuildDrafts -}}
+    <!-- Only display in ppd -->
+    <meta name="robots" content="noindex">
+    {{- end -}}
+</head>
+<body class="d-flex flex-column minh-100">
+    <div id="content" class="flex-grow-1 d-flex flex-column justify-content-center">
+            {{- block "main" . }}{{- end }}
+    </div>
+    <footer>
+        {{- partial "footer/bottleneck_footer.html" . -}}
+    </footer>
+
+    {{- partial "javascript.html" . -}}
+</body>
+</html>

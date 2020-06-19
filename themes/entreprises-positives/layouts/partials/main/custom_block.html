@@ -1,0 +1,99 @@
+{{ with .context }}
+
+{{- partial "utils/block_style.html" (dict "context" .style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+
+{{$flex := ""}}
+{{$size := "w-100"}}
+{{$title := ""}}
+{{$text := ""}}
+{{$cta := ""}}
+{{$content := ""}}
+{{$media := ""}}
+{{$mediafirst := ""}}
+{{$textcss := ""}}
+{{$mediamargin := ""}}
+
+<!--@formatter:off-->
+{{with .media}}
+    {{- with .position -}}
+        {{$position := (index (where $.pagecontext.Site.Data.style.mediapositions "name" "eq" $.context.media.position) 0).position}}
+        {{with $.context.content}}
+            {{if or (eq $position "left") (eq $position "right")}}
+                {{$flex = "nested-block"}}
+                {{$size = "nested-block-2 block mx-2"}}
+                {{$mediafirst = eq $position "left"}}
+            {{else if or (eq $position "top") (eq $position "bottom")}}
+                {{$flex = "nested-block flex-column"}}
+                {{$size = "nested-block-1 block"}}
+                {{$mediafirst = eq $position "top"}}
+                {{ if eq $position "top" }}
+                    {{$mediamargin = "mb-4"}}
+                {{ else }}
+                    {{$mediamargin = "mt-4"}}
+                {{ end }}
+            {{end}}
+        {{end}}
+        {{with index $.context.media.media 0}}
+            {{if eq .template "image"}}
+                {{$mediadatasize := (index (where $.pagecontext.Site.Data.style.mediasizes "name" "eq" .size) 0)}}
+                {{$largesize := $mediadatasize.size}}
+                {{$smallsize := $mediadatasize.smallsize}}
+                {{$classes := ""}}
+                {{with .shadowed}}
+                    {{$classes = (index (where $.pagecontext.Site.Data.style.mediaoptions "name" "eq" "shadowed") 0).css }}
+                {{end}}
+                {{$classes = printf "img-fluid mx-auto %s %s" $classes $mediamargin}}
+                {{$media = partial "utils/responsive-image.html" (dict "image" .image "class" $classes "alt" .alt "context" $.pagecontext "smallSize" $smallsize "largeSize" $largesize)}}
+            {{else if eq .template "video"}}
+                {{$media = partial "utils/responsive-video.html" (dict "context" . "pagecontext" $.pagecontext)}}
+            {{end}}
+        {{end}}
+    {{- else -}}
+        {{$flex = "nested-block"}}
+        {{$size = "nested-block-1 block"}}
+    {{- end -}}
+{{else}}
+    {{$flex = "nested-block"}}
+    {{$size = "nested-block-1 block"}}
+{{end}}
+<!--@formatter:on-->
+
+<!--@formatter:off-->
+{{$divcontent := partial "utils/block_content.html" (dict "context" .content "cssclasses" $size "pagecontext" $.pagecontext)}}
+{{$divmedia := ""}}
+{{with $media}}
+    {{with $.context.content}}
+        {{with .align}}
+            {{$textcss = (index (where $.pagecontext.Site.Data.style.textaligns "name" "eq" .) 0).css }}
+        {{end}}
+    {{end}}
+{{$divmedia = (printf "<div class='m-auto %s %s'>%s</div>" $size $textcss $media) | safeHTML}}
+{{end}}
+<!--@formatter:on-->
+
+{{if not $mediafirst}}
+{{$flex = printf "%s %s" $flex "media-last"}}
+{{end}}
+
+<div class="d-flex container-fluid p-0 {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="{{$flex}} container p-0">
+        {{with $mediafirst}}
+        {{with $divmedia}}
+        {{.}}
+        {{end}}
+        {{with $divcontent}}
+        {{.}}
+        {{end}}
+        {{else}}
+        {{with $divcontent}}
+        {{.}}
+        {{end}}
+        {{with $divmedia}}
+        {{.}}
+        {{end}}
+        {{end}}
+    </div>
+</div>
+{{end}}

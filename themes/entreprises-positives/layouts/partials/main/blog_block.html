@@ -1,0 +1,25 @@
+{{with .context}}
+{{- partial "utils/block_style.html" (dict "context" .style "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}}"
+     style="{{$blockstyle.inlinestyle}}">
+    <div class="container">
+        {{- partial "utils/block_content.html" (dict "context" .content "pagecontext" $.pagecontext "cssclasses" "w-100 pb-5") -}}
+
+        <div class="nested-block">
+            {{ range .parts }}
+            {{with $.pagecontext.Site.GetPage .}}
+            <div class="nested-block-{{len $.context.parts}} mx-2">
+                <a class="link-hover-trigger" href="{{.Permalink}}">
+                    <div class="w-100">
+                        {{- partial "utils/responsive-image.html" (dict "image" .Params.image "class" "img-fluid" "alt" .Params.alt "context" $.pagecontext "smallSize" "100" "largeSize" "30") -}}
+                    </div>
+                </a>
+                <h3 class="mt-3"><a class="font-style-default link-hover" href="{{.Permalink}}">{{.Title}}</a></h3>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{end}}

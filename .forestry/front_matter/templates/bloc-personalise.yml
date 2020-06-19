@@ -1,0 +1,53 @@
+---
+label: Bloc personalisé
+hide_body: false
+display_field: forestrylabel
+fields:
+- type: text
+  name: forestrylabel
+  label: Forestry label
+  description: Forestry label for list display
+- type: field_group
+  name: style
+  label: Style
+  description: Block style parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: field_group
+  name: content
+  label: Content
+  description: Block content
+  fields:
+  - type: include
+    name: template
+    label: template
+    description: ''
+    template: contenu-de-bloc
+  - type: text
+    name: cta
+    label: CTA
+    description: Call to Action (embed)
+- type: field_group
+  name: media
+  label: Media
+  description: Block media
+  fields:
+  - type: select
+    name: position
+    config:
+      source:
+        type: simple
+      options:
+      - Top
+      - Bottom
+      - Left
+      - Right
+    label: Position
+    description: Position in block
+  - type: include
+    name: mediatemplate
+    label: Media template
+    template: media

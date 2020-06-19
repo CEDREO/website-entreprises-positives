@@ -1,0 +1,59 @@
+$borders: (
+        white: $cedreo-white,
+        gray: $cedreo-gray-border,
+        gray-dark: $cedreo-gray-dark-border,
+        carbon: $cedreo-carbon,
+        green: $cedreo-green,
+);
+
+@each $border, $border-color in $borders {
+  .border-cedreo-#{$border} {
+    border-color: $border-color !important;
+  }
+}
+
+@for $i from 1 through 10 {
+  .border-#{$i} {
+    border-width: 0px + $i !important;
+  }
+}
+
+.cornered-border {
+
+  position: relative;
+
+  .top-left-corner, .top-right-corner, .bottom-left-corner, .bottom-right-corner {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+  }
+
+  .top-left-corner {
+    top: -3px;
+    left: -3px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+  }
+
+  .top-right-corner {
+    top: -3px;
+    right: -3px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+  }
+
+  .bottom-left-corner {
+    bottom: -3px;
+    left: -3px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+  }
+
+  .bottom-right-corner {
+    bottom: -3px;
+    right: -3px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+  }
+}
+

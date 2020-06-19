@@ -1,0 +1,56 @@
+{{define "canonical"}}
+<link rel="canonical" href="{{.Page.Permalink}}">
+{{ end }}
+
+{{ define "main" }}
+<div class="breadcrumb-placeholder"></div>
+<div class="container block block-highlighted">
+    <div class="rich-content mt-4">
+        <h1>{{ .Title }}</h1>
+        <ul>
+            <!-- First level -->
+            {{ range where .Site.Pages "Section" "" }}
+                {{ if ne .Params.sitemapexclude true }}
+                    {{ if ne .Params.noindex true }}
+                    <li>
+                        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            <!-- Second level -->
+            {{ range .Site.Sections }}
+                {{- partial "utils/page_subtree.html" . -}}
+            {{ end }}
+            <!-- Taxonomies -->
+            {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+                {{ range $taxonomyentryname, $taxonomyentry := $taxonomy }}
+                    {{ with $.Site.GetPage (printf "%s/%s" $taxonomyname $taxonomyentryname)}}
+                    <li>
+                        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
+
+{{define "schema"}}
+{{- with $.Page.Params.schemajson -}}
+<script type="application/ld+json">
+    {{ safeHTML (replace $.Page.Params.schemajson "\n" "") }}
+</script>
+{{- else -}}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type":"WebPage",
+        "url":"{{$.Page.Permalink}}",
+        "name":"{{$.Page.Title}}",
+        "inLanguage":"{{$.Site.LanguageCode}}"
+    }
+</script>
+{{- end -}}
+{{end}}

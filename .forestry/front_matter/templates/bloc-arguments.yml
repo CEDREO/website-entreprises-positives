@@ -1,0 +1,59 @@
+---
+label: Bloc Arguments
+hide_body: false
+fields:
+- type: field_group
+  name: style
+  label: Style
+  description: Block style
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: field_group
+  name: content
+  label: Content
+  description: Block content
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: contenu-de-bloc
+- type: field_group_list
+  name: parts
+  label: Arguments
+  description: Block arguments
+  fields:
+  - type: field_group
+    name: image
+    label: Image
+    description: Argument image.
+    fields:
+    - type: include
+      name: template
+      label: template
+      template: alt-image
+  - type: text
+    name: title
+    label: Title
+    description: Argument title
+  - type: textarea
+    name: text
+    label: Text
+    description: Argument text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: field_group
+    name: link
+    label: Link
+    description: Link parameters
+    fields:
+    - type: include
+      name: template
+      label: template
+      template: link
+  config:
+    labelField: title

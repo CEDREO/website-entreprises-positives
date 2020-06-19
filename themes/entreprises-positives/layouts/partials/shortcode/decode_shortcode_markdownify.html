@@ -1,0 +1,69 @@
+<!-- pagecontext: the page context (required) -->
+<!-- content: the param value to transform -->
+{{$transformMD := .content | markdownify}}
+
+<!-- transform shortcode link_block -->
+{{range (findRE "{{&lt; link_block(.|\n)*? &gt;}}" $transformMD) }}
+{{$pageParam := findRE "page=&ldquo;(.|\n)*?&rdquo;" . 1}}
+{{$decodedPageParam := index $pageParam 0  | replaceRE "page=&ldquo;" "" | replaceRE "&rdquo;" ""}}
+{{$textParam := findRE "text=&ldquo;(.|\n)*?&rdquo;" . 1}}
+{{$decodedTextParam := index $textParam 0  | replaceRE "text=&ldquo;" "" | replaceRE "&rdquo;" "" | safeHTML}}
+{{$shortcodeValue := partial "shortcode/link_block.html" (dict "page" ($.pagecontext.Site.GetPage $decodedPageParam) "text" $decodedTextParam) }}
+{{$transformMD = replace $transformMD . $shortcodeValue}}
+{{end}}
+
+<!-- transform shortcode cta -->
+{{range (findRE "{{&lt; cta &gt;}}(.|\n)*?{{&lt; \\/cta &gt;}}" $transformMD) }}
+{{$decodedInnerParam := replace (replace . "{{&lt; /cta &gt;}}" "") "{{&lt; cta &gt;}}" "" | safeHTML}}
+{{$shortcodeValue := partial "utils/cta.html" (dict "context" $.pagecontext "cta" $decodedInnerParam) }}
+{{$transformMD = replace $transformMD . $shortcodeValue}}
+{{end}}
+
+<!-- transform shortcode quote -->
+{{range (findRE "{{&lt; quote(.|\n)*? &gt;}}" $transformMD) }}
+{{$quoteParam := findRE "quote=&ldquo;(.|\n)*?&rdquo;" . 1}}
+{{$decodedQuoteParam := index $quoteParam 0  | replaceRE "quote=&ldquo;" "" | replaceRE "&rdquo;" ""}}
+{{$authorParam := findRE "author=&ldquo;(.|\n)*?&rdquo;" . 1}}
+{{$decodedAuthorParam := index $authorParam 0  | replaceRE "author=&ldquo;" "" | replaceRE "&rdquo;" ""}}
+{{$shortcodeValue := partial "shortcode/quote.html" (dict "quote" $decodedQuoteParam "author" $decodedAuthorParam) }}
+{{$transformMD = replace $transformMD . $shortcodeValue}}
+{{end}}
+
+<!-- transform shortcode question -->
+{{range (findRE "{{&lt; question &gt;}}(.|\n)*?{{&lt; \\/question &gt;}}" $transformMD) }}
+{{$decodedInnerParam := replace (replace . "{{&lt; /question &gt;}}" "") "{{&lt; question &gt;}}" "" | safeHTML}}
+{{$shortcodeValue := partial "shortcode/question.html" $decodedInnerParam }}
+{{$transformMD = replace $transformMD . $shortcodeValue}}
+{{end}}
+
+<!-- transform shortcode progress -->
+{{range (findRE "{{&lt; progress(.|\n)*? &gt;}}" $transformMD) }}
+{{$progressParam := findRE "progress=&ldquo;(.|\n)*?&rdquo;" . 1}}
+{{$decodedProgressParam := index $progressParam 0  | replaceRE "progress=&ldquo;" "" | replaceRE "&rdquo;" ""}}
+{{$titleParam := findRE "title=&ldquo;(.|\n)*?&rdquo;" . 1}}
+{{$decodedTitleParam := index $titleParam 0  | replaceRE "title=&ldquo;" "" | replaceRE "&rdquo;" ""}}
+{{$shortcodeValue := partial "shortcode/progress.html" (dict "progress" $decodedProgressParam "title" $decodedTitleParam) }}
+{{$transformMD = replace $transformMD . $shortcodeValue}}
+{{end}}
+
+<!-- transform shortcode text_image use .content for search as inner will be markdownified -->
+{{range (findRE "{{< text_image(.|\n)*? >}}(.|\n)*?{{< \\/text_image >}}" $.content) }}
+{{$tag := index (findRE "{{< text_image(.|\n)*? >}}" .) 0}}
+{{$positionParam := findRE "position=\"(.|\n)*?\"" . 1}}
+{{$decodedPositionParam := index $positionParam 0  | replaceRE "position=\"" "" | replaceRE "\"" ""}}
+{{$cssLeftParam := findRE "css-left=\"(.|\n)*?\"" . 1}}
+{{$decodedCssLeftParam := index $cssLeftParam 0  | replaceRE "css-left=\"" "" | replaceRE "\"" ""}}
+{{$cssRightParam := findRE "css-right=\"(.|\n)*?\"" . 1}}
+{{$decodedCssRightParam := index $cssRightParam 0  | replaceRE "css-right=\"" "" | replaceRE "\"" ""}}
+{{$decodedInnerParam := replace (replace . "{{< /text_image >}}" "") $tag ""}}
+{{$shortcodeValue := partial "shortcode/text_image.html" (dict "position" $decodedPositionParam "cssleft" $decodedCssLeftParam "cssright" $decodedCssRightParam "content" $decodedInnerParam) }}
+
+<!-- include transformation in transformed md -->
+{{$findMD := index (findRE "{{&lt; text_image(.|\n)*? &gt;}}(.|\n)*?{{&lt; \\/text_image &gt;}}" $transformMD) 0}}
+{{$transformMD = replace $transformMD $findMD $shortcodeValue}}
+
+{{end}}
+
+<div class="rich-content {{with .cssclasses}}{{.}}{{end}}">
+    {{$transformMD | safeHTML}}
+</div>

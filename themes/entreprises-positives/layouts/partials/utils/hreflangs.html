@@ -1,0 +1,45 @@
+<!--@formatter:off-->
+{{- range $.Site.Data.hreflang.hreflangs -}}
+    {{- $data := . -}}
+    <!-- Test current url -->
+    {{- if findRE $data.urlscheme $.Page.Permalink -}}
+        {{- if not $data.reverse -}}
+            <!-- Match scheme and not inverse -->
+            {{- $.Scratch.SetInMap "hreflangs" $data.lang $.Page.Permalink -}}
+        {{- end -}}
+    {{- else -}}
+        {{- if $data.reverse -}}
+            <!-- Not match scheme and inverse -->
+            {{- $.Scratch.SetInMap "hreflangs" $data.lang $.Page.Permalink -}}
+        {{- end -}}
+    {{- end -}}
+    <!-- Test all href langs in params -->
+    {{- range $.Page.Params.hreflangs -}}
+        {{- if findRE $data.urlscheme . -}}
+            {{- if not $data.reverse -}}
+                <!-- Match scheme and not inverse -->
+                {{- if $.Site.BuildDrafts -}}
+                    {{- $.Scratch.SetInMap "hreflangs" $data.lang (printf "https://ppd-www.cedreo.com%s" .) -}}
+                {{- else -}}
+                    {{- $.Scratch.SetInMap "hreflangs" $data.lang (printf "https://cedreo.com%s" .) -}}
+                {{- end -}}
+            {{- end -}}
+        {{- else -}}
+            {{- if $data.reverse -}}
+                <!-- Not match scheme and inverse -->
+                {{- if $.Site.BuildDrafts -}}
+                    {{- $.Scratch.SetInMap "hreflangs" $data.lang (printf "https://ppd-www.cedreo.com%s" .) -}}
+                {{- else -}}
+                    {{- $.Scratch.SetInMap "hreflangs" $data.lang (printf "https://cedreo.com%s" .) -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- range $lang, $url := ($.Scratch.Get "hreflangs") -}}
+    <link rel="alternate" hreflang="{{$lang}}" href="{{$url}}">
+{{- end -}}
+
+{{- $.Scratch.Delete "hreflangs" -}}
+<!--@formatter:on-->

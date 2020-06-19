@@ -1,0 +1,12 @@
+<!-- Hubspot forms must keep script tag in the flow -->
+{{- if findRE "(hsforms\\.net\\/forms)|(cedreo-script)" .cta -}}
+{{ $goodCta := replace .cta "&ldquo;" "\""  }}
+{{ $goodCta = replace $goodCta "&rdquo;" "\""  }}
+{{ $goodCta | safeHTML }}
+{{- else -}}
+{{- $script := findRE "<script.*?>(.|\n)*?</script>" .cta -}}
+{{- .context.Scratch.Add "ctascript" $script -}}
+<span class="d-flex cta">
+{{ .cta | replaceRE "<script.*?>(.|\n)*?</script>" "" | safeHTML }}
+</span>
+{{- end -}}

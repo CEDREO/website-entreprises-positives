@@ -1,0 +1,45 @@
+---
+label: Contenu de bloc
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Block title
+- name: titlelevel
+  type: select
+  default: '2'
+  config:
+    required: false
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Title level
+  description: Title level
+- type: textarea
+  name: richtext
+  label: Content
+  description: Block content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Right
+    - Left
+    - Justify
+    - Center
+  label: Alignement
+  name: align
+  description: Block alignment

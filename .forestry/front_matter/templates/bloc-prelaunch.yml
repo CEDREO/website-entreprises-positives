@@ -1,0 +1,44 @@
+---
+label: Prelaunch block
+hide_body: false
+fields:
+- type: field_group
+  name: style
+  label: Style
+  description: Block style
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: text
+  name: title
+  label: Title
+  description: Block title
+- type: field_group
+  name: part
+  label: Offer
+  description: Offer configuration
+  fields:
+  - type: text
+    name: title
+    label: Title
+    description: Offer title (safeHTML)
+  - type: text
+    name: text
+    label: Text
+    description: Offer description
+  - type: text
+    name: price
+    label: Price
+    description: Price
+  - type: text
+    name: cta
+    label: CTA
+    description: Call to action (embed code)
+  - type: list
+    name: features
+    label: Features
+    description: Features list
+  config:
+    labelField: title

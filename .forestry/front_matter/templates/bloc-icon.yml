@@ -1,0 +1,119 @@
+---
+label: Icon template
+hide_body: false
+display_field: forestrylabel
+fields:
+- type: text
+  name: forestrylabel
+  label: Forestry label
+  description: Forestry label for list display
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Blanc
+    - Gris Clair
+    - Vert Cedreo
+    - Noir Carbone
+    - Spear (S)
+    - Spear (P)
+    - Spear (E)
+    - Spear (A)
+    - Spear (R)
+    - Transparent
+  label: Couleur
+  name: color
+  description: Block background color
+- type: select
+  name: size
+  config:
+    source:
+      type: simple
+    options:
+    - Small
+    - Between Small and Medium
+    - Medium
+    - Large
+  label: Size
+  description: Image size
+- type: file
+  name: icon1
+  label: Icon 1
+  description: Icon 1
+- type: text
+  name: alt1
+  label: Alt 1
+  description: Content of icon 'alt' attribute
+- type: textarea
+  name: richtext1
+  label: Rich text beneath icon 1
+  description: Rich text beneath icon 1
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  name: icon2
+  label: Icon 2
+  description: Icon 2
+- type: text
+  name: alt2
+  label: Alt 2
+  description: Content of icon 'alt' attribute
+- type: textarea
+  name: richtext2
+  label: Rich text beneath icon 2
+  description: Rich text beneath icon 2
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  name: icon3
+  label: Icon 3
+  description: Icon 3
+- type: text
+  name: alt3
+  label: Alt 3
+  description: Content of icon 'alt' attribute
+- type: textarea
+  name: richtext3
+  label: Rich text beneath icon 3
+  description: Rich text beneath icon 3
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  name: icon4
+  label: Icon 4
+  description: Icon 4
+- type: text
+  name: alt4
+  label: Alt 4
+  description: Content of icon 'alt' attribute
+- type: textarea
+  name: richtext4
+  label: Rich text beneath icon 4
+  description: Rich text beneath icon 4
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  name: icon5
+  label: Icon 5
+  description: Icon 5
+- type: text
+  name: alt5
+  label: Alt 5
+  description: Content of icon 'alt' attribute
+- type: textarea
+  name: richtext5
+  label: Rich text beneath icon 5
+  description: Rich text beneath icon 5
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown

@@ -1,0 +1,8 @@
+<section class="demo-footer">
+    <div class="container text-center p-4">
+        <p class="text-uppercase p-2">Je veux une démonstration !</p>
+        <div class="d-flex justify-content-center">
+            {{- partial "utils/cta.html" (dict "context" . "cta" (.Site.Data.cta.footercta | safeHTML)) -}}
+        </div>
+    </div>
+</section>

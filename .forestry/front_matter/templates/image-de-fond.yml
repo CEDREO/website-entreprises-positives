@@ -1,0 +1,22 @@
+---
+label: Image de fond
+hide_body: false
+fields:
+- type: file
+  name: image
+  label: image
+  description: Image to display
+- type: boolean
+  name: centered
+  label: Center
+  description: Image center
+  default: false
+- type: boolean
+  name: darken
+  label: Darken
+  description: Darken image (50% opacity)
+  default: false
+- type: boolean
+  label: Fixed
+  name: fixed
+  description: Fixed background (pseudo-parallaxe)

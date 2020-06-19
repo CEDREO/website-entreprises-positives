@@ -1,0 +1,19 @@
+{{ if ne .Params.sitemapexclude true }}
+    <li>
+        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+    </li>
+    <ul>
+        {{ range .Sections }}
+            {{ partial "utils/page_subtree.html" . }}
+        {{ end }}
+        {{ range .Pages }}
+            {{ if ne .Params.sitemapexclude true }}
+                {{ if ne .Params.noindex true }}
+                <li>
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+{{ end }}

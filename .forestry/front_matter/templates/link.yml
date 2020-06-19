@@ -1,0 +1,19 @@
+---
+label: Link
+hide_body: false
+fields:
+- type: select
+  name: internal
+  config:
+    source:
+      type: pages
+  label: Intern
+  description: Link page
+- type: text
+  label: External
+  name: external
+  description: External link (ignored if internal link specified)
+- type: text
+  label: Text
+  name: text
+  description: Link text

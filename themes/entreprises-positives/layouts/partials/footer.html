@@ -1,0 +1,46 @@
+<footer>
+    {{with .Params.seotexts}}
+    {{- partial "footer/seo_footer.html" (dict "pagecontext" $.Page "context" .) -}}
+    {{ end }}
+
+    <div class="container-fluid p-0 link-footer text-white">
+        <div class="d-flex container p-0">
+            <div class="nested-block w-100">
+                <div class="nested-block-5">
+                    {{- partial "footer/menu_footer.html" (dict "context" .Site.Menus.site "name" "site" "pagecontext" $.Page "target" "") -}}
+                </div>
+                <div class="nested-block-5">
+                    {{- partial "footer/menu_footer.html" (dict "context" .Site.Menus.about "name" "about" "pagecontext" $.Page "target" "") -}}
+                </div>
+                <div class="nested-block-3">
+                    {{- partial "footer/cta_footer.html" (dict "context" .Site.Data.cta.footerform "pagecontext" $.Page) -}}
+                </div>
+                <div class="nested-block-5 flex-column pl-lg-5">
+                    <div >
+                        {{- partial "footer/menu_footer.html" (dict "context" .Site.Menus.social "name" "social" "pagecontext" $.Page "target" "_BLANK") -}}
+                    </div>
+                    <div class="pt-5">
+                        {{- partial "footer/menu_footer.html" (dict "context" .Site.Menus.contact "name" "contact" "pagecontext" $.Page "target" "") -}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex container flex-row border-top border-1 border-cedreo-gray-dark justify-content-center mt-4 pb-3">
+            <p class="pt-3">
+                {{ replace $.Site.Data.footer.copyright "%DATE%" (dateFormat "2006" now) | safeHTML }}
+            </p>
+            <p class="pt-3 px-2">
+                &nbsp;|&nbsp;
+            </p>
+            <p class="pt-3">
+                {{ $.Site.Data.footer.madein | safeHTML }}
+            </p>
+            <p class="pt-3 px-2">
+                &nbsp;|&nbsp;
+            </p>
+            <p class="pt-3">
+                {{- partial "utils/lang_menu.html" . -}}
+            </p>
+        </div>
+    </div>
+</footer>

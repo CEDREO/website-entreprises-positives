@@ -1,0 +1,55 @@
+---
+label: Bloc Equipe
+hide_body: false
+fields:
+- type: field_group
+  name: style
+  label: Style
+  description: Block style parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: field_group_list
+  label: Members
+  name: members
+  description: Team members list.
+  fields:
+  - type: text
+    name: forestrylabel
+    label: Forestry label
+    description: Label to display in Forestry listing
+    config:
+      required: true
+  - type: text
+    name: job
+    label: Job
+    description: Job title
+    config:
+      required: true
+  - type: text
+    name: name
+    label: Firstname
+    description: Firstname
+    config:
+      required: true
+  - type: textarea
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Description
+    name: text
+    description: Job description
+  - type: field_group
+    name: image
+    label: Image
+    description: Image parameters
+    fields:
+    - type: include
+      name: template
+      label: template
+      template: alt-image
+  config:
+    labelField: forestrylabel

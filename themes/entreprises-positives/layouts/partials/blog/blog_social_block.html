@@ -1,0 +1,13 @@
+<div class="p-0 m-0 d-flex justify-content-center">
+    {{ range .Site.Data.socialshare.socials }}
+    {{$link := .urlscheme }}
+    {{$link := replaceRE "%permalink" (strings.TrimPrefix "=" (querify "" $.Permalink)) $link }}
+    {{$link := replaceRE "%title" (strings.TrimPrefix "=" (querify "" $.Title)) $link }}
+    {{$link := replaceRE "%image" (strings.TrimPrefix "=" (querify "" $.Params.image)) $link }}
+    {{$link := replaceRE "%description" (strings.TrimPrefix "=" (querify "" $.Description)) $link }}
+    <a class="nav-link pr-0 pl-2" rel="nofollow" title="{{ .title }}"
+       {{ printf "href=%s" $link | safeHTMLAttr }} target="_blank">
+    {{ .pre | safeHTML }}
+    </a>
+    {{ end }}
+</div>

@@ -1,0 +1,25 @@
+{{- with .context -}}
+
+{{- $parts := slice -}}
+{{- range first 2 $.context.questions -}}
+{{- $parts = $parts | append (dict "content" . "style" $.context.style)  }}
+{{- end -}}
+{{- $buildcontext := dict "style" $.context.style "titlelevel" $.context.titlelevel "title" $.context.title "parts" $parts -}}
+{{- partial "main/custom_block_list.html" (dict "context" $buildcontext "pagecontext" $.pagecontext) -}}
+
+{{- if ge (len .questions) 2 -}}
+{{- range (seq 2 2 (len .questions)) -}}
+    {{- $parts = slice -}}
+    {{- range (first 2 (after . $.context.questions)) -}}
+        {{- $parts = $parts | append (dict "content" . "style" $.context.style)  }}
+    {{- end -}}
+    {{- if eq (add . 1) (len $.context.questions) -}}
+        {{- $parts = $parts | append (dict "content" slice "style" $.context.style)  }}
+    {{- end -}}
+    {{- $compactstyle := dict "background" $.context.style.background "content" $.context.style.content "compacttop" true -}}
+    {{- $buildcontext := dict "style" $compactstyle "titlelevel" "2" "title" "" "parts" $parts -}}
+    {{- partial "main/custom_block_list.html" (dict "context" $buildcontext "pagecontext" $.pagecontext) -}}
+{{- end -}}
+{{- end -}}
+
+{{- end -}}

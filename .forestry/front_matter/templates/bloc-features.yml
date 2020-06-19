@@ -1,0 +1,61 @@
+---
+label: Bloc Features
+hide_body: false
+fields:
+- type: field_group
+  name: style
+  label: Style
+  description: Block style parameters
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: style-de-bloc
+- type: field_group
+  name: content
+  label: Content
+  description: Block content
+  fields:
+  - type: include
+    name: template
+    label: template
+    template: contenu-de-bloc
+- type: field_group_list
+  label: Features
+  name: parts
+  description: Features list
+  fields:
+  - type: text
+    name: forestrylabel
+    label: Forestry label
+    config:
+      required: true
+    description: Label to display in Forestry listing
+  - type: field_group
+    name: image
+    label: Image
+    description: Image parameters
+    fields:
+    - type: include
+      name: template
+      label: template
+      template: alt-image
+    - type: boolean
+      name: shadowed
+      label: Shadow
+      description: Activate shadow effect on image
+  - type: text
+    name: title
+    label: Title
+    description: Feature title
+  - type: field_group
+    name: content
+    label: Feature text
+    description: Feature content
+    fields:
+    - type: include
+      name: template
+      label: template
+      template: contenu-de-bloc
+  config:
+    labelField: forestrylabel

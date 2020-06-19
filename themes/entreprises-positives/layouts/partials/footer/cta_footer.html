@@ -1,0 +1,20 @@
+{{with .context}}
+
+{{$data := (index (where $.pagecontext.Site.Data.footer.headers "menu" "eq" "cta") 0)}}
+<ul class="nav flex-column{{with $.cssclasses}} {{.}}{{end}}">
+    <li class="nav-item">
+        <a class="nav-link font-weight-bold pt-0 text-uppercase">
+            {{with $data.image}}
+            <img src="{{. | relURL}}" class="w-50">
+            {{end}}
+            {{with $data.text}}
+            {{.}}
+            {{end}}
+        </a>
+    </li>
+    <li class="nav-item nav-link">
+        {{ . | safeHTML }}
+    </li>
+</ul>
+
+{{end}}

@@ -1,0 +1,23 @@
+{{define "canonical"}}
+<link rel="canonical" href="{{.Page.Permalink}}">
+{{ end }}
+{{define "main"}}
+{{- partial "content.html" . -}}
+{{end}}
+{{define "schema"}}
+{{- with $.Page.Params.schemajson -}}
+<script type="application/ld+json">
+    {{ safeHTML (replace $.Page.Params.schemajson "\n" "") }}
+</script>
+{{- else -}}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type":"WebPage",
+        "url":"{{$.Page.Permalink}}",
+        "name":"{{$.Page.Title}}",
+        "inLanguage":"{{$.Site.LanguageCode}}"
+    }
+</script>
+{{- end -}}
+{{end}}

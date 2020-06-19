@@ -1,0 +1,34 @@
+---
+label: Offre
+hide_body: false
+fields:
+- type: field_group
+  name: content
+  label: Content
+  description: Block content
+  fields:
+  - type: include
+    name: template
+    label: template
+    description: ''
+    template: contenu-de-bloc
+  - type: text
+    name: cta
+    label: CTA
+    description: Call to Action (embed)
+  - type: include
+    name: mediatemplate
+    label: Media template
+    template: media
+- type: select
+  name: type
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - Stage
+    - CDI
+    - CDD
+  label: Job type
+  description: 'Job type: CDI, Stage, etc...'

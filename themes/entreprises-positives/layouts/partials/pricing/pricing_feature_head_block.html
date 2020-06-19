@@ -1,0 +1,19 @@
+{{with .context}}
+<div class="pricing-head {{with .title}}{{.}}{{end}} {{$.widthcss}} {{with .highlight}}d-block{{end}}">
+    {{with .title}}
+    <p class="pricing-title w-100 text-center">
+        {{.}}
+    </p>
+    {{end}}
+    {{range $index, $price := .prices}}
+    <p class="w-100 price {{if not (eq $index (sub (len $.context.prices) 1))}}d-none{{end}}" price-index="{{$index}}">
+        {{. | safeHTML}}
+    </p>
+    {{end}}
+    <p class="w-100 rich-content">
+        {{with .cta}}
+        {{- partial "utils/cta.html" (dict "context" $.pagecontext "cta" (. | safeHTML)) -}}
+        {{end}}
+    </p>
+</div>
+{{end}}

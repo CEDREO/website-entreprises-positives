@@ -1,0 +1,33 @@
+<!--TODO document this partial-->
+<!--build home menu entry-->
+<ul class="nav nav-cedreo-tab nav-pills nav-fill">
+    <li class="nav-item nav-home">
+        <a class="nav-link {{if eq .home.Permalink .current.Permalink}}active{{end}}"
+           href="{{.home.Permalink}}">
+            {{- with .alltitle -}}
+                {{.}}
+            {{- else -}}
+                {{.home.Title}}
+            {{- end -}}
+        </a>
+    </li>
+
+    <!--Store context vars for accesses in range context-->
+    {{$context := .context}}
+    {{$current := .current}}
+    {{$baseurl := .baseurl}}
+
+    <!--build taxonomy pages array-->
+    {{$taxonomypages := slice}}
+    {{range $key, $taxonomy := .taxonomies}}
+        {{$taxonomypages = union $taxonomypages (slice ($context.Site.GetPage (printf "%s%s" $baseurl $key)))}}
+    {{end}}
+
+    <!--range over all taxonomies for menu sorting by title -->
+    {{range sort $taxonomypages "Params.order" "asc"}}
+    <li class="nav-item">
+        <a class="nav-link {{if eq .Permalink $current.Permalink}}active{{end}}"
+           href="{{.Permalink}}">{{.Title}}</a>
+    </li>
+    {{end}}
+</ul>

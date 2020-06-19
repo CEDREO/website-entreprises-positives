@@ -1,0 +1,34 @@
+baseURL = "https://entreprises-positives.org/"
+disableKinds = ["taxonomyTerm"]
+languageCode = "fr-FR"
+theme = "entreprises-positives"
+title = "Entreprises Positives"
+[mediaTypes."application/redirect"]
+"menu.about" = []
+suffixes = ["redirect"]
+"menu.main" = []
+[[menu.social]]
+identifier = "facebook"
+name = "Facebook"
+url = "https://www.facebook.com/"
+weight = 1
+[[menu.social]]
+identifier = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/"
+weight = 2
+[outputFormats.redirect]
+mediaType = "application/redirect"
+notAlternative = true
+[permalinks]
+blog = "/blog/:slug"
+blogs = "/blog/:slug"
+galerie = "/gallery/:slug"
+galeries = "/gallery/:slug"
+[sitemap]
+filename = "sitemap.xml"
+[taxonomies]
+nature = "nature-de-l-impact"
+maturity = "maturite"
+financial-invest = "investissement-financier"
+human-invest = "investissement-humain"

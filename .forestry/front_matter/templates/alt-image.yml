@@ -1,0 +1,13 @@
+---
+label: Alt Image
+hide_body: false
+display_field: alt
+fields:
+- type: text
+  name: alt
+  label: Alt
+  description: Content of image 'alt' attribute
+- type: file
+  name: image
+  label: Image
+  description: Image to display

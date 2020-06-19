@@ -1,0 +1,9 @@
+keywords:
+  - keyword: "oui"
+    pre: "<i class=\"fas fa-check text-cedreo-green\"></i>"
+  - keyword: "non"
+    pre: "<i class=\"fas fa-times text-cedreo-gray\"></i>"
+  - keyword: "yes"
+    pre: "<i class=\"fas fa-check text-cedreo-green\"></i>"
+  - keyword: "no"
+    pre: "<i class=\"fas fa-times text-cedreo-gray\"></i>"

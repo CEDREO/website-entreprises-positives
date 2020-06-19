@@ -1,0 +1,18 @@
+{{with .context}}
+    {{with .URL}}
+        <a href="{{.}}" class="nav-link{{with $.toggle}} dropdown-toggle{{end}}"
+           {{if not (findRE "^https://cedreo.com" .)}}
+                {{ if not (eq (substr . 0 1) "/")}}
+                target="_BLANK"
+                {{ end }}
+            {{end}}
+           {{with $.toggle}}aria-expanded="false" aria-haspopup="true" id="{{.}}"{{end}}>
+            {{ $.context.Name }}
+        </a>
+        {{else}}
+        <span class="nav-link{{with $.toggle}} dropdown-toggle{{end}}"
+              {{with $.toggle}}aria-expanded="false" aria-haspopup="true" id="{{.}}"{{end}}>
+            {{ $.context.Name }}
+        </span>
+    {{end}}
+{{end}}

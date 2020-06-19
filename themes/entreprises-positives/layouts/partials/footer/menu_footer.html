@@ -1,0 +1,36 @@
+{{with .context}}
+
+{{$data := (index (where $.pagecontext.Site.Data.footer.headers "menu" "eq" $.name) 0)}}
+
+<ul class="nav flex-column{{with $.cssclasses}} {{.}}{{end}}">
+    <li class="nav-item">
+        <a class="nav-link font-weight-bold text-uppercase pt-0">
+            {{with $data.image}}
+            <img alt="{{$data.text}}" src="{{. | relURL}}" style="width: 7rem; height: auto">
+            {{else}}
+            {{$data.text}}
+            {{end}}
+        </a>
+    </li>
+    {{range .}}
+    <li class="nav-item">
+        <a
+            {{with $.target}}
+                target="{{.}}"
+            {{else}}
+                {{if not (findRE "^https://cedreo.com" .URL)}}
+                    {{ if not (eq (substr .URL 0 1) "/")}}
+                        target="_BLANK"
+                    {{ end }}
+                {{end}}
+            {{end}}
+           class="nav-link pt-0 pb-1" title="{{.Name}}"
+           {{printf "href=%q" .URL | safeHTMLAttr}}>
+            {{if eq $data.menu "social"}}<i class='fab fa-{{lower .Name}} pr-2'></i>{{end}}
+            {{.Name}}
+        </a>
+    </li>
+    {{end}}
+</ul>
+
+{{end}}
