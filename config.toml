@@ -20,6 +20,11 @@ weight = 2
 [outputFormats.redirect]
 mediaType = "application/redirect"
 notAlternative = true
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
 [sitemap]
 filename = "sitemap.xml"
 [taxonomies]

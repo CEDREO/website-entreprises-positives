@@ -2,8 +2,34 @@
 <link rel="canonical" href="{{.Page.Permalink}}">
 {{ end }}
 
+{{define "lib"}}
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+{{ end }}
+
 {{define "main"}}
 <div class="container mt-5">
+
+    <h1>Test from instant search</h1>
+    <div id="search-box" class="mb-4">
+        <!-- SearchBox widget will appear here -->
+    </div>
+    <div class="d-flex">
+        <div id="nature-list" class="mr-4">
+        </div>
+        <div id="maturity-list" class="mr-4">
+        </div>
+        <div id="financialinvest-list" class="mr-4">
+        </div>
+        <div id="humaninvest-list" class="mr-4">
+        </div>
+    </div>
+    <div id="hits" class="card-columns">
+        <!-- Hits widget will appear here -->
+    </div>
+
+    <h1>Test from list</h1>
     <div class="card-columns">
         {{- range .Paginator.Pages -}}
         <div class="card">
@@ -40,6 +66,98 @@
         {{- end -}}
     </div>
 </div>
+
+<!-- Instant search.js -->
+<script type="text/javascript">
+    const search = instantsearch({
+        appId: '9JQD047M0B',
+        apiKey: '7f0a4d6af72e524d8ebd42171af8957d',
+        indexName: 'actions',
+        routing: true
+    });
+
+    // initialize nature.
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+            container: '#nature-list',
+            attributeName: 'nature'
+        })
+    );
+    // initialize nature.
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+            container: '#maturity-list',
+            attributeName: 'maturity'
+        })
+    );
+    // initialize nature.
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+            container: '#financialinvest-list',
+            attributeName: 'financialinvest'
+        })
+    );
+    // initialize nature.
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+            container: '#humaninvest-list',
+            attributeName: 'humaninvest'
+        })
+    );
+
+    // initialize SearchBox.
+    search.addWidget(
+        instantsearch.widgets.searchBox({
+            container: '#search-box',
+            placeholder: 'Rechercher une action'
+        })
+    );
+
+    // Result widget.
+    search.addWidget(
+        instantsearch.widgets.hits({
+            container: '#hits',
+            templates: {
+                empty: 'Pas de résultats',
+                item:
+                    '<div class="card">' +
+                    '    <div class="card-header">' +
+                    '        <div class="d-flex">' +
+                    '            <div class="w-30">' +
+                    '                {{`{{#nature}}`}}' +
+                    '                {{`{{.}}`}}&nbsp;' +
+                    '                {{`{{/nature}}`}}' +
+                    '            </div>' +
+                    '            <div class="w-70">' +
+                    '                <a href="{{`{{permalink}}`}}"><h2>{{`{{title}}`}}</h2></a>' +
+                    '            </div>' +
+                    '        </div>' +
+                    '    </div>' +
+                    '    <ul class="list-group list-group-flush">' +
+                    '        <li class="list-group-item">' +
+                    '            {{`{{#maturity}}`}}' +
+                    '            {{`{{.}}`}}&nbsp;' +
+                    '            {{`{{/maturity}}`}}' +
+                    '        </li>' +
+                    '        <li class="list-group-item">' +
+                    '            {{`{{#financialinvest}}`}}' +
+                    '            {{`{{.}}`}}&nbsp;' +
+                    '            {{`{{/financialinvest}}`}}' +
+                    '        </li>' +
+                    '        <li class="list-group-item">' +
+                    '            {{`{{#humaninvest}}`}}' +
+                    '            {{`{{.}}`}}&nbsp;' +
+                    '            {{`{{/humaninvest}}`}}' +
+                    '        </li>' +
+                    '    </ul>' +
+                    '</div>'
+            }
+        })
+    );
+
+    search.start();
+</script>
+
 {{end}}
 
 {{define "schema"}}

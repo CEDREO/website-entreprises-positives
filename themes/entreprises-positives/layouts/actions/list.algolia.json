@@ -1,0 +1,8 @@
+{{- $indexs := (slice) -}}
+{{- $section := $.Site.GetPage "section" .Section -}}
+{{- range .Site.AllPages -}}
+  {{- if and (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) (not (eq .UniqueID $.UniqueID)) -}}
+    {{- $indexs = $indexs | append (dict "objectID" .UniqueID "date" .Date.UTC.Unix "description" .Description "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "readingtime" .ReadingTime "title" .Title "url" .URL "nature" .Params.nature "maturity" .Params.maturity "financialinvest" .Params.financialinvest "humaninvest" .Params.humaninvest) -}}
+  {{- end -}}
+{{- end -}}
+{{- $indexs | jsonify -}}

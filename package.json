@@ -2,6 +2,7 @@
     "private": true,
     "license": "UNLICENSED",
     "scripts": {
+        "algolia": "atomic-algolia",
         "forestry:install" : "cd themes/cedreo/assets && npm ci"
     }
 }
