@@ -1,0 +1,61 @@
+{{define "canonical"}}
+<link rel="canonical" href="{{.Page.Permalink}}">
+{{ end }}
+
+{{define "main"}}
+<div class="container mt-5">
+    <div class="card-columns">
+        {{- range .Paginator.Pages -}}
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex">
+                    <div class="w-30">
+                        {{- range .Params.nature -}}
+                        {{.}}&nbsp;
+                        {{- end -}}
+                    </div>
+                    <div class="w-70">
+                        <a href="{{.Permalink}}"><h2>{{ .Title }}</h2></a>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    {{- range .Params.maturity -}}
+                    {{.}}&nbsp;
+                    {{- end -}}
+                </li>
+                <li class="list-group-item">
+                    {{- range .Params.financialinvest -}}
+                    {{.}}&nbsp;
+                    {{- end -}}
+                </li>
+                <li class="list-group-item">
+                    {{- range .Params.humaninvest -}}
+                    {{.}}&nbsp;
+                    {{- end -}}
+                </li>
+            </ul>
+        </div>
+        {{- end -}}
+    </div>
+</div>
+{{end}}
+
+{{define "schema"}}
+{{- with $.Page.Params.schemajson -}}
+<script type="application/ld+json">
+    {{ safeHTML (replace $.Page.Params.schemajson "\n" "") }}
+</script>
+{{- else -}}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type":"WebPage",
+        "url":"{{$.Page.Permalink}}",
+        "name":"{{$.Page.Title}}",
+        "inLanguage":"{{$.Site.LanguageCode}}"
+    }
+</script>
+{{- end -}}
+{{end}}

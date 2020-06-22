@@ -20,15 +20,10 @@ weight = 2
 [outputFormats.redirect]
 mediaType = "application/redirect"
 notAlternative = true
-[permalinks]
-blog = "/blog/:slug"
-blogs = "/blog/:slug"
-galerie = "/gallery/:slug"
-galeries = "/gallery/:slug"
 [sitemap]
 filename = "sitemap.xml"
 [taxonomies]
 nature = "nature-de-l-impact"
 maturity = "maturite"
-financial-invest = "investissement-financier"
-human-invest = "investissement-humain"
+financialinvest = "investissement-financier"
+humaninvest = "investissement-humain"
