@@ -56,5 +56,21 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Gris Clair"
 template = "couleur-de-fond"
+[[blocs]]
+template = "bloc-logos"
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.logos]]
+forestrylabel = "Cedreo"
+name = "Cedreo"
+url = "https://cedreo.com"
+[blocs.logos.logo]
+alt = ""
+image = ""
 
 +++
