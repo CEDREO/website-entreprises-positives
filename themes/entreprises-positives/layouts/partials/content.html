@@ -40,8 +40,8 @@
 {{- partial "main/feature_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-blog"}}
 {{- partial "main/blog_block.html" (dict "pagecontext" $.Page "context" .) -}}
-{{else if eq .template "bloc-team"}}
-{{- partial "main/team_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-logos"}}
+{{- partial "main/logos_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-personalise"}}
 {{- partial "main/custom_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "ensemble-blocs-personalises"}}

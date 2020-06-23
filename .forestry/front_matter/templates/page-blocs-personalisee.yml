@@ -11,7 +11,7 @@ fields:
   label: blocks
   description: Page blocks list
   template_types:
-  - bloc-team
+  - bloc-logos
   - pour-aller-plus-loin
   - bloc-accueil
   - bloc-arguments

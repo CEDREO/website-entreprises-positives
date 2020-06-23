@@ -1,0 +1,13 @@
+<div class="block-team">
+    <div class="d-flex flex-wrap justify-content-left">
+        {{ range .context.logos }}
+        <div class="w-md-50 w-lg-20 team-member">
+            <a href="{{.url}}" title="{{.name}}">
+                {{with .image}}
+                {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid mx-auto w-100" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "20") -}}
+                {{end}}
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>

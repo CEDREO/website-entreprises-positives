@@ -1,5 +1,5 @@
 ---
-label: Bloc Equipe
+label: Bloc Logos
 hide_body: false
 fields:
 - type: field_group
@@ -12,9 +12,9 @@ fields:
     label: template
     template: style-de-bloc
 - type: field_group_list
-  label: Members
-  name: members
-  description: Team members list.
+  label: Logos
+  name: logos
+  description: Liste des logo d'entreprises et de lien.
   fields:
   - type: text
     name: forestrylabel
@@ -23,29 +23,21 @@ fields:
     config:
       required: true
   - type: text
-    name: job
-    label: Job
-    description: Job title
+    name: name
+    label: Nom de l'entreprise
+    description: Nom de l'entreprise
     config:
       required: true
   - type: text
-    name: name
-    label: Firstname
-    description: Firstname
+    name: url
+    label: URL site web
+    description: URL site web.
     config:
       required: true
-  - type: textarea
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Description
-    name: text
-    description: Job description
   - type: field_group
-    name: image
-    label: Image
-    description: Image parameters
+    name: logo
+    label: Logo
+    description: Logo paramètres
     fields:
     - type: include
       name: template
