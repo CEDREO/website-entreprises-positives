@@ -35,5 +35,6 @@ fields:
   description: For debug purpose, please left it unset
 pages:
 - content/_index.md
+- content/actions/_index.md
 - content/privacy-policy.md
 - content/terms-of-use.md
