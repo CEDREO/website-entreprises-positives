@@ -16,6 +16,10 @@ sections:
   path: content/terms-of-use.md
   label: Condition d'utilisation
 - type: document
+  path: content/a-propos.md
+  label: A propos
+  match: "**/*"
+- type: document
   path: content/actions/_index.md
   label: Liste des actions
 - type: directory
