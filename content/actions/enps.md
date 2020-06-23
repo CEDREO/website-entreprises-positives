@@ -2,10 +2,10 @@
 contentonly = false
 date = "2019-01-11T13:26:52+01:00"
 description = "Mesurer et faire progresser l’engagement des employés pour faire progresser la satisfaction des clients."
-financialinvest = ["€ - Faible"]
-humaninvest = ["Moyen"]
-maturity = ["Niveau 2 : Progresser"]
-nature = ["Social", "Economique"]
+financialinvest = "Faible"
+humaninvest = "Moyen"
+maturity = "Progresser"
+nature = ["Social"]
 noindex = false
 slug = "enps"
 title = "Mesurer et faire progresser l’engagement des employés pour faire progresser la satisfaction des clients"
