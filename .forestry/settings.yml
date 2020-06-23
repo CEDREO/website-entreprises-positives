@@ -5,7 +5,28 @@ admin_path: ''
 webhook_url: ''
 sections:
 - type: heading
-  label: Global Configuration
+  label: Pages
+- type: document
+  path: content/_index.md
+  label: Page d'accueil
+  match: "**/*"
+- type: document
+  path: content/privacy-policy.md
+  label: Politique de confidentialité
+  match: "**/*"
+- type: document
+  path: content/terms-of-use.md
+  label: Condition d'utilisation
+  match: "**/*"
+- type: directory
+  path: content/actions
+  label: Actions
+  create: documents
+  match: "**/*"
+  templates:
+  - page-blocs-personalisee
+- type: heading
+  label: Configuration globale
 - type: document
   path: data/socialshare.yml
   label: Social share
