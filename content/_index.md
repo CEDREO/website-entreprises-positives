@@ -104,5 +104,24 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Gris Clair"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Vous souhaitez démarrer ?"
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+cta = ""
+richtext = ""
+title = "Vous souhaitez démarrer ?"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 
 +++
