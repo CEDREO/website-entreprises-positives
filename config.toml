@@ -6,9 +6,6 @@ title = "Entreprises Positives"
 [mediaTypes."application/redirect"]
 "menu.about" = []
 suffixes = ["redirect"]
-[[menu.site]]
-name = "Sitemap "
-weight = 1
 [[menu.social]]
 identifier = "linkedin"
 name = "Linkedin"
