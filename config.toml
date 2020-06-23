@@ -6,7 +6,6 @@ title = "Entreprises Positives"
 [mediaTypes."application/redirect"]
 "menu.about" = []
 suffixes = ["redirect"]
-"menu.main" = []
 [[menu.social]]
 identifier = "facebook"
 name = "Facebook"

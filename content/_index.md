@@ -10,6 +10,9 @@ schemajson = "{\n\"@context\": \"http://schema.org\",\n\"@type\": \"Corporation\
 slug = ""
 title = "Easy 3D Home Design Software - Both Interior and Exterior - Cedreo"
 trackers = []
+[menu.main]
+name = "Accueil"
+weight = 1
 [[seotexts]]
 text = "**Cedreo is a 3D home design software for home builders, interior designers, and remodeling professionals.** A simple and fast solution to help you increase your sales: one hour is all it takes to create a [3D floor plan](/floor-plan-software/) and realistic 3D renderings. Design home plans on your own. With Cedreo, you can master the entire preliminary home draft stage and save valuable time by starting from previous projects, stored in your account and ready to personalize for your clients. Used in commercial presentations, the 3D renderings allow your clients to easily picture themselves in their future home. Show them in 3D what their home will look like!"
 [[seotexts]]
