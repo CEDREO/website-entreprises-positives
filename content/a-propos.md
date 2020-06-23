@@ -11,6 +11,8 @@ seotexts = []
 slug = ""
 title = "A propos"
 trackers = []
+[menu.main]
+weight = 3
 [[blocs]]
 forestrylabel = "Origines du projet :"
 template = "bloc-personalise"
