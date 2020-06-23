@@ -28,6 +28,7 @@ sections:
   match: "**/*"
   exclude: _index.md
   templates:
+  - page-action
   - page-blocs-personalisee
 - type: heading
   label: Configuration globale
