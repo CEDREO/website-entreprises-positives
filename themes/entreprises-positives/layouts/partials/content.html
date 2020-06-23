@@ -54,8 +54,6 @@
 {{- partial "main/recrutement_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "pour-aller-plus-loin"}}
 {{- partial "main/for_further_block.html" (dict "pagecontext" $.Page "context" .) -}}
-{{else if or (eq .template "bloc-prelaunch") (eq .template "bloc-tarifs")}}
-{{- partial "main/pricing_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-tarif-features"}}
 {{- partial "main/pricing_features_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "faq"}}
