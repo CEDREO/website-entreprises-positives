@@ -6,6 +6,66 @@ fields:
   name: templatemeta
   label: template meta
   template: page-metadata
+- name: nature
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Social
+    - Sociétal
+    - Environnemental
+    - Économique
+    - Gouvernance
+  label: Nature de l'impact
+- name: maturity
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Premières actions
+    - Progresser
+    - Aller plus loin
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Maturité
+- name: financialinvest
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Faible
+    - Moyen
+    - Important
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Investissement financier
+- name: humaninvest
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Faible
+    - Moyen
+    - Important
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Investissement humain
 - type: blocks
   name: blocs
   label: blocks
