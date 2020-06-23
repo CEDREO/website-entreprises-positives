@@ -9,20 +9,18 @@ sections:
 - type: document
   path: content/_index.md
   label: Page d'accueil
-  match: "**/*"
 - type: document
   path: content/privacy-policy.md
   label: Politique de confidentialité
-  match: "**/*"
 - type: document
   path: content/terms-of-use.md
   label: Condition d'utilisation
-  match: "**/*"
 - type: directory
   path: content/actions
   label: Actions
   create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - page-blocs-personalisee
 - type: heading
