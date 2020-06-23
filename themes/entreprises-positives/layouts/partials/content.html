@@ -40,8 +40,6 @@
 {{- partial "main/gallery_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-features"}}
 {{- partial "main/feature_block.html" (dict "pagecontext" $.Page "context" .) -}}
-{{else if eq .template "bloc-trustpilot"}}
-{{- partial "main/trustpilot_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-blog"}}
 {{- partial "main/blog_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-team"}}
