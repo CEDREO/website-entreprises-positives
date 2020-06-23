@@ -37,5 +37,24 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Vous avez une bonne idée à partager ?"
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+cta = "<a>Contactez nous !</a>"
+richtext = ""
+title = "Vous avez une bonne idée à partager ?"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Gris Clair"
+template = "couleur-de-fond"
 
 +++
