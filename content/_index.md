@@ -90,8 +90,13 @@ richtext = "Vous trouverez ici les actions classées en fonction de leur niveau 
 title = "Que trouverez vous ici ?"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Left"
+[[blocs.media.media]]
+alt = ""
+image = ""
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
