@@ -36,8 +36,6 @@
 {{- partial "main/success_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-arguments"}}
 {{- partial "main/argument_block.html" (dict "pagecontext" $.Page "context" .) -}}
-{{else if eq .template "bloc-galerie"}}
-{{- partial "main/gallery_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-features"}}
 {{- partial "main/feature_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-blog"}}
