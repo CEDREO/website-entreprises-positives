@@ -12,7 +12,7 @@ title = "Privacy Policy"
 trackers = []
 [menu.site]
 name = "Privacy policy"
-weight = 3
+weight = 2
 [[blocs]]
 forestrylabel = "Title"
 template = "bloc-personalise"

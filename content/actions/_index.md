@@ -12,5 +12,8 @@ seotexts = []
 slug = ""
 title = "Action"
 trackers = []
+[menu.main]
+name = "Actions"
+weight = 2
 
 +++

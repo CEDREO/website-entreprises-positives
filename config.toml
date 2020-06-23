@@ -6,28 +6,31 @@ title = "Entreprises Positives"
 [mediaTypes."application/redirect"]
 "menu.about" = []
 suffixes = ["redirect"]
-[[menu.social]]
-identifier = "facebook"
-name = "Facebook"
-url = "https://www.facebook.com/"
+[[menu.site]]
+name = "Sitemap "
 weight = 1
 [[menu.social]]
 identifier = "linkedin"
 name = "Linkedin"
 url = "https://www.linkedin.com/"
 weight = 2
-[outputFormats.redirect]
-mediaType = "application/redirect"
-notAlternative = true
+[[menu.social]]
+identifier = "facebook"
+name = "Facebook"
+url = "https://www.facebook.com/"
+weight = 1
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
+[outputFormats.redirect]
+mediaType = "application/redirect"
+notAlternative = true
 [sitemap]
 filename = "sitemap.xml"
 [taxonomies]
-nature = "nature-de-l-impact"
-maturity = "maturite"
 financialinvest = "investissement-financier"
 humaninvest = "investissement-humain"
+maturity = "maturite"
+nature = "nature-de-l-impact"
