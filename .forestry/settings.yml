@@ -15,6 +15,10 @@ sections:
 - type: document
   path: content/terms-of-use.md
   label: Condition d'utilisation
+- type: document
+  path: content/actions/_index.md
+  label: Liste des actions
+  match: "**/*"
 - type: directory
   path: content/actions
   label: Actions
