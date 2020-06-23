@@ -44,9 +44,3 @@ fields:
   label: AB Testing
   name: abtesting
   default: false
-pages:
-- content/redirect/Blog article 5 tips for quickly staging your real estate.md
-- content/redirect/Blog article User content to attract new single-family home buyers.md
-- content/redirect/Blog category customer-case-study.md
-- content/redirect/Blog category tips and tricks.md
-- content/redirect/FAQ floor plan.md

@@ -47,6 +47,6 @@ build:
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
-    -d dist --baseURL https://omco96khme-kja.instant.forestry.io --appendPort=false
+    -d dist --baseURL https://7tiffdbpa5gppw.instant.forestry.io --appendPort=false
     --disableLiveReload
 version: '0.53'

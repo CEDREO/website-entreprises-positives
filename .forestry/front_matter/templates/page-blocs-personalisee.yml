@@ -33,4 +33,3 @@ fields:
   hidden: false
   label: Content only
   description: For debug purpose, please left it unset
-pages:
