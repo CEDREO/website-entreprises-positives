@@ -48,5 +48,18 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "En pratique"
+template = "bloc-personalise"
+[blocs.content]
+align = "Left"
+richtext = "1. Mettre en place un outil de mesure du ENPS\n2. Mettre en place un outil de mesure du NPS\n3. Comparer et faire progresser les deux\n\nPour mesurer le ENPS de nos équipes nous utilisons chaque mois une application française nommée [Supermood](https://supermood.fr/) qui nous permet, en plus de mesurer le ENPS, de poser d’autres questions sur d’autres sujets.\n\nLes résultats sont **anonymes** (c’est vraiment important pour que tout le monde puisse s’exprimer librement) et sont exploitables sur l’ensemble de Cedreo bien sûr mais aussi par équipe, par fonction etc.\n\nPour mesurer le NPS nous utilisons [Delighted](https://delighted.com/) directement intégré à notre application et qui demande tous les 3 mois à nos utilisateurs leur avis sur le logiciel. Nous pensons passer à 6 mois pour ne pas nuire à leur confort."
+title = "En pratique"
+titlelevel = "2"
+[blocs.style]
+content = "Standard"
+[[blocs.style.background]]
+color = "Gris Clair"
+template = "couleur-de-fond"
 
 +++
