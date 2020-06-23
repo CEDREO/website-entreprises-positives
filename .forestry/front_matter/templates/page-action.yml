@@ -1,5 +1,5 @@
 ---
-label: Page standard
+label: Page d'action
 hide_body: true
 fields:
 - type: include
@@ -33,9 +33,3 @@ fields:
   hidden: false
   label: Content only
   description: For debug purpose, please left it unset
-pages:
-- content/_index.md
-- content/a-propos.md
-- content/actions/_index.md
-- content/privacy-policy.md
-- content/terms-of-use.md
