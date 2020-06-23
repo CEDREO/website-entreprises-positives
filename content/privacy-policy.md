@@ -5,6 +5,7 @@ date = "2019-03-19T11:09:47+00:00"
 description = "Read the Privacy Policy of Cedreo, 3D Home Design Software for building and remodeling professionals."
 hreflangs = ["/de/", "/fr/confidentialite/"]
 noindex = true
+schemajson = ""
 seotexts = []
 slug = ""
 title = "Privacy Policy"

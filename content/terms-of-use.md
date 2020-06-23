@@ -5,6 +5,7 @@ date = "2019-03-19T11:13:33+00:00"
 description = ""
 hreflangs = ["/de/geschaeftsbedingungen/", "/fr/mentions-legales/"]
 noindex = true
+schemajson = ""
 seotexts = []
 slug = ""
 title = "Terms of Use"
