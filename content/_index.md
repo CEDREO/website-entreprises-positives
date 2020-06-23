@@ -56,5 +56,29 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Gris Clair"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Qu’est ce que Entreprises Positives ?"
+template = "bloc-personalise"
+[blocs.content]
+align = "Left"
+cta = ""
+richtext = "Nous sommes un collectif de XX entreprises se regroupant pour partager les bonnes pratiques RSE / développement durable. Ces bonnes pratiques sont triées et cataloguées à l’aide de l’association Planet’RSE qui apporte son expertise sur le sujet pour juger de l’impact de ces actions.\n\nNous sommes convaincus que le développement d’une entreprise au XXIe siècle ne peut se faire qu’en prenant compte de ses impacts économiques, sociaux, sociétaux et environnementaux.\n\nLes entreprises positives sont plus performantes économiquement, sur la durée, elles sont plus résilientes, elles sont plus attirantes pour les candidats talentueux et donnent plus de sens au travail de toutes les parties prenantes.\n\nMettre en place une démarche structurée pour s’améliorer peut paraître un peu complexe de premier abord, les entrepreneurs et leurs équipes ont besoin de ressources pour les aider à progresser rapidement et simplement, c’est le but de ce site Internet."
+title = "Qu’est ce que Entreprises Positives ?"
+titlelevel = "2"
+[blocs.media]
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = ""
+shadowed = false
+size = "Small"
+template = "image"
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 
 +++
