@@ -46,8 +46,6 @@
 {{- partial "main/custom_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "ensemble-blocs-personalises"}}
 {{- partial "main/custom_block_list.html" (dict "pagecontext" $.Page "context" .) -}}
-{{else if eq .template "recrutement"}}
-{{- partial "main/recrutement_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "pour-aller-plus-loin"}}
 {{- partial "main/for_further_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "faq"}}

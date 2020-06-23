@@ -11,18 +11,12 @@ fields:
   label: blocks
   description: Page blocks list
   template_types:
-  - recrutement
   - bloc-team
   - pour-aller-plus-loin
-  - bloc-prelaunch
-  - bloc-tarifs
-  - bloc-tarif-features
   - bloc-accueil
   - bloc-arguments
   - bloc-features
-  - bloc-trustpilot
   - bloc-success-stories
-  - bloc-galerie
   - bloc-blog
   - bloc-personalise
   - ensemble-blocs-personalises
@@ -40,46 +34,3 @@ fields:
   label: Content only
   description: For debug purpose, please left it unset
 pages:
-- content/_index.md
-- content/_index.md
-- content/about-cedreo/_index.md
-- content/about-cedreo/about-cedreo-1.md
-- content/about-cedreo/cedreo-s-core-values.md
-- content/about-cedreo/recrutement.md
-- content/about-cedreo/team.md
-- content/cedreo-customer-love.md
-- content/cedreo-pricing-plans.md
-- content/contact-us/_index.md
-- content/contact-us/help-with-cedreo-3d-home-design-software.md
-- content/easy-floor-plan-software-draw-in-2d-get-3d-visualization-cedreo.md
-- content/easy-to-use-3d-interior-design-software-draw-in-2d-and-get-professional-3d-visualisation.md
-- content/faq/_index.md
-- content/faq/cedreo/_index.md
-- content/faq/general/_index.md
-- content/faq/general/floor-plan/how-do-you-make-a-3d-floor-plan-answer-by-cedreo-1.md
-- content/faq/general/floor-plan/how-do-you-make-a-3d-floor-plan-answer-by-cedreo-2.md
-- content/faq/general/floor-plan/how-do-you-make-a-3d-floor-plan-answer-by-cedreo.md
-- content/faq/general/floor-plan/what-is-a-3d-floor-plan-rendering-answer-by-cedreo-1.md
-- content/faq/general/floor-plan/what-is-a-3d-floor-plan-rendering-answer-by-cedreo.md
-- content/faq/general/floor-plan/what-is-a-rendered-floor-plan-answer-by-cedreo.md
-- content/faq/general/floor-plan/what-is-the-difference-between-a-2d-and-3d-rendered-floor-plan-answer-by-cedreo.md
-- content/home-decorating-software/_index.md
-- content/home-decorating-software/amenagement-exterieur.md
-- content/legal-notice.md
-- content/pre-launch-offer-cedreo.md
-- content/presentez.md
-- content/pricing-plans.md
-- content/privacy-policy.md
-- content/solutions.md
-- content/success-story/_index.md
-- content/success-story/cedreo-customer-success-story-heartwood-build-design.md
-- content/success-story/cedreo-customer-success-story-sixpence-21-ltd.md
-- content/success-story/cedreo-the-alternative-to-sketchup.md
-- content/terms-of-use.md
-- content/the-3d-home-remodeling-software-that-boosts-your-sales-cedreo.md
-- content/the-easiest-3d-rendering-software-to-help-clients-visualize-their-home-cedreo.md
-- content/the-easiest-floor-plan-software-to-reduce-drafting-time-cedreo.md
-- content/the-home-building-software-that-grows-your-business-cedreo-1.md
-- content/the-home-building-software-that-grows-your-business-cedreo.md
-- content/tracez.md
-- content/what-is-the-best-home-design-software.md
