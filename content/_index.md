@@ -37,5 +37,24 @@ content = "Mise en valeur"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "CTA idée"
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+cta = "<a>Contactez nous !</a>"
+richtext = "Vous avez une idée à partager ?"
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Gris Clair"
+template = "couleur-de-fond"
 
 +++
