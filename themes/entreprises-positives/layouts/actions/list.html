@@ -82,6 +82,13 @@
     search.addWidget(
         instantsearch.widgets.hits({
             container: '#hits',
+            {{- /* Add a transformer for local url when not in production. */ -}}
+            {{- if not (in $.Site.BaseURL "entreprises-positives.org") -}}
+            transformItems: items => items.map(item => {
+                item.permalink = item.permalink.replace("https://entreprises-positives.org/", "{{$.Site.BaseURL}}");
+                return item
+            }),
+            {{- end -}}
             templates: {
                 empty: 'Pas de résultats',
                 item:
