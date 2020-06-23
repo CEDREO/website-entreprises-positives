@@ -3,6 +3,6 @@
     "license": "UNLICENSED",
     "scripts": {
         "algolia": "atomic-algolia",
-        "forestry:install" : "cd themes/cedreo/assets && npm ci"
+        "forestry:install" : "cd themes/entreprises-positives/assets && npm ci"
     }
 }
