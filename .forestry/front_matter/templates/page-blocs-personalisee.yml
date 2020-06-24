@@ -24,6 +24,7 @@ fields:
   - bloc-icon
   - bloc-columns
   - bloc-table
+  - bloc-search
 - type: include
   template: bloc-seo
   label: template seo

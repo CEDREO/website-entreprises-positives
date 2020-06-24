@@ -123,5 +123,8 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Recherche"
+template = "bloc-search"
 
 +++

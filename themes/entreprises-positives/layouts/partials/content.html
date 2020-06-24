@@ -57,6 +57,8 @@
 {{- partial "override/column_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{else if eq .template "bloc-table"}}
 {{- partial "override/table_block.html" (dict "pagecontext" $.Page "context" .) -}}
+{{else if eq .template "bloc-search"}}
+{{- partial "main/search_block.html" (dict "pagecontext" $.Page "context" .) -}}
 {{end}}
 {{end}}
 {{end}}

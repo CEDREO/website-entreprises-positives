@@ -1,0 +1,10 @@
+---
+label: Bloc de recherche
+hide_body: false
+display_field: forestrylabel
+fields:
+- type: text
+  name: forestrylabel
+  label: Forestry label
+  description: Forestry label for list display
+  default: Recherche.

@@ -1,0 +1,103 @@
+<div class="container p-0 search-block">
+    <div class="d-flex">
+        <div id="nature-list" class="mr-4">
+        </div>
+        <div id="maturity-list" class="mr-4">
+        </div>
+        <div id="financialinvest-list" class="mr-4">
+        </div>
+        <div id="humaninvest-list" class="mr-4">
+        </div>
+    </div>
+    <div>
+        <a class="btn btn-primary" onclick="redirectToAction()">Rechercher</a>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js" integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js" integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk=" crossorigin="anonymous"></script>
+<!-- Instant search.js -->
+<script type="text/javascript">
+    const searchClient = algoliasearch('9JQD047M0B', '7f0a4d6af72e524d8ebd42171af8957d');
+
+    const search = instantsearch({
+        indexName: 'actions',
+        searchClient: searchClient,
+        routing: false
+    });
+
+    search.addWidgets([
+        instantsearch.widgets.refinementList({
+            container: '#nature-list',
+            attribute: 'nature',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'd-none'
+            }
+        }),
+        instantsearch.widgets.refinementList({
+            container: '#maturity-list',
+            attribute: 'maturity',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'd-none'
+            }
+        }),
+        instantsearch.widgets.refinementList({
+            container: '#financialinvest-list',
+            attribute: 'financialinvest',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'd-none'
+            }
+        }),
+        instantsearch.widgets.refinementList({
+            container: '#humaninvest-list',
+            attribute: 'humaninvest',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'd-none'
+            }
+        })
+    ]);
+
+    search.start();
+
+    function redirectToAction()
+    {
+        const { origin, pathname, hash } = location;
+        const refinements = search.helper.state.disjunctiveFacetsRefinements;
+
+        var query = [];
+        if (refinements.nature.length > 0)
+        {
+            refinements.nature.map((value, index) => query.push(`actions[refinementList][nature][${index}]=${value}`));
+        }
+        if (refinements.maturity.length > 0)
+        {
+            refinements.maturity.map((value, index) => query.push(`actions[refinementList][maturity][${index}]=${value}`));
+        }
+        if (refinements.financialinvest.length > 0)
+        {
+            refinements.financialinvest.map((value, index) => query.push(`actions[refinementList][financialinvest][${index}]=${value}`));
+        }
+        if (refinements.humaninvest.length > 0)
+        {
+            refinements.humaninvest.map((value, index) => query.push(`actions[refinementList][humaninvest][${index}]=${value}`));
+        }
+
+        window.location.href = `${origin}/actions?${query.join('&')}${hash}`;
+    }
+</script>
