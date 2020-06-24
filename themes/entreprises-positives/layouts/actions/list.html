@@ -3,11 +3,9 @@
 {{ end }}
 
 {{define "lib"}}
-<!-- FIXME add the resources inside static content avoid cdn -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch.min.css">
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4"></script>
-<!-- FIXME we may not need this css. -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.4/dist/instantsearch-theme-algolia.min.css">
+<!-- FIXME add to static and create custom css -->
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js" integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js" integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk=" crossorigin="anonymous"></script>
 {{ end }}
 
 {{define "main"}}
@@ -27,60 +25,120 @@
         <div id="humaninvest-list" class="mr-4">
         </div>
     </div>
-    <div id="hits" class="card-columns">
+    <div id="hits">
         <!-- Hits widget will appear here -->
     </div>
 </div>
 
 <!-- Instant search.js -->
 <script type="text/javascript">
+    const searchClient = algoliasearch('9JQD047M0B', '7f0a4d6af72e524d8ebd42171af8957d');
+
     const search = instantsearch({
-        appId: '9JQD047M0B',
-        apiKey: '7f0a4d6af72e524d8ebd42171af8957d',
         indexName: 'actions',
+        searchClient,
         routing: true
     });
 
-    // initialize nature.
-    search.addWidget(
+    // Create custom hits widget to remove ol and li, that force to reimplement the entire widget...
+    const renderHits = (renderOptions, isFirstRender) => {
+        const { hits, widgetParams } = renderOptions;
+
+        if (hits.length === 0)
+        {
+            document.querySelector(widgetParams.container).innerHTML = `<div class="alert alert-danger">Pas de résultats</div>`;
+        }
+        else
+        {
+            document.querySelector(widgetParams.container).innerHTML =
+                `<div class="card-columns">
+                ${hits.map(item =>
+                    `<div class="card">
+                     <div class="card-header">
+                         <div class="d-flex">
+                             <div class="w-30">
+                                 ${item.nature.join(', ')}
+                             </div>
+                             <div class="w-70">
+                                 <a href="${item.permalink}"><h2>${item.title}</h2></a>
+                             </div>
+                         </div>
+                     </div>
+                     <ul class="list-group list-group-flush">
+                         <li class="list-group-item">
+                             ${item.maturity}
+                         </li>
+                         <li class="list-group-item">
+                             ${item.financialinvest}
+                         </li>
+                         <li class="list-group-item">
+                             ${item.humaninvest}
+                         </li>
+                     </ul>
+                 </div>`)
+                    .join('')}
+                </div>`;
+        }
+    };
+
+    // Create the custom widget
+    const customHits = instantsearch.connectors.connectHits(renderHits);
+
+    search.addWidgets([
         instantsearch.widgets.refinementList({
             container: '#nature-list',
-            attributeName: 'nature'
-        })
-    );
-    // initialize nature.
-    search.addWidget(
+            attribute: 'nature',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'badge badge-dark'
+            }
+        }),
         instantsearch.widgets.refinementList({
             container: '#maturity-list',
-            attributeName: 'maturity'
-        })
-    );
-    // initialize nature.
-    search.addWidget(
+            attribute: 'maturity',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'badge badge-dark'
+            }
+        }),
         instantsearch.widgets.refinementList({
             container: '#financialinvest-list',
-            attributeName: 'financialinvest'
-        })
-    );
-    // initialize nature.
-    search.addWidget(
+            attribute: 'financialinvest',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'badge badge-dark'
+            }
+        }),
         instantsearch.widgets.refinementList({
             container: '#humaninvest-list',
-            attributeName: 'humaninvest'
-        })
-    );
-
-    // initialize SearchBox.
-    search.addWidget(
+            attribute: 'humaninvest',
+            cssClasses: {
+                list: 'pl-0',
+                item: 'form-check',
+                labelText: 'form-check-label',
+                checkbox: 'form-check-input',
+                count: 'badge badge-dark'
+            }
+        }),
         instantsearch.widgets.searchBox({
             container: '#search-box',
-            placeholder: 'Rechercher une action'
-        })
-    );
-
-    // Result widget.
-    search.addWidget(
-        instantsearch.widgets.hits({
+            placeholder: 'Rechercher une action',
+            cssClasses: {
+                form: 'input-group',
+                input: 'form-control',
+            }
+        }),
+        // @formatter:off
+        customHits({
             container: '#hits',
             {{- /* Add a transformer for local url when not in production. */ -}}
             {{- if not (in $.Site.BaseURL "entreprises-positives.org") -}}
@@ -89,44 +147,18 @@
                 return item
             }),
             {{- end -}}
-            templates: {
-                empty: 'Pas de résultats',
-                item:
-                    '<div class="card">' +
-                    '    <div class="card-header">' +
-                    '        <div class="d-flex">' +
-                    '            <div class="w-30">' +
-                    '                {{`{{#nature}}`}}' +
-                    '                {{`{{.}}`}}&nbsp;' +
-                    '                {{`{{/nature}}`}}' +
-                    '            </div>' +
-                    '            <div class="w-70">' +
-                    '                <a href="{{`{{permalink}}`}}"><h2>{{`{{title}}`}}</h2></a>' +
-                    '            </div>' +
-                    '        </div>' +
-                    '    </div>' +
-                    '    <ul class="list-group list-group-flush">' +
-                    '        <li class="list-group-item">' +
-                    '            {{`{{maturity}}`}}' +
-                    '        </li>' +
-                    '        <li class="list-group-item">' +
-                    '            {{`{{financialinvest}}`}}' +
-                    '        </li>' +
-                    '        <li class="list-group-item">' +
-                    '            {{`{{humaninvest}}`}}' +
-                    '        </li>' +
-                    '    </ul>' +
-                    '</div>'
-            }
-        })
-    );
+        }),
+        // @formatter:on
+    ]);
 
     search.start();
+
 </script>
 
 {{end}}
 
 {{define "schema"}}
+<!-- @formatter:off -->
 {{- with $.Page.Params.schemajson -}}
 <script type="application/ld+json">
     {{ safeHTML (replace $.Page.Params.schemajson "\n" "") }}
@@ -142,4 +174,5 @@
     }
 </script>
 {{- end -}}
+<!-- @formatter:on -->
 {{end}}
