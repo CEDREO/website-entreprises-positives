@@ -1,0 +1,40 @@
+{{define "canonical"}}
+<link rel="canonical" href="{{.Page.Permalink}}">
+{{ end }}
+{{define "main"}}
+<div class="breadcrumb-placeholder"></div>
+<div class="container-fluid">
+    <div class="container pl-0 pr-0">
+        <table class="table text-center">
+            <tr>
+                <td>{{ delimit $.Page.Params.nature "&nbsp;" "&nbsp;" }}</td>
+                <td>Maturité : {{ $.Page.Params.maturity }}</td>
+                <td>Secteur d'activité applicables : {{ $.Page.Params.sector }}</td>
+            </tr>
+            <tr>
+                <td>Investissement financier : {{ $.Page.Params.financialinvest }}</td>
+                <td>Investissement humain : {{ $.Page.Params.humaninvest }}</td>
+                <td>Entreprise témoin : {{ $.Page.Params.company }}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+{{- partial "content.html" . -}}
+{{end}}
+{{define "schema"}}
+{{- with $.Page.Params.schemajson -}}
+<script type="application/ld+json">
+    {{ safeHTML (replace $.Page.Params.schemajson "\n" "") }}
+</script>
+{{- else -}}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type":"WebPage",
+        "url":"{{$.Page.Permalink}}",
+        "name":"{{$.Page.Title}}",
+        "inLanguage":"{{$.Site.LanguageCode}}"
+    }
+</script>
+{{- end -}}
+{{end}}

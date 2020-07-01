@@ -84,6 +84,14 @@ fields:
   - bloc-icon
   - bloc-columns
   - bloc-table
+- name: company
+  type: text
+  default: ''
+  label: Entreprise témoin
+- name: sector
+  type: text
+  default: ''
+  label: Secteur d'activité
 - type: include
   template: bloc-seo
   label: template seo
