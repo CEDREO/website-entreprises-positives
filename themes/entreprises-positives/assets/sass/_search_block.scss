@@ -1,0 +1,44 @@
+.search-block {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .align-items-center;
+  @extend .justify-content-center;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .search-row-1 {
+    @extend .d-flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 70%;
+
+    .search-input {
+      margin-right: 0.5rem;
+      flex-grow: 2;
+
+      .ais-SearchBox-input {
+        @extend .form-control;
+      }
+    }
+
+    .btn {
+      margin-left: 0.5rem;
+
+      @include button-variant($ep-button-color-blue, $ep-button-color-blue);
+      color: $ep-text-color-light;
+    }
+  }
+
+  .search-row-2 {
+    @extend .d-flex;
+
+    .refinement-select {
+      select {
+        @extend .btn;
+        @include button-variant($ep-button-color-blue, $ep-button-color-blue);
+        color: $ep-text-color-light;
+      }
+    }
+  }
+}

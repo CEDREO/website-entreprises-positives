@@ -1,0 +1,4 @@
+.btn-orange {
+  @include button-variant($ep-button-color-orange, $ep-button-color-orange);
+  color: $ep-text-color-light;
+}

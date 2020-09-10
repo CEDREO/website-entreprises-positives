@@ -1,0 +1,27 @@
+.block-bg-image {
+  color: $ep-text-color-light;
+}
+
+.text-center {
+  .rich-content {
+    .d-flex.cta {
+      @extend .justify-content-center;
+    }
+  }
+}
+
+.text-left {
+  .rich-content {
+    .d-flex.cta {
+      @extend .justify-content-start;
+    }
+  }
+}
+
+.text-right {
+  .rich-content {
+    .d-flex.cta {
+      @extend .justify-content-end;
+    }
+  }
+}
