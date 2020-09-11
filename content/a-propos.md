@@ -37,32 +37,14 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
-[[blocs]]
-forestrylabel = "Vous avez une bonne idée à partager ?"
-template = "bloc-personalise"
-[blocs.content]
-align = "Center"
-cta = "<a>Contactez nous !</a>"
-richtext = ""
-title = "Vous avez une bonne idée à partager ?"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Gris Clair"
-template = "couleur-de-fond"
+
+
 [[blocs]]
 template = "bloc-logos"
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
+forestrylabel = "Logos"
+title = "Les entreprises qui participent au projet"
+titlelevel = "2"
+[[blocs.background]]
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
@@ -71,6 +53,63 @@ name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
-image = ""
+image = "/uploads/dummy.jpg"
+[[blocs.logos]]
+forestrylabel = "Cedreo"
+name = "Cedreo"
+url = "https://cedreo.com"
+[blocs.logos.logo]
+alt = ""
+image = "/uploads/dummy.jpg"
+[[blocs.logos]]
+forestrylabel = "Cedreo"
+name = "Cedreo"
+url = "https://cedreo.com"
+[blocs.logos.logo]
+alt = ""
+image = "/uploads/dummy.jpg"
+[[blocs.logos]]
+forestrylabel = "Cedreo"
+name = "Cedreo"
+url = "https://cedreo.com"
+[blocs.logos.logo]
+alt = ""
+image = "/uploads/dummy.jpg"
+[[blocs.logos]]
+forestrylabel = "Cedreo"
+name = "Cedreo"
+url = "https://cedreo.com"
+[blocs.logos.logo]
+alt = ""
+image = "/uploads/dummy.jpg"
+[[blocs.logos]]
+forestrylabel = "Cedreo"
+name = "Cedreo"
+url = "https://cedreo.com"
+[blocs.logos.logo]
+alt = ""
+image = "/uploads/dummy.jpg"
 
+[[blocs]]
+forestrylabel = "Partage idée"
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+richtext = "<br/>"
+cta = "<a href=\"\" class=\"btn btn-orange\">Contactez-nous</a>"
+title = "Vous avez une bonne idée à partager ?"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Fond image"
+[[blocs.style.background]]
+centered = true
+darken = false
+fixed = false
+image = "/uploads/dummy.jpg"
+template = "image-de-fond"
 +++
