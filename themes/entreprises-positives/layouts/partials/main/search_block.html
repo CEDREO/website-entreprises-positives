@@ -3,25 +3,35 @@
 
 <div class="container-fluid {{$blockstyle.cssclasses}}" style="{{$blockstyle.inlinestyle}}">
     <div class="container search-block">
+        {{with $.context.title}}
+        <div class="search-row-title">
+            <h1>{{.}}</h1>
+        </div>
+        {{end}}
         <div class="search-row-1">
             <div id="search-input" class="search-input"></div>
             <div>
-                <a class="btn btn-primary" onclick="redirectToAction()">Résultats</a>
+                <a class="btn btn-primary" onclick="searchSubmit()">Résultats</a>
             </div>
         </div>
         <div class="search-row-2">
-            <div class="d-flex">
-                <div id="nature-list" class="refinement-select">
-                </div>
-                <div id="maturity-list" class="refinement-select">
-                </div>
-                <div id="financialinvest-list" class="refinement-select">
-                </div>
-                <div id="humaninvest-list" class="refinement-select">
-                </div>
+            <div id="nature-list" class="refinement-select">
+            </div>
+            <div id="maturity-list" class="refinement-select">
+            </div>
+            <div id="financialinvest-list" class="refinement-select">
+            </div>
+            <div id="humaninvest-list" class="refinement-select">
             </div>
         </div>
     </div>
+</div>
+<div class="container-fluid search-result-block-container">
+    {{with $.context.resultinline}}
+    <div class="container search-result-block">
+        <div id="hits"></div>
+    </div>
+    {{end}}
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js" integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0=" crossorigin="anonymous"></script>
@@ -61,7 +71,7 @@
         }
 
         const dropdownMenuContent = container.querySelector('div.dropdown-menu form');
-console.log(items)
+
         dropdownMenuContent.innerHTML = items.map(
             item => `<div class="form-check">
                       <input type="checkbox" class="form-check-input" id="${item.value.replace(/[^a-z0-9-]+/gi, '-')
@@ -86,6 +96,63 @@ console.log(items)
     const customRefinementSelect = instantsearch.connectors.connectRefinementList(
         renderRefinementSelect
     );
+
+    // @formatter:off
+    {{with $.context.resultinline}}
+    // Create custom hits widget to remove ol and li, that force to reimplement the entire widget...
+    const renderHits = (renderOptions, isFirstRender) => {
+        const { hits, widgetParams } = renderOptions;
+
+        if (hits.length === 0)
+        {
+            document.querySelector(widgetParams.container).innerHTML = `<div class="alert alert-danger">Pas de résultats</div>`;
+        }
+        else
+        {
+            document.querySelector(widgetParams.container).innerHTML =
+                `
+                ${hits.map(item =>
+                    `<a href="${item.permalink}">
+                     <div class="card-wrapper ${item.nature[0].replace(/[^a-z0-9-]+/gi, '')}">
+                        <div class="card-top"></div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="nature">
+                                    <i class="nature-icon"></i>
+                                    ${item.nature[0]}
+                                </div>
+                                <div class="card-title"><h2>${item.title}</h2></div>
+                            </div>
+                            <div class="card-taxo">
+                                <div class="maturity">
+                                    <p class="taxo-title">Maturité</p>
+                                    <p class="taxo-value">${item.maturity}</p>
+                                    <p class="taxo-icon"><i class="${item.maturity.replace(/[^a-z0-9-]+/gi, '')}"></i></p>
+                                </div>
+                                <div class="financialinvest">
+                                    <p class="taxo-title">Investissement €</p>
+                                    <p class="taxo-value">${item.financialinvest}</p>
+                                    <p class="taxo-icon"><i class="${item.financialinvest.replace(/[^a-z0-9-]+/gi, '')}"></i></p>
+                                </div>
+                                <div class="humaninvest">
+                                    <p class="taxo-title">Temps humain</p>
+                                    <p class="taxo-value">${item.humaninvest}</p>
+                                    <p class="taxo-icon"><i class="${item.humaninvest.replace(/[^a-z0-9-]+/gi, '')}"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom"></div>
+                     </div>
+                     </a>`)
+                    .join('')}
+                `;
+        }
+    };
+
+    // Create the custom widget
+    const customHits = instantsearch.connectors.connectHits(renderHits);
+    {{end}}
+    // @formatter:on
 </script>
 <script type="text/javascript">
     const searchClient = algoliasearch('9JQD047M0B', '7f0a4d6af72e524d8ebd42171af8957d');
@@ -123,11 +190,28 @@ console.log(items)
             displayName: "Investissement humain",
             attribute: 'humaninvest',
         })
+        // @formatter:off
+        {{with $.context.resultinline}}
+        ,
+        customHits({
+            container: '#hits',
+        {{- /* Add a transformer for local url when not in production. */ -}}
+        {{- if not (in $.Site.BaseURL "entreprises-positives.org") -}}
+        transformItems: items => items.map(item => {
+            item.permalink = item.permalink.replace("https://entreprises-positives.org", "{{$.Site.BaseURL}}");
+            return item
+        }),
+            {{- end -}}
+        }),
+        {{end}}
+        // @formatter:on
     ]);
 
     search.start();
 
-    function redirectToAction() {
+    // @formatter:off
+    {{with $.context.resultinline}}
+    function searchSubmit() {
         const {origin, pathname, hash} = location;
 
         const refinements = search.helper.state.disjunctiveFacetsRefinements;
@@ -151,4 +235,11 @@ console.log(items)
 
         window.location.href = `${origin}/actions/?${query.join('&')}${hash}`;
     }
+    {{else}}
+    function searchSubmit() {
+        // Do nothing, typing is doing everything.
+        return;
+    }
+    {{end}}
+    // @formatter:on
 </script>

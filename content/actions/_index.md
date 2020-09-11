@@ -1,5 +1,4 @@
 +++
-blocs = []
 breadcrumb = ""
 contentonly = false
 date = "2019-01-11T13:26:52+01:00"
@@ -15,5 +14,39 @@ trackers = []
 [menu.main]
 name = "Actions"
 weight = 2
+
+[[blocs]]
+forestrylabel = "Recherche"
+template = "bloc-search"
+resultinline = true
+title = "Rechercher des actions"
+[[blocs.background]]
+centered = true
+darken = false
+fixed = false
+image = "/uploads/dummy.jpg"
+template = "image-de-fond"
+[[blocs]]
+forestrylabel = "Partage idée"
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+richtext = "<br/>"
+cta = "<a href=\"\" class=\"btn btn-orange\">Contactez-nous</a>"
+title = "Vous avez une bonne idée à partager ?"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Fond image"
+[[blocs.style.background]]
+centered = true
+darken = false
+fixed = false
+image = "/uploads/dummy.jpg"
+template = "image-de-fond"
 
 +++

@@ -12,3 +12,12 @@ fields:
   name: template
   label: template
   template: fond-du-bloc
+- type: boolean
+  name: resultinline
+  label: Display result on the page.
+  description: Display result on the page.
+  default: false
+- type: text
+  name: title
+  label: Title if required.
+  description: Title if required.

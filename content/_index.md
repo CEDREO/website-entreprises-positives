@@ -128,6 +128,8 @@ template = "couleur-de-fond"
 [[blocs]]
 forestrylabel = "Recherche"
 template = "bloc-search"
+resultinline = false
+title = ""
 [[blocs.background]]
 centered = true
 darken = false
