@@ -1,0 +1,83 @@
+$footer-margin: 2rem;
+
+footer {
+  background-color: $ep-background-black;
+  padding-top: 2rem;
+
+  .logo-row {
+    margin: 0 $footer-margin 0 $footer-margin;
+    color: $ep-text-color-light;
+  }
+
+  .menu-row {
+    margin: 0 $footer-margin 40px $footer-margin;
+    display: flex;
+    flex-direction: row;
+
+    .left-menu {
+      .nav-item {
+        .nav-link {
+          padding-left: 0;
+          color: $ep-text-color-gray;
+        }
+      }
+    }
+
+    .search-action {
+      flex-grow: 1;
+      padding: 0.5rem 4rem 0 4rem;
+
+      .search-block {
+        padding: 0;
+        align-items: flex-start !important;
+
+        .search-row-title {
+          text-align: left;
+          color: $ep-text-color-gray;
+
+          h4 {
+            font-size: $ep-font-size;
+            font-weight: $ep-font-weight;
+            line-height: $ep-line-height;
+          }
+        }
+
+        .search-row-1 {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .social-menu {
+      padding-top: 0.5rem;
+      margin: 0 $footer-margin 0 $footer-margin;
+
+      .social-menu-title {
+        text-align: left;
+        color: $ep-text-color-gray;
+
+        h4 {
+          font-size: $ep-font-size;
+          font-weight: $ep-font-weight;
+          line-height: $ep-line-height;
+        }
+      }
+
+      .social-menu-links {
+        display: flex;
+        flex-direction: row;
+
+        a {
+          color: $ep-text-color-light;
+        }
+      }
+    }
+  }
+
+
+  .bottom-row {
+    margin: 0 $footer-margin 0 $footer-margin;
+    border-top: 1px $ep-background-gray solid;
+    height: 60px; // Fix height as it is an empty row.
+  }
+}

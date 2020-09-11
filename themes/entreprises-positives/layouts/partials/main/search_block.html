@@ -11,13 +11,13 @@
         </div>
         <div class="search-row-2">
             <div class="d-flex">
-                <div id="nature-list" class="refinement-select mr-4">
+                <div id="nature-list" class="refinement-select">
                 </div>
-                <div id="maturity-list" class="refinement-select mr-4">
+                <div id="maturity-list" class="refinement-select">
                 </div>
-                <div id="financialinvest-list" class="refinement-select mr-4">
+                <div id="financialinvest-list" class="refinement-select">
                 </div>
-                <div id="humaninvest-list" class="refinement-select mr-4">
+                <div id="humaninvest-list" class="refinement-select">
                 </div>
             </div>
         </div>
@@ -45,36 +45,39 @@
         const container = document.querySelector(widgetParams.container);
 
         if (isFirstRender) {
-            const input = document.createElement('select');
-            const optionDefault = document.createElement('option');
-
-            optionDefault.innerText = widgetParams.displayName;
-            optionDefault.value = 'reset';
-
-            input.addEventListener('input', event => {
-                if (event.target.value === 'reset') {
-                    refine([]);
-                } else {
-                    refine([event.target.value]);
-
-                }
-            });
-
-            container.appendChild(input);
-            input.appendChild(optionDefault);
+            container.innerHTML = `
+            <div class="dropdown">
+              <button class="dropdown-toggle" type="button"
+                        id="dropdown${widgetParams.attribute}"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ${widgetParams.displayName}
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdown${widgetParams.attribute}">
+                <form class="px-4 py-3">
+                </form>
+              </div>
+            </div>
+            `;
         }
 
-        const select = container.querySelector('select');
+        const dropdownMenuContent = container.querySelector('div.dropdown-menu form');
+console.log(items)
+        dropdownMenuContent.innerHTML = items.map(
+            item => `<div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="${item.value.replace(/[^a-z0-9-]+/gi, '-')
+                .replace(/^-|-$/g, '')}" data-value="${item.value}" ${item.isRefined ? 'checked' : ''}>
+                      <label class="form-check-label" for="${item.value.replace(/[^a-z0-9-]+/gi, '-')
+                .replace(/^-|-$/g, '')}">
+                        ${item.label}
+                      </label>
+                    </div>`
+        ).join('');
 
-        items.forEach(
+        dropdownMenuContent.querySelectorAll("input").forEach(
             item => {
-                const option = select.querySelector(`option[value=${item.value}]`);
-                if (option === undefined || option === null) {
-                    const option = document.createElement('option');
-                    option.value = item.value;
-                    option.innerText = item.label;
-                    select.appendChild(option);
-                }
+                item.addEventListener('input', event => {
+                    refine([event.target.attributes['data-value'].value]);
+                });
             }
         )
     };

@@ -19,6 +19,7 @@
 
       .ais-SearchBox-input {
         @extend .form-control;
+        background-color: $ep-background-gray;
       }
     }
 
@@ -34,7 +35,10 @@
     @extend .d-flex;
 
     .refinement-select {
-      select {
+      @extend .ml-2;
+      @extend .mr-2;
+
+      .dropdown button {
         @extend .btn;
         @include button-variant($ep-button-color-blue, $ep-button-color-blue);
         color: $ep-text-color-light;

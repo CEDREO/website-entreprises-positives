@@ -1,17 +1,6 @@
 {{with .context}}
 
-{{$data := (index (where $.pagecontext.Site.Data.footer.headers "menu" "eq" $.name) 0)}}
-
-<ul class="nav flex-column{{with $.cssclasses}} {{.}}{{end}}">
-    <li class="nav-item">
-        <a class="nav-link font-weight-bold text-uppercase pt-0">
-            {{with $data.image}}
-            <img alt="{{$data.text}}" src="{{. | relURL}}" style="width: 7rem; height: auto">
-            {{else}}
-            {{$data.text}}
-            {{end}}
-        </a>
-    </li>
+<ul class="nav flex-column">
     {{range .}}
     <li class="nav-item">
         <a
@@ -24,9 +13,8 @@
                     {{ end }}
                 {{end}}
             {{end}}
-           class="nav-link pt-0 pb-1" title="{{.Name}}"
+           class="nav-link" title="{{.Name}}"
            {{printf "href=%q" .URL | safeHTMLAttr}}>
-            {{if eq $data.menu "social"}}<i class='fab fa-{{lower .Name}} pr-2'></i>{{end}}
             {{.Name}}
         </a>
     </li>
