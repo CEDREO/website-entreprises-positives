@@ -21,15 +21,15 @@ fields:
   config:
     required: false
     options:
-      - '1'
-      - '2'
-      - '3'
-      - '4'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Title level
   description: Title level
 - type: field_group_list
