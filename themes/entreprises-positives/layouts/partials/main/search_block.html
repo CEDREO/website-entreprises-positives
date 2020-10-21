@@ -112,8 +112,8 @@
             document.querySelector(widgetParams.container).innerHTML =
                 `
                 ${hits.map(item =>
-                    `<a href="${item.permalink}">
-                     <div class="card-wrapper ${item.nature[0].replace(/[^a-z0-9-]+/gi, '')}">
+                    `<div class="card-wrapper ${item.nature[0].replace(/[^a-z0-9-]+/gi, '')}">
+                        <a href="${item.permalink}">
                         <div class="card-top"></div>
                         <div class="card">
                             <div class="card-header">
@@ -142,8 +142,8 @@
                             </div>
                         </div>
                         <div class="card-bottom"></div>
-                     </div>
-                     </a>`)
+                     </a>
+                     </div>`)
                     .join('')}
                 `;
         }
