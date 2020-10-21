@@ -23,10 +23,10 @@ richtext = "A l’origine, Cedreo éditeur de logiciel basé à Nantes s’est r
 title = "Origines du projet :"
 titlelevel = "1"
 [blocs.media]
-position = "Left"
+position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = ""
+image = "/uploads/dummy.jpg"
 shadowed = false
 size = "Medium"
 template = "image"

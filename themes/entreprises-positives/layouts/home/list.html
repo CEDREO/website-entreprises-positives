@@ -1,0 +1,51 @@
+{{define "canonical"}}
+<link rel="canonical" href="{{.Page.Permalink}}">
+{{ end }}
+{{define "main"}}
+
+<div class="d-flex container-fluid p-0 bg-cedreo-white block block-highlighted" style="">
+    <div class="nested-block media-last container p-0">
+        <div class="d-flex flex-column m-auto nested-block-2 block mx-2 text-left"><div class="w-100 rich-content">
+            <h1 class="w-100">
+                Pérenniser votre entreprise dans sa <span class="text-theme-blue">croissance durable et responsable.</span>
+            </h1>
+            <h3>
+                <span style="font-size: 3rem">{{len (.GetPage "actions").Pages}}</span> actions <span class="text-theme-green">concrètes</span>, <span class="text-theme-orange">simples</span> à mettre en oeuvre, <span class="text-theme-yellow">pratiques</span> et <span class="text-theme-pink">documentées</span> sont à votre disposition.
+            </h3>
+            <h2>
+                Vous avez une bonne idée à partager ?
+            </h2>
+        </div>
+        <div class="rich-content w-100">
+            <span class="d-flex cta">
+                <a href="" class="btn btn-orange">Contactez-nous</a>
+            </span>
+        </div>
+    </div>
+
+        <div class="m-auto nested-block-2 block mx-2 text-left">
+            {{- partial "utils/responsive-image.html" (dict "image" "/uploads/dummy.jpg" "class" "img-fluid mx-auto" "alt" "" "context" $ "smallSize" "100" "largeSize" "50") -}}
+        </div>
+    </div>
+</div>
+
+{{- partial "content.html" . -}}
+
+{{end}}
+{{define "schema"}}
+{{- with $.Page.Params.schemajson -}}
+<script type="application/ld+json">
+    {{ safeHTML (replace $.Page.Params.schemajson "\n" "") }}
+</script>
+{{- else -}}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type":"WebPage",
+        "url":"{{$.Page.Permalink}}",
+        "name":"{{$.Page.Title}}",
+        "inLanguage":"{{$.Site.LanguageCode}}"
+    }
+</script>
+{{- end -}}
+{{end}}
