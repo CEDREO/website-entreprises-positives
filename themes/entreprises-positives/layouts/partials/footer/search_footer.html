@@ -1,0 +1,46 @@
+<div class="search-block">
+    <div class="search-row-title">
+        <h4>Rechercher des actions</h4>
+    </div>
+    <div class="search-row-1">
+        <div id="footer-search-input" class="search-input"></div>
+        <div>
+            <a class="btn btn-primary" onclick="redirectToAction()">Résultats</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js" integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js" integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk=" crossorigin="anonymous"></script>
+<!-- Instant search.js -->
+<script type="text/javascript">
+    const searchClientFooter = algoliasearch('9JQD047M0B', '7f0a4d6af72e524d8ebd42171af8957d');
+
+    const searchFooter = instantsearch({
+        indexName: 'actions',
+        searchClient: searchClientFooter,
+        routing: false
+    });
+
+    searchFooter.addWidgets([
+        instantsearch.widgets.searchBox({
+            container: '#footer-search-input',
+            placeholder: 'Votre recherche',
+            showReset: false,
+            showSubmit: false
+        })
+    ]);
+
+    searchFooter.start();
+
+    function redirectToAction() {
+        const {origin, pathname, hash} = location;
+        const query = [];
+
+        if (searchFooter.helper.state.query.length > 0) {
+            query.push(`actions[query]=${searchFooter.helper.state.query}`);
+        }
+
+        window.location.href = `${origin}/actions/?${query.join('&')}${hash}`;
+    }
+</script>

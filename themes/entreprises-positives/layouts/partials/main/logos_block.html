@@ -1,13 +1,20 @@
-<div class="block-team">
-    <div class="d-flex flex-wrap justify-content-left">
-        {{ range .context.logos }}
-        <div class="w-md-50 w-lg-20 team-member">
-            <a href="{{.url}}" title="{{.name}}">
-                {{with .image}}
-                {{- partial "utils/responsive-image.html" (dict "image" .image "class" "img-fluid mx-auto w-100" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "20") -}}
-                {{end}}
-            </a>
+{{- partial "utils/block_style.html" (dict "context" (dict "background" $.context.background) "nominh" true "pagecontext" $.pagecontext) -}}
+{{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
+
+<div class="container-fluid {{$blockstyle.cssclasses}}" style="{{$blockstyle.inlinestyle}}">
+    <div class="container logos-block">
+        <div class="logos-title">
+            {{printf "<h%s>%s</h%s>" .context.titlelevel .context.title .context.titlelevel | safeHTML}}
         </div>
-        {{ end }}
+
+        <div class="logos-wrapper">
+            {{ range .context.logos }}
+            <div class="logo">
+                <a href="{{.url}}" title="{{.name}}">
+                    {{- partial "utils/responsive-image.html" (dict "image" .logo.image "class" "img-fluid mx-auto w-100" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "20") -}}
+                </a>
+            </div>
+            {{ end }}
+        </div>
     </div>
 </div>

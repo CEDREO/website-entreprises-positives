@@ -1,0 +1,178 @@
+.search-block {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .align-items-center;
+  @extend .justify-content-center;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .search-row-title {
+    color: $ep_text-color-light;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .search-row-1 {
+    @extend .d-flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 70%;
+
+    .search-input {
+      margin-right: 0.5rem;
+      flex-grow: 2;
+
+      .ais-SearchBox-input {
+        @extend .form-control;
+        background-color: $ep-background-gray;
+      }
+    }
+
+    .btn {
+      margin-left: 0.5rem;
+
+      @include button-variant($ep-button-color-blue, $ep-button-color-blue);
+      color: $ep-text-color-light;
+    }
+  }
+
+  .search-row-2 {
+    @extend .d-flex;
+    @extend .flex-wrap;
+
+    .refinement-select {
+      @extend .ml-2;
+      @extend .mr-2;
+
+      .dropdown button {
+        @extend .btn;
+        @include button-variant($ep-button-color-blue, $ep-button-color-blue);
+        color: $ep-text-color-light;
+      }
+    }
+  }
+}
+
+.search-result-block-container {
+  background-color: $ep-background-gray;
+
+  .search-result-block {
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    .card-wrapper {
+      width: 49%;
+
+      .card-top {
+        height: 1rem;
+        border-radius: 25px 25px 0 0;
+      }
+
+      .card {
+        border: 0;
+        border-left: 1px $ep-background-white solid;
+        border-right: 1px $ep-background-white solid;
+        background-color: $ep-background-white;
+
+        .card-header {
+          margin: 25px 25px 15px 25px;
+          padding: 0;
+          background-color: $ep-background-white;
+          border-bottom: 1px $ep-text-color-gray solid;
+
+          .card-title {
+            padding-bottom: 15px;
+
+            h2 {
+              color: $ep-text-color-dark;
+            }
+          }
+        }
+
+        .card-taxo {
+          padding: 0 25px 0 25px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          color: $ep-text-color-dark;
+
+          .maturity, .financialinvest, .humaninvest {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .taxo-title {
+              margin-bottom: 0;
+            }
+
+            .taxo-value {
+              font-size: $ep-font-size/1.2;
+            }
+          }
+        }
+      }
+
+      .card-bottom {
+        height: 1rem;
+        border-radius: 0 0 25px 25px;
+        background-color: $ep-background-white;
+      }
+    }
+
+    // color.
+    .conomique {
+      .card-top {
+        background-color: $ep-theme-color-yellow;
+      }
+      .nature {
+        color: $ep-theme-color-yellow;
+      }
+    }
+
+    .gouvernance {
+      .card-top {
+        background-color: $ep-theme-color-orange;
+      }
+      .nature {
+        color: $ep-theme-color-orange;
+      }
+    }
+
+    .environnement {
+      .card-top {
+        background-color: $ep-theme-color-green;
+      }
+      .nature {
+        color: $ep-theme-color-green;
+      }
+    }
+
+    .territoire {
+      .card-top {
+        background-color: $ep-theme-color-blue;
+      }
+      .nature {
+        color: $ep-theme-color-blue;
+      }
+    }
+
+    .social {
+      .card-top {
+        background-color: $ep-theme-color-pink;
+      }
+      .nature {
+        color: $ep-theme-color-pink;
+      }
+    }
+  }
+}

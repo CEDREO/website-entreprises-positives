@@ -1,0 +1,33 @@
+<footer>
+    <div class="container-fluid">
+
+        <div class="logo-row">
+            {{ $rootUrl := "/" | relURL }}
+            <a class="navbar-brand m-0 d-none d-lg-block" href="{{ $rootUrl }}">
+                {{ $logoUrl := "/images/logo_footer_brand.svg" | relURL }}
+                <img alt="Logo" src="{{ $logoUrl }}">
+            </a>
+        </div>
+
+        <div class="menu-row">
+            <div class="left-menu">
+                {{- partial "footer/menu_footer.html" (dict "context" .Site.Menus.site "name" "site" "pagecontext" $.Page "target" "") -}}
+            </div>
+
+            <div class="search-action">
+                {{- partial "footer/search_footer.html" (dict "pagecontext" $.Page) -}}
+            </div>
+
+            <div class="social-menu">
+                <div class="social-menu-title">
+                    <h4>Suivez-nous...</h4>
+                </div>
+                <div class="social-menu-links">
+                    <a href="https://www.linkedin.com/company/entreprises-positives-org/" target="_blank"><i class='fab fa-linkedin pr-2'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-row"></div>
+    </div>
+</footer>

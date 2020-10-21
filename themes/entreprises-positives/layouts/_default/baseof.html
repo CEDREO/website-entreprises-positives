@@ -13,12 +13,12 @@
     </head>
     <body class="d-flex flex-column minh-100">
         <header>
-            {{- partial "header.html" . -}}
+            {{- partial "header/header.html" . -}}
         </header>
         <div id="content" class="flex-grow-1">
         {{- block "main" . }}{{- end }}
         </div>
-        {{- partial "footer.html" . -}}
+        {{- partial "footer/footer.html" . -}}
 
         {{- partial "javascript.html" . -}}
 
