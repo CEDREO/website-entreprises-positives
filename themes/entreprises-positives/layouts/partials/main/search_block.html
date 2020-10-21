@@ -160,7 +160,7 @@
     const search = instantsearch({
         indexName: 'actions',
         searchClient: searchClient,
-        routing: false
+        routing: {{ $.context.resultinline }}
     });
 
     search.addWidgets([
@@ -210,7 +210,7 @@
     search.start();
 
     // @formatter:off
-    {{with $.context.resultinline}}
+    {{with not $.context.resultinline}}
     function searchSubmit() {
         const {origin, pathname, hash} = location;
 
