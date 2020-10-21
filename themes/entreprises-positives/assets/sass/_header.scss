@@ -12,3 +12,31 @@
     }
   }
 }
+
+// Only on desktop
+@include media-breakpoint-up(lg) {
+  .header-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1020;
+  }
+}
+
+.table-of-content {
+  background-color: $ep-background-black;
+
+  .container {
+    padding: 1rem;
+  }
+
+  a {
+    padding-left: 1rem;
+    color: $ep-text-color-light;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

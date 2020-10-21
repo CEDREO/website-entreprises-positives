@@ -1,8 +1,21 @@
 {{define "canonical"}}
 <link rel="canonical" href="{{.Page.Permalink}}">
 {{ end }}
+
+{{define "sticky-additional"}}
+<div class="table-of-content">
+    <div class="container">
+        {{- range .Params.blocs -}}
+            {{- if eq .template "bloc-personalise" -}}
+            <a href=""
+               onclick="window.scrollTo(0, document.getElementById('{{anchorize .content.title}}').getBoundingClientRect().top + window.pageYOffset - document.getElementById('sticky-header').getBoundingClientRect().height); return false;">{{.content.title}}</a>
+            {{- end -}}
+        {{- end -}}
+    </div>
+</div>
+{{ end }}
+
 {{define "main"}}
-<div class="breadcrumb-placeholder"></div>
 <div class="container-fluid">
     <div class="container pl-0 pr-0">
         <table class="table text-center">

@@ -49,14 +49,10 @@
 
     // Get the header
     let header = document.getElementById("sticky-header");
-    let preSticky = document.getElementById("pre-sticky");
 
     // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
     function stickyHeader() {
-        if (preSticky)
-        {
-            let preHeaderHeight = preSticky.offsetHeight;
-            if (window.pageYOffset >= preHeaderHeight) {
+            if (window.pageYOffset >= 0) {
                 // Add our css class.
                 header.classList.add("header-top");
             } else if (header.classList.contains("header-top")) {
@@ -73,7 +69,6 @@
             else if (window.document.body.getAttribute("style")) {
                 window.document.body.removeAttribute("style");
             }
-        }
     }
 </script>
 
