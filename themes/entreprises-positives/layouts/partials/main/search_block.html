@@ -118,7 +118,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="nature">
-                                    <i class="nature-icon"></i>
+                                    <div class="nature-icon"></div>
                                     ${item.nature[0]}
                                 </div>
                                 <div class="card-title"><h2>${item.title}</h2></div>
@@ -127,17 +127,17 @@
                                 <div class="maturity">
                                     <p class="taxo-title">Maturité</p>
                                     <p class="taxo-value">${item.maturity}</p>
-                                    <p class="taxo-icon"><i class="${item.maturity.replace(/[^a-z0-9-]+/gi, '')}"></i></p>
+                                    <p class="taxo-icon"><div class="taxo-icon-icon ${item.maturity.replace(/[^a-z-]+/gi, '')}"></div></p>
                                 </div>
                                 <div class="financialinvest">
                                     <p class="taxo-title">Investissement €</p>
                                     <p class="taxo-value">${item.financialinvest}</p>
-                                    <p class="taxo-icon"><i class="${item.financialinvest.replace(/[^a-z0-9-]+/gi, '')}"></i></p>
+                                    <p class="taxo-icon"><div class="taxo-icon-icon ${item.financialinvest.replace(/[^a-z-]+/gi, '')}"></div></p>
                                 </div>
                                 <div class="humaninvest">
                                     <p class="taxo-title">Temps humain</p>
                                     <p class="taxo-value">${item.humaninvest}</p>
-                                    <p class="taxo-icon"><i class="${item.humaninvest.replace(/[^a-z0-9-]+/gi, '')}"></i></p>
+                                    <p class="taxo-icon"><div class="taxo-icon-icon ${item.humaninvest.replace(/[^a-z-]+/gi, '')}"></div></p>
                                 </div>
                             </div>
                         </div>

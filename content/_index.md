@@ -24,7 +24,7 @@ title = ""
 centered = true
 darken = false
 fixed = false
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 template = "image-de-fond"
 
 [[blocs]]
@@ -40,7 +40,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 shadowed = false
 size = "Small"
 template = "image"
@@ -64,7 +64,7 @@ titlelevel = "2"
 position = "Left"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 shadowed = false
 size = "Medium"
 template = "image"
@@ -115,7 +115,7 @@ content = "Fond image"
 centered = true
 darken = false
 fixed = false
-image = "/uploads/dummy.jpg"
+image = "/uploads/shane-rounce-DNkoNXQti3c-unsplash.jpg"
 template = "image-de-fond"
 
 +++

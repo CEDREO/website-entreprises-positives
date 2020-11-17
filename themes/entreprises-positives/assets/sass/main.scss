@@ -1,20 +1,20 @@
 /**************************
  * Color variable
  **************************/
-$ep-theme-color-green: #00ff00;
-$ep-theme-color-orange: #ffa500;
-$ep-theme-color-yellow: #fff000;
-$ep-theme-color-pink: #ff00ff;
-$ep-theme-color-blue: #0000ff;
+$ep-theme-color-green: rgb(88, 173, 77);
+$ep-theme-color-orange: rgb(237, 114, 51);
+$ep-theme-color-yellow: rgb(248, 196, 78);
+$ep-theme-color-pink: rgb(179, 82, 159);
+$ep-theme-color-blue: rgb(72, 162, 218);
 
-$ep-background-gray: #a0a0a0;
-$ep-background-black: #000000;
+$ep-background-gray: rgb(247, 247, 247);
+$ep-background-black: rgb(45, 54, 82);
 $ep-background-white: #ffffff;
 $ep-text-color-light: #ffffff;
 $ep-text-color-dark: #000000;
 $ep-text-color-gray: #a0a0a0;
-$ep-button-color-blue: #0000ff;
-$ep-button-color-orange: #ffa500;
+$ep-button-color-blue: $ep-theme-color-blue;
+$ep-button-color-orange: $ep-theme-color-orange;
 
 // bootstrap
 $enable-rounded : true;

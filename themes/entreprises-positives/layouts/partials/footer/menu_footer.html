@@ -7,7 +7,7 @@
             {{with $.target}}
                 target="{{.}}"
             {{else}}
-                {{if not (findRE "^https://cedreo.com" .URL)}}
+                {{if not (findRE "^https://entreprises-positives.org" .URL)}}
                     {{ if not (eq (substr .URL 0 1) "/")}}
                         target="_BLANK"
                     {{ end }}

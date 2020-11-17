@@ -24,7 +24,7 @@ title = "Rechercher des actions"
 centered = true
 darken = false
 fixed = false
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 template = "image-de-fond"
 [[blocs]]
 forestrylabel = "Partage idée"
@@ -46,7 +46,7 @@ content = "Fond image"
 centered = true
 darken = false
 fixed = false
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 template = "image-de-fond"
 
 +++

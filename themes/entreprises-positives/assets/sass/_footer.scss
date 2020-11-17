@@ -7,6 +7,10 @@ footer {
   .logo-row {
     margin: 0 $footer-margin 0 $footer-margin;
     color: $ep-text-color-light;
+
+    .footer-logo {
+      width: 150px;
+    }
   }
 
   .menu-row {
@@ -25,7 +29,10 @@ footer {
 
     .search-action {
       flex-grow: 1;
-      padding: 0.5rem 4rem 0 4rem;
+      padding: 0.5rem 0 0 0;
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
 
       .search-block {
         padding: 0;

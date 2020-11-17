@@ -26,9 +26,9 @@ titlelevel = "1"
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/pattern_blue.png"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
@@ -53,42 +53,42 @@ name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
-image = "/uploads/dummy.jpg"
+image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
 
 [[blocs]]
 forestrylabel = "Partage idée"
@@ -110,6 +110,6 @@ content = "Fond image"
 centered = true
 darken = false
 fixed = false
-image = "/uploads/dummy.jpg"
+image = "/uploads/shane-rounce-DNkoNXQti3c-unsplash.jpg"
 template = "image-de-fond"
 +++
