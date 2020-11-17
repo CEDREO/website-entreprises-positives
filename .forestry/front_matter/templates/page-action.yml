@@ -16,7 +16,7 @@ fields:
       type: simple
     options:
     - Social
-    - Sociétal
+    - Territoire
     - Environnemental
     - Économique
     - Gouvernance

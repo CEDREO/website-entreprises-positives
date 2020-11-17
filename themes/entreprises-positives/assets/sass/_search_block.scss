@@ -47,7 +47,7 @@
 
       .dropdown button {
         @extend .btn;
-        @include button-variant($ep-button-color-blue, $ep-button-color-blue);
+        @include button-variant($ep-button-color-dark-blue, $ep-button-color-dark-blue);
         color: $ep-text-color-light;
       }
     }
@@ -69,33 +69,33 @@
       text-decoration: none;
     }
 
-    .social {
+    .Social {
       .nature-icon {
-        background-image: url("images/icon_ep_01.png");
+        background-image: url("images/EP_Logos_Social__1x_.png");
       }
     }
 
     .conomique {
       .nature-icon {
-        background-image: url("images/icon_ep_02.png");
+        background-image: url("images/EP_Logos_Eco__1x_.png");
       }
     }
 
-    .gouvernance {
+    .Gouvernance {
       .nature-icon {
-        background-image: url("images/icon_ep_03.png");
+        background-image: url("images/EP_Logos_Gouv__1x_.png");
       }
     }
 
-    .territoire {
+    .Territoire {
       .nature-icon {
-        background-image: url("images/icon_ep_04.png");
+        background-image: url("images/EP_Logos_Territ__1x_.png");
       }
     }
 
-    .environnement {
+    .Environnement {
       .nature-icon {
-        background-image: url("images/icon_ep_05.png");
+        background-image: url("images/EP_Logos_Enviro__1x_.png");
       }
     }
 
@@ -119,14 +119,12 @@
           background-color: $ep-background-white;
           border-bottom: 1px $ep-text-color-gray solid;
 
-          .nature {
-            @extend .d-flex;
-            @extend .align-items-center;
-
-            .nature-icon {
-              width: 66px;
-              height: 87px;
-            }
+          .nature-icon {
+            width: 100%;
+            height: 57px;
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: center left;
           }
 
           .card-title {
@@ -169,40 +167,44 @@
           }
 
           .maturity {
-            .reactions {
-              background-image: url("images/icon_01.png");
+            .Premiresactions {
+              background-image: url("images/EP_Logos_Enviro_ProgresBar_1__1x.jpg");
             }
 
             .Progresser {
-              background-image: url("images/icon_01.png");
+              background-image: url("images/EP_Logos_Enviro_ProgresBar_2__1x.jpg");
+            }
+
+            .Allerplusloin {
+              background-image: url("images/EP_Logos_Enviro_ProgresBar_3__1x.jpg");
             }
           }
 
           .financialinvest {
             .Faible {
-              background-image: url("images/icon_02.png");
+              background-image: url("images/EP_Logos_Enviro_EURO_1__1x.jpg");
             }
 
             .Moyen {
-              background-image: url("images/icon_02.png");
+              background-image: url("images/EP_Logos_Enviro_EURO_2__1x.jpg");
             }
 
-            .leve {
-              background-image: url("images/icon_02.png");
+            .Important {
+              background-image: url("images/EP_Logos_Enviro_EURO_3__1x.jpg");
             }
           }
 
           .humaninvest {
             .Faible {
-              background-image: url("images/icon_03.png");
+              background-image: url("images/EP_Logos_Enviro_MAN_1__1x.jpg");
             }
 
             .Moyen {
-              background-image: url("images/icon_03.png");
+              background-image: url("images/EP_Logos_Enviro_MAN_2__1x.jpg");
             }
 
-            .leve {
-              background-image: url("images/icon_03.png");
+            .Important {
+              background-image: url("images/EP_Logos_Enviro_MAN_3__1x.jpg");
             }
           }
         }
