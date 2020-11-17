@@ -1,0 +1,74 @@
+.action-head-wrapper {
+  height: 40vh;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-end;
+  @extend .m-0;
+
+  // Can't color background image on the fly.
+  //background-repeat: repeat;
+  //background-size: contain;
+  //background-image: url("images/pattern_white.png");
+
+  &.Social {
+    background-color: $ep-theme-color-pink;
+  }
+
+  &.conomique {
+    background-color: $ep-theme-color-yellow;
+  }
+
+  &.Gouvernance {
+    background-color: $ep-theme-color-orange;
+  }
+
+  &.Territoire {
+    background-color: $ep-theme-color-blue;
+  }
+
+  .Environnement {
+    background-color: $ep-theme-color-green;
+  }
+
+  .action-head {
+    .action-head-title {
+      font-weight: bold;
+      color: $ep-text-color-light;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.action-head-table {
+  width: 100%;
+
+  td {
+    width: 33.33%;
+    text-align: left;
+
+    height: 57px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    &.Social {
+      background-image: url("images/EP_Logos_Social__1x_.png");
+    }
+
+    &.conomique {
+      background-image: url("images/EP_Logos_Eco__1x_.png");
+    }
+
+    &.Gouvernance {
+      background-image: url("images/EP_Logos_Gouv__1x_.png");
+    }
+
+    &.Territoire {
+      background-image: url("images/EP_Logos_Territ__1x_.png");
+    }
+
+    &.Environnement {
+      background-image: url("images/EP_Logos_Enviro__1x_.png");
+    }
+  }
+}
