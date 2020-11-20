@@ -103,13 +103,32 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = ""
+forestrylabel = "Méthode"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
 richtext = "![](/uploads/balance.JPG)Phase 1 : Il n’y a pas d’action sans mesure de résultat. Nous avons acheté une balance - sans électronique ([voir la référence](https://www.nisbets.fr/balance-de-cuisine-suspendue-en-inox-weighstation-25kg/f179)) - pour suivre nos résultats avec précision. Nous suivons notre consommation avec ce tableau (lien [GG Sheet](https://docs.google.com/spreadsheets/d/152QaUAOuIamrnD2YZrxEb-B6NIZanvp1tP9IltNhFT4) et Excel).\n\n![](/uploads/poubelle.JPG)Phase 2 : installation les différents bacs dans les locaux en pensant à un étiquetage approprié pour éviter les erreurs.\n\n![](/uploads/no_plastic.JPG)Phase 3 : Appliquer les 3R : recycler, réutiliser, réduire."
 title = "Méthode"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "En pratique"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Mettre en place des conteneurs dans les bureaux et assurer le suivi des poids respectifs.\n\nMettre en place un compost.\n\nDonner les piles à une association locale qui les recycle (retrouver le nom de l’asso).\n\nApporter les déchets électroniques en déchetterie pour un recyclage adapté.\n\nLimiter le plastique, même recyclable car en général mal ou partiellement recyclé ([voir un article sur le sujet](https://www.theguardian.com/environment/2019/aug/17/plastic-recycling-myth-what-really-happens-your-rubbish)) in fine et lui préférer le verre.\n\nAdieu les bouteilles de jus de fruit même recyclées, bonjour les bouteilles en verre venant de l’agriculture locale, chez nous c’est [la Fruit Box](https://www.lafruitbox.fr/pages/Accueil.php) (qui nous livre aussi les paniers de fruits).\n\nBannir les bouteilles d’eau en plastique et favoriser l’utilisation de verres, de gourdes ([GOBILAB](https://www.gobilab.com/) ou encore [SIGG](https://www.sigg.fr/)). Installer un filtre à eau sur le réseau d'eau.\n\nRendre systématiquement les couverts en plastique, même ceux en amidon de maïs ([en savoir plus sur les plastiques biosourcés](https://www.nationalgeographic.com/environment/2018/11/are-bioplastics-made-from-plants-better-for-environment-ocean-plastic/)) car nous avons ce qu’il faut.\n\nLimiter les goodies au maximum et sourcer des goodies issus des filières de recyclage."
+title = "En pratique"
 titlelevel = "2"
 [blocs.media]
 media = []
