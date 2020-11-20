@@ -93,7 +93,7 @@ position = "Left"
 alt = "Répartition production déchets par secteur"
 image = "/uploads/repartition_prod_dechets.JPG"
 shadowed = true
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
