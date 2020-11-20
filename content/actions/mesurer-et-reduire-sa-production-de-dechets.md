@@ -35,5 +35,24 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Objectifs"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Former et impliquer les employés de l'entreprise à la réduction des déchets et leur permettre d'appliquer ces actions au quotidien aussi chez eux.\n\nMettre en œuvre la stratégie des 3 R : recycler, réutiliser, réduire pour diminuer notre production de déchets et la valoriser au maximum."
+title = "Objectifs"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Gris Clair"
+template = "couleur-de-fond"
 
 +++
