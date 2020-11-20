@@ -88,7 +88,7 @@ richtext = "Quoiqu’on puisse en penser, le secteur tertiaire reste le 3e plus 
 title = ""
 titlelevel = "2"
 [blocs.media]
-position = "Left"
+position = "Right"
 [[blocs.media.media]]
 alt = "Répartition production déchets par secteur"
 image = "/uploads/repartition_prod_dechets.JPG"
