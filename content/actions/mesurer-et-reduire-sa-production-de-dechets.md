@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Cedreo"
 contentonly = false
-description = ""
+description = "Fiche pratique : mesurer et réduire sa production de déchets"
 draft = true
 financialinvest = "Faible"
 hreflangs = []
@@ -13,14 +13,14 @@ noindex = false
 schemajson = ""
 sector = "Tous secteur"
 seotexts = []
-slug = ""
+slug = "reduction-dechets"
 title = "Mesurer et réduire sa production de déchets"
 trackers = []
 [[blocs]]
-forestrylabel = ""
+forestrylabel = "Contexte de mise en oeuvre"
 template = "bloc-personalise"
 [blocs.content]
-align = ""
+align = "Left"
 cta = ""
 richtext = "Cedreo est un éditeur de logiciels d’architecture 3D en mode SaaS composé de 35 personnes basées à Nantes, Atlanta et Munich."
 title = "Contexte de mise en oeuvre"
