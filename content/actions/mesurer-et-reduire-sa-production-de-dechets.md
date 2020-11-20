@@ -64,7 +64,7 @@ richtext = "Plus de 25 tonnes de déchets sont produits en France, chaque second
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
-position = "Right"
+position = "Bottom"
 [[blocs.media.media]]
 alt = "Infographie Ademe"
 image = "/uploads/infographie_ademe.JPG"
