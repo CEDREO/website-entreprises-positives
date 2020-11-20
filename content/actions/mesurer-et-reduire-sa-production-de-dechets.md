@@ -102,5 +102,24 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "  \n![](https://lh4.googleusercontent.com/1mgbLwls-AopwJyL0aifJ1R-xi79g6ot5tQflgntnnLQ9inEIrCUGDTrVXP342JcWCnRkiCAFNWckI83jtjA2INNT-hdCheCi7jeTuPXhSMF_oq-eQGv4rf5IVdv47pUgt7wk6Gd =71x71)\n\nPhase 1 : Il n’y a pas d’action sans mesure de résultat. Nous avons acheté une balance - sans électronique ([voir la référence](https://www.nisbets.fr/balance-de-cuisine-suspendue-en-inox-weighstation-25kg/f179)) - pour suivre nos résultats avec précision. Nous suivons notre consommation avec ce tableau (lien [GG Sheet](https://docs.google.com/spreadsheets/d/152QaUAOuIamrnD2YZrxEb-B6NIZanvp1tP9IltNhFT4) et Excel).\n\n  \n  \n  \n![](https://lh3.googleusercontent.com/W5t5-eS3JiYo-8bcQ8CEAK2r5k0DnZR5NGK0BmchaHS3pkoQg_YMMjyTv7KfK-pq-q0RCMnNEuZv7YcQ0-vO6Apfb62VjPaHpdjtF6c2IdIaz3Baeyt7QMzvzdJP2BIKE8z8YLFj =62x62)\n\nPhase 2 : installation les différents bacs dans les locaux en pensant à un étiquetage approprié pour éviter les erreurs.\n\n  \n  \n  \n![](https://lh4.googleusercontent.com/DhPut0l4-QwiqyvQAo__4PHWJ4r0ad6iazhsv4NvpXS-eIOfgs-4w1V4iF0aMLGmu7zIk-lljJ3zEmf1bEdMy6QdwJ9C27d-eov_QCqG-pagEoyD_QFBkLaqFu9X8EWprlSUFGX0 =88.0681362725451x95.94962686567165)\n\nPhase 3 : Appliquer les 3R : recycler, réutiliser, réduire."
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 
 +++
