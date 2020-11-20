@@ -140,5 +140,124 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Résultat"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Ce simple effort nous a permis de diminuer le poids de nos déchets de 11% mais surtout de diminuer les poids d’ordures ménagères et de tri de 50 %.\n\nLe poids des déchets recyclables et organiques a lui augmenté et ces déchets sont désormais récupérés par les employés qui ont un composteur dans leur jardin. De nombreux composteurs publics sont désormais installés un peu partout, il y en a certainement un près de chez vous. [http://www.compostri.fr/carte/](http://www.compostri.fr/carte/ \"http://www.compostri.fr/carte/\")\n\nL’estimation de la consommation annuelle de bouteilles plastiques est passée de 10 000 à 2 000 en moins de 6 mois. Comme nous souhaitons garder le même confort pour l’équipe, nous consommons encore des bouteilles d’eau gazeuse."
+title = "Résultats"
+titlelevel = "2"
+[blocs.media]
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Courbe résultats"
+image = "/uploads/courbes_resultats.JPG"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Factuers clés de succès"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Sensibiliser l’ensemble des collaborateurs au tri.\n\nAfficher des fiches explicatives sur les modalités de tri pour votre ville pour éviter les questionnements et les erreurs.\n\nAvoir une personne dédiée pour les pesées et le suivi."
+title = "Facteurs clés de succès"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Contraintes et limites"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Maintenir la même qualité de confort quotidienne aux collaborateurs."
+title = "Contraintes et limites"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Pour aller plus loin"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Lien vers d’autres articles du site entreprises-positives.\n\nEx ici : stop plastique + le compost + double vie des déchets informatiques + point de collecte pour les consommables usagés."
+title = "Pour aller plus loin"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Outils et ressources"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Télécharger le modèle du tableau de pesée\n\nNotre sélection de fournisseurs français / US\n\nNotre sélection de fournisseurs locaux"
+title = "Outils et ressources"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Contact"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Gilles LE TEUFF - infographiste chez Cedreo\n\ngilles@cedreo.com"
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 
 +++
