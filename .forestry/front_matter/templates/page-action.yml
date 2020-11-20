@@ -101,3 +101,5 @@ fields:
   hidden: false
   label: Content only
   description: For debug purpose, please left it unset
+pages:
+- content/actions/mesurer-et-reduire-sa-production-de-dechets.md
