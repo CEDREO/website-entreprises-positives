@@ -247,7 +247,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = "Gilles LE TEUFF - infographiste chez Cedreo\n\ngilles@cedreo.com"
-title = ""
+title = "Contact"
 titlelevel = "2"
 [blocs.media]
 media = []
