@@ -102,5 +102,24 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Contexte part 3"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Quoiqu’on puisse en penser, le secteur tertiaire reste le 3e plus gros contributeur (hors secteur de la construction) et produit presque autant de déchets que l’ensemble des ménages. Nous avons donc notre rôle à jouer chez Cedreo, d’autant que derrière chaque membre de l’équipe se cache un membre d’un ménage.\n\nIl y a des actions évidentes et simples à mettre en place qui ne demandent qu’un peu d’effort, d’autres qui en demandent un peu plus mais contribuent beaucoup à réduire notre impact tout en maintenant notre niveau de confort au travail."
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 
 +++
