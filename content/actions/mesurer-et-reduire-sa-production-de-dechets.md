@@ -55,7 +55,7 @@ content = "Standard"
 color = "Gris Clair"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Contexte"
+forestrylabel = "Contexte part 1"
 template = "bloc-personalise"
 [blocs.content]
 align = "Left"
@@ -68,6 +68,30 @@ position = "Top"
 [[blocs.media.media]]
 alt = "Infographie Ademe"
 image = "/uploads/infographie_ademe.JPG"
+shadowed = true
+size = "Medium"
+template = "image"
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Contexte part2"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Plus de 25 tonnes de déchets sont produits en France, chaque seconde. Soit 800 millions de tonnes de déchets par an qu'il faut recycler, enfouir, retraiter …\n\nNous avons réussi à réduire la production de déchets des entreprises (hors secteur de la construction) de 8% en 10 ans alors que la production des ménages n’a reculé de que de 0,3%."
+title = ""
+titlelevel = "2"
+[blocs.media]
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Répartition production déchets par secteur"
+image = "/uploads/repartition_prod_dechets.JPG"
 shadowed = true
 size = "Medium"
 template = "image"
