@@ -20,3 +20,4 @@ fields:
   label: Couleur
   name: color
   description: Block background color
+  default: Blanc
