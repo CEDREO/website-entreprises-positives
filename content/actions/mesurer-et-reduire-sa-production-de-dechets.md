@@ -246,7 +246,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Gilles LE TEUFF - infographiste chez Cedreo\n\ngilles@cedreo.com"
+richtext = "Gilles LE TEUFF - infographiste chez Cedreo\n\ngilles arobase cedreo.com"
 title = "Contact"
 titlelevel = "2"
 [blocs.media]
