@@ -17,6 +17,25 @@ slug = "reduction-dechets"
 title = "Mesurer et réduire sa production de déchets"
 trackers = []
 [[blocs]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = ""
+title = "Contexte de mise en oeuvre"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Vert Cedreo"
+template = "couleur-de-fond"
+[[blocs]]
 forestrylabel = "Contexte de mise en oeuvre"
 template = "bloc-personalise"
 [blocs.content]
