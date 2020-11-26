@@ -79,7 +79,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "Plus de 25 tonnes de déchets sont produits en France, chaque seconde. Soit 800 millions de tonnes de déchets par an qu'il faut recycler, enfouir, retraiter …\n\nNous avons réussi à réduire la production de déchets des entreprises (hors secteur de la construction) de 8% en 10 ans alors que la production des ménages n’a reculé de que de 0,3%."
+richtext = "Plus de 25 tonnes de déchets sont produits en France, chaque seconde. Soit 800 millions de tonnes de déchets par an qu'il faut recycler, enfouir, retraiter …\n\nNous avons réussi à réduire la production de déchets des entreprises (hors secteur de la construction) de 8% en 10 ans alors que la production des ménages n’a reculé de que de 0,3%.\n\nQuoiqu’on puisse en penser, le secteur tertiaire reste le 3e plus gros contributeur (hors secteur de la construction) et produit presque autant de déchets que l’ensemble des ménages. Nous avons donc notre rôle à jouer chez Cedreo, d’autant que derrière chaque membre de l’équipe se cache un membre d’un ménage.\n\nIl y a des actions évidentes et simples à mettre en place qui ne demandent qu’un peu d’effort, d’autres qui en demandent un peu plus mais contribuent beaucoup à réduire notre impact tout en maintenant notre niveau de confort au travail."
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
@@ -87,30 +87,6 @@ position = "Right"
 [[blocs.media.media]]
 alt = "Infographie Ademe"
 image = "/uploads/infographie_ademe.JPG"
-shadowed = true
-size = "Medium"
-template = "image"
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
-forestrylabel = "Contexte part2"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = "Quoiqu’on puisse en penser, le secteur tertiaire reste le 3e plus gros contributeur (hors secteur de la construction) et produit presque autant de déchets que l’ensemble des ménages. Nous avons donc notre rôle à jouer chez Cedreo, d’autant que derrière chaque membre de l’équipe se cache un membre d’un ménage.\n\nIl y a des actions évidentes et simples à mettre en place qui ne demandent qu’un peu d’effort, d’autres qui en demandent un peu plus mais contribuent beaucoup à réduire notre impact tout en maintenant notre niveau de confort au travail."
-title = ""
-titlelevel = "2"
-[blocs.media]
-position = "Right"
-[[blocs.media.media]]
-alt = "Répartition production déchets par secteur"
-image = "/uploads/repartition_prod_dechets.JPG"
 shadowed = true
 size = "Medium"
 template = "image"
@@ -169,12 +145,12 @@ richtext = "Ce simple effort nous a permis de diminuer le poids de nos déchets 
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
-position = "Left"
+position = "Right"
 [[blocs.media.media]]
 alt = "Courbe résultats"
 image = "/uploads/courbes_resultats.JPG"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
