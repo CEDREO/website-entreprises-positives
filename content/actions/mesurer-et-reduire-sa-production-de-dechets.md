@@ -150,7 +150,7 @@ richtext = "Ce simple effort nous a permis de diminuer le poids de nos déchets 
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
-position = "Bottom"
+position = "Left"
 [[blocs.media.media]]
 alt = "Courbe résultats"
 image = "/uploads/courbes_resultats.JPG"
