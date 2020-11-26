@@ -155,7 +155,7 @@ position = "Left"
 alt = "Courbe résultats"
 image = "/uploads/courbes_resultats.JPG"
 shadowed = false
-size = "Large"
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = false
