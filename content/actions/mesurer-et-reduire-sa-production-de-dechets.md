@@ -108,7 +108,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "![](/uploads/balance.JPG)Phase 1 : Il n’y a pas d’action sans mesure de résultat. Nous avons acheté une balance - sans électronique ([voir la référence](https://www.nisbets.fr/balance-de-cuisine-suspendue-en-inox-weighstation-25kg/f179)) - pour suivre nos résultats avec précision. Nous suivons notre consommation avec ce tableau (lien [GG Sheet](https://docs.google.com/spreadsheets/d/152QaUAOuIamrnD2YZrxEb-B6NIZanvp1tP9IltNhFT4) et Excel).\n\n![](/uploads/poubelle.JPG)Phase 2 : installation les différents bacs dans les locaux en pensant à un étiquetage approprié pour éviter les erreurs.\n\n![](/uploads/no_plastic.JPG)Phase 3 : Appliquer les 3R : recycler, réutiliser, réduire."
+richtext = "Phase 1 : Il n’y a pas d’action sans mesure de résultat. Nous avons acheté une balance - sans électronique ([voir la référence](https://www.nisbets.fr/balance-de-cuisine-suspendue-en-inox-weighstation-25kg/f179)) - pour suivre nos résultats avec précision. Nous suivons notre consommation avec ce tableau (lien [GG Sheet](https://docs.google.com/spreadsheets/d/152QaUAOuIamrnD2YZrxEb-B6NIZanvp1tP9IltNhFT4) et Excel).\n\nPhase 2 : installation les différents bacs dans les locaux en pensant à un étiquetage approprié pour éviter les erreurs.\n\nPhase 3 : Appliquer les 3R : recycler, réutiliser, réduire."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
