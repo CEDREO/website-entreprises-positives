@@ -216,24 +216,5 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
-[[blocs]]
-forestrylabel = "Contact"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = ""
-title = "Contact"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
 
 +++
