@@ -165,7 +165,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Sensibiliser l’ensemble des collaborateurs au tri.\n\nAfficher des fiches explicatives sur les modalités de tri pour votre ville pour éviter les questionnements et les erreurs.\n\nAvoir une personne dédiée pour les pesées et le suivi."
+richtext = "1 - Sensibiliser l’ensemble des collaborateurs au tri.\n\n2 - Afficher des fiches explicatives sur les modalités de tri pour votre ville pour éviter les questionnements et les erreurs.\n\n3 - Avoir une personne dédiée pour les pesées et le suivi."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -198,31 +198,12 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Pour aller plus loin"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = "Lien vers d’autres articles du site entreprises-positives.\n\nEx ici : stop plastique + le compost + double vie des déchets informatiques + point de collecte pour les consommables usagés."
-title = "Pour aller plus loin"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
 forestrylabel = "Outils et ressources"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Télécharger le modèle du tableau de pesée\n\nNotre sélection de fournisseurs français / US\n\nNotre sélection de fournisseurs locaux"
+richtext = "Télécharger le modèle du tableau de pesée\n\nNotre sélection de fournisseurs français / US\n\nNotre sélection de fournisseurs locaux.\n\nContact : Gilles LE TEUFF - infographiste chez Cedreo - gilles arobase cedreo.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
@@ -241,7 +222,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Gilles LE TEUFF - infographiste chez Cedreo\n\ngilles arobase cedreo.com"
+richtext = ""
 title = "Contact"
 titlelevel = "2"
 [blocs.media]
