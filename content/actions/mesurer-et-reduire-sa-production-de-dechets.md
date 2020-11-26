@@ -17,13 +17,13 @@ slug = "reduction-dechets"
 title = "Mesurer et réduire sa production de déchets"
 trackers = []
 [[blocs]]
-forestrylabel = ""
+forestrylabel = "Titre entreprise témoin"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
 richtext = ""
-title = "Contexte de mise en oeuvre"
+title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
 media = []
