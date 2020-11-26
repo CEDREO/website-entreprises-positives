@@ -42,14 +42,14 @@ template = "bloc-personalise"
 align = "Left"
 cta = ""
 richtext = "Cedreo est un éditeur de logiciels d’architecture 3D en mode SaaS composé de 35 personnes basées à Nantes, Atlanta et Munich."
-title = "Contexte de mise en oeuvre"
+title = ""
 titlelevel = "2"
 [blocs.media]
 media = []
 position = ""
 [blocs.style]
 compactbottom = false
-compacttop = false
+compacttop = true
 content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
