@@ -69,7 +69,7 @@ position = "Right"
 alt = "Infographie Ademe"
 image = "/uploads/infographie_ademe.JPG"
 shadowed = true
-size = "Small"
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = false
