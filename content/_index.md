@@ -14,19 +14,17 @@ type = "home"
 [menu.main]
 name = "Accueil"
 weight = 1
-
 [[blocs]]
 forestrylabel = "Recherche"
-template = "bloc-search"
 resultinline = false
+template = "bloc-search"
 title = ""
 [[blocs.background]]
 centered = true
 darken = false
 fixed = false
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+image = "/uploads/green-world.jpg"
 template = "image-de-fond"
-
 [[blocs]]
 forestrylabel = "Qu’est ce que Entreprises Positives ?"
 template = "bloc-personalise"
@@ -94,14 +92,13 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
-
 [[blocs]]
 forestrylabel = "Partage idée"
 template = "bloc-personalise"
 [blocs.content]
 align = "Center"
-richtext = "<br/>"
 cta = "<a href=\"\" class=\"btn btn-orange\">Contactez-nous</a>"
+richtext = "<br/>"
 title = "Vous avez une bonne idée à partager ?"
 titlelevel = "2"
 [blocs.media]
