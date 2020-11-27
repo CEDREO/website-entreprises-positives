@@ -40,7 +40,7 @@ position = "Right"
 alt = ""
 image = "/uploads/hp_image_01.jpg"
 shadowed = false
-size = "Large"
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = false
