@@ -23,7 +23,7 @@ title = ""
 centered = true
 darken = false
 fixed = false
-image = "/uploads/1395289447945.jpg"
+image = "/uploads/top-banner-global-environmental-footprint.jpg"
 template = "image-de-fond"
 [[blocs]]
 forestrylabel = "Qu’est ce que Entreprises Positives ?"
