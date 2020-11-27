@@ -32,15 +32,15 @@ template = "bloc-personalise"
 align = "Left"
 cta = ""
 richtext = "Nous sommes un collectif de XX entreprises se regroupant pour partager les bonnes pratiques RSE / développement durable. Ces bonnes pratiques sont triées et cataloguées à l’aide de l’association Planet’RSE qui apporte son expertise sur le sujet pour juger de l’impact de ces actions.\n\nNous sommes convaincus que le développement d’une entreprise au XXIe siècle ne peut se faire qu’en prenant compte de ses impacts économiques, sociaux, sociétaux et environnementaux.\n\n<a href=\"\" class=\"btn btn-orange\">A propos de nous</a>\n\nLes entreprises positives sont plus performantes économiquement, sur la durée, elles sont plus résilientes, elles sont plus attirantes pour les candidats talentueux et donnent plus de sens au travail de toutes les parties prenantes.\n\nMettre en place une démarche structurée pour s’améliorer peut paraître un peu complexe de premier abord, les entrepreneurs et leurs équipes ont besoin de ressources pour les aider à progresser rapidement et simplement, c’est le but de ce site Internet."
-title = "Qu’est ce que Entreprises Positives ?"
+title = "Qu’est ce qu'Entreprises Positives ?"
 titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+image = "/uploads/hp_image_01.jpg"
 shadowed = false
-size = "Small"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
