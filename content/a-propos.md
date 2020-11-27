@@ -27,7 +27,7 @@ name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = "Logo Cedreo"
-image = "/uploads/logo-carre-cedreo-bkg-white-petit.png"
+image = "/uploads/logo-cedreo-white-2.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
