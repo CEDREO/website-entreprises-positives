@@ -23,7 +23,7 @@ title = ""
 centered = true
 darken = false
 fixed = false
-image = "/uploads/green-world.jpg"
+image = "/uploads/1395289447945.jpg"
 template = "image-de-fond"
 [[blocs]]
 forestrylabel = "Qu’est ce que Entreprises Positives ?"
