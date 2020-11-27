@@ -61,8 +61,8 @@ titlelevel = "2"
 [blocs.media]
 position = "Left"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+alt = "Pictos simplicité pragmatisme action mutualisation"
+image = "/uploads/hp_image_02.png"
 shadowed = false
 size = "Medium"
 template = "image"
