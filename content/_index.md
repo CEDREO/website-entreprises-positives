@@ -38,9 +38,9 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/hp_image_01.jpg"
+image = "/uploads/hp_image_01_v2.jpg"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
