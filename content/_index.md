@@ -23,7 +23,7 @@ title = ""
 centered = true
 darken = false
 fixed = false
-image = "/uploads/ben-white-gekmstkfz6w-unsplash.jpg"
+image = "/uploads/green-world.jpg"
 template = "image-de-fond"
 [[blocs]]
 forestrylabel = "Qu’est ce que Entreprises Positives ?"
