@@ -64,7 +64,7 @@ position = "Left"
 alt = "Pictos simplicité pragmatisme action mutualisation"
 image = "/uploads/hp_image_02.png"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
