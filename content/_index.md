@@ -23,7 +23,7 @@ title = ""
 centered = true
 darken = false
 fixed = false
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+image = "/uploads/ben-white-gekmstkfz6w-unsplash.jpg"
 template = "image-de-fond"
 [[blocs]]
 forestrylabel = "Qu’est ce que Entreprises Positives ?"
