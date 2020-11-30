@@ -63,6 +63,13 @@ url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
 image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+[[blocs.logos]]
+forestrylabel = "Cedreo png"
+name = "Cedreo "
+url = "https://cedreo.com/fr/"
+[blocs.logos.logo]
+alt = "Logo Cedreo bis"
+image = "/uploads/logo_cedreo.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
