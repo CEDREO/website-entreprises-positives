@@ -36,6 +36,13 @@ url = "https://cedreo.com"
 alt = "Logo Cedreo"
 image = "/uploads/logo_cedreo.jpg"
 [[blocs.logos]]
+forestrylabel = "Cedreo png"
+name = "Cedreo "
+url = "https://cedreo.com/fr/"
+[blocs.logos.logo]
+alt = "Logo Cedreo bis"
+image = "/uploads/logo_cedreo.png"
+[[blocs.logos]]
 forestrylabel = "Ba'Bees"
 name = "Ba'Bees"
 url = "https://www.babees.fr/"
@@ -63,13 +70,6 @@ url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = ""
 image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
-[[blocs.logos]]
-forestrylabel = "Cedreo png"
-name = "Cedreo "
-url = "https://cedreo.com/fr/"
-[blocs.logos.logo]
-alt = "Logo Cedreo bis"
-image = "/uploads/logo_cedreo.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
