@@ -27,14 +27,14 @@ name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
 alt = "Logo Cedreo"
-image = "/uploads/logo-cedreo-white-2.jpg"
+image = "/uploads/logo_cedreo.jpg"
 [[blocs.logos]]
-forestrylabel = "Cedreo"
-name = "Cedreo"
-url = "https://cedreo.com"
+forestrylabel = "Planet rse"
+name = "Planet'RSE"
+url = "https://www.planetrse.fr/"
 [blocs.logos.logo]
-alt = ""
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+alt = "logo planet'rse"
+image = "/uploads/logo_planet_rse.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
