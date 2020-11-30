@@ -38,7 +38,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = "Picto entreprises contenu impact"
-image = "/uploads/hp_image_01.png"
+image = ""
 shadowed = false
 size = "Large"
 template = "image"
