@@ -22,13 +22,6 @@ titlelevel = "2"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
-forestrylabel = "Cedreo"
-name = "Cedreo"
-url = "https://cedreo.com"
-[blocs.logos.logo]
-alt = "Logo Cedreo"
-image = "/uploads/logo_cedreo.jpg"
-[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
@@ -40,8 +33,15 @@ forestrylabel = "Cedreo"
 name = "Cedreo"
 url = "https://cedreo.com"
 [blocs.logos.logo]
-alt = ""
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+alt = "Logo Cedreo"
+image = "/uploads/logo_cedreo.jpg"
+[[blocs.logos]]
+forestrylabel = "Ba'Bees"
+name = "Ba'Bees"
+url = "https://www.babees.fr/"
+[blocs.logos.logo]
+alt = "logo Ba'Bees"
+image = "/uploads/logo_babees.png"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
