@@ -72,28 +72,48 @@
 {{end}}
 <!--@formatter:on-->
 
+<!-- title is now above anytime -->
+{{with $.context.content.title}}
+{{$cssclasses := "w-100"}}
+{{$titlecontext := dict "text" . "level" $.context.content.titlelevel}}
+{{$title = partial "utils/block_title.html" (dict "context" $titlecontext "pagecontext" $.pagecontext "cssclasses" $cssclasses)}}
+{{end}}
+
 {{if not $mediafirst}}
 {{$flex = printf "%s %s" $flex "media-last"}}
 {{end}}
 
-<div class="d-flex container-fluid p-0 {{$blockstyle.cssclasses}}"
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}}"
      style="{{$blockstyle.inlinestyle}}">
-    <div class="{{$flex}} container p-0">
-        {{with $mediafirst}}
-        {{with $divmedia}}
-        {{.}}
+
+    <div class="block-margin-wrapper">
+
+        {{with $title}}
+        <div class="block-title-wrapper w-100">
+            <div class="container p-0 w-100">
+                <div class='w-100 rich-content'>{{$title | safeHTML}}</div>
+            </div>
+        </div>
         {{end}}
-        {{with $divcontent}}
-        {{.}}
-        {{end}}
-        {{else}}
-        {{with $divcontent}}
-        {{.}}
-        {{end}}
-        {{with $divmedia}}
-        {{.}}
-        {{end}}
-        {{end}}
+        <div class="d-flex w-100">
+            <div class="{{$flex}} container p-0">
+                {{with $mediafirst}}
+                {{with $divmedia}}
+                {{.}}
+                {{end}}
+                {{with $divcontent}}
+                {{.}}
+                {{end}}
+                {{else}}
+                {{with $divcontent}}
+                {{.}}
+                {{end}}
+                {{with $divmedia}}
+                {{.}}
+                {{end}}
+                {{end}}
+            </div>
+        </div>
     </div>
 </div>
 {{end}}

@@ -150,4 +150,32 @@ $header-size: 369px;
 }
 
 .action-block {
+  &.Social .block-title-wrapper {
+    background-color: rgba(179, 82, 159, 0.31);
+  }
+
+  &.conomique .block-title-wrapper {
+    background-color: rgba(248, 196, 78, 0.31);
+  }
+
+  &.Gouvernance .block-title-wrapper {
+    background-color: rgba(237, 114, 51, 0.31);
+  }
+
+  &.Territoire .block-title-wrapper {
+    background-color: rgba(72, 162, 218, 0.31);
+  }
+
+  &.Environnemental .block-title-wrapper {
+    background-color: rgba(88, 173, 77, 0.31);
+  }
+
+  .block-title-wrapper {
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    h2 {
+      font-weight: bold;
+    }
+  }
 }

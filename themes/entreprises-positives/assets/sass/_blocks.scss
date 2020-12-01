@@ -11,7 +11,7 @@
 }
 
 .block {
-  > .container {
+  > .block-margin-wrapper {
     @extend .p-block;
 
     @include media-breakpoint-down(xs) {
@@ -22,13 +22,13 @@
 }
 
 .block.block-compact-top {
-  > .container {
+  > .block-margin-wrapper {
     padding-top: 0 !important;
   }
 }
 
 .block.block-compact-bottom {
-  > .container {
+  > .block-margin-wrapper {
     padding-bottom: 0 !important;
   }
 }

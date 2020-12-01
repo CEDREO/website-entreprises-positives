@@ -1,7 +1,5 @@
 {{ with .context }}
 
-{{$titleonly := true}}
-{{$title := ""}}
 {{$text := ""}}
 {{$cta := ""}}
 {{$content := ""}}
@@ -12,20 +10,10 @@
 {{$textcss = (index (where $.pagecontext.Site.Data.style.textaligns "name" "eq" .) 0).css }}
 {{end}}
 {{with .richtext}}
-{{$titleonly = false}}
 {{$text = partial "shortcode/decode_shortcode_markdownify.html" (dict "content" . "pagecontext" $.pagecontext "cssclasses" "w-100")}}
 {{end}}
 {{with .cta}}
-{{$titleonly = false}}
 {{$cta = partial "utils/cta.html" (dict "context" $.pagecontext "cta" (. | safeHTML))}}
-{{end}}
-{{with .title}}
-{{$cssclasses := "w-100"}}
-{{with $titleonly}}
-{{$cssclasses = printf "%s my-0" $cssclasses}}
-{{end}}
-{{$titlecontext := dict "text" . "level" $.context.titlelevel}}
-{{$title = partial "utils/block_title.html" (dict "context" $titlecontext "pagecontext" $.pagecontext "cssclasses" $cssclasses)}}
 {{end}}
 
 {{$divtitle := ""}}
@@ -34,10 +22,6 @@
 {{$divcontent := ""}}
 
 <!--@formatter:off-->
-{{with $title}}
-{{$divtitle = (printf "<div class='w-100 rich-content'>%s</div>" $title) | safeHTML}}
-{{$content = printf "%s%s" $content $divtitle}}
-{{end}}
 
 {{with $text}}
 {{$divtext = (printf "%s"  $text) | safeHTML}}

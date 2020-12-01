@@ -48,7 +48,7 @@
         </div>
     </div>
 </div>
-<div class="action-block">
+<div class="action-block {{replaceRE "[^a-zA-Z-]+" "" (index $.Params.nature 0)}}">
     {{- partial "content.html" . -}}
 </div>
 {{end}}
