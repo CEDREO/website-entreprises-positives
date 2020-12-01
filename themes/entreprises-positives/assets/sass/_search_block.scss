@@ -59,11 +59,6 @@
 
   .search-result-block {
     padding: 3rem 0 3rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-between;
 
     a:hover {
       text-decoration: none;
@@ -99,121 +94,145 @@
       }
     }
 
-    .card-wrapper {
-      width: 49%;
+    #hits {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: space-between;
 
-      .card-top {
-        height: 1rem;
-        border-radius: 25px 25px 0 0;
-      }
+      .card-wrapper {
+        width: 49%;
 
-      .card {
-        border: 0;
-        border-left: 1px $ep-background-white solid;
-        border-right: 1px $ep-background-white solid;
-        background-color: $ep-background-white;
-
-        .card-header {
-          margin: 25px 25px 15px 25px;
-          padding: 0;
-          background-color: $ep-background-white;
-          border-bottom: 1px $ep-text-color-gray solid;
-
-          .nature-icon {
-            width: 100%;
-            height: 57px;
-            background-size: auto;
-            background-repeat: no-repeat;
-            background-position: center left;
-          }
-
-          .card-title {
-            padding-bottom: 15px;
-
-            h2 {
-              color: $ep-text-color-dark;
-            }
-          }
-        }
-
-        .card-taxo {
-          padding: 0 25px 0 25px;
+        &> a {
           display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          color: $ep-text-color-dark;
+          flex-direction: column;
+          height: 100%;
+        }
 
-          .maturity, .financialinvest, .humaninvest {
-            width: 33%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .card-top {
+          height: 1rem;
+          border-radius: 25px 25px 0 0;
+        }
 
-            .taxo-title {
-              margin-bottom: 0;
-            }
+        .card {
+          border: 0;
+          border-left: 1px $ep-background-white solid;
+          border-right: 1px $ep-background-white solid;
+          background-color: $ep-background-white;
 
-            .taxo-value {
-              font-size: $ep-font-size/1.2;
-            }
+          // So the card extend to the additional height the next card may provide
+          flex-grow: 2;
 
-            .taxo-icon-icon {
-              width: 110px;
-              height: 62px;
-              background-size: contain;
+          .card-header {
+            margin: 25px 25px 15px 25px;
+            padding: 0;
+            background-color: $ep-background-white;
+            border-bottom: 1px $ep-text-color-gray solid;
+
+            // Extra height is given to card header.
+            flex-grow: 2;
+
+            .nature-icon {
+              width: 100%;
+              height: 57px;
+              background-size: auto;
               background-repeat: no-repeat;
-              background-position: bottom center;
+              background-position: center left;
+            }
+
+            .card-title {
+              padding-top: 20px;
+              padding-bottom: 15px;
+
+              h2 {
+                color: $ep-text-color-dark;
+                font-size: $xd-ratio*45px;
+                font-weight: bold;
+              }
             }
           }
 
-          .maturity {
-            .Premiresactions {
-              background-image: url("images/EP_Logos_Enviro_ProgresBar_1__1x.jpg");
+          .card-taxo {
+            padding: 0 25px 0 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: $ep-text-color-dark;
+
+            .maturity, .financialinvest, .humaninvest {
+              width: 33%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              .taxo-title {
+                margin-bottom: 0;
+                font-size: $xd-ratio*25px;
+              }
+
+              .taxo-value {
+                font-size: $xd-ratio*21px;
+              }
+
+              .taxo-icon-icon {
+                width: 115px;
+                height: 47px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: bottom center;
+              }
             }
 
-            .Progresser {
-              background-image: url("images/EP_Logos_Enviro_ProgresBar_2__1x.jpg");
+            .maturity {
+              .Premiresactions {
+                background-image: url("images/EP_Logos_Enviro_ProgresBar_1__1x.jpg");
+              }
+
+              .Progresser {
+                background-image: url("images/EP_Logos_Enviro_ProgresBar_2__1x.jpg");
+              }
+
+              .Allerplusloin {
+                background-image: url("images/EP_Logos_Enviro_ProgresBar_3__1x.jpg");
+              }
             }
 
-            .Allerplusloin {
-              background-image: url("images/EP_Logos_Enviro_ProgresBar_3__1x.jpg");
-            }
-          }
+            .financialinvest {
+              .Faible {
+                background-image: url("images/EP_Logos_Enviro_EURO_1__1x.jpg");
+              }
 
-          .financialinvest {
-            .Faible {
-              background-image: url("images/EP_Logos_Enviro_EURO_1__1x.jpg");
-            }
+              .Moyen {
+                background-image: url("images/EP_Logos_Enviro_EURO_2__1x.jpg");
+              }
 
-            .Moyen {
-              background-image: url("images/EP_Logos_Enviro_EURO_2__1x.jpg");
-            }
-
-            .Important {
-              background-image: url("images/EP_Logos_Enviro_EURO_3__1x.jpg");
-            }
-          }
-
-          .humaninvest {
-            .Faible {
-              background-image: url("images/EP_Logos_Enviro_MAN_1__1x.jpg");
+              .Important {
+                background-image: url("images/EP_Logos_Enviro_EURO_3__1x.jpg");
+              }
             }
 
-            .Moyen {
-              background-image: url("images/EP_Logos_Enviro_MAN_2__1x.jpg");
-            }
+            .humaninvest {
+              .Faible {
+                background-image: url("images/EP_Logos_Enviro_MAN_1__1x.jpg");
+              }
 
-            .Important {
-              background-image: url("images/EP_Logos_Enviro_MAN_3__1x.jpg");
+              .Moyen {
+                background-image: url("images/EP_Logos_Enviro_MAN_2__1x.jpg");
+              }
+
+              .Important {
+                background-image: url("images/EP_Logos_Enviro_MAN_3__1x.jpg");
+              }
             }
           }
         }
-      }
 
-      .card-bottom {
-        height: 1rem;
-        border-radius: 0 0 25px 25px;
-        background-color: $ep-background-white;
+        .card-bottom {
+          height: 1rem;
+          border-radius: 0 0 25px 25px;
+          background-color: $ep-background-white;
+        }
       }
     }
 

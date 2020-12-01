@@ -74,6 +74,9 @@
 
 <!-- title is now above anytime -->
 {{with $.context.content.title}}
+{{with $.context.content.align}}
+{{$textcss = (index (where $.pagecontext.Site.Data.style.textaligns "name" "eq" .) 0).css }}
+{{end}}
 {{$cssclasses := "w-100"}}
 {{$titlecontext := dict "text" . "level" $.context.content.titlelevel}}
 {{$title = partial "utils/block_title.html" (dict "context" $titlecontext "pagecontext" $.pagecontext "cssclasses" $cssclasses)}}
@@ -90,7 +93,7 @@
 
         {{with $title}}
         <div class="block-title-wrapper w-100">
-            <div class="container p-0 w-100">
+            <div class="container p-0 w-100 {{$textcss}}">
                 <div class='w-100 rich-content'>{{$title | safeHTML}}</div>
             </div>
         </div>
