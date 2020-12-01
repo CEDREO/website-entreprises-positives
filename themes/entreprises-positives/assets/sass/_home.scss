@@ -1,0 +1,38 @@
+
+.home-first-block {
+  .first-title {
+    font-size: $xd-ratio*40px;
+    font-weight: bold;
+
+    span {
+      font-size: $xd-ratio*40px;
+      font-weight: bold;
+    }
+  }
+
+  .second-title {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: $xd-ratio*36px;
+    font-weight: bold;
+
+    span.second-title-fat-number {
+      font-size: $xd-ratio*76px;
+      font-weight: bold;
+    }
+
+    span {
+      font-size: $xd-ratio*36px;
+      font-weight: bold;
+    }
+  }
+
+  .third-title {
+    font-size: $xd-ratio*35px;
+    padding-bottom: 20px;
+
+    span {
+      font-size: $xd-ratio*35px;
+    }
+  }
+}

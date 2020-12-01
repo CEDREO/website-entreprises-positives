@@ -12,7 +12,7 @@ $ep-background-black: rgb(45, 54, 82);
 $ep-background-white: #ffffff;
 $ep-text-color-light: #ffffff;
 $ep-text-color-dark: #000000;
-$ep-text-color-gray: #a0a0a0;
+$ep-text-color-gray: #f7f7f7;
 $ep-button-color-blue: $ep-theme-color-blue;
 $ep-button-color-dark-blue: rgb(45, 54, 82);
 $ep-button-color-orange: $ep-theme-color-orange;
@@ -53,6 +53,7 @@ $xd-ratio: 0.7;
 @import "footer";
 
 // Blocks style.
+@import "home";
 @import "search_block";
 @import "logos_block";
 @import "action";
