@@ -1,55 +1,57 @@
+$header-size: 369px;
+
 .action-head-wrapper {
-  height: 40vh;
-  @extend .d-flex;
-  @extend .flex-column;
-  @extend .justify-content-end;
+  height: $header-size;
   @extend .m-0;
 
-  // Can't color background image on the fly.
-  //background-repeat: repeat;
-  //background-size: contain;
-  //background-image: url("images/pattern_white.png");
-
   &.Social {
-    background-color: $ep-theme-color-pink;
+    background-image: url("images/EP.ORG_Header_Contributions_Violet-06.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
   }
 
   &.conomique {
-    background-color: $ep-theme-color-yellow;
+    background-image: url("images/EP.ORG_Header_Contributions_Jaune-06.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
   }
 
   &.Gouvernance {
-    background-color: $ep-theme-color-orange;
+    background-image: url("images/EP.ORG_Header_Contributions_Orange-06.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
   }
 
   &.Territoire {
-    background-color: $ep-theme-color-blue;
+    background-image: url("images/EP.ORG_Header_Contributions_Bleu-06.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
   }
 
-  .Environnement {
-    background-color: $ep-theme-color-green;
+  &.Environnemental {
+    background-image: url("images/EP.ORG_Header_Contributions_Vert-06.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
   }
 
   .action-head {
     .action-head-title {
+      font-size: $xd-ratio*76px;
       font-weight: bold;
       color: $ep-text-color-light;
-      margin-bottom: 2rem;
+      padding-top: 40px;
     }
   }
 }
 
-.action-head-table {
-  width: 100%;
+.action-head-block {
+  display: flex;
+  //flex: 0 0 auto;
+  flex-direction: row;
 
-  td {
-    width: 33.33%;
-    text-align: left;
-
+  .logo-nature {
     height: 57px;
-    background-size: auto;
     background-repeat: no-repeat;
-    background-position: center left;
 
     &.Social {
       background-image: url("images/EP_Logos_Social__1x_.png");
@@ -67,8 +69,85 @@
       background-image: url("images/EP_Logos_Territ__1x_.png");
     }
 
-    &.Environnement {
-      background-image: url("images/EP_Logos_Enviro__1x_.png");
+    &.Environnemental {
+      background-image: url("images/EP_Logos_Enviro__1x.png");
     }
   }
+
+  p {
+    font-size: $xd-ratio*25px;
+  }
+
+  .first {
+    width: 33.3%;
+  }
+
+  .maturity, .financialinvest, .humaninvest {
+    width: 22.2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .taxo-title {
+      margin-bottom: 0;
+      font-size: $xd-ratio*25px;
+    }
+
+    .taxo-value {
+      font-size: $xd-ratio*21px;
+    }
+
+    .taxo-icon-icon {
+      width: 115px;
+      height: 47px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+    }
+  }
+
+  .maturity {
+    .Premiresactions {
+      background-image: url("images/EP_Logos_Enviro_ProgresBar_1__1x.jpg");
+    }
+
+    .Progresser {
+      background-image: url("images/EP_Logos_Enviro_ProgresBar_2__1x.jpg");
+    }
+
+    .Allerplusloin {
+      background-image: url("images/EP_Logos_Enviro_ProgresBar_3__1x.jpg");
+    }
+  }
+
+  .financialinvest {
+    .Faible {
+      background-image: url("images/EP_Logos_Enviro_EURO_1__1x.jpg");
+    }
+
+    .Moyen {
+      background-image: url("images/EP_Logos_Enviro_EURO_2__1x.jpg");
+    }
+
+    .Important {
+      background-image: url("images/EP_Logos_Enviro_EURO_3__1x.jpg");
+    }
+  }
+
+  .humaninvest {
+    .Faible {
+      background-image: url("images/EP_Logos_Enviro_MAN_1__1x.jpg");
+    }
+
+    .Moyen {
+      background-image: url("images/EP_Logos_Enviro_MAN_2__1x.jpg");
+    }
+
+    .Important {
+      background-image: url("images/EP_Logos_Enviro_MAN_3__1x.jpg");
+    }
+  }
+}
+
+.action-block {
 }

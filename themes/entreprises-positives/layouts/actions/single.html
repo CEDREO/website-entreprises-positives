@@ -17,28 +17,40 @@
 
 {{define "main"}}
 <div class="action-head-wrapper {{replaceRE "[^a-zA-Z-]+" "" (index $.Params.nature 0)}} container-fluid">
-    <div class="action-head container pl-0 pr-0">
+    <div class="action-head container">
         <h1 class="action-head-title">{{$.Title}}</h1>
     </div>
 </div>
 
 <div class="container-fluid mt-4">
     <div class="container pl-0 pr-0">
-        <table class="action-head-table text-center">
-            <tr>
-                <td class="{{replaceRE "[^a-zA-Z-]+" "" (index $.Params.nature 0)}}"></td>
-                <td>Maturité : {{ $.Page.Params.maturity }}</td>
-                <td>Secteur d'activité applicables : {{ $.Page.Params.sector }}</td>
-            </tr>
-            <tr>
-                <td>Investissement financier : {{ $.Page.Params.financialinvest }}</td>
-                <td>Investissement humain : {{ $.Page.Params.humaninvest }}</td>
-                <td>Entreprise témoin : {{ $.Page.Params.company }}</td>
-            </tr>
-        </table>
+        <div class="action-head-block">
+            <div class="first">
+                <p class="logo-nature {{replaceRE "[^a-zA-Z-]+" "" (index $.Params.nature 0)}}"></p>
+                <p><span class="font-weight-bold">Secteur d'activité applicables :</span> {{ $.Page.Params.sector }}</p>
+                <p><span class="font-weight-bold">Entreprise témoin :</span> {{ $.Page.Params.company }}</p>
+            </div>
+            <div class="maturity">
+                <p class="taxo-title">Maturité</p>
+                <p class="taxo-value">{{$.Page.Params.maturity}}</p>
+                <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.maturity}}"></div></p>
+            </div>
+            <div class="financialinvest">
+                <p class="taxo-title">Investissement €</p>
+                <p class="taxo-value">{{$.Page.Params.financialinvest}}</p>
+                <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.financialinvest}}"></div></p>
+            </div>
+            <div class="humaninvest">
+                <p class="taxo-title">Temps humain</p>
+                <p class="taxo-value">{{$.Page.Params.humaninvest}}</p>
+                <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.humaninvest}}"></div></p>
+            </div>
+        </div>
     </div>
 </div>
-{{- partial "content.html" . -}}
+<div class="action-block">
+    {{- partial "content.html" . -}}
+</div>
 {{end}}
 {{define "schema"}}
 {{- with $.Page.Params.schemajson -}}

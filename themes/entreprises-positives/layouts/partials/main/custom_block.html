@@ -25,7 +25,7 @@
                 {{$mediafirst = eq $position "left"}}
             {{else if or (eq $position "top") (eq $position "bottom")}}
                 {{$flex = "nested-block flex-column"}}
-                {{$size = "nested-block-1 block"}}
+                {{$size = "nested-block-1 block text-center"}}
                 {{$mediafirst = eq $position "top"}}
                 {{ if eq $position "top" }}
                     {{$mediamargin = "mb-4"}}

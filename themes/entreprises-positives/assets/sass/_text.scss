@@ -63,3 +63,28 @@
 .text-theme-pink {
   color: $ep-theme-color-pink;
 }
+
+// Default size
+h2 {
+  font-size: $xd-ratio*45px;
+}
+
+div, p, span {
+  font-size: $xd-ratio*23px;
+}
+
+// 23 menu (medium)
+// acceuil h1 40
+// chiffe 76
+// a cote 30
+// 3eme truc 35
+// h1 block 50
+// 30 corps
+// 22 bouton
+
+// Card action 45
+// 25 titre des icones
+// bandeau titre -> couleur mais en 0.31 d'alpha
+// titre des pages en haut et / 2 de la hauteur image de fond plutôt que de couleur
+// -> EP > WEBSITE > RECHER GRAPHIQUE > Contribution > Header
+//
