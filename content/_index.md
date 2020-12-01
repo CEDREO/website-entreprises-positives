@@ -55,7 +55,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "## Que trouverez vous ici ?\n\nVous trouverez ici les actions classées en fonction de leur niveau de difficulté, d’investissement financier et humain et de domaines d’impact.\n\nCes actions sont présentées comme une recette de cuisine, détaillant via un témoignage :\n\n* Le contexte de mise en oeuvre (quelle entreprise ?)\n* Les objectifs\n* La méthode\n* La mise en pratique\n* Les résultats obtenus\n* Les facteurs clés de succès\n* Les contraintes et limites\n* Les outils et ressources disponibles sur le sujet (documents, sites etc.)\n* Des contacts pour aider à la mise en oeuvre si besoin"
+richtext = "Vous trouverez ici les actions classées en fonction de leur niveau de difficulté, d’investissement financier et humain et de domaines d’impact.\n\nCes actions sont présentées comme une recette de cuisine, détaillant via un témoignage :\n\n* Le contexte de mise en oeuvre (quelle entreprise ?)\n* Les objectifs\n* La méthode\n* La mise en pratique\n* Les résultats obtenus\n* Les facteurs clés de succès\n* Les contraintes et limites\n* Les outils et ressources disponibles sur le sujet (documents, sites etc.)\n* Des contacts pour aider à la mise en oeuvre si besoin"
 title = "Que trouverez vous ici ?"
 titlelevel = "2"
 [blocs.media]
