@@ -23,7 +23,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -45,7 +45,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -64,7 +64,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Contexte"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -83,7 +83,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Méthode"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -102,7 +102,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "En pratique"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -121,7 +121,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Résultats"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -140,7 +140,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -159,7 +159,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -178,7 +178,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = ""
-title = ""
+title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
 media = []
