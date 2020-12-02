@@ -1,14 +1,14 @@
 +++
+company = "Cedreo"
 contentonly = false
 date = "2019-01-11T13:26:52+01:00"
 description = "Mesurer et faire progresser l’engagement des employés pour faire progresser la satisfaction des clients."
 financialinvest = "Faible"
 humaninvest = "Moyen"
 maturity = "Progresser"
-nature = ["Économique", "Social"]
-company = "Cedreo"
-sector = "Tous secteurs"
+nature = ["Social", "Économique"]
 noindex = false
+sector = "Tous secteurs"
 slug = "enps"
 title = "Mesurer et faire progresser l’engagement des employés pour faire progresser la satisfaction des clients"
 trackers = []
