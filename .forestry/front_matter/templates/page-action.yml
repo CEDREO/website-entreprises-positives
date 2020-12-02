@@ -103,3 +103,4 @@ fields:
   description: For debug purpose, please left it unset
 pages:
 - content/actions/mesurer-et-reduire-sa-production-de-dechets.md
+- content/actions/template-a-dupliquer.md
