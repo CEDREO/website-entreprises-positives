@@ -92,6 +92,13 @@ url = "https://www.toolin.fr/"
 alt = "Logo Toolin"
 image = "/uploads/logo_toolin.jpg"
 [[blocs.logos]]
+forestrylabel = "Thierry Immobilier"
+name = "Thierry Immobilier"
+url = "https://www.thierry-immobilier.fr/"
+[blocs.logos.logo]
+alt = "Logo Thierry Immobilier"
+image = "/uploads/logo_thierryimmo.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
