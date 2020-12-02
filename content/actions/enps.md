@@ -79,6 +79,8 @@ template = "couleur-de-fond"
 forestrylabel = "V2 résultats"
 template = "bloc-personalise"
 [blocs.content]
+align = "Center"
+richtext = "_Le ENPS_ _est passé de 40 à 85 (échelle de - 100 à 100) en deux ans_"
 titlelevel = "2"
 [blocs.media]
 position = "Top"
