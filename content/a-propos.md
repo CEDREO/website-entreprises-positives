@@ -154,13 +154,6 @@ url = "https://nantes.delia.tech/"
 [blocs.logos.logo]
 alt = "Logo Delia"
 image = "/uploads/logo_delia.jpg"
-[[blocs.logos]]
-forestrylabel = "Goubault"
-name = "Goubault Imprimeur"
-url = "https://www.goubault.com/"
-[blocs.logos.logo]
-alt = "Logo Goubault"
-image = "/uploads/logo_goubault.jpg"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
