@@ -50,12 +50,12 @@ url = "Abokine"
 alt = "logo Abokine"
 image = "/uploads/logo_abokine.jpg"
 [[blocs.logos]]
-forestrylabel = "Cedreo"
-name = "Cedreo"
-url = "https://cedreo.com"
+forestrylabel = "Aepsilon"
+name = "Aepsilon"
+url = "https://aepsilon.com/"
 [blocs.logos.logo]
-alt = ""
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+alt = "Logo Aepsilon"
+image = "/uploads/logos_aepsilon.jpg"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
