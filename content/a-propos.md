@@ -57,6 +57,13 @@ url = "https://www.agencebside.fr/"
 alt = "Logo B Side"
 image = "/uploads/logo_bside.jpg"
 [[blocs.logos]]
+forestrylabel = "Appstud"
+name = "Appstud"
+url = "https://www.appstud.com/"
+[blocs.logos.logo]
+alt = "Logo Appstud"
+image = "/uploads/logo_appstud.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
