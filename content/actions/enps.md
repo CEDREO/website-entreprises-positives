@@ -76,6 +76,23 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
+forestrylabel = "V2 résultats"
+template = "bloc-personalise"
+[blocs.content]
+titlelevel = "2"
+[blocs.media]
+position = "Top"
+[[blocs.media.media]]
+alt = "Graph évolution ENPS"
+image = "/uploads/cedreo_enps.png"
+size = "Medium"
+template = "image"
+[blocs.style]
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
 forestrylabel = "Facteurs clés de succès"
 template = "bloc-personalise"
 [blocs.content]
