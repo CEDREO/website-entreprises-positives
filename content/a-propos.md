@@ -162,7 +162,7 @@ align = "Left"
 cta = ""
 richtext = "A l’origine, Cedreo éditeur de logiciel basé à Nantes s’est rendu compte qu’il n’était pas suffisant de mettre des moyens humains et financiers pour améliorer sa performance RSE mais qu’il était nécessaire de structurer la démarche et chercher des sources d’inspiration pour se fixer des objectifs et définir une stratégie et un plan d’action.\n\nCela passait a priori par un accompagnement spécialisé ou une démarche de labellisation / certification dans laquelle ils se sont engagés.\n\nCette démarche est longue et nécessite beaucoup de moyens humains de l’entreprise."
 title = "Origines du projet"
-titlelevel = "1"
+titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
