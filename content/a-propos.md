@@ -43,6 +43,13 @@ url = "https://www.celencia.fr/"
 alt = "Logo Celencia"
 image = "/uploads/logo_celencia.jpg"
 [[blocs.logos]]
+forestrylabel = "Proselis"
+name = "Proselis"
+url = "https://www.proselis.com/"
+[blocs.logos.logo]
+alt = "Logo Proselis"
+image = "/uploads/logo_proselis.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
