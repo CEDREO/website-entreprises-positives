@@ -141,6 +141,13 @@ url = "https://www.scopic.eu/"
 alt = "Logo Scopic"
 image = "/uploads/logo_scopic.jpg"
 [[blocs.logos]]
+forestrylabel = "Delia"
+name = "Delia"
+url = "https://nantes.delia.tech/"
+[blocs.logos.logo]
+alt = "Logo Delia"
+image = "/uploads/logo_delia.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
