@@ -202,7 +202,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Télécharger le modèle du tableau de pesée\n\nNotre sélection de fournisseurs français / US\n\nNotre sélection de fournisseurs locaux.\n\nContact : Gilles LE TEUFF - infographiste chez Cedreo - gilles arobase cedreo.com"
+richtext = "Télécharger le modèle du tableau de pesée\n\nNotre sélection de fournisseurs français / US\n\nNotre sélection de fournisseurs locaux.\n\n<br>\n\nGilles LE TEUFF - infographiste chez Cedreo - gilles arobase cedreo.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
