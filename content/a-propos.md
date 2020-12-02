@@ -113,6 +113,13 @@ url = "http://www.notchup.fr/"
 alt = "Logo Notchup"
 image = "/uploads/logo_notchup.jpg"
 [[blocs.logos]]
+forestrylabel = "CFE CGC"
+name = "CFE CGC"
+url = "https://www.cfecgc.org/"
+[blocs.logos.logo]
+alt = "Logo CFE CGC"
+image = "/uploads/logo_cfecgc.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
