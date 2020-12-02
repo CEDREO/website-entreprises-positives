@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Bien expliquer que ce module n’est pas là pour apporter des solutions mais pour changer d’angle de vue sur les thématiques du quotidien."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Une salle de formation, écran ou vidéoprojecteur\n\nLots de post’it rose/jaune/bleu.\n\nUn powerpoint disponible dans le lien youtube.\n\n[https://www.youtube.com/watch?v=iopYe9I7dEk](https://www.youtube.com/watch?v=iopYe9I7dEk \"https://www.youtube.com/watch?v=iopYe9I7dEk\")\n\n<br>\n\n  \nSébastien Bolle - CFE CGC - @sbolle101"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
