@@ -64,19 +64,19 @@ url = "https://www.dynamips.com/"
 alt = "Logo Dynamips"
 image = "/uploads/logo_dynamips.jpg"
 [[blocs.logos]]
-forestrylabel = "Wiztivi"
-name = "Wiztivi"
-url = "https://www.wiztivi.com/"
-[blocs.logos.logo]
-alt = "Logo Wiztivi"
-image = "/uploads/logo_wiztivi.jpg"
-[[blocs.logos]]
 forestrylabel = "B Side"
 name = "B Side"
 url = "https://www.agencebside.fr/"
 [blocs.logos.logo]
 alt = "Logo B Side"
 image = "/uploads/logo_bside.jpg"
+[[blocs.logos]]
+forestrylabel = "Wiztivi"
+name = "Wiztivi"
+url = "https://www.wiztivi.com/"
+[blocs.logos.logo]
+alt = "Logo Wiztivi"
+image = "/uploads/logo_wiztivi.jpg"
 [[blocs.logos]]
 forestrylabel = "Appstud"
 name = "Appstud"
