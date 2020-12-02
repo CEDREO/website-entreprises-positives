@@ -161,7 +161,7 @@ template = "bloc-personalise"
 align = "Left"
 cta = ""
 richtext = "A l’origine, Cedreo éditeur de logiciel basé à Nantes s’est rendu compte qu’il n’était pas suffisant de mettre des moyens humains et financiers pour améliorer sa performance RSE mais qu’il était nécessaire de structurer la démarche et chercher des sources d’inspiration pour se fixer des objectifs et définir une stratégie et un plan d’action.\n\nCela passait a priori par un accompagnement spécialisé ou une démarche de labellisation / certification dans laquelle ils se sont engagés.\n\nCette démarche est longue et nécessite beaucoup de moyens humains de l’entreprise."
-title = "Origines du projet :"
+title = "Origines du projet"
 titlelevel = "1"
 [blocs.media]
 position = "Right"
@@ -171,6 +171,25 @@ image = "/uploads/pattern_blue.png"
 shadowed = false
 size = "Large"
 template = "image"
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Un constat simple"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Le constat est simple : il y a possibilité de grandement faciliter les premiers pas en mutualisant les bonnes pratiques des entreprises pour à la fois s’inspirer mais aussi mettre en oeuvre plus facilement les actions qui ont de l’impact.\n\nLes premiers contacts avec d’autres entreprises ont rapidement débouché sur un projet de mise en commun de ces contenus en open source. Nous avons décidé de commencer par des entreprises tertiaires, car leurs actions sont susceptibles d’être mises en place dans tous types d’entreprises."
+title = "Un constat simple"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
 [blocs.style]
 compactbottom = false
 compacttop = false
