@@ -22,6 +22,13 @@ titlelevel = "2"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
+forestrylabel = "Goubault"
+name = "Goubault Imprimeur"
+url = "https://www.goubault.com/"
+[blocs.logos.logo]
+alt = "Logo Goubault"
+image = "/uploads/logo_goubault.jpg"
+[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
