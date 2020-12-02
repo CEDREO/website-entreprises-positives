@@ -184,8 +184,8 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "# Un constat simple\n\nLe constat est simple : il y a possibilité de grandement faciliter les premiers pas en mutualisant les bonnes pratiques des entreprises pour à la fois s’inspirer mais aussi mettre en oeuvre plus facilement les actions qui ont de l’impact.\n\nLes premiers contacts avec d’autres entreprises ont rapidement débouché sur un projet de mise en commun de ces contenus en open source. Nous avons décidé de commencer par des entreprises tertiaires, car leurs actions sont susceptibles d’être mises en place dans tous types d’entreprises."
-title = ""
+richtext = "Le constat est simple : il y a possibilité de grandement faciliter les premiers pas en mutualisant les bonnes pratiques des entreprises pour à la fois s’inspirer mais aussi mettre en oeuvre plus facilement les actions qui ont de l’impact.\n\nLes premiers contacts avec d’autres entreprises ont rapidement débouché sur un projet de mise en commun de ces contenus en open source. Nous avons décidé de commencer par des entreprises tertiaires, car leurs actions sont susceptibles d’être mises en place dans tous types d’entreprises."
+title = "Un constat simple"
 titlelevel = "2"
 [blocs.media]
 position = "Left"
