@@ -106,6 +106,13 @@ url = "https://greenspector.com/en/home/"
 alt = "Logo Greenspector"
 image = "/uploads/logo_greenspector.jpg"
 [[blocs.logos]]
+forestrylabel = "Notchup"
+name = "Notchup"
+url = "http://www.notchup.fr/"
+[blocs.logos.logo]
+alt = "Logo Notchup"
+image = "/uploads/logo_notchup.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
