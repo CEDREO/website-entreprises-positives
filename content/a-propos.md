@@ -22,6 +22,27 @@ titlelevel = "2"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
+forestrylabel = "Dynamips"
+name = "Dynamips"
+url = "https://www.dynamips.com/"
+[blocs.logos.logo]
+alt = "Logo Dynamips"
+image = "/uploads/logo_dynamips.jpg"
+[[blocs.logos]]
+forestrylabel = "Abokine"
+name = "Abokine"
+url = "Abokine"
+[blocs.logos.logo]
+alt = "logo Abokine"
+image = "/uploads/logo_abokine.jpg"
+[[blocs.logos]]
+forestrylabel = "Celencia"
+name = "Celencia"
+url = "https://www.celencia.fr/"
+[blocs.logos.logo]
+alt = "Logo Celencia"
+image = "/uploads/logo_celencia.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
@@ -49,13 +70,6 @@ url = "https://www.babees.fr/"
 [blocs.logos.logo]
 alt = "logo Ba'Bees"
 image = "/uploads/logo_babees.png"
-[[blocs.logos]]
-forestrylabel = "Abokine"
-name = "Abokine"
-url = "Abokine"
-[blocs.logos.logo]
-alt = "logo Abokine"
-image = "/uploads/logo_abokine.jpg"
 [[blocs.logos]]
 forestrylabel = "Aepsilon"
 name = "Aepsilon"
