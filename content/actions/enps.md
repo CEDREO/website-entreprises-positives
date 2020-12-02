@@ -76,7 +76,7 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "V2 résultats"
+forestrylabel = "Résultats 1/3"
 template = "bloc-personalise"
 [blocs.content]
 align = "Center"
@@ -89,6 +89,36 @@ alt = "Graph évolution ENPS"
 image = "/uploads/cedreo_enps.png"
 size = "Large"
 template = "image"
+[blocs.style]
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Résultats 2/3"
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+richtext = "_Le NPS est passé de 49 à 57 en un an_"
+titlelevel = "2"
+[blocs.media]
+position = "Top"
+[[blocs.media.media]]
+alt = "Graph évolution NPS"
+image = "/uploads/cedreo_nps.png"
+size = "Large"
+template = "image"
+[blocs.style]
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Résultats 3/3"
+template = "bloc-personalise"
+[blocs.content]
+richtext = "Les résultats confirment la théorie, depuis que nous les mesurons, les deux indices ont progressé et nous permettent d’atteindre de très bons scores."
+titlelevel = "2"
 [blocs.style]
 content = "Standard"
 [[blocs.style.background]]
