@@ -50,12 +50,12 @@ url = "https://www.babees.fr/"
 alt = "logo Ba'Bees"
 image = "/uploads/logo_babees.png"
 [[blocs.logos]]
-forestrylabel = "Cedreo"
-name = "Cedreo"
+forestrylabel = "Planet'RSE bis"
+name = "Planet'RSE bis"
 url = "https://cedreo.com"
 [blocs.logos.logo]
-alt = ""
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+alt = "Planet'RSE bis"
+image = "/uploads/sans-titre-1.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
