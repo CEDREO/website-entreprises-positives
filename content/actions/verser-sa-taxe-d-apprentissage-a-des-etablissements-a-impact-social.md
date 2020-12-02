@@ -1,17 +1,17 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Delia Technologies"
 contentonly = false
 description = ""
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Premières actions"
+nature = ["Territoire"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Verser sa taxe d'apprentissage à des établissements à impact social"
