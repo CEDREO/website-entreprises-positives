@@ -168,10 +168,10 @@ richtext = "Ce simple effort nous a permis de diminuer le poids de nos déchets 
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
-position = "Right"
+position = "Top"
 [[blocs.media.media]]
 alt = "Courbe résultats"
-image = "/uploads/courbes_resultats.JPG"
+image = "/uploads/cedreo_dechets2.png"
 shadowed = false
 size = "Large"
 template = "image"
