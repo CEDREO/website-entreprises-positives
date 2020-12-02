@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "B Side"
 contentonly = false
 description = "Fiche pratique \"allouer un budget libre chaque année à chaque salarié\""
 draft = true
@@ -11,7 +11,7 @@ maturity = "Premières actions"
 nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Allouer un budget libre chaque année à chaque salarié"
