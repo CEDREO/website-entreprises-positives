@@ -177,7 +177,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Rien de spécial. Nous nous sommes inspirés d’une idée de [Iadvize](https://www.iadvize.com/fr/) que nous nous sommes appropriée, et invitons d’autres entreprises à faire de même !\n\n<br>\n\nBerthé Ingrid, co-dirigeante B Side, i.berthe arobase agencebside.fr, [https://www.linkedin.com/in/ingridberthe/](https://www.linkedin.com/in/ingridberthe/ \"https://www.linkedin.com/in/ingridberthe/\")"
+richtext = "Rien de spécial. Nous nous sommes inspirés d’une idée de [Iadvize](https://www.iadvize.com/fr/) que nous nous sommes appropriée, et invitons d’autres entreprises à faire de même !\n\n<br>\n\nBerthé Ingrid - co-dirigeante B Side - i.berthe arobase agencebside.fr - [https://www.linkedin.com/in/ingridberthe/](https://www.linkedin.com/in/ingridberthe/ \"https://www.linkedin.com/in/ingridberthe/\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
