@@ -153,6 +153,25 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
+forestrylabel = "Pour aller plus loin"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Ne pas hésiter à refaire une piqure de rappel sur un an. La RSE c’est avant tout une maturité qu’il faut alimenter à travers des débats et informations."
+title = "Pour aller plus loin"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
 forestrylabel = "Outils et ressources"
 template = "bloc-personalise"
 [blocs.content]
