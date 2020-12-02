@@ -23,7 +23,7 @@ template = "bloc-personalise"
 align = ""
 cta = ""
 richtext = "B Side est une agence conseil en communication corporate, dont le siège est à Nantes, qui emploie 19 salariés et qui réalise entre 1,8 et 2 millions d’euros de chiffre d’affaires par an."
-title = "Entrprise témoin"
+title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
 media = []
