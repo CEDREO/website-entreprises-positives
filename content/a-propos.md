@@ -193,7 +193,7 @@ position = "Left"
 alt = ""
 image = "/uploads/pattern_yellow.png"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = false
