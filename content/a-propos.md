@@ -36,12 +36,12 @@ url = "https://cedreo.com"
 alt = "Logo Cedreo"
 image = "/uploads/logo_cedreo.jpg"
 [[blocs.logos]]
-forestrylabel = "Celencia"
-name = "Celencia"
-url = "https://www.celencia.fr/"
+forestrylabel = "Toolin"
+name = "Toolin"
+url = "https://www.toolin.fr/"
 [blocs.logos.logo]
-alt = "Logo Celencia"
-image = "/uploads/logo_celencia.jpg"
+alt = "Logo Toolin"
+image = "/uploads/logo_toolin.jpg"
 [[blocs.logos]]
 forestrylabel = "Abokine"
 name = "Abokine"
@@ -92,12 +92,19 @@ url = "https://aepsilon.com/"
 alt = "Logo Aepsilon"
 image = "/uploads/logos_aepsilon.jpg"
 [[blocs.logos]]
-forestrylabel = "Toolin"
-name = "Toolin"
-url = "https://www.toolin.fr/"
+forestrylabel = "Notchup"
+name = "Notchup"
+url = "http://www.notchup.fr/"
 [blocs.logos.logo]
-alt = "Logo Toolin"
-image = "/uploads/logo_toolin.jpg"
+alt = "Logo Notchup"
+image = "/uploads/logo_notchup.jpg"
+[[blocs.logos]]
+forestrylabel = "Celencia"
+name = "Celencia"
+url = "https://www.celencia.fr/"
+[blocs.logos.logo]
+alt = "Logo Celencia"
+image = "/uploads/logo_celencia.jpg"
 [[blocs.logos]]
 forestrylabel = "Thierry Immobilier"
 name = "Thierry Immobilier"
@@ -105,13 +112,6 @@ url = "https://www.thierry-immobilier.fr/"
 [blocs.logos.logo]
 alt = "Logo Thierry Immobilier"
 image = "/uploads/logo_thierryimmo.jpg"
-[[blocs.logos]]
-forestrylabel = "Notchup"
-name = "Notchup"
-url = "http://www.notchup.fr/"
-[blocs.logos.logo]
-alt = "Logo Notchup"
-image = "/uploads/logo_notchup.jpg"
 [[blocs.logos]]
 forestrylabel = "Greenspector"
 name = "Greenspector"
