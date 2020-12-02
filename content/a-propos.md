@@ -99,6 +99,13 @@ url = "https://www.thierry-immobilier.fr/"
 alt = "Logo Thierry Immobilier"
 image = "/uploads/logo_thierryimmo.jpg"
 [[blocs.logos]]
+forestrylabel = "Greenspector"
+name = "Greenspector"
+url = "https://greenspector.com/en/home/"
+[blocs.logos.logo]
+alt = "Logo Greenspector"
+image = "/uploads/logo_greenspector.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
