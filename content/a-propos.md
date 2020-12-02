@@ -50,6 +50,13 @@ url = "https://www.proselis.com/"
 alt = "Logo Proselis"
 image = "/uploads/logo_proselis.jpg"
 [[blocs.logos]]
+forestrylabel = "B Side"
+name = "B Side"
+url = "https://www.agencebside.fr/"
+[blocs.logos.logo]
+alt = "Logo B Side"
+image = "/uploads/logo_bside.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
