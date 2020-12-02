@@ -68,6 +68,7 @@ forestrylabel = "Résultats"
 template = "bloc-personalise"
 [blocs.content]
 richtext = "![](/uploads/cedreo_enps.png)  \n_Le ENPS_ _est passé de 40 à 85 (échelle de - 100 à 100) en deux ans_\n\n![](/uploads/cedreo_nps.png)  \n_Le NPS est passé de 49 à 57 en un an_\n\nLes résultats confirment la théorie, depuis que nous les mesurons, les deux indices ont progressé et nous permettent d’atteindre de très bons scores."
+title = "Résultats"
 titlelevel = "2"
 [blocs.style]
 content = "Standard"
