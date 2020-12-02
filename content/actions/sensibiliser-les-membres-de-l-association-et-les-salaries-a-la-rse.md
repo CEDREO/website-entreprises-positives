@@ -1,17 +1,17 @@
 +++
 breadcrumb = ""
-company = ""
+company = "CFE CGC"
 contentonly = false
-description = ""
+description = "Fiche pratique : sensibiliser les membres de l'association et les salariés à la RSE"
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Premières actions"
+nature = ["Gouvernance"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Sensibiliser les membres de l'association et les salariés à la RSE"
@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La Confédération Française de l'Encadrement - Confédération Générale des Cadres (CFE-CGC) est un syndicat français de salariés, initié par les cadres du secteur privé et tous les agents du secteur public, fondé le 13 octobre 1944. Apolitique et catégorielle, la CGC a élargi son champ de syndicalisation en 1981 en devenant CFE-CGC, s'ouvrant aux techniciens, administratifs, agents de maîtrise, forces de vente, et ceux qui ont vocation à évoluer (salariés dont les fonctions comportent responsabilité, initiative et/ou commandement). La CFE-CGC fait partie des cinq confédérations considérées comme représentatives par l'État. Cela lui permet de participer aux négociations nationales interprofessionnelles et d'être représentée dans les organismes paritaires.\n\nElle compte 7000 adhérents sur la région Pays de la Loire, répartis dans le secteur privé comme public. Tous les secteurs sont représentés à travers les adhérent(e)s, élu(e)s CSE, délégué(e)s syndicaux. En Loire-Atlantique la section métallurgie est la principale à travers les sections, Stx, Airbus, Manitou et les autres fleurons du département."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -44,27 +44,8 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Faire monter en compétence les adhérents sur la thématique de la RSE pour pouvoir mieux impliquer les parties prenantes.\n\n« Avant de lire un livre, il faut apprendre l’alphabet », cette phrase est le point de départ de cette innovation sur la pédagogie à destination des adhérents afin de découvrir ou mieux comprendre ce qu’est la RSE et les Objectifs de Développement Durable."
 title = "Objectifs"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
-forestrylabel = "Contexte"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = ""
-title = "Contexte"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -82,7 +63,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "L’idée est d’expliquer avec pragmatisme et simplicité les 5 piliers de la RSE en une heure afin que l’ensemble des participants comprennent les pièces du puzzle et puissent monter en compétences.\n\nCette formation se fait grâce à un module « RSE : LES FONDAMENTAUX »\n\nDisponible ici : [https://www.youtube.com/watch?v=iopYe9I7dEk](https://www.youtube.com/watch?v=iopYe9I7dEk \"https://www.youtube.com/watch?v=iopYe9I7dEk\")"
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
@@ -101,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Il faut trouver le bon moment pour dispenser ce module : nous venons le greffer lors de la deuxième journée d’une formation, séminaire, réunion clé, etc… Cible de durée totale : 1h30\n\nPhase 1 : La formation en tant que telle, interactive, en mode jeu grâce à un mode de réponse quizz avec post it. Durée 1h\n\nPhase 2 : Echanges, questions, interactions. Durée 30 mn\n\nUn bon animateur qui diffuse avec énergie positive et donne envie de s’approprier la RSE."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
@@ -120,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous sommes à 580 personnes formées en 5 ans. Les données annnuelles sont variables en fonction de l’actualité.\n\nLes retours se font sur du moyen terme : le temps d’assimilation de la thématique est variable en fonction des personnes et de leur contexte. En général les premiers bénéfices sont des changements de comportements personnels puis dans la structure syndicale, dans l’entreprise et enfin dans le rôle de partie prenante dans le dialogue social : amener la qualité de vie au travail comme vecteur de performance, aborder le zéro déchet, le décarboné, etc sur la table des négociations collectives. Prendre acte que chaque action compte."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -139,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Capter l’attention (interaction, pragmatisme,…), interroger sur le changement de modèle, ouvrir les esprits sur toutes les thématiques de la RSE, expliquer que les Objectifs de Développement Durable sont accessibles à tous."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
