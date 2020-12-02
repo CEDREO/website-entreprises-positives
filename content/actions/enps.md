@@ -85,7 +85,7 @@ position = "Top"
 [[blocs.media.media]]
 alt = "Graph évolution ENPS"
 image = "/uploads/cedreo_enps.png"
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 content = "Standard"
