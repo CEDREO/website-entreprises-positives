@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Delia Technologies"
 contentonly = false
 description = "Fiche pratique : verser sa taxe d'apprentissage à des établissements à impact social"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
