@@ -22,13 +22,6 @@ titlelevel = "2"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
-forestrylabel = "Wiztivi"
-name = "Wiztivi"
-url = "https://www.wiztivi.com/"
-[blocs.logos.logo]
-alt = "Logo Wiztivi"
-image = "/uploads/logo_wiztivi.jpg"
-[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
@@ -43,12 +36,12 @@ url = "https://cedreo.com"
 alt = "Logo Cedreo"
 image = "/uploads/logo_cedreo.jpg"
 [[blocs.logos]]
-forestrylabel = "Dynamips"
-name = "Dynamips"
-url = "https://www.dynamips.com/"
+forestrylabel = "Celencia"
+name = "Celencia"
+url = "https://www.celencia.fr/"
 [blocs.logos.logo]
-alt = "Logo Dynamips"
-image = "/uploads/logo_dynamips.jpg"
+alt = "Logo Celencia"
+image = "/uploads/logo_celencia.jpg"
 [[blocs.logos]]
 forestrylabel = "Abokine"
 name = "Abokine"
@@ -57,19 +50,26 @@ url = "Abokine"
 alt = "logo Abokine"
 image = "/uploads/logo_abokine.jpg"
 [[blocs.logos]]
-forestrylabel = "Celencia"
-name = "Celencia"
-url = "https://www.celencia.fr/"
-[blocs.logos.logo]
-alt = "Logo Celencia"
-image = "/uploads/logo_celencia.jpg"
-[[blocs.logos]]
 forestrylabel = "Proselis"
 name = "Proselis"
 url = "https://www.proselis.com/"
 [blocs.logos.logo]
 alt = "Logo Proselis"
 image = "/uploads/logo_proselis.jpg"
+[[blocs.logos]]
+forestrylabel = "Dynamips"
+name = "Dynamips"
+url = "https://www.dynamips.com/"
+[blocs.logos.logo]
+alt = "Logo Dynamips"
+image = "/uploads/logo_dynamips.jpg"
+[[blocs.logos]]
+forestrylabel = "Wiztivi"
+name = "Wiztivi"
+url = "https://www.wiztivi.com/"
+[blocs.logos.logo]
+alt = "Logo Wiztivi"
+image = "/uploads/logo_wiztivi.jpg"
 [[blocs.logos]]
 forestrylabel = "B Side"
 name = "B Side"
