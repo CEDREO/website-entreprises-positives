@@ -106,19 +106,19 @@ url = "https://www.thierry-immobilier.fr/"
 alt = "Logo Thierry Immobilier"
 image = "/uploads/logo_thierryimmo.jpg"
 [[blocs.logos]]
-forestrylabel = "Greenspector"
-name = "Greenspector"
-url = "https://greenspector.com/en/home/"
-[blocs.logos.logo]
-alt = "Logo Greenspector"
-image = "/uploads/logo_greenspector.jpg"
-[[blocs.logos]]
 forestrylabel = "Notchup"
 name = "Notchup"
 url = "http://www.notchup.fr/"
 [blocs.logos.logo]
 alt = "Logo Notchup"
 image = "/uploads/logo_notchup.jpg"
+[[blocs.logos]]
+forestrylabel = "Greenspector"
+name = "Greenspector"
+url = "https://greenspector.com/en/home/"
+[blocs.logos.logo]
+alt = "Logo Greenspector"
+image = "/uploads/logo_greenspector.jpg"
 [[blocs.logos]]
 forestrylabel = "CFE CGC"
 name = "CFE CGC"
