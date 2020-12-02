@@ -188,8 +188,13 @@ richtext = "Le constat est simple : il y a possibilité de grandement faciliter 
 title = "Un constat simple"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Left"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/pattern_yellow.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
