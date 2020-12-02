@@ -17,7 +17,7 @@ weight = 3
 forestrylabel = "Logos"
 template = "bloc-logos"
 title = "Les entreprises qui participent au projet"
-titlelevel = "2"
+titlelevel = "1"
 [[blocs.background]]
 color = "Blanc"
 template = "couleur-de-fond"
