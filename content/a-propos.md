@@ -36,13 +36,6 @@ url = "https://cedreo.com"
 alt = "Logo Cedreo"
 image = "/uploads/logo_cedreo.jpg"
 [[blocs.logos]]
-forestrylabel = "Cedreo bis"
-name = "Cedreo "
-url = "https://cedreo.com/fr/"
-[blocs.logos.logo]
-alt = "Logo Cedreo bis"
-image = "/uploads/logo-cedreo-white-2.jpg"
-[[blocs.logos]]
 forestrylabel = "Ba'Bees"
 name = "Ba'Bees"
 url = "https://www.babees.fr/"
@@ -50,19 +43,12 @@ url = "https://www.babees.fr/"
 alt = "logo Ba'Bees"
 image = "/uploads/logo_babees.png"
 [[blocs.logos]]
-forestrylabel = "Planet'RSE bis"
-name = "Planet'RSE bis"
-url = "https://cedreo.com"
+forestrylabel = "Abokine"
+name = "Abokine"
+url = "Abokine"
 [blocs.logos.logo]
-alt = "Planet'RSE bis"
-image = ""
-[[blocs.logos]]
-forestrylabel = "Cedreo"
-name = "Cedreo"
-url = "https://cedreo.com"
-[blocs.logos.logo]
-alt = ""
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+alt = "logo Abokine"
+image = "/uploads/logo_abokine.jpg"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
