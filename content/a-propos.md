@@ -99,13 +99,6 @@ url = "http://www.notchup.fr/"
 alt = "Logo Notchup"
 image = "/uploads/logo_notchup.jpg"
 [[blocs.logos]]
-forestrylabel = "Celencia"
-name = "Celencia"
-url = "https://www.celencia.fr/"
-[blocs.logos.logo]
-alt = "Logo Celencia"
-image = "/uploads/logo_celencia.jpg"
-[[blocs.logos]]
 forestrylabel = "Thierry Immobilier"
 name = "Thierry Immobilier"
 url = "https://www.thierry-immobilier.fr/"
@@ -126,6 +119,13 @@ url = "https://www.cfecgc.org/"
 [blocs.logos.logo]
 alt = "Logo CFE CGC"
 image = "/uploads/logo_cfecgc.jpg"
+[[blocs.logos]]
+forestrylabel = "Celencia"
+name = "Celencia"
+url = "https://www.celencia.fr/"
+[blocs.logos.logo]
+alt = "Logo Celencia"
+image = "/uploads/logo_celencia.jpg"
 [[blocs.logos]]
 forestrylabel = "Ba'Bees"
 name = "Ba'Bees"
