@@ -74,5 +74,41 @@ content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Facteurs clés de succès"
+template = "bloc-personalise"
+[blocs.content]
+richtext = "\\- Un outil de ENPS anonyme : pour permettre à tout le monde de s’exprimer librement\n\n\\- Selon le contexte (nombre de salariés) un outil permettant de traiter les données plus finement (par département, par pays etc.) quand elles sont significatives et qu’elles permettent de garder l’anonymat\n\n\\- Trouver le bon rythme pour chaque mesure : nous avons pris 1 mois pour le ENPS et 6 mois pour le NPS\n\n\\- Ne pas oublier que ENPS et NPS sont des questions doubles, le score et le commentaire. Mettre en oeuvre des actions d’améliorations continues et communiquer pour indiquer comment les commentaires sont pris en compte est fondamental."
+title = "Facteurs clés de succès"
+titlelevel = "2"
+[blocs.style]
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Contraintes et limites"
+template = "bloc-personalise"
+[blocs.content]
+richtext = "Du point de vue académique et chez certains psychologues du travail ou bureaux d’études de marché il y a un certain scepticisme vis-à-vis du NPS / ENPS. Les opposants du concept soutiennent qu’il n’y a pas suffisamment de base scientifique pour les résultats et que le modèle est trop simple. Pour eux, l’engagement et l’expérience employé d’un côté et la fidélité et la satisfaction client d’un autre ne sont pas seulement basées sur des chiffres et des pourcentages, mais aussi sur des causes, des conséquences et des corrélations.\n\nPar ailleurs, la satisfaction d’un client n’est pas toujours corrélée avec sa fidélité.\n\nNous pensons néanmoins que cela reste une pratique simple à mettre en oeuvre et permettant d’obtenir rapidement des résultats."
+title = "Contraintes et limites"
+titlelevel = "2"
+[blocs.style]
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Outils et ressources"
+template = "bloc-personalise"
+[blocs.content]
+richtext = "Ci-dessous quelques exemples d’outils. Cette liste n’est pas exhaustive, n’hésitez pas à contribuer pour partager les bons outils !\n\n**Mesurer le ENPS et plus de sondages équipe :  \n**[Supermood](https://www.supermood.com/)  \n[Bamboo HR (en anglais)](https://www.bamboohr.com/)\n\n**Mesurer NPS et ENPS avec un même outil :  \n**[Survey Monkey](https://fr.surveymonkey.com/)  \n[Qualtrics](https://www.qualtrics.com/fr/)  \n[Drag n survey](https://www.dragnsurvey.com/)\n\n**Mesurer le NPS et plus de sondages clients :  \n**[Myfeelback](https://www.myfeelback.com/)  \n[Checkmarket](https://fr.checkmarket.com/)\n\n<br>\n\n  \nMickaël Keromnes - CEO Cedreo - mk arobase cedreo.com"
+title = "Outils et ressources"
+titlelevel = "2"
+[blocs.style]
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 
 +++
