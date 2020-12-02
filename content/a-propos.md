@@ -120,19 +120,26 @@ url = "https://www.cfecgc.org/"
 alt = "Logo CFE CGC"
 image = "/uploads/logo_cfecgc.jpg"
 [[blocs.logos]]
-forestrylabel = "Goubault"
-name = "Goubault Imprimeur"
-url = "https://www.goubault.com/"
-[blocs.logos.logo]
-alt = "Logo Goubault"
-image = "/uploads/logo_goubault.jpg"
-[[blocs.logos]]
 forestrylabel = "Ba'Bees"
 name = "Ba'Bees"
 url = "https://www.babees.fr/"
 [blocs.logos.logo]
 alt = "logo Ba'Bees"
 image = "/uploads/logo_babees.png"
+[[blocs.logos]]
+forestrylabel = "VuPar"
+name = "VuPar"
+url = "https://www.vupar.fr/"
+[blocs.logos.logo]
+alt = "Logo VuPar"
+image = "/uploads/logo_vupar.jpg"
+[[blocs.logos]]
+forestrylabel = "Goubault"
+name = "Goubault Imprimeur"
+url = "https://www.goubault.com/"
+[blocs.logos.logo]
+alt = "Logo Goubault"
+image = "/uploads/logo_goubault.jpg"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
