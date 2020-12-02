@@ -22,6 +22,13 @@ titlelevel = "2"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
+forestrylabel = "Wiztivi"
+name = "Wiztivi"
+url = "https://www.wiztivi.com/"
+[blocs.logos.logo]
+alt = "Logo Wiztivi"
+image = "/uploads/logo_wiztivi.jpg"
+[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
