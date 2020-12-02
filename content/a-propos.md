@@ -22,6 +22,20 @@ titlelevel = "2"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
+forestrylabel = "Planet rse"
+name = "Planet'RSE"
+url = "https://www.planetrse.fr/"
+[blocs.logos.logo]
+alt = "logo planet'rse"
+image = "/uploads/logo_planet_rse.jpg"
+[[blocs.logos]]
+forestrylabel = "Cedreo"
+name = "Cedreo"
+url = "https://cedreo.com"
+[blocs.logos.logo]
+alt = "Logo Cedreo"
+image = "/uploads/logo_cedreo.jpg"
+[[blocs.logos]]
 forestrylabel = "Dynamips"
 name = "Dynamips"
 url = "https://www.dynamips.com/"
@@ -64,6 +78,20 @@ url = "https://www.appstud.com/"
 alt = "Logo Appstud"
 image = "/uploads/logo_appstud.jpg"
 [[blocs.logos]]
+forestrylabel = "Aepsilon"
+name = "Aepsilon"
+url = "https://aepsilon.com/"
+[blocs.logos.logo]
+alt = "Logo Aepsilon"
+image = "/uploads/logos_aepsilon.jpg"
+[[blocs.logos]]
+forestrylabel = "Toolin"
+name = "Toolin"
+url = "https://www.toolin.fr/"
+[blocs.logos.logo]
+alt = "Logo Toolin"
+image = "/uploads/logo_toolin.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
@@ -71,33 +99,12 @@ url = "https://www.goubault.com/"
 alt = "Logo Goubault"
 image = "/uploads/logo_goubault.jpg"
 [[blocs.logos]]
-forestrylabel = "Planet rse"
-name = "Planet'RSE"
-url = "https://www.planetrse.fr/"
-[blocs.logos.logo]
-alt = "logo planet'rse"
-image = "/uploads/logo_planet_rse.jpg"
-[[blocs.logos]]
-forestrylabel = "Cedreo"
-name = "Cedreo"
-url = "https://cedreo.com"
-[blocs.logos.logo]
-alt = "Logo Cedreo"
-image = "/uploads/logo_cedreo.jpg"
-[[blocs.logos]]
 forestrylabel = "Ba'Bees"
 name = "Ba'Bees"
 url = "https://www.babees.fr/"
 [blocs.logos.logo]
 alt = "logo Ba'Bees"
 image = "/uploads/logo_babees.png"
-[[blocs.logos]]
-forestrylabel = "Aepsilon"
-name = "Aepsilon"
-url = "https://aepsilon.com/"
-[blocs.logos.logo]
-alt = "Logo Aepsilon"
-image = "/uploads/logos_aepsilon.jpg"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
