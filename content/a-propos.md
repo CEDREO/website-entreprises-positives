@@ -134,6 +134,13 @@ url = "https://www.vupar.fr/"
 alt = "Logo VuPar"
 image = "/uploads/logo_vupar.jpg"
 [[blocs.logos]]
+forestrylabel = "Scopic"
+name = "Scopic"
+url = "https://www.scopic.eu/"
+[blocs.logos.logo]
+alt = "Logo Scopic"
+image = "/uploads/logo_scopic.jpg"
+[[blocs.logos]]
 forestrylabel = "Goubault"
 name = "Goubault Imprimeur"
 url = "https://www.goubault.com/"
