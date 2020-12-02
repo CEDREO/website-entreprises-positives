@@ -111,7 +111,7 @@ position = "Top"
 alt = "Graph répartition production de déchets par secteur d'activité"
 image = "/uploads/cedreo_dechets1.png"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
