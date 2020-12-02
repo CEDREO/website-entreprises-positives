@@ -141,7 +141,7 @@ template = "couleur-de-fond"
 forestrylabel = "Outils et ressources"
 template = "bloc-personalise"
 [blocs.content]
-richtext = "Ci-dessous quelques exemples d’outils. Cette liste n’est pas exhaustive, n’hésitez pas à contribuer pour partager les bons outils !\n\n**Mesurer le ENPS et plus de sondages équipe :  \n**[Supermood](https://www.supermood.com/)  \n[Bamboo HR (en anglais)](https://www.bamboohr.com/)\n\n**Mesurer NPS et ENPS avec un même outil :  \n**[Survey Monkey](https://fr.surveymonkey.com/)  \n[Qualtrics](https://www.qualtrics.com/fr/)  \n[Drag n survey](https://www.dragnsurvey.com/)\n\n**Mesurer le NPS et plus de sondages clients :  \n**[Myfeelback](https://www.myfeelback.com/)  \n[Checkmarket](https://fr.checkmarket.com/)\n\n<br>\n\n  \nMickaël Keromnes - CEO Cedreo - mk arobase cedreo.com"
+richtext = "Ci-dessous quelques exemples d’outils. Cette liste n’est pas exhaustive, n’hésitez pas à contribuer pour partager les bons outils !\n\nMesurer le ENPS et plus de sondages équipe :  \n[Supermood](https://www.supermood.com/)  \n[Bamboo HR (en anglais)](https://www.bamboohr.com/)\n\nMesurer NPS et ENPS avec un même outil :  \n[Survey Monkey](https://fr.surveymonkey.com/)  \n[Qualtrics](https://www.qualtrics.com/fr/)  \n[Drag n survey](https://www.dragnsurvey.com/)\n\nMesurer le NPS et plus de sondages clients :  \n[Myfeelback](https://www.myfeelback.com/)  \n[Checkmarket](https://fr.checkmarket.com/)\n\n<br>\n\nMickaël Keromnes - CEO Cedreo - mk arobase cedreo.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.style]
