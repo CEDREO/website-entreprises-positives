@@ -10,7 +10,7 @@
                 Pérenniser votre entreprise dans sa <span class="text-theme-blue">croissance durable et responsable.</span>
             </h1>
             <h3 class="second-title">
-                <span class="second-title-fat-number">{{len (.GetPage "actions").Pages}}</span> actions <span class="text-theme-green">concrètes</span>, <span class="text-theme-orange">simples</span> à mettre en oeuvre, <span class="text-theme-yellow">pratiques</span> et <span class="text-theme-pink">documentées</span> sont à votre disposition.
+                <span class="second-title-fat-number">{{len (where (.GetPage "actions").Pages "Params.draft" false)}}</span> actions <span class="text-theme-green">concrètes</span>, <span class="text-theme-orange">simples</span> à mettre en oeuvre, <span class="text-theme-yellow">pratiques</span> et <span class="text-theme-pink">documentées</span> sont à votre disposition.
             </h3>
             <h2 class="third-title">
                 Vous avez une bonne idée à partager ?
