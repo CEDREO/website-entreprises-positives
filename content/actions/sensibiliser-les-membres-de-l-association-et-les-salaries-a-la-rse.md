@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "CFE CGC"
 contentonly = false
 description = "Fiche pratique : sensibiliser les membres de l'association et les salariés à la RSE"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
