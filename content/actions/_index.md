@@ -21,7 +21,7 @@ template = "bloc-search"
 title = "Rechercher des actions"
 [[blocs.background]]
 centered = true
-darken = false
+darken = true
 fixed = false
 image = "/uploads/top-banner-global-environmental-footprint.jpg"
 template = "image-de-fond"
