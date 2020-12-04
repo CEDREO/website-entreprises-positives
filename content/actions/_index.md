@@ -2,7 +2,7 @@
 breadcrumb = ""
 contentonly = false
 date = "2019-01-11T13:26:52+01:00"
-description = "Actions."
+description = "Actions"
 hreflangs = []
 noindex = false
 outputs = ["HTML", "RSS", "Algolia"]
@@ -14,25 +14,24 @@ trackers = []
 [menu.main]
 name = "Actions"
 weight = 2
-
 [[blocs]]
 forestrylabel = "Recherche"
-template = "bloc-search"
 resultinline = true
+template = "bloc-search"
 title = "Rechercher des actions"
 [[blocs.background]]
 centered = true
 darken = false
 fixed = false
-image = "/uploads/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+image = "/uploads/top-banner-global-environmental-footprint.jpg"
 template = "image-de-fond"
 [[blocs]]
 forestrylabel = "Partage idée"
 template = "bloc-personalise"
 [blocs.content]
 align = "Center"
-richtext = "<br/>"
 cta = "<a href=\"\" class=\"btn btn-orange\">Contactez-nous</a>"
+richtext = "<br/>"
 title = "Vous avez une bonne idée à partager ?"
 titlelevel = "2"
 [blocs.media]
