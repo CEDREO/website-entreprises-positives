@@ -22,13 +22,6 @@ titlelevel = "1"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
-forestrylabel = "Le Phare"
-name = "Le Phare"
-url = "https://www.lephare.com/"
-[blocs.logos.logo]
-alt = "Logo Le Phare"
-image = "/uploads/logo_lephare.jpg"
-[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
@@ -70,6 +63,13 @@ url = "https://www.dynamips.com/"
 [blocs.logos.logo]
 alt = "Logo Dynamips"
 image = "/uploads/logo_dynamips.jpg"
+[[blocs.logos]]
+forestrylabel = "Le Phare"
+name = "Le Phare"
+url = "https://www.lephare.com/"
+[blocs.logos.logo]
+alt = "Logo Le Phare"
+image = "/uploads/logo_lephare.jpg"
 [[blocs.logos]]
 forestrylabel = "Jefo"
 name = "Jefo"
