@@ -86,8 +86,13 @@ richtext = "La première question à laquelle nous avons choisi de répondre est
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/ep_bside_linkedin.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
