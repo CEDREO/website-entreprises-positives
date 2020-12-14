@@ -22,6 +22,13 @@ titlelevel = "1"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
+forestrylabel = "Jefo"
+name = "Jefo"
+url = "https://jefo.ca/fr/"
+[blocs.logos.logo]
+alt = "Logo Jefo"
+image = "/uploads/logo_jefo.jpg"
+[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
@@ -77,6 +84,13 @@ url = "https://www.wiztivi.com/"
 [blocs.logos.logo]
 alt = "Logo Wiztivi"
 image = "/uploads/logo_wiztivi.jpg"
+[[blocs.logos]]
+forestrylabel = "Faguo"
+name = "Faguo"
+url = "https://www.faguo-store.com/fr/"
+[blocs.logos.logo]
+alt = "Logo Faguo"
+image = "/uploads/logo_faguo.jpg"
 [[blocs.logos]]
 forestrylabel = "Appstud"
 name = "Appstud"
