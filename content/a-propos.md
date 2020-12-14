@@ -27,7 +27,7 @@ name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
 [blocs.logos.logo]
 alt = "logo planet'rse"
-image = "/uploads/logo_planet_rse.jpg"
+image = "/uploads/planetrse.png"
 [[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
