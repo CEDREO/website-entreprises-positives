@@ -88,10 +88,10 @@ titlelevel = "2"
 [blocs.media]
 position = "Bottom"
 [[blocs.media.media]]
-alt = ""
+alt = "Graph salaires h/f"
 image = "/uploads/ep_bside_linkedin.png"
 shadowed = false
-size = ""
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
