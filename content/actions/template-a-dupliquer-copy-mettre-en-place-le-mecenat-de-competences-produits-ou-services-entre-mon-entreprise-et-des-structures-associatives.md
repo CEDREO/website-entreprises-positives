@@ -106,7 +106,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Pour mettre en oeuvre le mécénat au sein de l’entreprise, il est nécessaire de s’assurer au préalable :\n\n* de l’existence d’un projet associatif au niveau de l’organisme soutenu (voir sur son site Internet, échange avec l’association,…),\n* que l’organisme est bien éligible au mécénat ouvrant droit à un avantage fiscal,\n* et qu’il soit en phase avec le projet de l’entreprise."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
