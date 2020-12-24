@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Aepsilon"
 contentonly = false
 description = "Fiche pratique : Mesurer et réduire les différences de salaires h/f"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
