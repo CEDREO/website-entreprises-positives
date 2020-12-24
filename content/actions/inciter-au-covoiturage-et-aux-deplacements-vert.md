@@ -177,7 +177,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "\\- Un bon tableur pour la feuille de note de frais\n\n\\- Le site [Greenmyevent](https://greenmyevent.fr/fr/home) pour collecter les données sur les trajets et calculer l’empreinte carbone.\n\nContacts :\n\nSébastien Bolle @sbolle101 - Kevin Remond @KevinRD44"
+richtext = "* Un bon tableur pour la feuille de note de frais\n\n\n* Le site [Greenmyevent](https://greenmyevent.fr/fr/home) pour collecter les données sur les trajets et calculer l’empreinte carbone.\n\nContacts :\n\nSébastien Bolle @sbolle101 - Kevin Remond @KevinRD44"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
