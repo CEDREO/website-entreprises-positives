@@ -144,7 +144,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Il faut une cohérence entre la démarche RSE et les valeurs de l’entreprise et l’association soutenue ou le thème (sportif, culturel, éducation, ESS etc…).\n* Obtenir l’adhésion des salariés (qu’ils soient à l’initiative du projet ou associés au choix de celui-ci).\n* Mobiliser l’encadrement dans la mise en œuvre d’une décision prise par le dirigeant ou la direction générale.\n* Communiquer en interne (journal interne, séminaires, etc.).\n* Reconnaître l’engagement, même si la démarche du salarié ou des salariés est désintéressée."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
