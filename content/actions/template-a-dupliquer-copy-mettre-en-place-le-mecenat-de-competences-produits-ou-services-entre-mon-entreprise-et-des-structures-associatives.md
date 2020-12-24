@@ -163,7 +163,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Le **montant de la réduction d’impôt Mécénat** est actuellement **limité à 60%** du montant du **don inférieur à 5 pour 1000 du chiffre d'affaires**.\n\nÀ la réduction d'impôt ainsi calculée après réintégration du don dans le résultat fiscal de l'entreprise, s'ajoute la **possibilité de bénéficier d'une contrepartie**. **La valeur des contreparties accordées ne doit simplement** pas dépasser le quart **du montant du don (attention ce point est fiscalement trés regardé. Par exemple si logo d’une entreprise est apposé sur le foyer de l’organisation soutenue mais qu’il n’y a pas son adresse, cela peut être considéré comme du mécénat mais si l’adresse de l’entreprise figure, alors c’est du sponsoring.**\n\n**Depuis 2020**, les entreprises pour lesquelles les **dons effectués** dépassent la somme de **10 000€** sont concernées par une **nouvelle obligation déclarative**. Il s'agit de « déclarer le montant des dons, les noms des bénéficiaires et la valeur des contreparties, matérielles et immatérielles ». Il faut demander un cerfa numéro 11580*04 (à demander à l’association ) pour justifier de votre don. De plus une convention Mécénat est souhaitable en complément et vous pouvez solliciter votre expert comptable."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
