@@ -88,7 +88,7 @@ titlelevel = "2"
 [blocs.media]
 position = "Bottom"
 [[blocs.media.media]]
-alt = ""
+alt = "Graph évolution salaire médian"
 image = "/uploads/social-mesurer-et-reduire-differences-salaires-fig1.png"
 shadowed = false
 size = ""
