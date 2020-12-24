@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Aepsilon"
 contentonly = false
 description = "Fiche pratique : Mesurer et réduire les différences de salaires h/f"
 draft = true
@@ -11,7 +11,7 @@ maturity = "Progresser"
 nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Mesurer et réduire les différences de salaires h/f"
