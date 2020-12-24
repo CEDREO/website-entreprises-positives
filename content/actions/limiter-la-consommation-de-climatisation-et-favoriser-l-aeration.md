@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Aepsilon"
 contentonly = false
 description = "Fiche pratique : Limiter la consommation de climatisation et favoriser l'aération"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
@@ -189,7 +188,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
