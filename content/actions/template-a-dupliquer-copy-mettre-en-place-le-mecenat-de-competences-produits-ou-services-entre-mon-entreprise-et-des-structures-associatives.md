@@ -53,7 +53,7 @@ position = "Bottom"
 alt = ""
 image = "/uploads/mecenat1.jpg"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = true
