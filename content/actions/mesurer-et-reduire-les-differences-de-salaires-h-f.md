@@ -58,25 +58,6 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Contexte"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = ""
-title = "Contexte"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
 forestrylabel = "Méthode"
 template = "bloc-personalise"
 [blocs.content]
