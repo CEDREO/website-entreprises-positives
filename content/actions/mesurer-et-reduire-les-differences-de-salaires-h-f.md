@@ -187,7 +187,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La rémunération est un sujet difficile à aborder en transparence même dans des organisations “opales” (cf. [https://www.reinventingorganizations.com/fr.html](https://www.reinventingorganizations.com/fr.html \"https://www.reinventingorganizations.com/fr.html\") ) telles que Aepsilon, c’est pourquoi nous n’avons pas encore mis en œuvre une transparence totale sur le sujet.\n\nLa rémunération est fortement déterminée par la négociation initiale lors de l’arrivée dans l’entreprise, nous devons formaliser le processus qui fixe la rémunération initiale et éventuellement nous outiller, pour garantir l’équité dès ce moment de la relation employeur/salarié."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
