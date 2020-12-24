@@ -51,7 +51,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -94,7 +94,7 @@ shadowed = false
 size = "Medium"
 template = "image"
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
