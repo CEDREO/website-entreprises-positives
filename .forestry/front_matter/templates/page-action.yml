@@ -103,6 +103,7 @@ fields:
   description: For debug purpose, please left it unset
 pages:
 - content/actions/allouer-un-budget-libre-chaque-annee-a-chaque-salarie.md
+- content/actions/limiter-la-consommation-de-climatisation-et-favoriser-l-aeration.md
 - content/actions/mesurer-et-reduire-les-differences-de-salaires-h-f.md
 - content/actions/mesurer-et-reduire-sa-production-de-dechets.md
 - content/actions/sensibiliser-les-membres-de-l-association-et-les-salaries-a-la-rse.md
