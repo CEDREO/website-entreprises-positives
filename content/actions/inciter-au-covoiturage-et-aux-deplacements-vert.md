@@ -63,7 +63,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La prolongation du protocole de Kyoto jusqu’en 2020 s’aligne pour l’union Européenne sur les objectifs du 3x20. La France s’engage dans ce cadre à réduire ses émissions de 17 % en 2020 par rapport par rapport à 1990. Parmi les mesures pour y arriver, la réduction des émissions de C02 des véhicules.\n\nLa France s’est par ailleurs engagée, à travers la loi de Programme fixant les Orientations de la Politique Énergétique du 13 juillet 2005 (dite loi POPE), à diviser ses émissions directes de GES par 4 d’ici 2050. Cet objectif est connu sous le nom de « Facteur 4 »."
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
