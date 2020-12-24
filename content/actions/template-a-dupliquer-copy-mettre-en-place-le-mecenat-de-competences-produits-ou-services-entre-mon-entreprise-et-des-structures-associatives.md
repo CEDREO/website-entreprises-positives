@@ -125,7 +125,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Selon l’objectif et le projet choisis, permet de :\n\n* montrer (en interne comme en externe) l’engagement de l’entreprise dans un projet en cohérence avec ses valeurs -> notoriété/visibilité, image de l’entreprise,\n* impliquer ses salariés, leur permettre de donner plus de sens à leur travail, acquérir de nouvelles compétences."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
