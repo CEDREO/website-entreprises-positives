@@ -91,7 +91,7 @@ position = "Bottom"
 alt = "Graph évolution salaire médian"
 image = "/uploads/social-mesurer-et-reduire-differences-salaires-fig1.png"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = false
