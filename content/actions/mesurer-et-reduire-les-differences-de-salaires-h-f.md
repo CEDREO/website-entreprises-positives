@@ -149,7 +149,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Avant de traiter cette action, il n’y avait pas de demande ou d’interrogations des collaborateurs sur ce sujet.\n\nLa question de l’équité salariale homme/femme nous a fait élargir le sujet, à la question de l’équité de manière générale. Aujourd'hui, nous avons le niveau de transparence souhaité par la majorité des personnes de Apsilon et des indicateurs qui évoluent favorablement. Ainsi nous avons une meilleure connaissance de notre structure de rémunération et l’assurance d’une amélioration continue de l’équité dans l’entreprise."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -168,7 +168,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Engagement des dirigeants.\n* Niveau de transparence discuté et déterminé par l’équipe."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
