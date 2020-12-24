@@ -130,7 +130,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous partageons en interne ces indicateurs qui sont accessibles par tous et nous faisons une communication spécifique sur le sujet tous les 3 mois dans le cadre de nos plénières trimestrielles."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
