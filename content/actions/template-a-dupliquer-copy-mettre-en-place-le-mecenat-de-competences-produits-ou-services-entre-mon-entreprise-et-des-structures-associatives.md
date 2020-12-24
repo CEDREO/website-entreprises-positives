@@ -68,7 +68,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Les objectifs sont définis par l’entreprise : mise en œuvre du volet sociétal, véhiculer des valeurs importantes pour l’entreprise et les mettre en application concrètement, développer l’ancrage territorial,…\n\nLe tout avec une contrepartie économique de défiscalisation et l’acquisition de notoriété et de visibilité."
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
@@ -87,7 +87,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Clarifier l’implication de la hiérarchie : donner une vision à son engagement, inscrire la stratégie de mécénat dans l’ADN de l’entreprise.\n* Réaliser un état des lieux des activités de mécénat possible pour l’entreprise.\n* Définir les axes d’intervention : domaines à soutenir.\n* Se renseigner sur les cadres légaux du mécénat.\n* Choisir une modalité de gestion adaptée : don direct aux porteurs de projets soutenus (= régie directe) ou création d’une structure indépendante qui gèrera la politique mécénat de l’entreprise et les budgets dédiés (= régie indirecte).\n* Impliquer les collaborateurs.\n* Sélectionner les partenaires, établir une convention de mécénat (non obligatoire elle permet de formaliser les engagements respectifs dans le cadre du partenariat.\n* Prendre la mesure de l’impact social.\n* Valoriser l’engagement."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
