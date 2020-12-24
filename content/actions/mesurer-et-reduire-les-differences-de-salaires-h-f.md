@@ -82,6 +82,49 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
+forestrylabel = "Méthode part 2"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Le ratio haut salaire/bas salaire a diminué et est passé de 2,08 en 2014 à 1,86 en 2019."
+title = ""
+titlelevel = "2"
+[blocs.media]
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Graph évolution ratio haut salaire / bas salaire"
+image = "/uploads/social-mesurer-et-reduire-differences-salaires-fig2.png"
+shadowed = false
+size = "Medium"
+template = "image"
+[blocs.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Méthode part 3"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
 forestrylabel = "En pratique"
 template = "bloc-personalise"
 [blocs.content]
