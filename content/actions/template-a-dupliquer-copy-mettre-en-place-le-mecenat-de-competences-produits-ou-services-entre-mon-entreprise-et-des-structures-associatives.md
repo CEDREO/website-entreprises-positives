@@ -182,7 +182,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "[Qu'est-ce que le mécénat ?](https://www.culture.gouv.fr/Sites-thematiques/Mecenat/Qu-est-ce-que-le-mecenat)\n\n[Loi Aillagon](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000791289/ \"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000791289/\")\n\n[Fiche pratique sur le mécénat de compétences](https://admical.org/sites/default/files/uploads/basedocu/les-reperes-admical-ndeg3_-_2020.pdf \"https://admical.org/sites/default/files/uploads/basedocu/les-reperes-admical-ndeg3_-_2020.pdf\")\n\n[Cerfa DON](https://www.service-public.fr/professionnels-entreprises/vosdroits/R17454 \"https://www.service-public.fr/professionnels-entreprises/vosdroits/R17454\")\n\nContact : \n\nIsabelle Jouin : isabellejouin arobase planetrse.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
