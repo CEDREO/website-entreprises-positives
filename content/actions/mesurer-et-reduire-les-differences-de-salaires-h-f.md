@@ -206,7 +206,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Quelques sources :\n\n* [https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-discrimination-et-harcelement/index-egalite-professionnelle-femmes-hommes](https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-discrimination-et-harcelement/index-egalite-professionnelle-femmes-hommes \"https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-discrimination-et-harcelement/index-egalite-professionnelle-femmes-hommes\")\n* [https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-discrimination-et-harcelement/index-egalite-professionnelle-femmes-hommes](https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-discrimination-et-harcelement/index-egalite-professionnelle-femmes-hommes \"https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-discrimination-et-harcelement/index-egalite-professionnelle-femmes-hommes\")\n* [https://business.lesechos.fr/directions-ressources-humaines/metier-et-carriere/remuneration/0600788358865-egalite-salariale-l-index-ne-fait-pas-tout-327502.php](https://business.lesechos.fr/directions-ressources-humaines/metier-et-carriere/remuneration/0600788358865-egalite-salariale-l-index-ne-fait-pas-tout-327502.php \"https://business.lesechos.fr/directions-ressources-humaines/metier-et-carriere/remuneration/0600788358865-egalite-salariale-l-index-ne-fait-pas-tout-327502.php\")\n\nContact :\n\nPierre Lancelot pierre arobase aepsilon.com / [LinkedIn](https://www.linkedin.com/in/pierrelancelot/  \"https://www.linkedin.com/in/pierrelancelot/ \")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
