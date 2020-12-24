@@ -50,7 +50,7 @@ titlelevel = "2"
 [blocs.media]
 position = "Bottom"
 [[blocs.media.media]]
-alt = ""
+alt = "Infographie chiffres mécénat en France"
 image = "/uploads/mecenat1.jpg"
 shadowed = false
 size = "Medium"
