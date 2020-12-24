@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Celencia"
 contentonly = false
 description = "Fiche pratique : Communiquer sur le harcèlement et donner une palette de contacts possibles si cela arrivait"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
