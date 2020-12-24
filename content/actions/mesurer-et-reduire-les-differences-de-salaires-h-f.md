@@ -99,7 +99,7 @@ shadowed = false
 size = "Medium"
 template = "image"
 [blocs.style]
-compactbottom = true
+compactbottom = false
 compacttop = true
 content = "Standard"
 [[blocs.style.background]]
