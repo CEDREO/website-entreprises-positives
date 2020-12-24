@@ -53,7 +53,7 @@ position = "Bottom"
 alt = "Infographie chiffres mécénat en France"
 image = "/uploads/mecenat.jpg"
 shadowed = false
-size = "Large"
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = true
