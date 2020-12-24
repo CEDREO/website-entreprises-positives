@@ -29,7 +29,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -51,7 +51,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -70,7 +70,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -89,7 +89,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -108,7 +108,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -127,7 +127,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -146,7 +146,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
@@ -165,7 +165,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
