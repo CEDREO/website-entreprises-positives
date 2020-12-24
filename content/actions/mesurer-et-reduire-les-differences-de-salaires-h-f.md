@@ -111,7 +111,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La première analyse faite est qu’il y a une hausse générale de la rémunération avec une réduction significative de la différence entre le plus haut salaire et le plus bas.\n\nCes indicateurs permettent de suivre de manière générale l’équité de la rémunération dans l’entreprise et leur dégradation entraîne des actions correctives."
 title = ""
 titlelevel = "2"
 [blocs.media]
