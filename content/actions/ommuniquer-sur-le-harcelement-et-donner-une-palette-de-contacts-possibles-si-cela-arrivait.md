@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Celencia"
 contentonly = false
 description = "Fiche pratique : Communiquer sur le harcèlement et donner une palette de contacts possibles si cela arrivait"
 draft = true
@@ -11,7 +11,7 @@ maturity = "Premières actions"
 nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Communiquer sur le harcèlement et donner une palette de contacts possibles si cela arrivait"
