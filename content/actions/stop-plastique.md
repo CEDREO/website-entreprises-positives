@@ -82,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "> Achat de vaisselle, carafe, mug , tasses, verres...  \n> Location d’une machine à café et achat de café en vrac auprès de l’Espérance Café (torréfacteur nantais de l’île de Nantes). Il nous livre le café et récupère le marc.  \n> Achat de thés avec leurs boîtes réutilisables auprès du Voyage de Thé place Viarme (entreprise nantaise qui fait ses mélanges de thés originaux).  \n> Charte de bonne conduite à destination des collaborateurs pour leur donner des conseils pour réduire leur utilisation du plastique (sur la pause déjeuner et lors des réunions / séminaires client)  \n> Organisation de déjeuners \"zéro déchet\" les jeudis à l’agence avec identification des restaurants / snacking qui jouent le jeu."
+richtext = "> Achat de vaisselle, carafes, mugs, tasses, verres...  \n> Location d’une machine à café et achat de café en vrac auprès de l’Espérance Café (torréfacteur nantais de l’île de Nantes). Il nous livre le café et récupère le marc.  \n> Achat de thés avec leurs boîtes réutilisables auprès du Voyage de Thé place Viarme (entreprise nantaise qui fait ses mélanges de thés originaux).  \n> Charte de bonne conduite à destination des collaborateurs pour leur donner des conseils pour réduire leur utilisation du plastique (sur la pause déjeuner et lors des réunions / séminaires client)  \n> Organisation de déjeuners \"zéro déchet\" les jeudis à l’agence avec identification des restaurants / snacking qui jouent le jeu."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
@@ -101,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Plus de capsules, bouteilles, gobelets et autre plastiques à usage unique.  \nNous souhaitons peser nos déchets, mais ça n’est pas encore fait. A priori nous avons réduit nos déchets plastiques.  \nCela nous a également poussé à nous approvisionner davantage en local."
+richtext = "Plus de capsules, bouteilles, gobelets et autres plastiques à usage unique.  \nNous souhaitons peser nos déchets, mais ça n’est pas encore fait. A priori nous avons réduit nos déchets plastiques.  \nCela nous a également poussé à nous approvisionner davantage en local."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Le déjeuner zéro déchet est un moment où l’on se retrouve, on essaie de relever un challenge. Cela permet de sensibiliser sans moraliser.  \nPas de jugement des pratiques des collaborateurs, chacun fait de son mieux."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
