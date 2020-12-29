@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Proposer des actions simples et rapides à mettre en œuvre est un enjeu majeur pour que le plus de personne possible se prête au jeu. Les inscrire comme une habitude est la deuxième étape essentielle pour que cela ne soit plus un sujet."
+richtext = "Proposer des actions simples et rapides à mettre en œuvre est un enjeu majeur pour que le plus de personnes possible se prête au jeu. Les inscrire comme une habitude est la deuxième étape essentielle pour que cela ne soit plus un sujet."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
