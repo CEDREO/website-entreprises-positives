@@ -63,7 +63,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "D’abord nous nous sommes équipés en vaisselle réutilisable : cela s’est fait assez simplement parce que l’agence a sa cuisine.  \nEnsuite nous avons changé nos consommations : thé / café / boissons pour passer à du vrac ou des grands formats.  \nEnfin en dernière étape, nous engageons les collaborateurs, via des supports de communication, à s’investir eux aussi dans la réduction des plastiques en changeant leurs pratiques au quotidien, lors des réunions, pauses déjeuner. Nous avons, avec l’équipe RSE, écrit une charte “zéro plastique” basée sur les conseils de Zero Waste afin de guider les collaborateurs dans leurs choix et nous organisons 1 fois par semaine un déjeuner zéro déchet."
+richtext = "D’abord nous nous sommes équipés en vaisselle réutilisable : cela s’est fait assez simplement parce que l’agence a sa cuisine.  \nEnsuite nous avons changé nos consommations : thé / café / boissons pour passer à du vrac ou des grands formats.  \nEnfin en dernière étape, nous engageons les collaborateurs, via des supports de communication, à s’investir eux aussi dans la réduction des plastiques en changeant leurs pratiques au quotidien, lors des réunions, pauses déjeuner. Nous avons, avec l’équipe RSE, écrit une charte \"zéro plastique\" basée sur les conseils de Zero Waste afin de guider les collaborateurs dans leurs choix et nous organisons 1 fois par semaine un déjeuner zéro déchet."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
