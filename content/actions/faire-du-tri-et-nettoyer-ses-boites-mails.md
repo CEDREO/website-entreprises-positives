@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "FAGUO  \nMarque française créée en 2009, FAGUO propose un vestiaire pour vivre pleinement entre ville et nature.   \nComptant aujourd’hui 90 collaborateurs, le siège de FAGUO se situe à Nantes."
+richtext = "Marque française créée en 2009, FAGUO propose un vestiaire pour vivre pleinement entre ville et nature.  \nComptant aujourd’hui 90 collaborateurs, le siège de FAGUO se situe à Nantes."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
