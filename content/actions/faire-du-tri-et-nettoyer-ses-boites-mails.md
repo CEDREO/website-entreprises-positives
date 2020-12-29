@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "FAGUO"
+richtext = "FAGUO  \nMarque française créée en 2009, FAGUO propose un vestiaire pour vivre pleinement entre ville et nature.   \nComptant aujourd’hui 90 collaborateurs, le siège de FAGUO se situe à Nantes."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -63,7 +63,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Marque française créée en 2009, FAGUO propose un vestiaire pour vivre pleinement entre ville et nature. En tant qu’entreprise à mission, FAGUO engage sa génération contre le dérèglement climatique. Pionnière dès sa création, FAGUO mesure ses émissions de CO2 avec un bilan carbone, les réduit en utilisant des matières recyclées et compense les émissions restantes en plantant un arbre pour chaque pièce confectionnée.\n\nComptant aujourd’hui 90 collaborateurs, le siège de FAGUO se situe à Nantes."
+richtext = "En tant qu’entreprise à mission, FAGUO engage sa génération contre le dérèglement climatique. Pionnière dès sa création, FAGUO mesure ses émissions de CO2 avec un bilan carbone, les réduit en utilisant des matières recyclées et compense les émissions restantes en plantant un arbre pour chaque pièce confectionnée."
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
