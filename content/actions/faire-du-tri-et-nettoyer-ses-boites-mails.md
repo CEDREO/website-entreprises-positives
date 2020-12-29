@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "FAGUO"
 contentonly = false
 description = "Fiche pratique : Faire du tri et nettoyer ses boites mails"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
@@ -101,7 +100,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Premièrement, nous avons lors d’un de nos petits déjeuner d’équipe hebdomadaire fait un focus de 15 minutes sur la problématique, les enjeux et des solutions concrètes. Ensuite, nous avons transmis un livre blanc listant les différentes solutions d’action à nos collaborateurs, à nos communautés sur les réseaux sociaux mais aussi à nos clients via une Newsletter dédiée.\n\nEn interne ou en externe, ils ont pu s’approprier le livre blanc et en moins de 20 minutes, commencer à supprimer les mails inutiles dans leur boîte. Nous avions mis en place un formulaire simple pour indiquer le nombre de mails supprimés et le temps que cela leur avait pris."
+richtext = "Premièrement, nous avons lors d’un de nos petits déjeuners d’équipe hebdomadaires fait un focus de 15 minutes sur la problématique, les enjeux et des solutions concrètes. Ensuite, nous avons transmis un livre blanc listant les différentes solutions d’action à nos collaborateurs, à nos communautés sur les réseaux sociaux mais aussi à nos clients via une Newsletter dédiée.\n\nEn interne ou en externe, ils ont pu s’approprier le livre blanc et en moins de 20 minutes, commencer à supprimer les mails inutiles dans leur boîte. Nous avions mis en place un formulaire simple pour indiquer le nombre de mails supprimés et le temps que cela leur avait pris."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
