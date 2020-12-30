@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Notchup"
 contentonly = false
 description = "Fiche pratique : Politique Vélo"
 draft = true
@@ -11,7 +11,7 @@ maturity = "Progresser"
 nature = ["Environnemental"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Politique Vélo"
