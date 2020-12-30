@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Notchup"
 contentonly = false
 description = "Fiche pratique : Politique Vélo"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
