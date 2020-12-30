@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "VUPAR"
 contentonly = false
 description = "Fiche pratique : Optimiser la consommation d'énergie des bureaux"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
@@ -158,7 +157,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Uptoled pour le changement des luminaires\n\nArnaud Bailly - Dirigeant   \n[arnaud@vupar.fr](mailto:arnaud@vupar.fr)  \n[https://www.linkedin.com/in/arnaud-bailly-731b2511/](https://www.linkedin.com/in/arnaud-bailly-731b2511/ \"https://www.linkedin.com/in/arnaud-bailly-731b2511/\")"
+richtext = "[Uptoled](https://www.uptoled.com/eclairage-led/ \"Uptoled\") pour le changement des luminaires\n\nArnaud Bailly - Dirigeant  \n[arnaud@vupar.fr](mailto:arnaud@vupar.fr)  \n[https://www.linkedin.com/in/arnaud-bailly-731b2511/](https://www.linkedin.com/in/arnaud-bailly-731b2511/ \"https://www.linkedin.com/in/arnaud-bailly-731b2511/\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
