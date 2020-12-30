@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Appstud"
 contentonly = false
 description = "Fiche pratique : Les contrats aidés (AFPR, POEI)"
 draft = true
@@ -11,7 +11,7 @@ maturity = "Progresser"
 nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs d'activité"
 seotexts = []
 slug = ""
 title = "Les contrats aidés (AFPR, POEI)"
