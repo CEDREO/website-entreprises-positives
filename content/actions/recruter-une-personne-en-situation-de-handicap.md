@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Créé en 2008, Celencia est un cabinet de conseil en organisation dont la mission est d’accompagner durablement ses clients dans leurs projets de transformation. Expert dans le domaine du tertiaire financier, Celencia intervient au cœur des métiers de la banque, de l’assurance, des mutuelles, ainsi que des caisses de retraites. Que l’enjeu soit digital, humain, organisationnel ou informatique, notre cabinet s’inscrit comme un partenaire dans la conduite du changement, la culture collaborative et l’innovation managériale."
+richtext = "Créé en 2008, Celencia est un cabinet de conseil en organisation dont la mission est d’accompagner durablement ses clients dans leurs projets de transformation. Expert dans le domaine du tertiaire financier, Celencia intervient au cœur des métiers de la banque, de l’assurance, des mutuelles, ainsi que des caisses de retraites. Que l’enjeu soit digital, humain, organisationnel ou informatique, Celencia s’inscrit comme un partenaire dans la conduite du changement, la culture collaborative et l’innovation managériale."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
