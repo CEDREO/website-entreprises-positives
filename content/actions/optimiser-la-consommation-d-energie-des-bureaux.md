@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "VUPAR"
 contentonly = false
-description = "Fiche pratique : Optimiser la consommation d’énergie des bureaux"
+description = "Fiche pratique : Optimiser la consommation d'énergie des bureaux"
 draft = true
 financialinvest = "Moyen"
 hreflangs = []
@@ -14,7 +14,7 @@ schemajson = ""
 sector = "Tous secteurs d'activité"
 seotexts = []
 slug = ""
-title = "Optimiser la consommation d’énergie des bureaux"
+title = "Optimiser la consommation d'énergie des bureaux"
 trackers = []
 [[blocs]]
 forestrylabel = "Entreprise témoin"
