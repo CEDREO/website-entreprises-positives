@@ -58,31 +58,12 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Contexte"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = ""
-title = "Contexte"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = true
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
 forestrylabel = "Méthode"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Une approche pragmatique et \"au fil de l'eau\" pour privilégier de meilleures pratiques.\n\nCommunication en interne.\n\nUn des critères de la grille Planet RSE."
+richtext = "Une approche pragmatique et \"au fil de l'eau\" pour privilégier de meilleures pratiques.\n\nCommunication en interne.\n\nUn des critères de la grille Planet'RSE."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
@@ -101,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "* Remplacement de toutes les ampoules / tubes néons par des LED.\n* Mise en place de petites lampes de chevet pour éclairage local et éviter d’éclairer toute une zone (open space).\n* Remplacement d’appareil ménager en tenant compte du score énergie.\n* Remplacement des Imac 25” par des mac book portables, dont la consommation est divisée par 5.\n* Consigne d’éteindre plutôt que mettre en veille le matériel informatique (copieur).\n* Mise en place de prises programmables."
+richtext = "* Remplacement de toutes les ampoules / tubes néons par des LED.\n* Mise en place de petites lampes de chevet pour éclairage local et éviter d'éclairer toute une zone (open space).\n* Remplacement d'appareil ménager en tenant compte du score énergie.\n* Remplacement des Imac 25” par des mac book portables, dont la consommation est divisée par 5.\n* Consigne d'éteindre plutôt que mettre en veille le matériel informatique (copieur).\n* Mise en place de prises programmables."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
