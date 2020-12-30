@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Celencia"
 contentonly = false
 description = "Fiche pratique : Recruter une personne en situation de handicap"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
