@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Greenspector"
 contentonly = false
 description = "Fiche pratique : Eco-concevoir son site web"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Important"
