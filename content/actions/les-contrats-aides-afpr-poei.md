@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "* Réduire les risques et les coûts liés au recrutement. \n* S’assurer de la bonne intégration de la personne avant de s’orienter sur un contrat plus engageant.\n* Faciliter l'accès à l'entreprise (travail & formation) pour les demandeurs d'emploi."
+richtext = "* Réduire les risques et les coûts liés au recrutement.\n* S'assurer de la bonne intégration de la personne avant de s'orienter sur un contrat plus engageant.\n* Faciliter l'accès à l'entreprise (travail & formation) pour les demandeurs d'emploi."
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
