@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Appstud"
 contentonly = false
 description = "Fiche pratique : Les contrats aidés (AFPR, POEI)"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
