@@ -103,7 +103,6 @@ fields:
   description: For debug purpose, please left it unset
 pages:
 - content/actions/allouer-un-budget-libre-chaque-annee-a-chaque-salarie.md
-- content/actions/eco-concevoir-son-site-web.md
 - content/actions/faire-du-tri-et-nettoyer-ses-boites-mails.md
 - content/actions/inciter-au-covoiturage-et-aux-deplacements-vert.md
 - content/actions/limiter-la-consommation-de-climatisation-et-favoriser-l-aeration.md
