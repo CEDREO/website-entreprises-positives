@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "[Le Guide Zero Dechet au bureau de Zero Waste](https://www.zerowastefrance.org/publication/zero-dechet-au-bureau/)  \nNotre charte interne  \nPour des plateaux repas sans plastique et délicieux : [Un coin de Prairie](http://www.uncoindeprairie.com/)  \nFournisseurs café / thé : Espérance Café, Voyage de thé  \n  \nMarjolaine Roy & Armelle Robet  \nMembre de la team RSE  \nm.roy@notchup.fr"
+richtext = "[Le Guide Zero Dechet au bureau de Zero Waste](https://www.zerowastefrance.org/publication/zero-dechet-au-bureau/)  \nNotre charte interne  \nPour des plateaux repas sans plastique et délicieux : Un coin de Prairie  \nFournisseurs café / thé : Espérance Café, Voyage de thé\n\nMarjolaine Roy & Armelle Robet  \nMembre de la team RSE  \nm.roy@notchup.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
