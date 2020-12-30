@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Un bon recrutement est la clé, il ne faut pas attendre des personnes rencontrées de multiples connaissances (puisqu’elles sont ici pour se former) mais une grosse motivation, curiosité et capacité d'évolution."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Une bonne intégration est la clé, il ne faut pas négliger les efforts habituels."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -177,7 +177,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Le site internet [Pole Emploi](https://www.pole-emploi.fr/accueil/ \"Pôle emploi\")\n\nJeanne TROUILHET  \nRRH chez Appstud  \njtrouilhet@appstud.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
