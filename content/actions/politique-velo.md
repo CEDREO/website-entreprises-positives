@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous souhaitons développer la pratique du vélo pour les déplacements domicile-travail afin de :\n\n* Réduire notre empreinte carbone : les transports représentent [30% des émissions](https://ree.developpement-durable.gouv.fr/themes/defis-environnementaux/changement-climatique/emissions-de-gaz-a-effet-de-serre/article/les-emissions-de-gaz-a-effet-de-serre-des-transports) de gaz à effet de serre en France. Les mobilités douces sont donc un des leviers les plus efficaces pour réduire l’empreinte carbone de l’entreprise\n* Favoriser la pratique d’une activité physique pour les collaborateurs : la pratique quotidienne du vélo est bonne pour la santé, et diminue de 15% les arrêts maladie selon [une étude du gouvernement](https://www.bfmtv.com/sante/bien-etre-au-travail/plus-de-salaries-cyclistes-pour-moins-d-arrets-maladie_AN-201801090031.html#:\\~:text=Car%20rouler%20%C3%A0%20deux%20roues,%C3%A0%20venir%20davantage%20%C3%A0%20bicyclette.)"
+richtext = "Nous souhaitons développer la pratique du vélo pour les déplacements domicile-travail afin de :\n\n* Réduire notre empreinte carbone : les transports représentent [30% des émissions](https://ree.developpement-durable.gouv.fr/themes/defis-environnementaux/changement-climatique/emissions-de-gaz-a-effet-de-serre/article/les-emissions-de-gaz-a-effet-de-serre-des-transports) de gaz à effet de serre en France. Les mobilités douces sont donc un des leviers les plus efficaces pour réduire l’empreinte carbone de l’entreprise\n\n* Favoriser la pratique d’une activité physique pour les collaborateurs : la pratique quotidienne du vélo est bonne pour la santé, et diminue de 15% les arrêts maladie selon [une étude du gouvernement](https://www.bfmtv.com/sante/bien-etre-au-travail/plus-de-salaries-cyclistes-pour-moins-d-arrets-maladie_AN-201801090031.html#:\\~:text=Car%20rouler%20%C3%A0%20deux%20roues,%C3%A0%20venir%20davantage%20%C3%A0%20bicyclette.)"
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
@@ -82,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Mise en place d’un incentive financier : 400€ maximum par collaborateur par an, en fonction du trajet parcouru, exonérée de cotisations et contributions sociales."
+richtext = "Mise en place d’un incentive financier : 400€ maximum par collaborateur par an, en fonction du trajet parcouru, exonéré de cotisations et contributions sociales."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
