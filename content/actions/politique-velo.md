@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "* La majorité des collaborateurs vivent à proximité de l’agence, ce qui facilite la transition au mode de transport doux comme le vélo.\n* L’augmentation récente de l’indemnité vélo (400€ / an / salarié), exonérée de cotisations et contributions sociales.\n* Ouverture de l’indemnité auprès des usagers de trottinettes et covoiturage."
+richtext = "* La majorité des collaborateurs vivent à proximité de l’agence, ce qui facilite la transition au mode de transport doux comme le vélo.\n\n* L’augmentation récente de l’indemnité vélo (400€ / an / salarié), exonérée de cotisations et contributions sociales.\n\n* Ouverture de l’indemnité auprès des usagers de trottinettes et covoiturage."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
