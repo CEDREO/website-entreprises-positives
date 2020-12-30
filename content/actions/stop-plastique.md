@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = "NOTCHUP"
+company = "Notchup"
 contentonly = false
 description = "Fiche Pratique : Déchets : stop au plastique"
 draft = true
