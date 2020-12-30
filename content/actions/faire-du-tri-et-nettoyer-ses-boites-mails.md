@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = "FAGUO"
+company = "Faguo"
 contentonly = false
 description = "Fiche pratique : Faire du tri et nettoyer ses boites mails"
 financialinvest = "Faible"
