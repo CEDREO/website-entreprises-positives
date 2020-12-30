@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Celencia"
 contentonly = false
 description = "Fiche pratique : Recruter une personne en situation de handicap"
 draft = true
@@ -11,7 +11,7 @@ maturity = "Aller plus loin"
 nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs d'activité"
 seotexts = []
 slug = ""
 title = "Recruter une personne en situation de handicap"
