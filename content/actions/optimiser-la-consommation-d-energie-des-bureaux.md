@@ -1,17 +1,17 @@
 +++
 breadcrumb = ""
-company = ""
+company = "VUPAR"
 contentonly = false
-description = ""
+description = "Fiche pratique : Optimiser la consommation d’énergie des bureaux"
 draft = true
-financialinvest = ""
+financialinvest = "Moyen"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Progresser"
+nature = ["Environnemental"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs d'activité"
 seotexts = []
 slug = ""
 title = "Optimiser la consommation d’énergie des bureaux"
@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "VUPAR est une agence de communication spécialisée en stratégie et design de marques. Elle emploie une quarantaine de personnes : designers, chefs de projets, développeurs, directeurs conseil."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Diminuer notre consommation électrique par salarié."
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
@@ -82,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Une approche pragmatique et \"au fil de l'eau\" pour privilégier de meilleures pratiques.\n\nCommunication en interne.\n\nUn des critères de la grille Planet RSE."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
@@ -101,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Remplacement de toutes les ampoules / tubes néons par des LED.\n* Mise en place de petites lampes de chevet pour éclairage local et éviter d’éclairer toute une zone (open space).\n* Remplacement d’appareil ménager en tenant compte du score énergie.\n* Remplacement des Imac 25” par des mac book portables, dont la consommation est divisée par 5.\n* Consigne d’éteindre plutôt que mettre en veille le matériel informatique (copieur).\n* Mise en place de prises programmables."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Une consommation par utilisateur en forte baisse :  \n2015 : 516 Kwh par salarié  \n2019 : 314 Kwh par salarié\n\nAutres résultats :  \nLe remplacement des postes fixes par des portables a permis de mettre en place le télétravail et le flex office."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Sensibilisation\n\nPrise en compte de la durée de vie des produits achetés, du coût direct et indirect"
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La conduite du changement de comportement des salariés"
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -177,7 +177,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Uptoled pour le changement des luminaires\n\nArnaud Bailly - Dirigeant   \n[arnaud@vupar.fr](mailto:arnaud@vupar.fr)  \n[https://www.linkedin.com/in/arnaud-bailly-731b2511/](https://www.linkedin.com/in/arnaud-bailly-731b2511/ \"https://www.linkedin.com/in/arnaud-bailly-731b2511/\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
