@@ -176,7 +176,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "[Livre blanc FAGUO](https://faguo.zendesk.com/hc/article_attachments/360010150960/9_conseils_pour_vider_ses_boi_tes_mails.pdf)  \nSources & liens utiles. : [Cleanfox](https://www.cleanfox.io/fr/), [Ademe](https://www.ademe.fr/), [01.net](http://01.net/)  \nMartin, Responsable WEB : [martin@faguo.fr](mailto:martin@faguo.fr)  \nRomain, Responsable Communication : [romain@faguo.fr](mailto:romain@faguo.fr)"
+richtext = "[Livre blanc FAGUO](https://faguo.zendesk.com/hc/article_attachments/360010150960/9_conseils_pour_vider_ses_boi_tes_mails.pdf)  \nSources & liens utiles. : [Cleanfox](https://www.cleanfox.io/fr/), [Ademe](https://www.ademe.fr/), [01.net](http://01.net/)  \nMartin, Responsable WEB : martin arobase faguo.fr  \nRomain, Responsable Communication : romain arobase faguo.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
