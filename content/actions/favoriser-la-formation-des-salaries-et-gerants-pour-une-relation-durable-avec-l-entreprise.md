@@ -82,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Chaque année, on se pose la question : Quelles sont les formations qui seraient utiles pour l’entreprise et pour les salariés ?\n\nLors d’un entretien individuel ou des échanges informels, prendre en compte les besoins et envies de chaque personne (y compris gérant) ou proposer des formations selon la liste prédéfinie. Parfois certains sujets non anticipés peuvent sortir: Formation orthographe, SST…\n\nRépertorier les organismes de formation permettant de répondre à la demande.\n\nCaler les plannings pour éviter que tout le monde soit absent en même temps !\n\nFaire les demandes aux opco pour les prises en charges, même si celles-ci sont refusées, si financièrement l’entreprise peut prendre en charge il faut jouer le jeu, il faut donc prévoir un budget formation."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
@@ -101,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Les résultats sont positifs concernant la satisfaction intellectuelle avec des réponses quasiment tout le temps positives aux demandes de formations permettant aux personnes d’apprendre en permanence.\n\nDes techniciens peuvent développer des compétences complémentaires et ainsi évoluer dans leur poste vers des postes d’administration.\n\nNous avons pu développer des expertises à proposer en services clients mais également améliorer des processus internes grâce à la remise en question que suscite les formations.\n\nHumainement les formations permettent de nouer des contacts avec les autres étudiants et d'échanger sur les problématiques rencontrées ce qui n’était pas forcément anticipé mais plutôt appréciable. Un deuxième effet notable est la valorisation de la transmission de savoir: Une personne formée pourra diffuser son savoir auprès des autres ce qui peut s’avérer plutôt valorisant."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
