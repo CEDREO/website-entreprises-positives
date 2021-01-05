@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Celencia"
 contentonly = false
-description = "Fiche pratique : Communiquer sur le harcèlement et donner une palette de contacts possibles si cela arrivait"
+description = "Fiche pratique RSE : Communiquer sur le harcèlement et donner une palette de contacts possibles si cela arrivait"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
