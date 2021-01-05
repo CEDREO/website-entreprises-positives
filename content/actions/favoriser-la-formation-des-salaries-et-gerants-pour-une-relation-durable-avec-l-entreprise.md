@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Garantir que le temps de formation soit suffisamment anticipé pour que le formé soit “libéré” pendant la formation.\n\nNe rien imposer en termes de thématique mais proposer et chacun choisit."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Les contraintes sont temporelles, il faut dégager du temps et les limites (pas encore rencontrées chez nous) que tout le monde veuille suivre les mêmes formations ce qui limiterait l'intérêt de diversification."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
