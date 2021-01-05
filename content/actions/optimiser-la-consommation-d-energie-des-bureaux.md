@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "VUPAR"
 contentonly = false
-description = "Fiche pratique : Optimiser la consommation d'énergie des bureaux"
+description = "Fiche pratique RSE : Optimiser la consommation d'énergie des bureaux"
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
