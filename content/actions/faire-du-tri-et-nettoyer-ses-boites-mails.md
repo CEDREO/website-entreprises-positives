@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Faguo"
 contentonly = false
-description = "Fiche pratique : Faire du tri et nettoyer ses boites mails"
+description = "Fiche pratique RSE : Faire du tri et nettoyer ses boites mails"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
