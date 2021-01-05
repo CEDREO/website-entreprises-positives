@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Planet' RSE"
 contentonly = false
-description = "Fiche pratique : Mettre en place le mécénat(de compétences, produits, ou services) entre mon entreprise et des structures associatives"
+description = "Fiche pratique RSE : Mettre en place le mécénat (de compétences, produits, ou services) entre mon entreprise et des structures associatives"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
