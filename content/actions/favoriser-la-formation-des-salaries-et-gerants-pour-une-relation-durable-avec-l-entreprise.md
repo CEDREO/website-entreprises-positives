@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Toolin"
 contentonly = false
 description = "Fiche pratique RSE : Favoriser la formation des salariés (et gérants !) pour une relation durable avec l’entreprise."
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
