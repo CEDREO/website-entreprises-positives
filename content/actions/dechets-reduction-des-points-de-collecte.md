@@ -176,7 +176,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Jeanne TROUILHET  \nRRH chez Appstud  \njtrouilhet@appstud.com"
+richtext = "Jeanne TROUILHET  \nRRH chez Appstud  \njtrouilhet arobase appstud.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
