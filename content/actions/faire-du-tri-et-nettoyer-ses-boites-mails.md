@@ -81,7 +81,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous avons écrit un [**livre blanc**](https://faguo.zendesk.com/hc/article_attachments/360010150960/9_conseils_pour_vider_ses_boi_tes_mails.pdf) pour réduire le nombre de mail stockés dans une boîte mail. Les leviers d’actions de ce guide étaient multiples :\n\n* se désabonner des listes de diffusion de spam dont nous n’avons pas réellement l’utilité.\n* supprimer tous les spams ou indésirables\n* identifier les emails récurrents et supprimer les plus anciens qui ne nous serviront plus\n* prioriser les emails avec des pièces jointes qui sont plus lourds donc plus énergivores à stocker et les supprimer\n* etc..."
+richtext = "Nous avons écrit un [**livre blanc**](https://faguo.zendesk.com/hc/article_attachments/360010150960/9_conseils_pour_vider_ses_boi_tes_mails.pdf) pour réduire le nombre de mail stockés dans une boîte mail. Les leviers d’actions de ce guide étaient multiples :\n\n* se désabonner des listes de diffusion de spam dont nous n’avons pas réellement l’utilité,\n* supprimer tous les spams ou indésirables,\n* identifier les emails récurrents et supprimer les plus anciens qui ne nous serviront plus,\n* prioriser les emails avec des pièces jointes qui sont plus lourds donc plus énergivores à stocker et les supprimer,\n* etc..."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
