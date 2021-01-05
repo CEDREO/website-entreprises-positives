@@ -176,7 +176,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Le site internet [Pole Emploi](https://www.pole-emploi.fr/accueil/ \"Pôle emploi\")\n\nJeanne TROUILHET  \nRRH chez Appstud  \njtrouilhet@appstud.com"
+richtext = "Le site internet [Pole Emploi](https://www.pole-emploi.fr/accueil/ \"Pôle emploi\")\n\nJeanne TROUILHET  \nRRH chez Appstud  \njtrouilhet arobase appstud.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
