@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "CFE CGC"
 contentonly = false
-description = "Fiche pratique : Inciter au covoiturage et aux déplacements \"vert\""
+description = "Fiche pratique : Inciter au covoiturage et aux déplacements \"verts\""
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
@@ -13,7 +13,7 @@ schemajson = ""
 sector = "Tous secteurs"
 seotexts = []
 slug = ""
-title = "Inciter au covoiturage et aux déplacements \"vert\""
+title = "Inciter au covoiturage et aux déplacements \"verts\""
 trackers = []
 [[blocs]]
 forestrylabel = "Entreprise témoin"
