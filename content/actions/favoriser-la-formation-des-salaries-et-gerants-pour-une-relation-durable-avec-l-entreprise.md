@@ -58,31 +58,12 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Contexte"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = ""
-title = "Contexte"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = true
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
 forestrylabel = "Méthode"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Sanctuariser le fait que chacun ait le droit à une formation par an sur le sujet de son choix, préparer en amont une liste de thématiques intéressante pour l’entreprise et pour le salarié mais sans obligation de choisir parmi cette liste. Se mettre d’accord sur la thématique (pas nécessairement en lien avec le poste) et anticiper les organismes et dates possibles."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
