@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Jefo Europe"
 contentonly = false
 description = "Fiche pratique RSE : Impliquer ses clients dans sa réflexion stratégique"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Moyen"
