@@ -176,7 +176,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Les ressources mentionnées :\n\n[Thème Wordpress Gutemberg](https://fr.wordpress.org/gutenberg/)\n\n[Gutemberg Custom Blocks – Kadence Blocks](https://wordpress.org/plugins/kadence-blocks/)\n\nLe site web :[ ](https://greenspector.com/fr/accueil/)[https://greenspector.com/fr/accueil/](https://greenspector.com/fr/accueil/ \"https://greenspector.com/fr/accueil/\")\n\nSur l’intérêt général de l’éco-conception : [https://lebondigital.com/avantages-eco-conception-web/](https://lebondigital.com/avantages-eco-conception-web/ \"https://lebondigital.com/avantages-eco-conception-web/\")\n\nKimberley DERUDDER – Responsable Marketing & Communication  \nkderudder@greenspector.com"
+richtext = "Les ressources mentionnées :\n\n[Thème Wordpress Gutemberg](https://fr.wordpress.org/gutenberg/)\n\n[Gutemberg Custom Blocks – Kadence Blocks](https://wordpress.org/plugins/kadence-blocks/)\n\nLe site web :[ ](https://greenspector.com/fr/accueil/)[https://greenspector.com/fr/accueil/](https://greenspector.com/fr/accueil/ \"https://greenspector.com/fr/accueil/\")\n\nSur l’intérêt général de l’éco-conception : [https://lebondigital.com/avantages-eco-conception-web/](https://lebondigital.com/avantages-eco-conception-web/ \"https://lebondigital.com/avantages-eco-conception-web/\")\n\nKimberley DERUDDER – Responsable Marketing & Communication  \nkderudder arobase greenspector.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
