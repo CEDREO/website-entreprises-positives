@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "CFE CGC"
 contentonly = false
-description = "Fiche pratique : Inciter au covoiturage et aux déplacements \"verts\""
+description = "Fiche pratique RSE : Inciter au covoiturage et aux déplacements \"verts\""
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
