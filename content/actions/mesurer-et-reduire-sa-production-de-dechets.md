@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Cedreo"
 contentonly = false
-description = "Fiche pratique : mesurer et réduire sa production de déchets"
+description = "Fiche pratique RSE : mesurer et réduire sa production de déchets"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"

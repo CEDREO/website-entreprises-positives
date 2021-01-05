@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Aepsilon"
 contentonly = false
-description = "Fiche pratique : Mesurer et réduire les différences de salaires h/f"
+description = "Fiche pratique RSE : Mesurer et réduire les différences de salaires h/f"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
