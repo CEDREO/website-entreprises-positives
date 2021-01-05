@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Aepsilon"
 contentonly = false
-description = "Fiche pratique : Limiter la consommation de climatisation et favoriser l'aération"
+description = "Fiche pratique RSE : Limiter la consommation de climatisation et favoriser l'aération"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
