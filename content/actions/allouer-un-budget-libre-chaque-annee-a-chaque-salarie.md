@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "B Side"
 contentonly = false
-description = "Fiche pratique : allouer un budget libre chaque année à chaque salarié"
+description = "Fiche pratique RSE : allouer un budget libre chaque année à chaque salarié"
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
