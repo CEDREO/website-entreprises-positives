@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Wiztivi"
 contentonly = false
-description = "Fiche pratique : Qualité de vie au travail et réduction carbone : le télétravail"
+description = "Fiche pratique RSE : Qualité de vie au travail et réduction carbone - le télétravail"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
