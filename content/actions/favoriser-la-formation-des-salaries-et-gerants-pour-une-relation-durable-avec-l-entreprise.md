@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Se renseigner auprès des opco sur les formations prioritaires qui seront prises en charge, voir également auprès des organismes type CPME pour des sessions courtes mais pertinentes sur certains sujets.\n\nLes plateformes en ligne de formation peuvent aussi être une première approche peu onéreuse pour commencer.\n\n  \nNicolas d’Espinay Dirigeant chez Toolin nicolas arobase toolin.fr"
+richtext = "Se renseigner auprès des opco sur les formations prioritaires qui seront prises en charge, voir également auprès des organismes type CPME pour des sessions courtes mais pertinentes sur certains sujets.\n\nLes plateformes en ligne de formation peuvent aussi être une première approche peu onéreuse pour commencer.\n\n  \nContact : Nicolas d’Espinay Dirigeant chez Toolin nicolas arobase toolin.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
