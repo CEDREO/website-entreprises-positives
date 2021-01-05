@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Appstud"
 contentonly = false
-description = "Fiche pratique : Sécuriser ses recrutements en proposant des contrats pôle emploi (AFPR, POEI)"
+description = "Fiche pratique RSE : Sécuriser ses recrutements en proposant des contrats pôle emploi (AFPR, POEI)"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
