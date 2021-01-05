@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Wiztivi"
 contentonly = false
-description = "Fiche pratique : Qualité de Vie au Travail et réduction carbone : le télétravail"
+description = "Fiche pratique : Qualité de vie au travail et réduction carbone : le télétravail"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
@@ -13,7 +13,7 @@ schemajson = ""
 sector = "Tertaire"
 seotexts = []
 slug = ""
-title = "Qualité de Vie au Travail et réduction carbone : le télétravail"
+title = "Qualité de vie au travail et réduction carbone : le télétravail"
 trackers = []
 [[blocs]]
 forestrylabel = "Entreprise témoin"
