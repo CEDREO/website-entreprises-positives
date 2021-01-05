@@ -1,17 +1,17 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Toolin"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : Favoriser la formation des salariés (et gérants !) pour une relation durable avec l’entreprise."
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Premières actions"
+nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Favoriser la formation des salariés (et gérants !) pour une relation durable avec l’entreprise."
@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Toolin est une entreprise de 10 personnes intervenant sur l’ouest de la France en temps que DSI externalisée."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Satisfaire la soif de connaissance de chacun, faire évoluer les salariés dans l’entreprise et accroître leur engagement, améliorer les services auprès des clients."
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
