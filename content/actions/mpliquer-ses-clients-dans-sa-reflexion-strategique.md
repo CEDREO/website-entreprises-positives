@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Strategic Plan 202O-2023 JEFO EUROPE.pdf\n\nJérôme FOUQUET : jfouquet@jefo.ca"
+richtext = "[Strategic Plan 202O-2023 JEFO EUROPE.pdf](https://drive.google.com/file/d/13gd1OrCN7i_9IexWNR4ez2tFjMjzQs2y/view?usp=sharing)\n\nJérôme FOUQUET : jfouquet arobase jefo.ca"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
