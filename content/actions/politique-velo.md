@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Notchup"
 contentonly = false
-description = "Fiche pratique : Politique Vélo"
+description = "Fiche pratique RSE : Mettre en place une politique vélo"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
@@ -13,7 +13,7 @@ schemajson = ""
 sector = "Tous secteurs"
 seotexts = []
 slug = ""
-title = "Politique Vélo"
+title = "Mettre en place une politique vélo"
 trackers = []
 [[blocs]]
 forestrylabel = "Entreprise témoin"
