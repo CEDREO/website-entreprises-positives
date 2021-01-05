@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Appstud"
 contentonly = false
-description = "Fiche pratique : Déchets : réduction des points de collecte"
+description = "Fiche pratique RSE : Déchets : réduction des points de collecte"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
