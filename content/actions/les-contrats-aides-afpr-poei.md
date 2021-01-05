@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Appstud"
 contentonly = false
-description = "Fiche pratique : Sécuriser ses recrutement en proposant des contrats pôle emploi (AFPR, POEI)"
+description = "Fiche pratique : Sécuriser ses recrutements en proposant des contrats pôle emploi (AFPR, POEI)"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
@@ -13,7 +13,7 @@ schemajson = ""
 sector = "Tous secteurs d'activité"
 seotexts = []
 slug = ""
-title = "Sécuriser ses recrutement en proposant des contrats pôle emploi (AFPR, POEI)"
+title = "Sécuriser ses recrutements en proposant des contrats pôle emploi (AFPR, POEI)"
 trackers = []
 [[blocs]]
 forestrylabel = "Entreprise témoin"
