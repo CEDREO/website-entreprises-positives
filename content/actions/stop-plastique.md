@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Notchup"
 contentonly = false
 description = "Fiche Pratique RSE : Déchets : stop au plastique"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
