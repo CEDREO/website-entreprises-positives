@@ -67,8 +67,13 @@ richtext = "La Fresque du climat est un outil pédagogique sous forme de jeu de 
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Illustration principe fresque climat"
+image = "/uploads/fresque_climat.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
