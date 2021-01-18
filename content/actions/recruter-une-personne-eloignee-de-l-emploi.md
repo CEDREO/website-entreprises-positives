@@ -1,17 +1,17 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Vivolum"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : Recruter une personne éloignée de l'emploi"
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Premières actions"
+nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Recruter une personne éloignée de l'emploi"
@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Créée en 1988, Vivolum aménage et agence des espaces de bureaux et des lieux de travail. Elle emploie 60 salariés.\n\nDepuis 15 ans, l’entreprise recrute en CDI des personnes éloignées de l’emploi : personnes sous mains de justice, gens du voyage, gens de la rue, migrants. Cette action d’insertion et d’intégration fait maintenant partie de l’ADN de l’entreprise et est réalisée à la demande des équipes."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -44,27 +44,8 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "L’objectif initial était de recruter des personnes motivées, quitte à les former. Aujourd’hui, il s’agit d’une réelle mission de l’entreprise que d’être un acteur d’intégration."
 title = "Objectifs"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = true
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
-forestrylabel = "Contexte"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = ""
-title = "Contexte"
 titlelevel = "2"
 [blocs.media]
 media = []
@@ -82,7 +63,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous avons formé le middle management pour :\n\n* Évoluer du savoir faire au faire savoir.\n* Évaluer un collaborateur sur son savoir être et non sur son savoir faire.\n\nCes formations étaient dans un premier temps assurées par des organismes extérieurs et sont maintenant données en interne.\n\nNotre sélection des candidats est forte :\n\n* Respect des consignes et de la hiérarchie.\n* Réelle volonté de s’intégrer.\n* Validation du tuteur de son souhait d’encadrer le jeune le temps de sa formation.\n\nLe recrutement commence toujours par un stage de 15 jours avec un chef. Cette période de 15j permet de valider la motivation du jeune sur une durée suffisante. C’est le chef qui décide s’il souhaite s’investir avec ce jeune."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
@@ -101,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous avons des partenariats avec différentes structures :\n\n* JOB4MI : plateforme de mise en relation des recruteurs avec les personnes migrantes et les réfugiés autorisés à travailler.\n* Lazare : association qui anime et développe des colocations solidaires entre des personnes qui ont vécu à la rue et de jeunes actifs.\n* Pôle Emploi justice et le SPIP (Service Pénitentiaire d’Insertion et de Probation) pour les personnes sous main de justice.\n\nCes structures identifient, sélectionnent et nous proposent des candidats.\n\nLes échanges sont maintenant réguliers et c’est souvent ces structures qui sollicitent directement Vivolum lorsqu’elle ont un profil intéressant et motivé."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
