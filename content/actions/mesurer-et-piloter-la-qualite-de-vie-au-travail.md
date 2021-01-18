@@ -129,7 +129,7 @@ position = "Bottom"
 alt = "Vue macro taux participation enquête QVT"
 image = "/uploads/qvt_dynamips01.png"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = true
