@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Vivolum"
 contentonly = false
 description = "Fiche pratique RSE : Recruter une personne éloignée de l'emploi"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
