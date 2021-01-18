@@ -1,17 +1,17 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Thierry Immobilier"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : Organiser un atelier de sensibilisation \"Fresque du climat\""
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Premières actions"
+nature = ["Environnemental"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Organiser un atelier de sensibilisation \"Fresque du climat\""
@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Thierry Immobilier est un acteur de l’immobilier (vente, location, gestion, syndic) en Loire-Atlantique avec 135 collaborateurs sur 6 sites.\n\nDepuis la mise en place d’un projet d’entreprise, un comité de pilotage (composé d’associés, responsables de services et fonctions support) se réunit de manière régulière pour partager des réflexions et faire avancer les différents sous-projets."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Sensibiliser l’ensemble du comité de pilotage sur l’urgence d’agir par rapport au dérèglement climatique : comprendre les enjeux, prendre du recul, savoir relier les causes aux effets.\n* Ramener les causes et effets macros à l’échelle de l’entreprise et mener une réflexion collective sur les axes à travailler par rapport au secteur et aux métiers."
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
