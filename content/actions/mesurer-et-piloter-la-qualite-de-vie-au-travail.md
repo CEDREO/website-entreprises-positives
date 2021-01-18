@@ -153,7 +153,7 @@ position = "Bottom"
 alt = "Compilations stats QVT"
 image = "/uploads/qvt_dynamips02.png"
 shadowed = false
-size = ""
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = true
