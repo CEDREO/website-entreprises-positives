@@ -72,7 +72,7 @@ position = "Bottom"
 alt = "Illustration principe fresque climat"
 image = "/uploads/fresque_climat.jpg"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = true
