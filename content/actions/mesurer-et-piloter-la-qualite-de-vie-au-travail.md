@@ -206,7 +206,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "L’application [Weview](https://www.weview.io/).\n\nPublication des résultats mensuels de l’entreprise dans les compte-rendu de Comité de Direction.\n\nRevue des résultats en points mensuels individuels.\n\nPrésentation des résultats consolidés à l’échelle de l’entreprise en kick-off de rentrée.\n\nContact :\n\nFabien LEVEQUE – Directeur Marketing & RSE - fleveque arobase dynamips.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
