@@ -106,12 +106,17 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Appropriation du rapport du GIEC en 2 heures pour des non-scientifiques.\n* Des fresques qui peuvent être affichées dans l’entreprise.\n* Une meilleure compréhension et partage de sens au sein de l’équipe dirigeante sur l’importance de la démarche RSE, ses orientations, ses priorités > meilleure adhésion grâce à la co-construction.\n* Réalisé en interne post-atelier : un document récapitulatif avec toutes les pistes d’action envisageables."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Résultat fresque Thierry Immobilier"
+image = "/uploads/fresque_climat_resultat.jpg"
+shadowed = false
+size = "Large"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
