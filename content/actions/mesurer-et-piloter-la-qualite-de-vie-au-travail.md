@@ -148,8 +148,13 @@ richtext = "Nous pouvons ensuite avoir une vue par service pour un meilleur suiv
 title = ""
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Compilations stats QVT"
+image = "/uploads/qvt_dynamips02.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
@@ -163,7 +168,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Faire vivre la démarche ! Communiquer sur les résultats régulièrement, se saisir des sujets et échanger avec les équipes.\n\n\n* Veiller à une certaine diversité dans les questions posées.\n\n\n* Prendre des décisions et mener des projets suite aux résultats des enquêtes."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -182,7 +187,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Attention au rythme et à la redondance des questionnaires.\n\n\n* Encourager les managers à s’appuyer sur l’outil dans leur gestion d’équipe pour creuser les sujets\n\n\n* Veiller à un bon taux de participation >> communiquer régulièrement !"
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
