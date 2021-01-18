@@ -22,6 +22,13 @@ titlelevel = "1"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
+forestrylabel = "Vivolum"
+name = "Vivolum"
+url = "https://www.vivolum.fr/"
+[blocs.logos.logo]
+alt = "Logo Vivolum"
+image = "/uploads/vivolum.png"
+[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
