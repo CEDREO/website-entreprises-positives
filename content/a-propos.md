@@ -174,7 +174,7 @@ name = "Vivolum"
 url = "https://www.vivolum.fr/"
 [blocs.logos.logo]
 alt = "Logo Vivolum"
-image = "/uploads/vivolum.png"
+image = "/uploads/logo_vivolum.jpg"
 [[blocs.logos]]
 forestrylabel = "Delia"
 name = "Delia"
