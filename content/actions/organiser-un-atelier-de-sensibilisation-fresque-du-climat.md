@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Thierry Immobilier"
 contentonly = false
 description = "Fiche pratique RSE : Organiser un atelier de sensibilisation \"Fresque du climat\""
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
