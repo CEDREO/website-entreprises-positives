@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "DynaMIPS"
 contentonly = false
 description = "Fiche pratique RSE : Mesurer et piloter la Qualité de Vie au Travail (QVT)"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
