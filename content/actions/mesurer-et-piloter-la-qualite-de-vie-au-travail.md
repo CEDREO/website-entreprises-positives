@@ -1,20 +1,20 @@
 +++
 breadcrumb = ""
-company = ""
+company = "DynaMIPS"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : Mesurer et piloter la Qualité de Vie au Travail (QVT)"
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Moyen"
+maturity = "Premières actions"
+nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
-title = "Mesurer et piloter la qualité de vie au travail"
+title = "Mesurer et piloter la Qualité de Vie au Travail (QVT)"
 trackers = []
 [[blocs]]
 forestrylabel = "Entreprise témoin"
@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "DynaMIPS est une ESN de 130 personnes basée dans le Grand Ouest (5 sites). La mise en place d’un baromètre de bien-être au travail a été motivée par le besoin de piloter et d’aller plus loin dans notre politique de QVT."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Piloter la QVT et déterminer des axes de progression.\n\n\n* Aider les managers dans leur gestion d’équipes et de personnes.\n\n\n* Prendre des décisions d’aménagement.\n\n\n* Donner une nouvelle tribune d’expression pour les équipes.\n\n\n* Renforcer le bien-être de nos collaborateurs, nos clients nous le rendront bien ! 😊"
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
@@ -63,7 +63,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous avons commencé à utiliser un baromètre de bien-être lors du lancement de notre démarche RSE et de notre politique de Qualité de Vie au Travail. Nous souhaitions nous appuyer sur un outil de mesure pour piloter et rendre concrètes les avancées."
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
@@ -82,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous avons opéré un benchark d’outils disponibles puis avons fait le choix d’un prestataire local, la start-up vendéenne Weview. Weview est une plateforme en mode SAAS qui permet de réaliser et communiquer des questionnaires à des équipes. Elle permet ensuite d’en analyser les résultats par services ou à l’échelle du Groupe, en respectant l’anonymat des répondants."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
@@ -101,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Il s’agit avant tout de planifier les points d’échange. L’application doit intégrer les routines de l’entreprise et devenir un outil de management et d’aide à la décision.\n\nPhase 1 : réflexion sur les thèmes à travailler et création des questionnaires / enquêtes, paramétrage de l’outil.\n\nPhase 2 : lancement des enquêtes.\n\nPhase 3 : revue des résultats et analyse en Comité de Direction tous les mois.\n\nPhase 4 : présentation des résultats et échange en point mensuel avec chaque collaborateur, instauration d’un dialogue autour des sujets abordés lors de l’enquête.\n\nPhase 5 : point semestriel avec le prestataire, vue d’ensemble, axes d’amélioration et bonnes pratiques.\n\nPhase 6 : présentation des résultats annuels à l’ensemble de l’entreprise en kick-off de rentrée."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
