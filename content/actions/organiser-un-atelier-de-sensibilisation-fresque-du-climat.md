@@ -149,7 +149,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Certains participants peuvent être submergés par un sentiment d’impuissance et de peur face aux nombreuses problématiques évoquées 🡪 importance d’évacuer les émotions en fin d’atelier et de pousser à la réflexion collective vers le “Que pouvons-nous faire à notre échelle ?”."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -168,7 +168,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Toutes les informations se trouvent sur le site : [La Fresque du Climat](https://fresqueduclimat.org/)\n\nPossibilité de participer à des ateliers pour [se former à l’animation](https://fresqueduclimat.org/dates-formations/)\n\nAccompagnement p.ex. par [Terra21](http://www.terra21.fr/) (Nantes) > tarif dépend du nombre de participants et de la structure.\n\nContacts :   \nBenoît THIERRY – Directeur Général associé - bthierry arobase thierry-immobilier.fr\n\nMélanie STRATMANN – Chef de projet RSE - mstratmann arobase thierry-immobilier.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
