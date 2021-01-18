@@ -101,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "1. Les compagnons que nous avons aidés dans un moment difficile sont hyper motivés, attachés et fidèles à l’entreprise.\n2. Le middle management est très motivé par cette démarche, cela donne du sens à leur travail. Ils sont tous volontaires et demandeurs de cet accompagnement.\n3. Cette démarche permet de mettre l’humain au cœur de notre stratégie. Nous capitalisons sur la fragilité et la vulnérabilité de chacun. Cela nous permet ainsi d’avoir une forte diversité et une forte richesse humaine.\n\nEn septembre 2020 Vivolum a participé à L'Inclusive Tour avec « Les trophées la France une chance » qui récompensent les collaborations innovantes entre les entreprises sociales inclusives et les entreprises locales. Elle a remporté le premier prix dans la catégorie « impact emploi » en binôme avec Job4mi Ouest afin de mettre en valeur leur collaboration."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "L’impulsion initiale doit venir du dirigeant, dans le respect de chacun et la conviction des valeurs sociales de l’entreprise.\n\nLes collaborateurs doivent s’approprier les valeurs et le plaisir de cette mission d’intégration.\n\nNous acceptons la diversité, la fragilité de chacun mais restons exigeants sur certaines valeurs de respect."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous formons et intégrons des jeunes sur le long terme. Nous sommes donc limités dans ce modèle par la disponibilité des chefs de chantier."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Job4MI : [Pour un accompagnement des migrants vers l’emploi](https://pro.choisirmonmetier-paysdelaloire.fr/ContentMedia/OPDL/ARTICLES/2020/Job4mi-pour-un-accompagnement-des-migrants-vers-l-emploi) - contact.job4mi arobase gmail.com\n\nLazare : [https://lazare.eu](https://lazare.eu \"https://lazare.eu\")\n\nContact : Olivier RIOM – VIVOLUM – o.riom arobase vivolum.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
