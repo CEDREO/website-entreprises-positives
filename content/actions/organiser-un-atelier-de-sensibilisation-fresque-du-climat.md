@@ -130,7 +130,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Une direction qui donne de la place et du temps pour traiter le sujet.\n* Des animateurs formés au jeu avec une certaine expérience dans l’animation de groupes pour les coacher pendant leur réflexion et rythmer les échanges et les étapes.\n* Ouverture d’esprit et bienveillance des participants."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
