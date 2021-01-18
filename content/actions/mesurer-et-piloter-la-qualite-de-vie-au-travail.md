@@ -115,13 +115,37 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Résultats"
+forestrylabel = "Résultats part1"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Chaque mois, nous mesurons la QVT moyenne de nos équipes. Nous pouvons aussi suivre le taux de participation. Ci-après une vue macro :"
 title = "Résultats"
+titlelevel = "2"
+[blocs.media]
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Vue macro taux participation enquête QVT"
+image = "/uploads/qvt_dynamips01.png"
+shadowed = false
+size = ""
+template = "image"
+[blocs.style]
+compactbottom = true
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Résultats part2"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Nous pouvons ensuite avoir une vue par service pour un meilleur suivi, toujours en respectant l’anonymat des personnes. Nous compilons ensuite des statistiques par an et par équipes."
+title = ""
 titlelevel = "2"
 [blocs.media]
 media = []
