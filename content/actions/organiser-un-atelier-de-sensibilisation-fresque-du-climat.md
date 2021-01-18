@@ -58,31 +58,12 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Contexte"
-template = "bloc-personalise"
-[blocs.content]
-align = ""
-cta = ""
-richtext = ""
-title = "Contexte"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = true
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
 forestrylabel = "Méthode"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La Fresque du climat est un outil pédagogique sous forme de jeu de cartes. En équipe, on doit retrouver les liens de cause à effet entre les 42 cartes du jeu et co-construire ainsi une véritable “Fresque” du changement climatique.\n\nDans notre cas, nous avons opté pour un atelier “sur mesure” pour ne pas rester sur la simple création de la fresque, mais pour développer dans une deuxième partie des pistes d’actions concrètes pour notre entreprise, ce qui nous a permis de sortir de cet atelier avec des axes de travail pour notre démarche RSE."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
