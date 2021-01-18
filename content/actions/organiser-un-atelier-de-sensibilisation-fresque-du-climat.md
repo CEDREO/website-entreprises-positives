@@ -87,7 +87,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Organisation préalable :\n\n* Se faire accompagner par un référent / formateur du réseau de la Fresque du climat (ou former une personne de l’interne à l’animation, p.ex. Responsable RSE).\n* Prévoir au moins 2h, plutôt 3 pour cet atelier.\n* Prévoir des groupes de 4 à 6 personnes par table.\n* Nécessite une grande salle avec de grandes tables de 1,50 x 1,50 min (papier, crayons, post-its).\n\nDéroulé :\n\n* Mot d’intro sur l’outil, sa conception, les étapes du jeu, timing.\n* Distribution des cartes au fur et à mesure à chaque groupe, l’animateur suit le/s groupes.\n* Constitution de la fresque et partie créative (trouver un titre, dessin, …).\n* Restitution par un ou plusieurs groupes.\n* Débrief (constats, ressentis, tour de table…).\n* Option : partie “actions concrètes”."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
