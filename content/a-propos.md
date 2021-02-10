@@ -167,7 +167,7 @@ name = "Scopic"
 url = "https://www.scopic.eu/"
 [blocs.logos.logo]
 alt = "Logo Scopic"
-image = "/uploads/logo_scopic.jpg"
+image = "/uploads/scopic.png"
 [[blocs.logos]]
 forestrylabel = "Vivolum"
 name = "Vivolum"
@@ -236,8 +236,8 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Le projet alors nommé Entreprises Positives a été rejoint par Planet’RSE, association visant à accompagner les premiers pas dans la mise en place d’une politique RSE dont l’aide nous a été précieuse alimenter en bonnes pratiques issues des audits de ses adhérents et structurer le contenu.\n\nCe projet n’est qu’un début et nous ne doutons pas qu’il y a encore beaucoup de bonnes pratiques à partager. Si vous souhaitez partager une bonne pratique ou connaissez une entreprise dont les pratiques gagneraient à être connues, n’hésitez pas à nous contacter !"
-title = "Des débuts prometteurs"
+richtext = "## Des débuts prometteurs\n\nLe projet alors nommé Entreprises Positives a été rejoint par Planet’RSE, association visant à accompagner les premiers pas dans la mise en place d’une politique RSE dont l’aide nous a été précieuse alimenter en bonnes pratiques issues des audits de ses adhérents et structurer le contenu.\n\nCe projet n’est qu’un début et nous ne doutons pas qu’il y a encore beaucoup de bonnes pratiques à partager. Si vous souhaitez partager une bonne pratique ou connaissez une entreprise dont les pratiques gagneraient à être connues, n’hésitez pas à nous contacter !"
+title = ""
 titlelevel = "2"
 [blocs.media]
 position = "Right"
