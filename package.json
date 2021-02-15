@@ -5,6 +5,9 @@
         "algolia": "atomic-algolia",
         "forestry:install" : "cd themes/entreprises-positives/assets && npm ci",
         "build:production" : "hugo --gc --minify -d dist",
-        "netlify" : "npm run forestry:install && npm run build:production && npm run algolia"
+        "netlify" : "npm install && npm run forestry:install && npm run build:production && npm run algolia"
+    },
+    "dependencies": {
+        "atomic-algolia": "^0.3.19"
     }
 }
