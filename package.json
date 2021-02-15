@@ -1,8 +1,10 @@
 {
     "private": true,
-    "license": "UNLICENSED",
+    "license": "Copyright Cedreo 2020",
     "scripts": {
         "algolia": "atomic-algolia",
-        "forestry:install" : "cd themes/entreprises-positives/assets && npm ci"
+        "forestry:install" : "cd themes/entreprises-positives/assets && npm ci",
+        "build:production" : "hugo --gc --minify -d dist",
+        "netlify" : "npm run forestry:install && npm run build:production && npm run algolia"
     }
 }
