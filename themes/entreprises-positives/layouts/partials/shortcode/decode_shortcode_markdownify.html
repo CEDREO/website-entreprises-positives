@@ -1,6 +1,6 @@
 <!-- pagecontext: the page context (required) -->
 <!-- content: the param value to transform -->
-{{$transformMD := .content | markdownify}}
+{{$transformMD := .content | .pagecontext.RenderString}}
 
 <!-- transform shortcode link_block -->
 {{range (findRE "{{&lt; link_block(.|\n)*? &gt;}}" $transformMD) }}
