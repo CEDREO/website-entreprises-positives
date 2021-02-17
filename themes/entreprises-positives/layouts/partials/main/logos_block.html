@@ -10,7 +10,7 @@
         <div class="logos-wrapper">
             {{ range .context.logos }}
             <div class="logo">
-                <a href="{{.url}}" title="{{.name}}">
+                <a href="{{.url}}" target="_BLANK" title="{{.name}}">
                     {{- partial "utils/responsive-image.html" (dict "image" .logo.image "class" "img-fluid mx-auto w-100" "alt" .alt "context" $.pagecontext "smallSize" "100" "largeSize" "20") -}}
                 </a>
             </div>

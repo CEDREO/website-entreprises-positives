@@ -72,44 +72,6 @@
     }
 </script>
 
-<!-- Javascript cookie banner -->
-<script async type="text/javascript">
-    var cookieBannerSelector = ".cookie-bar";
-    cookieBanner = {
-        acceptByNavigation: function () {
-            if (!(/cookie/.test(document.url)) && /{{$.Site.BaseURL}}/.test(document.referrer)) {
-                this.accept();
-                return true;
-            }
-            return false;
-        },
-        display: function () {
-            // display if not the cookie
-            if ("true" !== window.localStorage.getItem("acceptCookie"))
-            {
-                if (!this.acceptByNavigation())
-                {
-                    var bannerHtml = "<div class=\"cookie-bar text-center text-light bg-cedreo-carbon\"><p>" +
-                        "{{$.Site.Data.cookie.text | safeHTML}}" +
-                        "<a class=\"btn btn-secondary\" onclick=\"cookieBanner.accept()\">" +
-                        "{{$.Site.Data.cookie.buttontext}}" +
-                        "</a></p></div>";
-                }
-                jQuery(document.body).append(bannerHtml);
-            }
-        },
-        accept: function () {
-            window.localStorage.setItem("acceptCookie", "true");
-            window.localStorage.setItem("acceptCookieDate", new Date());
-            jQuery(cookieBannerSelector).remove();
-        }
-    };
-
-    jQuery(document).ready(function () {
-        cookieBanner.display();
-    })
-</script>
-
 {{- with $.Site.Data.cta.globaltrackers -}}
 {{- range . -}}
 {{ . | safeHTML }}
