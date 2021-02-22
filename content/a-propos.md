@@ -259,7 +259,7 @@ forestrylabel = "Partage idée"
 template = "bloc-personalise"
 [blocs.content]
 align = "Center"
-cta = "<a href=\"\" class=\"btn btn-orange\">Contactez-nous</a>"
+cta = "<a href=\"https://us2.list-manage.com/contact-form?u=4d18a9bea164524293f12d29a&form_id=68c890dad83c00157c354b87849711fa\" class=\"btn btn-orange\">Contactez-nous</a>"
 richtext = "<br/>"
 title = "Vous avez une bonne idée à partager ?"
 titlelevel = "2"
