@@ -166,32 +166,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "RIGHTS ABOUT YOUR DATA"
+forestrylabel = "LIENS VERS D’AUTRES SITES"
 template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "### Unconditional rights\n\nAt any time, you may:\n\n* Rectify your Personal Data\n* Obtain a copy of such Personal Data\n* Refuse any use which relates to marketing\n\n### Conditional rights\n\nAs the case may be, you may :\n\n* Withdraw your consent where one of our use is based hereupon\n* Refuse for a legitimate reason our use based on our legitimate interest or a public interest\n* Request the transfer to anyone of data we hold on the basis of a contract or of your consent (right to data portability)\n* Request that we keep your data without using it in case of inaccuracy, unlawfulness, while we examine your refusal that we use your data or should you need it before courts\n* Request deletion in case data is unnecessary or where you have withdrawn consent or refused our use or if you were a child upon collection (right to be forgotten)\n\n### Additional rights\n\nFinally, you may introduce a claim with [the data protection authority of your country](https://ec.europa.eu/justice/article-29/structure/data-protection-authorities/index_en.htm \"data protection authority\")."
-title = "RIGHTS ABOUT YOUR DATA"
-titlelevel = "2"
-[blocs.media]
-media = []
-position = ""
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = "Standard"
-[[blocs.style.background]]
-color = "Blanc"
-template = "couleur-de-fond"
-[[blocs]]
-forestrylabel = "LINKS TO OTHER SITES"
-template = "bloc-personalise"
-[blocs.content]
-align = "Left"
-cta = ""
-richtext = "The Site and the Service might offer links to third party websites that may be of interest to you.\n\nUnless we receive your express authorization, we do not share any Personal Data with these third parties. However, we may provide them with non-Personal Data.\n\nWe do not exercise any control over the content of third party websites or the practices of these third parties in connection with the protection of Personal Data that they might collect and are thus not in our control. \n\nIt is therefore your responsibility to inform yourself as to these third parties’ privacy policies."
-title = "LINKS TO OTHER SITES"
+richtext = "Le Site et le Service peuvent offrir des liens vers des sites Web de tiers susceptibles de vous intéresser.\n\nSauf autorisation expresse de votre part, nous ne partageons aucune donnée personnelle avec ces tiers. Cependant, nous pouvons leur fournir des données non personnelles.\n\nNous n’exerçons aucun contrôle sur le contenu des sites Web de tiers ou sur les pratiques de ces tiers en matière de protection des données personnelles qu’ils pourraient recueillir et qui ne sont donc pas sous notre contrôle.\n\nIl est donc de votre responsabilité de vous informer sur les politiques de confidentialité de ces tiers."
+title = "LIENS VERS D’AUTRES SITES"
 titlelevel = "2"
 [blocs.media]
 media = []
