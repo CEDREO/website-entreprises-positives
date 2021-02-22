@@ -10,6 +10,8 @@ seotexts = []
 slug = "mentions-legales"
 title = "Mentions légales"
 trackers = []
+[menu.site]
+weight = 2
 [[blocs]]
 forestrylabel = "Title"
 template = "bloc-personalise"
