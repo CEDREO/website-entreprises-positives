@@ -68,13 +68,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "ARTICLE 2 – Object"
+forestrylabel = "ARTICLE 2 : L’hébergeur"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "**2.1** – These General Terms are intended to provide the legal framework for the provision of the Software and its use by the User.\n\nThe Contract constitutes the entirety of the existing agreements between the Parties. It cancels and replaces any previous oral or written agreement relating to the purpose of the Contract. The Contract may only be waived by a written document from CEDREO.\n\nBy virtue of this contract, CEDREO grants the User:\n\n* Right of access to CEDREO servers subject to the terms set out hereafter;\n* A non-exclusive right of use of the Software;\n* A collection of Services defined hereafter, specifically data hosting, Software maintenance and technical assistance.\n\n**2.2** – The contractual documents shall be in the following descending order of priority:\n\n* The Offer;\n* Any technical documents explicitly specified as contractual;\n* These General Terms of Sale and Use and any annexes thereto;\n\nIn the event of any contradiction between one or more stipulations appearing in any of these various documents, the document having the higher priority shall prevail.\n\n**2.3** – Any Order shall imply unreserved acceptance of and full and complete compliance with these General Terms by the Customer.\n\nAny document other than the General Terms, any technical documents and the Offer, including any catalogue, prospectus, advertisement, visuals (in particular the images contained in any document issued by CEDREO), issued by CEDREO, as well as the contents of its websites, are indicative, informative, non-contractual.\n\n**2.4** – Any substantial modification of the General Terms will be communicated to the Customer within thirty\n\n(30) calendar days before they take effect. In case of refusal of the new general terms, the Customer remains free to terminate their Contract under the conditions of Article 18.1."
-title = "ARTICLE 2 – Object"
+richtext = "L'hébergeur du site www.entreprises-positives.org est la Société ovh."
+title = "ARTICLE 2 : L’hébergeur"
 titlelevel = "2"
 [blocs.media]
 media = []
