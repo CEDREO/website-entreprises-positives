@@ -185,13 +185,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "CHANGES TO THIS PRIVACY POLICY"
+forestrylabel = "MODIFICATIONS APPORTÉES À LA PRÉSENTE POLITIQUE DE CONFIDENTIALITÉ"
 template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "This Privacy Policy may be updated from time to time for any reason; each version will apply to information collected while it was in place. We will notify you of any modifications to our Privacy Policy by posting the new Privacy Policy on our Site and indicating the date of the latest revision. You are advised to consult this Privacy Policy regularly for any changes.\n\nIn the event that the modifications materially alter your rights or obligations hereunder, we will make reasonable efforts to notify you of the change. For example, we may send a message to your email address or generate a pop-up or similar notification when you access the Service for the first time after such material changes are made. Your continued use of the Service after the revised Privacy Policy has become effective indicates that you have read, understood and agreed to the current version of this Privacy Policy."
-title = "CHANGES TO THIS PRIVACY POLICY"
+richtext = "Cette politique de confidentialité peut être mise à jour de temps à autre pour quelque raison que ce soit ; chaque version s’appliquera aux renseignements recueillis pendant qu’elle était en place. Nous vous informerons de toute modification à notre politique de confidentialité en affichant la nouvelle politique de confidentialité sur notre site et en indiquant la date de la dernière révision. Nous vous conseillons de consulter régulièrement cette politique de confidentialité pour tout changement.\n\nDans l’éventualité où les changements modifieraient de façon importante vos droits ou obligations en vertu des présentes, nous ferons les meilleurs efforts pour vous aviser de la modification. Par exemple, nous pouvons envoyer un message à votre adresse électronique ou générer une fenêtre contextuelle ou une notification similaire lorsque vous accédez au Service pour la première fois après que de tels changements matériels ont été effectués. Votre utilisation continue du Service après l’entrée en vigueur de la Politique de confidentialité révisée indique que vous avez lu, compris et accepté la version actuelle de la présente Politique de confidentialité."
+title = "MODIFICATIONS APPORTÉES À LA PRÉSENTE POLITIQUE DE CONFIDENTIALITÉ"
 titlelevel = "2"
 [blocs.media]
 media = []
