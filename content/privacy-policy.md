@@ -2,13 +2,13 @@
 breadcrumb = ""
 contentonly = false
 date = "2019-03-19T11:09:47+00:00"
-description = "Read the Privacy Policy of Cedreo, 3D Home Design Software for building and remodeling professionals."
-hreflangs = ["/de/", "/fr/confidentialite/"]
+description = "Mesures prises par Entreprises Positives afin de garantir à ses utilisateurs sécurité et utilisation appropriée des données recueillies."
+hreflangs = []
 noindex = true
 schemajson = ""
 seotexts = []
 slug = ""
-title = "Privacy Policy"
+title = "Politique de confidentialité"
 trackers = []
 [menu.site]
 name = "Privacy policy"
@@ -20,7 +20,7 @@ template = "bloc-personalise"
 align = "Center"
 cta = ""
 richtext = ""
-title = "Privacy Policy"
+title = "Politique de confidentialité"
 titlelevel = "1"
 [blocs.media]
 media = []
@@ -38,7 +38,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "CEDREO (\"us\", \"we\", or \"our\") operates cedreo.com (the \"Site\") and Cedreo (the “Software”). The Software, the Site, and any other Cedreo products or services that link or refer to this Privacy Policy are collectively referred to as the “Service.”\n\nThis page informs you of our policies regarding the collection, use and disclosure of any information that could individually identify our users (“Personal Data”) in connection with our Service.\n\nWe use your Personal Data only for providing and improving the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at cedreo.com.\n\nThis policy applies immediately to new users who use or access the Service on or after the Effective Date and on the Effective Date to users who used or accessed the Service before the Effective Date.\n\nPlease [contact us](mailto:dpo@cedreo.com) if you have any questions or comments about our Privacy Policy."
+richtext = "ENTREPRISES POSITIVES (« nous », « notre » ou « nos ») exploite entreprises-positives.org (le « Site »). Le Site et tous les autres services de Entreprises Positives qui renvoient à la présente Politique de confidentialité ou s’y réfèrent sont collectivement dénommés le « Service ».\n\nCette page vous informe de nos politiques concernant la collecte, l’utilisation et la divulgation de toute information susceptible d’identifier individuellement nos utilisateurs (« Données personnelles ») en relation avec notre Service.\n\nNous utilisons vos Données Personnelles uniquement pour fournir et améliorer le Service. En utilisant le Service, vous acceptez la collecte et l’utilisation des informations conformément à la présente politique.\n\nCette politique s’applique immédiatement aux nouveaux Utilisateurs qui utilisent ou accèdent au Service à compter de la Date d’entrée en vigueur et à la Date d’entrée en vigueur aux utilisateurs qui ont utilisé ou accédé au Service avant cette Date.\n\nVeuillez [nous contacter ](mailto:contact@entreprises-positives.org)si vous avez des questions ou des commentaires au sujet de notre politique de confidentialité."
 title = ""
 titlelevel = "2"
 [blocs.media]
