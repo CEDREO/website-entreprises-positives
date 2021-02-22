@@ -49,12 +49,12 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "ARTICLE 1 – Definitions"
+forestrylabel = "ARTICLE 1 : L’éditeur"
 template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "Wherever the expressions below are used in the text of these General Terms, they shall have the following meanings:\n\n\"Software\" shall mean the \"CEDREO\" software solution.\n\n\"Customer\" shall mean the entity subscribing to the Offer provided by CEDREO.\n\n\"User\" shall mean the person – placed under the responsibility of the Customer or potentially the Customer itself – having access to the Software.\n\n\"Anomaly\" shall mean a reproducible instance of non-compliance and/or a defect in the Software's configuration that prevents the proper functioning of the Software.\n\n\"Offer\" shall mean the commercial proposal specifying the specific terms and conditions of CEDREO's offer in terms of price, Services and duration of commitment.\n\n\"Contract\" shall mean the entirety of this document, the Offer and the General Terms, and any technical documents.\n\n\"Data\" shall mean the information, publications and generally the data in the Customer databases, the usage of which is the object of the Contract, which may be consulted only by Users and by CEDREO, within the limits set out hereafter.\n\n\"Username\" shall mean the login details consisting in the User's email and a password that are required in order to access the Software's functionality. Usernames shall be unique, personal and confidential. The Customer shall be provided with as many Usernames as there are Users.\n\n\"SAAS\" shall mean the Model of remote access to the Software by a WEB browser via the Internet using the personalised Username for the Customer. The software application shall be installed on CEDREO's IT servers.\n\n\"Parties\" shall mean CEDREO and the Customer either individually or collectively.\n\n\"Services\" shall mean the services provided by and relating to the Software."
+richtext = "L’édition et la direction de la publication du site www.entreprises-positives.org est assurée par Laetitia Longeard, dont l'adresse e-mail est contact@entreprises-positives.org."
 title = "ARTICLE 1 – Definitions"
 titlelevel = "2"
 [blocs.media]
