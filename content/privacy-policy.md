@@ -71,13 +71,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "USE OF PERSONAL DATA"
+forestrylabel = "UTILISATION DES DONNÉES PERSONNELLES"
 template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "### Operation and improvement of the Service\n\nCedreo uses your Personal Data to provide, administer, and improve our Service. The Personal Data we collect may be used to retrieve your projects, allow you to purchase a new project, or prevent any fraudulent, harmful, unauthorized, or illegal activity.\n\n### Communications\n\nWe may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe instructions provided in any email we send."
-title = "USE OF PERSONAL DATA"
+richtext = "### Fonctionnement et amélioration du Service\n\nEntreprises Positives utilise vos Données Personnelles pour fournir, administrer et améliorer son Service. Les données personnelles que nous recueillons peuvent être utilisées pour prévenir toute activité frauduleuse, nuisible, non autorisée ou illégale.\n\n### Communications\n\nNous pouvons utiliser vos données personnelles pour vous contacter avec des bulletins d’information, du matériel promotionnel et d’autres informations susceptibles de vous intéresser. Vous pouvez choisir de ne pas recevoir l’une ou la totalité de ces communications de notre part en suivant les instructions de désabonnement fournies dans tout courriel que nous vous envoyons."
+title = "UTILISATION DES DONNÉES PERSONNELLES"
 titlelevel = "2"
 [blocs.media]
 media = []
