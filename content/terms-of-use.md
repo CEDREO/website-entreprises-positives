@@ -55,7 +55,7 @@ template = "bloc-personalise"
 align = "Left"
 cta = ""
 richtext = "L’édition et la direction de la publication du site www.entreprises-positives.org est assurée par Laetitia Longeard, dont l'adresse e-mail est contact@entreprises-positives.org."
-title = "ARTICLE 1 – Definitions"
+title = "ARTICLE 1 : L’éditeur"
 titlelevel = "2"
 [blocs.media]
 media = []
