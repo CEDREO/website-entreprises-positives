@@ -2,7 +2,7 @@
 breadcrumb = "A propos"
 contentonly = false
 date = "2019-01-11T13:26:52+01:00"
-description = "A propos"
+description = "Partager les bonnes pratiques RSE pour essaimer. Pourquoi ? Comment ? Découvrez les entreprises qui s'engagent."
 hreflangs = []
 noindex = false
 outputs = ["HTML", "RSS"]
