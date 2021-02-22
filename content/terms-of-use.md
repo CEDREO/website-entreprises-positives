@@ -106,13 +106,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "ARTICLE 4 - Entry into force and duration of the Contract"
+forestrylabel = "ARTICLE 4 : Collecte des données"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "**4.1** – Unless otherwise stated in the Offer, this Contract is agreed for a period of one \\[1\\] month from the provision of the Software to the first User of the CEDREO Customer.\n\nIn the event that the Customer wishes to terminate the Contract, they must follow the procedure detailed in Article 18."
-title = "ARTICLE 4 - Entry into force and duration of the Contract"
+richtext = "Le site est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL) dans la mesure où il ne collecte aucune donnée concernant les utilisateurs."
+title = "ARTICLE 4 : Collecte des données"
 titlelevel = "2"
 [blocs.media]
 media = []
