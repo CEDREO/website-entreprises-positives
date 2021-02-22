@@ -2,7 +2,7 @@
 breadcrumb = "Accueil"
 contentonly = false
 date = "2019-01-11T13:26:52+01:00"
-description = "Entreprises Positives"
+description = "Découvrez des actions concrètes, simples, pratiques et documentées à mettre en oeuvre dans le cadre d'une démarche RSE d'entreprise."
 hreflangs = []
 noindex = false
 schemajson = ""
