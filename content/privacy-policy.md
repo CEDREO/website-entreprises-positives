@@ -204,13 +204,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "CONTACT US"
+forestrylabel = "CONTACTEZ-NOUS"
 template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "If you have any questions about this Privacy Policy, please [contact us](mailto:dpo@cedreo.com \"Contact us\")."
-title = "CONTACT US"
+richtext = "Si vous avez des questions au sujet de cette politique de confidentialité, n’hésitez pas à [nous contacter](mailto:contact@entreprises-positives.org)."
+title = "CONTACTEZ-NOUS"
 titlelevel = "2"
 [blocs.media]
 media = []
