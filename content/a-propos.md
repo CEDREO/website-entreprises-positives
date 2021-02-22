@@ -8,7 +8,7 @@ noindex = false
 outputs = ["HTML", "RSS"]
 schemajson = ""
 seotexts = []
-slug = ""
+slug = "a-propos"
 title = "A propos"
 trackers = []
 [menu.main]
