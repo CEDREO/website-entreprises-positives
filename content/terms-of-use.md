@@ -3,12 +3,12 @@ breadcrumb = ""
 contentonly = false
 date = "2019-03-19T11:13:33+00:00"
 description = ""
-hreflangs = ["/de/geschaeftsbedingungen/", "/fr/mentions-legales/"]
+hreflangs = []
 noindex = true
 schemajson = ""
 seotexts = []
-slug = ""
-title = "Terms of Use"
+slug = "mentions-legales"
+title = "Mentions légales"
 trackers = []
 [[blocs]]
 forestrylabel = "Title"
@@ -17,7 +17,7 @@ template = "bloc-personalise"
 align = "Center"
 cta = ""
 richtext = ""
-title = "General Terms of Sale and Use"
+title = "Mentions légales"
 titlelevel = "1"
 [blocs.media]
 media = []
@@ -35,7 +35,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "These General Terms of Sale and Use (hereinafter \"General Terms\") apply between CEDREO, a simplified joint-stock company with a share capital of €212,740 registered with the Nantes Commercial and Companies Register (RCS) under the number 824 623 409, with its registered address at 16, boulevard Charles de Gaulle - Bât. B, 44800 Saint-Herblain, FRANCE (hereinafter referred to as \"CEDREO\" and the customer (hereinafter referred to as the \"Customer\").\n\nCEDREO sells licenses for the \"Cedreo\" software solution that it makes available as a Subscription as a Service (SAAS mode)."
+richtext = "En vigueur au 01/03/2021\n\nConformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des Utilisateurs du site www.entreprises-positives.org les présentes mentions légales.\n\nLa connexion et la navigation sur le site (indiquer le nom du site) par l’Utilisateur implique acceptation intégrale et sans réserve des présentes mentions légales.\n\nCes dernières sont accessibles sur le site à la rubrique « Mentions légales »."
 title = ""
 titlelevel = "2"
 [blocs.media]
