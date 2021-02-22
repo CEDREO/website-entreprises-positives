@@ -11,7 +11,6 @@ slug = ""
 title = "Politique de confidentialité"
 trackers = []
 [menu.site]
-name = "Privacy policy"
 weight = 1
 [[blocs]]
 forestrylabel = "Title"

@@ -3,6 +3,10 @@ disableKinds = ["taxonomyTerm"]
 languageCode = "fr-FR"
 theme = "entreprises-positives"
 title = "Entreprises Positives"
+[markup.goldmark.extensions]
+typographer = false
+[markup.goldmark.renderer]
+unsafe = true
 [mediaTypes."application/redirect"]
 "menu.about" = []
 suffixes = ["redirect"]
@@ -31,9 +35,3 @@ financialinvest = "investissement-financier"
 humaninvest = "investissement-humain"
 maturity = "maturite"
 nature = "nature-de-l-impact"
-[markup]
-[markup.goldmark]
-[markup.goldmark.extensions]
-typographer = false
-[markup.goldmark.renderer]
-unsafe = true
