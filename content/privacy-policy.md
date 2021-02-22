@@ -147,13 +147,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "DATA RETENTION"
+forestrylabel = "DROITS SUR VOS DONNÉES"
 template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "We do not store your Personal Data for more time than necessary. Retention periods may vary depending on the data categories and the processing activities.\n\nWhere Cedreo is processing and using your Personal Data as permitted by law or under your consent, we will store your Personal Data (i) as long as you have an open account with us or as otherwise necessary to provide you with the Service, (ii) where Cedreo has a legitimate interest in using your Personal Data, until you object to Cedreo’s use of your Personal Data, or (iii) where you gave your consent, until you withdraw it. \n\nPlease note that certain personal information may need to be retained by Cedreo for a period of time following cancellation of your account where this is necessary for our legitimate business purposes or required or authorized by applicable law.\n\nHowever, where Cedreo is required by applicable law to retain your Personal Data longer or where your Personal Data is required to assert or defend against legal claims, Cedreo will retain your Personal Data until the end of the relevant retention period or until the claims in question have been settled."
-title = "DATA RETENTION"
+richtext = "### Droits inconditionnels\n\nA tout moment, vous pouvez :\n\n* Rectifier vos données personnelles\n* Obtenir une copie de ces données personnelles\n* Refuser toute utilisation à des fins de marketing\n\n### Droits conditionnels\n\nSelon le cas, vous pouvez :\n\n* Retirer votre consentement lorsque l’une de nos utilisations est basée sur ce qui suit\n* Refuser pour une raison légitime notre utilisation fondée sur notre intérêt légitime ou un intérêt public\n* Demander le transfert à quiconque des données que nous détenons sur la base d’un contrat ou de votre consentement (droit à la transférabilité des données)\n* Demander que nous conservions vos données sans les utiliser en cas d’inexactitude, d’illégalité, pendant que nous examinons votre refus d’utiliser vos données ou si vous en avez besoin devant les tribunaux.\n* Demander la suppression si les données ne sont pas nécessaires ou si vous avez retiré votre consentement ou refusé notre utilisation ou si vous étiez un enfant lors de la collecte (droit à l’oubli)\n\n### Droits supplémentaires\n\nEnfin, vous pouvez introduire une réclamation auprès de [l’autorité de protection des données de votre pays](https://ec.europa.eu/justice/article-29/structure/data-protection-authorities/index_en.htm)"
+title = "DROITS SUR VOS DONNÉES"
 titlelevel = "2"
 [blocs.media]
 media = []
