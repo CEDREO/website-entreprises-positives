@@ -125,13 +125,13 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "ARTICLE 5 - Price and terms of payment"
+forestrylabel = "ARTICLE 5 : Cookies"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "**5.1** – The financial terms for access to the Services are specified in the Offer.\n\nFees for access to the Software are exclusive of taxes and duties. Rates quoted during the subscription are guaranteed during the commitment period specified in the Offer, for at least one month.\n\nThe billing address is the address indicated by the Customer when ordering. In case of change, the Customer undertakes to update their data as soon as possible (changes can not have retroactive effect).\n\nThe User and/or the Customer are responsible for updating and approving the data provided, such as billing address, contact email, etc.\n\n**5.2** – The Customer acknowledges that CEDREO reserves the right to change, throughout the contractual relationship, all or part of the components of the Services and/or the price of the Services due in particular to changes in functionality after the initial commitment period specified in the Offer.\n\nIn this case, the new pricing policy will be notified to the Customer by any means and will apply to the Services provided from the calendar month following the notification. In case of refusal of the new prices of the Services, the Customer remains free to terminate their Contract under the conditions of Article 18 below.\n\n**5.3** – Unless otherwise stated in the Offer, the provision of the Software is billed monthly at the beginning of each month.\n\nThe first month is billed pro rata for the first month of operation from delivery of the Software.\n\n**5.4** – Without prejudice to possible damages, failure of the Customer to pay an invoice on its due date automatically entails the immediate suspension of access to the Services."
-title = "ARTICLE 5 - Price and terms of payment"
+richtext = "L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son logiciel de navigation.\n\nEn naviguant sur le site, il les accepte.\n\nUn cookie est un élément qui ne permet pas d’identifier l’Utilisateur mais sert à enregistrer des informations relatives à la navigation de celui-ci sur le site Internet. L’Utilisateur pourra désactiver ce cookie par l’intermédiaire des paramètres figurant au sein de son logiciel de navigation."
+title = "ARTICLE 5 : Cookies"
 titlelevel = "2"
 [blocs.media]
 media = []
