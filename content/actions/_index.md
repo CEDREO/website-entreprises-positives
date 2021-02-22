@@ -2,13 +2,13 @@
 breadcrumb = ""
 contentonly = false
 date = "2019-01-11T13:26:52+01:00"
-description = "Actions"
+description = "Social, économique, gouvernance, environnement, territoire, inspirez vous des entreprises positives et recherchez des actions à mettre en place dans votre démarche RSE."
 hreflangs = []
 noindex = false
 outputs = ["HTML", "RSS", "Algolia"]
 schemajson = ""
 seotexts = []
-slug = ""
+slug = "actions"
 title = "Action"
 trackers = []
 [menu.main]
