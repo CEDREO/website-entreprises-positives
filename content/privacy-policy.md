@@ -7,7 +7,7 @@ hreflangs = []
 noindex = true
 schemajson = ""
 seotexts = []
-slug = ""
+slug = "politique-confidentialite"
 title = "Politique de confidentialité"
 trackers = []
 [menu.site]
