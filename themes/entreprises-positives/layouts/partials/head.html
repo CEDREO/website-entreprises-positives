@@ -23,17 +23,6 @@
 {{ $cssFA := "/css/fa-all.min.1cc6c92172d124fbd305ba3d8e263333.css" | relURL }}
 <link href="{{ $cssFA }}" rel="stylesheet" type="text/css">
 
-<!-- Preconnect for fastest load -->
-<link rel="preconnect" href="//widget.trustpilot.com">
-<link rel="preconnect" href="//js.hsforms.net">
-<link rel="preconnect" href="//js.hscta.net">
-<link rel="preconnect" href="//no-cache.hubspot.com">
-<!-- Fallback dns-prefetch for fastest load -->
-<link rel="dns-prefetch" href="//widget.trustpilot.com">
-<link rel="dns-prefetch" href="//js.hsforms.net">
-<link rel="dns-prefetch" href="//js.hscta.net">
-<link rel="dns-prefetch" href="//no-cache.hubspot.com">
-
 <!--@formatter:off-->
 <!--link those hreflangs for seo-->
 {{- partial "utils/hreflangs.html" . -}}
