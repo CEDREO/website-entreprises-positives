@@ -1,4 +1,4 @@
-baseURL = "https://entreprises-positives.org/"
+baseURL = "http://entreprises-positives.org/"
 disableKinds = ["taxonomyTerm"]
 languageCode = "fr-FR"
 theme = "entreprises-positives"
