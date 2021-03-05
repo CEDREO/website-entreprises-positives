@@ -54,6 +54,12 @@
   }
 }
 
+@include media-breakpoint-down(md) {
+  .search-result-block-container .search-result-block #hits .card-wrapper {
+    width: 99% !important;
+  }
+}
+
 .search-result-block-container {
   background-color: $ep-background-gray;
 
