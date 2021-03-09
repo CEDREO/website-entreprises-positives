@@ -200,7 +200,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Pierre Lancelot pierre arobase aepsilon.com / [LinkedIn Pierre](Pierre Lancelot pierre arobase aepsilon.com / LinkedIn \"Pierre Lancelot pierre arobase aepsilon.com / LinkedIn\")"
+richtext = "Pierre Lancelot pierre arobase aepsilon.com / [LinkedIn Pierre](https://www.linkedin.com/in/pierrelancelot/ \"Pierre Lancelot pierre arobase aepsilon.com / LinkedIn\")"
 title = "Contact"
 titlelevel = "2"
 [blocs.media]
