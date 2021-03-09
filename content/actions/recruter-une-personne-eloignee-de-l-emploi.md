@@ -157,7 +157,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Job4MI : [Pour un accompagnement des migrants vers l’emploi](https://pro.choisirmonmetier-paysdelaloire.fr/ContentMedia/OPDL/ARTICLES/2020/Job4mi-pour-un-accompagnement-des-migrants-vers-l-emploi) - contact.job4mi arobase gmail.com\n\nLazare : [https://lazare.eu](https://lazare.eu \"https://lazare.eu\")\n\nContact : Olivier RIOM – VIVOLUM – o.riom arobase vivolum.fr"
+richtext = "Job4MI : [Pour un accompagnement des migrants vers l’emploi](http://job4miouest.fr/) - contact.job4mi arobase gmail.com\n\nLazare : [https://lazare.eu](https://lazare.eu \"https://lazare.eu\")\n\nContact : Olivier RIOM – VIVOLUM – o.riom arobase vivolum.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
