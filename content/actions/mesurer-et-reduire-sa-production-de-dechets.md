@@ -226,7 +226,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "[Télécharger le modèle du tableau de pesée](https://docs.google.com/spreadsheets/d/1-Qr56qIAM2yJt4KZO3v7_R34EBqjKeomNlRb4xLMeXU/edit?usp=sharing)\n\nNotre sélection de fournisseurs français\n\nNotre sélection de fournisseurs locaux.\n\n<br>\n\nGilles LE TEUFF - infographiste chez Cedreo - gilles arobase cedreo.com"
+richtext = "[Télécharger le modèle du tableau de pesée](https://docs.google.com/spreadsheets/d/1-Qr56qIAM2yJt4KZO3v7_R34EBqjKeomNlRb4xLMeXU/edit?usp=sharing)\n\n<br>\n\nGilles LE TEUFF - infographiste chez Cedreo - gilles arobase cedreo.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
