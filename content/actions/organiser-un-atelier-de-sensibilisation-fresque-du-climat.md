@@ -148,7 +148,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Certains participants peuvent être submergés par un sentiment d’impuissance et de peur face aux nombreuses problématiques évoquées 🡪 importance d’évacuer les émotions en fin d’atelier et de pousser à la réflexion collective vers le “Que pouvons-nous faire à notre échelle ?”."
+richtext = "Certains participants peuvent être submergés par un sentiment d’impuissance et de peur face aux nombreuses problématiques évoquées, il est important d’évacuer les émotions en fin d’atelier et de pousser à la réflexion collective vers le “Que pouvons-nous faire à notre échelle ?”."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
