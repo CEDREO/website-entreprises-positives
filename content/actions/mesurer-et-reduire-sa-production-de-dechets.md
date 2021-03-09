@@ -164,7 +164,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Ce simple effort nous a permis de diminuer le poids de nos déchets de 11% mais surtout de diminuer les poids d’ordures ménagères et de tri de 50 %.\n\nLe poids des déchets recyclables et organiques a lui augmenté et ces déchets sont désormais récupérés par les employés qui ont un composteur dans leur jardin. De nombreux composteurs publics sont désormais installés un peu partout, il y en a certainement un près de chez vous. [http://www.compostri.fr/carte/](http://www.compostri.fr/carte/ \"http://www.compostri.fr/carte/\")\n\nL’estimation de la consommation annuelle de bouteilles plastiques est passée de 10 000 à 2 000 en moins de 6 mois. Comme nous souhaitons garder le même confort pour l’équipe, nous consommons encore des bouteilles d’eau gazeuse."
+richtext = "Ce simple effort nous a permis de diminuer le poids de nos déchets de 11% mais surtout de diminuer les poids d’ordures ménagères et de tri de 50 %.\n\nLe poids des déchets recyclables et organiques a lui augmenté et ces déchets sont désormais récupérés par les employés qui ont un composteur dans leur jardin. De nombreux composteurs publics sont désormais installés un peu partout, il y en a certainement un près de chez vous. \n\nL’estimation de la consommation annuelle de bouteilles plastiques est passée de 10 000 à 2 000 en moins de 6 mois. Comme nous souhaitons garder le même confort pour l’équipe, nous consommons encore des bouteilles d’eau gazeuse."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
