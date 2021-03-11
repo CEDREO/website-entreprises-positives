@@ -4,13 +4,15 @@
 
 {{define "sticky-additional"}}
 <div class="table-of-content">
-    <div class="container">
+    <div class="container px-0 d-flex flex-wrap">
         {{- range .Params.blocs -}}
             {{- if eq .template "bloc-personalise" -}}
             <a href=""
                onclick="window.scrollTo(0, document.getElementById('{{anchorize .content.title}}').getBoundingClientRect().top + window.pageYOffset - document.getElementById('sticky-header').getBoundingClientRect().height); return false;">{{.content.title}}</a>
             {{- end -}}
         {{- end -}}
+        <!-- placeholder for flexbox css trick. -->
+        <div class="placeholder"></div>
     </div>
 </div>
 {{ end }}
@@ -23,28 +25,26 @@
 </div>
 
 <div class="container-fluid mt-4">
-    <div class="container pl-0 pr-0">
-        <div class="action-head-block">
-            <div class="first">
-                <p class="logo-nature {{replaceRE "[^a-zA-Z-]+" "" (index $.Params.nature 0)}}"></p>
-                <p><span class="font-weight-bold">Secteur d'activité applicable :</span> {{ $.Page.Params.sector }}</p>
-                <p><span class="font-weight-bold">Entreprise témoin :</span> {{ $.Page.Params.company }}</p>
-            </div>
-            <div class="maturity">
-                <p class="taxo-title">Maturité</p>
-                <p class="taxo-value">{{$.Page.Params.maturity}}</p>
-                <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.maturity}}"></div></p>
-            </div>
-            <div class="financialinvest">
-                <p class="taxo-title">Investissement €</p>
-                <p class="taxo-value">{{$.Page.Params.financialinvest}}</p>
-                <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.financialinvest}}"></div></p>
-            </div>
-            <div class="humaninvest">
-                <p class="taxo-title">Temps humain</p>
-                <p class="taxo-value">{{$.Page.Params.humaninvest}}</p>
-                <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.humaninvest}}"></div></p>
-            </div>
+    <div class="container action-head-block">
+        <div class="first">
+            <p class="logo-nature {{replaceRE "[^a-zA-Z-]+" "" (index $.Params.nature 0)}}"></p>
+            <p><span class="font-weight-bold">Secteur d'activité applicable :</span> {{ $.Page.Params.sector }}</p>
+            <p><span class="font-weight-bold">Entreprise témoin :</span> {{ $.Page.Params.company }}</p>
+        </div>
+        <div class="maturity">
+            <p class="taxo-title">Maturité</p>
+            <p class="taxo-value">{{$.Page.Params.maturity}}</p>
+            <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.maturity}}"></div></p>
+        </div>
+        <div class="financialinvest">
+            <p class="taxo-title">Investissement €</p>
+            <p class="taxo-value">{{$.Page.Params.financialinvest}}</p>
+            <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.financialinvest}}"></div></p>
+        </div>
+        <div class="humaninvest">
+            <p class="taxo-title">Temps humain</p>
+            <p class="taxo-value">{{$.Page.Params.humaninvest}}</p>
+            <p class="taxo-icon"><div class="taxo-icon-icon {{replaceRE "[^a-zA-Z-]+" "" $.Page.Params.humaninvest}}"></div></p>
         </div>
     </div>
 </div>

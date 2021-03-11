@@ -3,9 +3,9 @@
   @extend .flex-column;
   @extend .align-items-center;
   @extend .justify-content-center;
+  @extend .pt-5;
+  @extend .pb-4;
 
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 
   .search-row-title {
     color: $ep_text-color-light;
@@ -15,9 +15,12 @@
 
   .search-row-1 {
     @extend .d-flex;
-    margin-bottom: 1rem;
+    @extend .mb-3;
     width: 100%;
-    max-width: 70%;
+
+    @include media-breakpoint-down(md){
+      max-width: unset;
+    }
 
     .search-input {
       margin-right: 0.5rem;
@@ -40,11 +43,11 @@
   .search-row-2 {
     @extend .d-flex;
     @extend .flex-wrap;
+    @extend .justify-content-between;
+    width: 100%;
 
     .refinement-select {
-      @extend .ml-2;
-      @extend .mr-2;
-
+      @extend .mb-3;
       .dropdown button {
         @extend .btn;
         @include button-variant($ep-button-color-dark-blue, $ep-button-color-dark-blue);
@@ -64,7 +67,7 @@
   background-color: $ep-background-gray;
 
   .search-result-block {
-    padding: 3rem 0 3rem 0;
+    @extend .py-5;
 
     a:hover {
       text-decoration: none;
@@ -137,6 +140,10 @@
             background-color: $ep-background-white;
             border-bottom: 1px $ep-text-color-gray solid;
 
+            @include media-breakpoint-down(xs){
+              text-align: center;
+            }
+
             // Extra height is given to card header.
             flex-grow: 2;
 
@@ -146,6 +153,10 @@
               background-size: auto;
               background-repeat: no-repeat;
               background-position: center left;
+
+              @include media-breakpoint-down(xs){
+                background-position: center;
+              }
             }
 
             .card-title {
@@ -167,8 +178,19 @@
             justify-content: space-between;
             color: $ep-text-color-dark;
 
+            @include media-breakpoint-down(xs){
+              flex-direction: column;
+              align-items: center;
+            }
+
             .maturity, .financialinvest, .humaninvest {
               width: 33%;
+
+              @include media-breakpoint-down(xs){
+                width: unset;
+                margin-bottom: 2rem;
+              }
+
               display: flex;
               flex-direction: column;
               align-items: center;
@@ -176,10 +198,16 @@
               .taxo-title {
                 margin-bottom: 0;
                 font-size: $xd-ratio*25px;
+                text-align: center;
               }
 
               .taxo-value {
                 font-size: $xd-ratio*21px;
+                text-align: center;
+
+                @include media-breakpoint-down(xs){
+                  margin-bottom: 0;
+                }
               }
 
               .taxo-icon-icon {
@@ -188,6 +216,7 @@
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: bottom center;
+                margin-top: auto;
               }
             }
 

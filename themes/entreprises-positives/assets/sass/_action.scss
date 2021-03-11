@@ -1,8 +1,9 @@
-$header-size: 369px;
+$header-size: calc(369px - 3rem); // was 369px, added 3rem padding at bottom (.py-5) and used min-height for small screen devices display
 
 .action-head-wrapper {
-  height: $header-size;
+  min-height: $header-size;
   @extend .m-0;
+  @extend .py-5;
 
   &.Social {
     background-image: url("images/EP.ORG_Header_Contributions_Violet-06.jpg");
@@ -39,19 +40,34 @@ $header-size: 369px;
       font-size: $xd-ratio*76px;
       font-weight: bold;
       color: $ep-text-color-light;
-      padding-top: 40px;
+      @extend .m-0;
+
+      @include media-breakpoint-down(xs){
+        text-align: center;
+      }
     }
   }
 }
 
 .action-head-block {
   display: flex;
-  //flex: 0 0 auto;
   flex-direction: row;
+
+  @include media-breakpoint-down(xs){
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+  }
 
   .logo-nature {
     height: 57px;
     background-repeat: no-repeat;
+    width: 200%; // 200 is acceptable here as 200% of 33% of .first below won't overflow screen, it allows logo to show without cropping on small devices.
+
+    @include media-breakpoint-down(xs){
+      background-position: center;
+      width: 100%;
+    }
 
     &.Social {
       background-image: url("images/EP_Logos_Social__1x_.png");
@@ -80,10 +96,23 @@ $header-size: 369px;
 
   .first {
     width: 33.3%;
+
+    @include media-breakpoint-down(xs){
+      margin-bottom: 1rem;
+      width: unset;
+    }
   }
 
   .maturity, .financialinvest, .humaninvest {
     width: 22.2%;
+    align-self: flex-end;
+
+    @include media-breakpoint-down(xs){
+      width: unset;
+      margin-bottom: 2rem;
+      align-self: center;
+    }
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,10 +120,16 @@ $header-size: 369px;
     .taxo-title {
       margin-bottom: 0;
       font-size: $xd-ratio*25px;
+      text-align: center;
     }
 
     .taxo-value {
       font-size: $xd-ratio*21px;
+      text-align: center;
+
+      @include media-breakpoint-down(xs){
+        margin-bottom: 0;
+      }
     }
 
     .taxo-icon-icon {

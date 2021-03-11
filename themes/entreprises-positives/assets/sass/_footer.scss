@@ -18,6 +18,10 @@ footer {
     display: flex;
     flex-direction: row;
 
+    @include media-breakpoint-down(md){
+      flex-direction: column;
+    }
+
     .left-menu {
       .nav-item {
         .nav-link {
@@ -34,8 +38,14 @@ footer {
       margin-left: auto;
       margin-right: auto;
 
+      @include media-breakpoint-down(md){
+        max-width: unset;
+        margin-left: unset;
+        margin-right: unset;
+      }
+
       .search-block {
-        padding: 0;
+        padding: 0 !important;
         align-items: flex-start !important;
 
         .search-row-title {
@@ -47,6 +57,10 @@ footer {
             font-size: $ep-font-size;
             font-weight: $ep-font-weight;
             line-height: $ep-line-height;
+
+            @include media-breakpoint-down(md){
+              margin-bottom: 1rem !important;
+            }
           }
         }
 
@@ -59,6 +73,13 @@ footer {
     .social-menu {
       padding-top: 0.5rem;
       margin: 0 $footer-margin 0 $footer-margin;
+
+      @include media-breakpoint-down(md){
+        max-width: unset;
+        margin-left: unset;
+        margin-right: unset;
+        padding-top: 0 !important;
+      }
 
       .social-menu-title {
         text-align: left;

@@ -1,5 +1,16 @@
 .ep-header.navbar {
+
+  @include media-breakpoint-down(xs){
+    .header-nav-container  {
+      padding: 0 !important;
+    }
+  }
+
   .nav-item {
+    &:not(:last-child){
+      @extend .pr-2;
+    }
+
     .nav-link {
       color: $ep-text-color-dark;
     }
@@ -26,17 +37,28 @@
 
 .table-of-content {
   background-color: $ep-background-black;
+  @extend .pt-2;
+  @extend .pb-3;
 
+  // Space between + flex:1 placeholder allows last wrapped line to be aligned at left
   .container {
-    padding: 1rem;
+    justify-content: space-between;
+    .placeholder {
+      flex: 1;
+    }
   }
 
   a {
-    padding-left: 1rem;
+    @extend .px-3;
+    @extend .pt-2;
     color: $ep-text-color-light;
 
     &:hover {
       text-decoration: none;
+    }
+
+    &:empty {
+      display: none !important;
     }
   }
 }

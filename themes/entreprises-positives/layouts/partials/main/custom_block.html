@@ -93,13 +93,13 @@
 
         {{with $title}}
         <div class="block-title-wrapper w-100">
-            <div class="container p-0 w-100 {{$textcss}}">
+            <div class="container w-100 {{$textcss}}">
                 <div class='w-100 rich-content'>{{$title | safeHTML}}</div>
             </div>
         </div>
         {{end}}
         <div class="d-flex w-100">
-            <div class="{{$flex}} container p-0">
+            <div class="{{$flex}} container">
                 {{with $mediafirst}}
                 {{with $divmedia}}
                 {{.}}

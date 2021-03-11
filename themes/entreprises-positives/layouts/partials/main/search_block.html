@@ -1,7 +1,7 @@
 {{- partial "utils/block_style.html" (dict "context" (dict "background" $.context.background) "nominh" true "pagecontext" $.pagecontext) -}}
 {{$blockstyle := $.pagecontext.Scratch.Get "blockstyle"}}
 
-<div class="container-fluid {{$blockstyle.cssclasses}}" style="{{$blockstyle.inlinestyle}}">
+<div class="container-fluid p-0 {{$blockstyle.cssclasses}}" style="{{$blockstyle.inlinestyle}}">
     <div class="container search-block">
         {{with $.context.title}}
         <div class="search-row-title">
@@ -26,7 +26,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid search-result-block-container">
+<div class="container-fluid p-0 search-result-block-container">
     {{with $.context.resultinline}}
     <div class="container search-result-block">
         <div id="hits"></div>
@@ -167,7 +167,7 @@
             container: '#search-input',
             placeholder: 'Votre recherche',
             showReset: false,
-            showSubmit: false
+            showSubmit: false,
         }),
         customRefinementSelect({
             container: '#nature-list',
@@ -188,6 +188,9 @@
             container: '#humaninvest-list',
             displayName: "Investissement humain",
             attribute: 'humaninvest',
+        }),
+        instantsearch.widgets.configure({
+            hitsPerPage: 100
         })
         // @formatter:off
         {{with $.context.resultinline}}

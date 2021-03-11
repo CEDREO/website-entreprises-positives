@@ -8,7 +8,7 @@
             {{ if or ($currentPage.HasMenuCurrent .Menu .) ($currentPage.IsMenuCurrent .Menu .)}}
                 {{ $currentActiveClass = " active" }}
             {{ end }}
-            <li class="nav-item dropdown {{$currentActiveClass}} pl-1 pr-1">
+            <li class="nav-item dropdown {{$currentActiveClass}}">
                 {{$toggle := printf "navbarDropdownMenuLink%s%s" $mobile .Name | md5}}
                 {{- partial "utils/menu_link.html" (dict "context" . "pagecontext" $.pagecontext "toggle" $toggle)}}
                 <ul aria-labelledby="{{$toggle}}" class="dropdown-menu bg-dark">
@@ -28,7 +28,7 @@
             {{ if $currentPage.IsMenuCurrent .Menu . }}
                 {{ $currentActiveClass = " active" }}
             {{ end }}
-        <li class="nav-item{{ $currentActiveClass }} pl-1 pr-1">
+        <li class="nav-item{{ $currentActiveClass }}">
             {{- partial "utils/menu_link.html" (dict "context" . "pagecontext" $.pagecontext)}}
         </li>
         {{ end }}
