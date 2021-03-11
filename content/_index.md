@@ -38,7 +38,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = "Picto entreprises contenu impact"
-image = "/uploads/hp_image_01_v5.jpg"
+image = "/uploads/hp_image_01_v6.png"
 shadowed = false
 size = "Large"
 template = "image"
@@ -62,7 +62,7 @@ titlelevel = "2"
 position = "Left"
 [[blocs.media.media]]
 alt = "Pictos simplicité pragmatisme action mutualisation"
-image = "/uploads/hp_image_02_v4.jpg"
+image = "/uploads/hp_image_02_v5.png"
 shadowed = false
 size = "Large"
 template = "image"
