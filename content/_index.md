@@ -81,7 +81,7 @@ titlelevel = "2"
 position = "Left"
 [[blocs.media.media]]
 alt = "Pictos simplicité pragmatisme action mutualisation"
-image = "/uploads/hp_image_02_v2.jpg"
+image = "/uploads/hp_image_02_v2_ai24.png"
 shadowed = false
 size = "Large"
 template = "image"
