@@ -106,7 +106,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "1. **Changement de fournisseur :**\n\nOpéré dans les délais à un prix compétitif et sécurisé sur 3 ans ; réception des garanties d’origine 1x / an.\n\nNotre choix final a porté sur le fournisseur Ekwateur : [https://ekwateur.fr/](https://ekwateur.fr/ \"https://ekwateur.fr/\") qui a permis de concilier notre souhait de maintenir les coûts à un niveau raisonnable et de soutenir leur démarche de contracter avec des producteurs plus petits.\n\n2. **Nouveaux équipements :**\n\nRentabilité des investissements probablement atteinte au bout de plusieurs années dans les locaux (mais pas de données historiques disponibles).\n\n3. **Sensibilisation :**\n\nUne habitude bien intégrée pour un bon nombre de collaborateurs, mais à rappeler régulièrement, ensemble avec les autres éco-gestes.\n\nIl s’agit également d’une bonne opportunité de proposer des offres aux collaborateurs ou de leur donner des conseils pour opérer un changement de fournisseurs pour leur propre foyer."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -125,7 +125,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Soutien de la direction pour l’investissement dans de nouveaux équipements basse consommation.\n* La participation active des collaborateurs dans la conception des mesures et dans leur mise en œuvre.\n* Un argumentaire sur le choix du fournisseur d’énergie retenu peut être utile pour la communication interne et externe."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -144,7 +144,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "**Concernant le choix du fournisseur d’énergie :**\n\n* Achat groupé : certains fournisseurs d’énergie ne travaillent pas avec des acteurs qui organisent des achats groupés (p.ex. EnerCoop), car cela ne correspond pas à leurs valeurs ou leur philosophie. Cela peut demander un travail supplémentaire si l’on veut les intégrer dans l’appel d’offre.\n* Le marché de l’énergie est assez complexe et les offres difficilement comparables ; l’accompagnement par une structure spécialisée peut donc permettre de gagner du temps et apporter plus de clarté dans la comparaison des offres.\n* Se renseigner sur le modèle de rémunération du courtier.\n* Dans le cadre d’un changement de fournisseur (et notamment en passant par un courtier), des économies peuvent être réalisées dans certains cas. Conseil : bien définir le niveau de priorité de ce critère par rapport à d’autres (p.ex. l’image du fournisseur, qualité du Service client, etc.).\n\n**Sensibilisation des utilisateurs :**\n\n* Attention à l’effet de rebond ! Se fournir en énergie verte ne veut pas dire qu’il ne faut pas quand-même chercher à baisser les consommations au quotidien."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -163,7 +163,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Exemple d’un courtier en énergie : [https://opera-energie.com/](https://opera-energie.com/ \"https://opera-energie.com/\") - [charlotte.robin@opera-energie.com](mailto:charlotte.robin@opera-energie.com) – Mobile : +33(0)6 40 70 42 98\n* Fournisseur d’énergie : Ekwateur > [www.ekwateur.fr](http://www.ekwateur.fr)\n* Conseils & guides : [https://www.wattvalue.fr/](https://www.wattvalue.fr/ \"https://www.wattvalue.fr/\") (Entreprise certifiée B Corp)\n* Pour aller plus loin sur la maîtrise de la consommation de l’énergie, la CCI propose des accompagnements : [https://www.paysdelaloire.cci.fr/developpement-de-votre-entreprise/mener-un-developpement-durable/maitrise-de-lenergie](https://www.paysdelaloire.cci.fr/developpement-de-votre-entreprise/mener-un-developpement-durable/maitrise-de-lenergie \"https://www.paysdelaloire.cci.fr/developpement-de-votre-entreprise/mener-un-developpement-durable/maitrise-de-lenergie\") (programme PEPS)\n* ORACE : Organisation Régionale pour l’Abaissement de la Consommation énergétique (basé à Cholet) >> Association régionale qui accompagne les entreprises dans leur démarche de maîtrise de leurs consommations d’énergie : [http://www.orace.fr/](http://www.orace.fr/ \"http://www.orace.fr/\")\n* Classement annuel de Greenpeace sur les fournisseurs d’énergie renouvelable : [https://www.guide-electricite-verte.fr/](https://www.guide-electricite-verte.fr/ \"https://www.guide-electricite-verte.fr/\")\n\nBenoît THIERRY – Directeur Général associé - bthierry arobase thierry-immobilier.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
