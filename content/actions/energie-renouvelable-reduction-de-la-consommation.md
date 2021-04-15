@@ -91,7 +91,7 @@ position = "Bottom"
 alt = "étiquette on y tient, on éteint"
 image = "/uploads/etiquette_lumiere.jpg"
 shadowed = false
-size = "Medium"
+size = "Small"
 template = "image"
 [blocs.style]
 compactbottom = true
