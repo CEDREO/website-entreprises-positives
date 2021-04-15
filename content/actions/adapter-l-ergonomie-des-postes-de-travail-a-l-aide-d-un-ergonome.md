@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Proselis"
 contentonly = false
 description = "Fiche pratique RSE : Adapter l'ergonomie des postes de travail à l'aide d'un ergonome"
 financialinvest = "Moyen"
@@ -10,7 +10,7 @@ maturity = "Premières actions"
 nature = ["Social"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs d'activité"
 seotexts = []
 slug = ""
 title = "Adapter l'ergonomie des postes de travail à l'aide d'un ergonome"
