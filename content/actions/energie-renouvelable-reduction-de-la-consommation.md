@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Thierry Immobilier"
 contentonly = false
 description = "Fiche pratique RSE : Energie renouvelable & réduction de la consommation"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
