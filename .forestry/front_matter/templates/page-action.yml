@@ -102,6 +102,7 @@ fields:
   label: Content only
   description: For debug purpose, please left it unset
 pages:
+- content/actions/adapter-l-ergonomie-des-postes-de-travail-a-l-aide-d-un-ergonome.md
 - content/actions/allouer-un-budget-libre-chaque-annee-a-chaque-salarie.md
 - content/actions/dechets-reduction-des-points-de-collecte.md
 - content/actions/eco-concevoir-son-site-web.md
