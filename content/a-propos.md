@@ -57,13 +57,6 @@ url = "Abokine"
 alt = "logo Abokine"
 image = "/uploads/logo_abokine.jpg"
 [[blocs.logos]]
-forestrylabel = "Proselis"
-name = "Proselis"
-url = "https://www.proselis.com/"
-[blocs.logos.logo]
-alt = "Logo Proselis"
-image = "/uploads/logo_proselis.jpg"
-[[blocs.logos]]
 forestrylabel = "Dynamips"
 name = "Dynamips"
 url = "https://www.dynamips.com/"
