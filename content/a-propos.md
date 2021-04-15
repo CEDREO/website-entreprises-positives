@@ -36,6 +36,13 @@ url = "https://cedreo.com"
 alt = "Logo Cedreo"
 image = "/uploads/logo_cedreo.jpg"
 [[blocs.logos]]
+forestrylabel = "Delia"
+name = "Delia"
+url = "https://nantes.delia.tech/"
+[blocs.logos.logo]
+alt = "Logo Delia"
+image = "/uploads/logo_delia.jpg"
+[[blocs.logos]]
 forestrylabel = "Toolin"
 name = "Toolin"
 url = "https://www.toolin.fr/"
@@ -84,6 +91,13 @@ url = "https://www.agencebside.fr/"
 [blocs.logos.logo]
 alt = "Logo B Side"
 image = "/uploads/logo_bside.jpg"
+[[blocs.logos]]
+forestrylabel = "Proselis"
+name = "Proselis"
+url = "https://www.proselis.com/"
+[blocs.logos.logo]
+alt = "Logo Proselis"
+image = "/uploads/proselis_website.png"
 [[blocs.logos]]
 forestrylabel = "Wiztivi"
 name = "Wiztivi"
@@ -175,13 +189,6 @@ url = "https://www.vivolum.fr/"
 [blocs.logos.logo]
 alt = "Logo Vivolum"
 image = "/uploads/logo_vivolum.jpg"
-[[blocs.logos]]
-forestrylabel = "Delia"
-name = "Delia"
-url = "https://nantes.delia.tech/"
-[blocs.logos.logo]
-alt = "Logo Delia"
-image = "/uploads/logo_delia.jpg"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
