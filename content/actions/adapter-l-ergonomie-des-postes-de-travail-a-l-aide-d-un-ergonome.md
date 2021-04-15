@@ -3,7 +3,6 @@ breadcrumb = ""
 company = ""
 contentonly = false
 description = "Fiche pratique RSE : Adapter l'ergonomie des postes de travail à l'aide d'un ergonome"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
