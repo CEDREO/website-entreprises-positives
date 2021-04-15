@@ -1,17 +1,17 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Thierry Immobilier"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : Energie renouvelable & réduction de la consommation"
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Premières actions"
+nature = ["Environnemental"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Services / locaux de bureaux"
 seotexts = []
 slug = ""
 title = "Energie renouvelable & réduction de la consommation"
