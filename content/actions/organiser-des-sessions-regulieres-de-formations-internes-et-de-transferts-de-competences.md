@@ -101,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La plateforme d’échanges évite les ‘redites’. Chacun peut apprendre des erreurs des autres. La plateforme _help.lephare.com_ étant axée sur l’échange, elle permet d'accélérer la montée en compétence des collaborateurs (des alternants en particulier)\n\nToutes les pratiques permettent à chaque collaborateur d’avoir une meilleure connaissance de l’activité de l’autre. Un pas essentiel vers la prise de conscience par chacun, que la valeur de l’entreprise réside sur l’expertise de tous.\n\nLes approches synchrones ont favorisé la prise d’initiative par les collaborateurs et leur a permis de se sentir plus sûr d’eux. Chacun a de la valeur à apporter, pas de jugement des autres mais plutôt un esprit constructif."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Nécessite une discipline et une implication où chacun doit s’astreindre à ces pratiques. Ce n’est pas forcément un réflexe. Il faut animer et donner du temps.\n* Chacun met de côté son égo. Humilité, même si ce qu’on exprime n’est pas bon, on est corrigé par l’autre, l’expertise se renforce et on apprend de ses erreurs.\n* Savoir rester sur la critique du travail et pas sur la personne\n* Un animateur et un garant du respect des bonnes pratiques est nécessaire"
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* L’appropriation par tous des outils en place\n* Comment s’assurer en permanence que l’usage des outils est le bon ?\n* Le manque de temps, difficile en période de ‘rush’ de s’autoriser du temps pour ça."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* [https://www.discourse.org/](https://www.discourse.org/ \"https://www.discourse.org/\") pour notre plateforme help.lephare.com\n* Code review faite sur [Gitlab](https://about.gitlab.com/)\n\n<br>\n\nHervé CARTRON - DGA Le Phare - herve arobase lephare.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
