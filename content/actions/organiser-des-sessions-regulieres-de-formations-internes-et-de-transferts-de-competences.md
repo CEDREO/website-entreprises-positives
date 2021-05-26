@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Le Phare"
 contentonly = false
 description = "Fiche pratique RSE : Organiser des sessions régulières de formations internes et de transferts de compétences"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
