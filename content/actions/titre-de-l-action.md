@@ -1,19 +1,19 @@
 +++
-breadcrumb = ""
+breadcrumb = "Titre de l'action"
 company = ""
 contentonly = false
 description = ""
 draft = true
-financialinvest = ""
+financialinvest = "Important"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Faible"
+maturity = "Progresser"
+nature = ["Environnemental"]
 noindex = false
 schemajson = ""
 sector = ""
 seotexts = []
-slug = ""
+slug = "titre-action"
 title = "titre de l'action"
 trackers = []
 [[blocs]]
@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "copié collé du texte"
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
