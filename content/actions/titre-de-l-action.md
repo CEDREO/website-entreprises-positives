@@ -1,6 +1,6 @@
 +++
 breadcrumb = "Titre de l'action"
-company = ""
+company = "Cedreo"
 contentonly = false
 description = ""
 draft = true
@@ -11,7 +11,7 @@ maturity = "Progresser"
 nature = ["Environnemental"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = "titre-action"
 title = "titre de l'action"
