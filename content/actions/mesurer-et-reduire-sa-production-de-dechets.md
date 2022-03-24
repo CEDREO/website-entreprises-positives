@@ -78,7 +78,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 cta = ""
-richtext = "Plus de 25 tonnes de déchets sont produits en France, chaque seconde. Soit 800 millions de tonnes de déchets par an qu'il faut recycler, enfouir, retraiter …\n\nNous avons réussi à réduire la production de déchets des entreprises (hors secteur de la construction) de 8% en 10 ans alors que la production des ménages n’a reculé de que de 0,3%.\n\nQuoiqu’on puisse en penser, le secteur tertiaire reste le 3e plus gros contributeur (hors secteur de la construction) et produit presque autant de déchets que l’ensemble des ménages. Nous avons donc notre rôle à jouer chez Cedreo, d’autant que derrière chaque membre de l’équipe se cache un membre d’un ménage.\n\nIl y a des actions évidentes et simples à mettre en place qui ne demandent qu’un peu d’effort, d’autres qui en demandent un peu plus mais contribuent beaucoup à réduire notre impact tout en maintenant notre niveau de confort au travail."
+richtext = "Plus de 25 tonnes de déchets sont produits en France, chaque seconde. Soit 800 millions de tonnes de déchets par an qu'il faut recycler, enfouir, retraiter …\n\nNous avons réussi à réduire la production de déchets des entreprises (hors secteur de la construction) de 8% en 10 ans alors que la production des ménages n’a reculé que de 0,3%."
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
