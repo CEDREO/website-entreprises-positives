@@ -67,6 +67,30 @@ richtext = "###### 1/ Contexte général en France :\n\n###### Personnes en situ
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
+position = "Bottom"
+[[blocs.media.media]]
+alt = "infographie handicap en France"
+image = "/uploads/stats_handicap.jpg"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.style]
+compactbottom = true
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Contexte part 2"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "_Source : Les personnes handicapées et l’emploi - Chiffres clés / AGEFIPH 2019_\n\n<br>\n\n**_LeDuoDay : une action pour agir en faveur de l’emploi des personnes en situation de handicap_**\n\nLe concept DuoDay a été créé en Irlande en 2008, repris en Belgique en 2010, puis dans toute l'Europe les années suivantes. En France, il est déployé à l’échelle nationale depuis 2018.\n\n**Son principe est simple : à l’occasion d'une journée nationale, une entreprise, une collectivité ou une association accueille une personne en situation de handicap, en duo avec un professionnel volontaire. Au programme de cette journée : découverte du métier, participation active, immersion en entreprise.**\n\n<br>\n\n**3/ Contexte de mise en place du DuoDay à Nantes Université :**\n\nAprès 2019, 2021 a été la 2ème édition du DuoDay proposée au sein de l’université. **L’organisation de cette journée s’est inscrite dans la volonté de l’établissement d’accélérer le travail autour du handicap :**\n\n* le précédent Schéma Directeur Handicap s’est terminé en 2019 et celui pour les années à venir est en cours de construction. Par ailleurs, bien que progressant chaque année, l’établissement ne répond pas encore complètement à son obligation d’emploi de 6% de personnes en situation de handicap (4,04% en 2020).\n* créer une université durable est un axe fort de la politique de la nouvelle Présidence et favoriser l’inclusion des personnes en situation de handicap s’intègre dans cette ambition\n* mettre en place la journée DuoDay était aussi l’occasion de s’appuyer sur la dynamique de la création de Nantes Université pour déployer des actions communes entre ses membres. Ainsi, plusieurs établissements membres ont organisé le DuoDay avec leurs équipes."
+title = ""
+titlelevel = "2"
+[blocs.media]
 media = []
 position = ""
 [blocs.style]
@@ -177,7 +201,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Agefiph / [Chiffres clés de l’emploi des personnes handicapées](https://www.agefiph.fr/sites/default/files/medias/fichiers/2019-09/CHIFFRE-CLES-2018-AGEFIPH-WEB.pdf)\n\nVidéo de [présentation du DuoDay](https://duoday.fr)\n\nDémarche et éléments de communication pour mettre en place le DuoDay :[site internet national](https://duoday.fr/2-duoday-on-vous-explique-tout.htm)\n\nContact : Equipe santé-handicap de Nantes Université : sante.handicap@univ-nantes.fr"
+richtext = "Agefiph / [Chiffres clés de l’emploi des personnes handicapées](https://www.agefiph.fr/sites/default/files/medias/fichiers/2019-09/CHIFFRE-CLES-2018-AGEFIPH-WEB.pdf)\n\nVidéo de [présentation du DuoDay](https://duoday.fr)\n\nDémarche et éléments de communication pour mettre en place le DuoDay : [site internet national](https://duoday.fr/2-duoday-on-vous-explique-tout.htm)\n\nContact : Equipe santé-handicap de Nantes Université : sante.handicap@univ-nantes.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
