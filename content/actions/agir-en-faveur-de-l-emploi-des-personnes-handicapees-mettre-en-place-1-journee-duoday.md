@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Nantes Université"
 contentonly = false
 description = ""
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
@@ -201,7 +200,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Agefiph / [Chiffres clés de l’emploi des personnes handicapées](https://www.agefiph.fr/sites/default/files/medias/fichiers/2019-09/CHIFFRE-CLES-2018-AGEFIPH-WEB.pdf)\n\nVidéo de [présentation du DuoDay](https://duoday.fr)\n\nDémarche et éléments de communication pour mettre en place le DuoDay : [site internet national](https://duoday.fr/2-duoday-on-vous-explique-tout.htm)\n\nContact : Equipe santé-handicap de Nantes Université : sante.handicap@univ-nantes.fr"
+richtext = "Agefiph / [Chiffres clés de l’emploi des personnes handicapées](https://www.agefiph.fr/sites/default/files/medias/fichiers/2019-09/CHIFFRE-CLES-2018-AGEFIPH-WEB.pdf)\n\nVidéo de [présentation du DuoDay](https://duoday.fr)\n\nDémarche et éléments de communication pour mettre en place le DuoDay : [site internet national](https://duoday.fr/2-duoday-on-vous-explique-tout.htm)\n\nContact : Equipe santé-handicap de Nantes Université : sante.handicap arobase univ-nantes.fr"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
