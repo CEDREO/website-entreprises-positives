@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Proselis"
 contentonly = false
 description = "Fiche pratique RSE : installation de panneaux photovoltaïques"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
