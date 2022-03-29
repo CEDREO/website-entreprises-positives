@@ -139,7 +139,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Il faut qu’il y ait une volonté de l’entreprise de dégager du temps et du budget pour accompagner pleinement les projets.\n\nIl faut avoir une équipe sensibilisée et imaginative (force de proposition).\n\nIl faut être agile, savoir se remettre en cause, et à l’écoute des besoins. Être humble dans notre démarche, ne pas arriver en “sauveur”. Essayer de se structurer, y aller progressivement.\n\nRécolter les besoins des salariés et associations en amont pour que les projets soient portés et s’inscrivent dans une bonne dynamique."
+richtext = "Il faut qu’il y ait une volonté de l’entreprise de dégager du temps et du budget pour accompagner pleinement les projets. Il est également important d'essayer de se structurer et d'avancer progressivement.\n\nIl faut être agile, savoir se remettre en cause, et à l’écoute des besoins. Être humble dans notre démarche, ne pas arriver en “sauveur”. \n\nCôté équipe, avoir une équipe sensibilisée et imaginative (force de proposition) est essentiel. Pour que les projets soient portés et s'inscrivent dans une bonne dynamique, il est nécessaire de récolter les besoins des salariés et associations en amont."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -177,7 +177,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Pour trouver les associations, il existe l’association “Vendredi” qui donne l’occasion de mettre en lien les entreprises et les associations via une plateforme en ligne. (Personnellement nous avons créé notre propre base de données d’associations).\n\nOutils Ryver (ou Slack, Trello...) pour structurer la démarche et les tâches à faire, se les répartir etc.\n\nOutil RSE en général avant la certification B-Corp : Audencia, Nantes Metropole RSE.\n\nContact : Sandrine Bataille territoire arobase cedreo.com"
+richtext = "Pour trouver les associations, il existe l’association “Vendredi” qui donne l’occasion de mettre en lien les entreprises et les associations via une plateforme en ligne. (Personnellement nous avons créé notre propre base de données d’associations).\n\nAfin de structurer la démarche, lister les tâches à faire, se les répartir etc, il existe plusieurs outils tels que Ryver (ou Slack, Trello...) que nous utilisons quotidiennement chez Cedreo.\n\nOutil \"RSE\" de manière générale, utilisés avant la certification B-Corp : Audencia, Nantes Metropole RSE.\n\nContact : Sandrine Bataille territoire arobase cedreo.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
