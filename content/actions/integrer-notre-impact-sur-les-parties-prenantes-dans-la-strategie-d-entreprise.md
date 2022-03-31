@@ -136,7 +136,7 @@ template = "couleur-de-fond"
 [[blocs]]
 forestrylabel = "Résultats Part 2"
 template = "ensemble-blocs-personalises"
-title = "Nombres d'heures par pilier"
+title = ""
 titlelevel = "2"
 [blocs.style]
 compactbottom = false
