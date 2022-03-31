@@ -169,6 +169,30 @@ content = ""
 [[blocs.parts.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = ""
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Bottom"
+[[blocs.parts.media.media]]
+alt = ""
+image = "/uploads/fevrier-1-page-001_resized.jpg"
+shadowed = false
+size = ""
+template = "image"
+[blocs.parts.style]
+compactbottom = false
+compacttop = false
+content = ""
+[[blocs.parts.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 [[blocs]]
 forestrylabel = "Facteurs clés de succès"
 template = "bloc-personalise"
