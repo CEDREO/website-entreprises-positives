@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Depuis 2022, nous avons mis en place un système de suivi des temps des salariés sur les actions RSE.\n\n209 heures ont été passées depuis le début de l’année, réparties comme suit entre les différentes thématiques adressées :"
+richtext = "Depuis 2022, nous avons mis en place un système de suivi des temps des salariés sur les actions RSE.\n\n201 heures ont été passées depuis le début de l’année, réparties comme suit entre les différentes thématiques adressées :"
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -131,6 +131,42 @@ compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "ensemble-blocs-personalises"
+title = "Résultats Part 2"
+titlelevel = "2"
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = ""
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = ""
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Bottom"
+[[blocs.parts.media.media]]
+alt = ""
+image = "/uploads/janvier-page-001_resized.jpg"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.parts.style]
+compactbottom = false
+compacttop = false
+content = ""
+[[blocs.parts.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
