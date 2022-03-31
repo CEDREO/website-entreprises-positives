@@ -184,7 +184,7 @@ position = "Bottom"
 alt = ""
 image = "/uploads/fevrier-1-page-001_resized.jpg"
 shadowed = false
-size = ""
+size = "Large"
 template = "image"
 [blocs.parts.style]
 compactbottom = false
