@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Cedreo"
 contentonly = false
 description = ""
 draft = true
@@ -11,7 +11,7 @@ maturity = "Aller plus loin"
 nature = ["Gouvernance"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = "intégrer-impact-parties-prenantes-dans-stratégie-entreprise"
 title = "Intégrer notre impact sur les parties prenantes dans la stratégie d’entreprise"
@@ -134,7 +134,7 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = ""
+forestrylabel = "Résultats Part 2"
 template = "ensemble-blocs-personalises"
 title = "Nombres d'heures par pilier"
 titlelevel = "2"
