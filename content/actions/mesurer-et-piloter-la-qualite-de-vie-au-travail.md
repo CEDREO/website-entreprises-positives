@@ -81,7 +81,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous avons opéré un benchark d’outils disponibles puis avons fait le choix d’un prestataire local, la start-up vendéenne Weview. Weview est une plateforme en mode SAAS qui permet de réaliser et communiquer des questionnaires à des équipes. Elle permet ensuite d’en analyser les résultats par services ou à l’échelle du Groupe, en respectant l’anonymat des répondants."
+richtext = "Nous avons opéré un benchmark d’outils disponibles puis avons fait le choix d’un prestataire local, la start-up vendéenne Weview. Weview est une plateforme en mode SAAS qui permet de réaliser et communiquer des questionnaires à des équipes. Elle permet ensuite d’en analyser les résultats par services ou à l’échelle du Groupe, en respectant l’anonymat des répondants."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
