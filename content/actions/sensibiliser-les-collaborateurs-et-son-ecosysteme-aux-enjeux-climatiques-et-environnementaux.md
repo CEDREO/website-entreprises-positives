@@ -101,7 +101,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Aujourd’hui, nous organisons 1 fresque par mois (pour 5 à 8 participants) et 1 atelier 2 tonnes par trimestre (entre 15 et 20 participants) pour tout l’écosystème élargi (seuls les collaborateurs récemment arrivés sont obligés d’y participer).\n\nL’atelier 2 tonnes est un atelier immersif qui propose aux participants de se projeter dans le futur pour essayer de limiter le changement climatique en réduisant notre empreinte carbone. Au départ, chacun y fait un bilan carbone individuel via un questionnaire (concernant ses déplacements, sa consommation…), qui détermine combien il a émis d’équivalent CO2 au cours d’une année.\n\nUn travail d’équipe où de multiples choix sont à faire pour tendre vers la neutralité carbone."
+richtext = "Aujourd’hui, nous organisons 1 fresque par mois (pour 5 à 8 participants) et 1 atelier 2 tonnes par trimestre (entre 15 et 20 participants) pour tout l’écosystème élargi (les collaborateurs récemment arrivés doivent y participer).\n\nL’atelier 2 tonnes est un atelier immersif qui propose aux participants de se projeter dans le futur pour essayer de limiter le changement climatique en réduisant notre empreinte carbone. Au départ, chacun y fait un bilan carbone individuel via un questionnaire (concernant ses habitudes de consommation, ses déplacements, son logement…), qui détermine combien il a émis d’équivalent CO2 au cours d’une année.\n\nLe jeu nous projette dans le futur par étapes de 3 années au cours desquelles les participants en équipe font des choix pour tendre vers la neutralité carbone."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Les résultats sont assez subjectifs car c’est de la sensibilisation.\n\nIl s’agit d’une réelle prise de conscience pour les gens, accompagnée souvent d’un changement de comportement individuel. Chacun prend conscience de son impact, et souvent les gens en ressortent avec des projets, des envies d’action (moins de voiture, questionnement sur l’avion, changement sur la consommation alimentaire…). Un impact impossible à quantifier.\n\nLa sensibilisation est faite dans un état d’esprit positif, avec des moments très conviviaux et cela aide à créer une dynamique forte permettant d’engager les gens.\n\nDans l’entreprise, chacun comprend mieux les enjeux dans son métier."
+richtext = "Les résultats sont très positifs pour la sensibilisation de notre écosystème aux problématiques climatiques.\n\nIl s’agit d’une réelle prise de conscience pour chacun, accompagnée souvent d’un changement de comportement individuel. Chacun prend conscience de son impact, et souvent les gens en ressortent avec des projets, des envies d’action (moins de voiture, questionnement sur l’avion, changement sur la consommation alimentaire…). Un impact impossible à quantifier.\n\nLa sensibilisation est faite dans un état d’esprit positif, avec des moments très conviviaux et cela aide à créer une dynamique forte permettant d’engager les gens.\n\nDans l’entreprise, chacun comprend mieux les enjeux dans son métier."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
