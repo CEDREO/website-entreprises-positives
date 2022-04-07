@@ -237,7 +237,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "L’outil d’audit gratuit de B Corp a été un très bon début pour mesurer où nous en étions et avoir des idées concrètes et un plan d’action précis pour nous améliorer :\n\n[https://bimpactassessment.net/](https://bimpactassessment.net/ \"https://bimpactassessment.net/\")\n\nContact : Marie VAN GOETHEM mvg arobase cedreo.com"
+richtext = "L’outil d’audit gratuit de B Corp a été un très bon début pour mesurer où nous en étions et avoir des idées concrètes et un plan d’action précis pour nous améliorer :\n\n[https://bimpactassessment.net/](https://bimpactassessment.net/ \"https://bimpactassessment.net/\")\n\nSite B Corp [https://www.bcorporation.net/fr-fr/certification](https://www.bcorporation.net/fr-fr/certification \"https://www.bcorporation.net/fr-fr/certification\")\n\nContact : Marie VAN GOETHEM mvg arobase cedreo.com"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
