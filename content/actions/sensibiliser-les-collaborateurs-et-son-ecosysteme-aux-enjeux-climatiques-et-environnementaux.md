@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "La seule contrainte est le temps que cela nécessite et l’investissement : il faut que les gens qui portent le projet soient investis.\n\nDans ces ateliers il n’y a pas de jugement de valeurs, il s’agit d’un partage d’informations incontestables (données scientifiques tels que rapports du GIEC etc) donc même les personnes sceptiques ou peu convaincues sont intéressées par les ateliers."
+richtext = "La seule contrainte est le temps que cela nécessite et l’investissement : il faut que les gens qui portent le projet soient investis.\n\nDans ces ateliers il n’y a pas de jugement de valeurs, il s’agit d’un partage d’informations incontestables (données scientifiques tels que rapports du GIEC) donc même les personnes sceptiques ou peu convaincues sont intéressées par les ateliers."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -177,7 +177,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Sites des associations :\n\n2 tonnes.org (devenu international) : [https://www.2tonnes.org/](https://www.2tonnes.org/ \"https://www.2tonnes.org/\")\n\nEt Fresque du Climat : [https://fresqueduclimat.org/](https://fresqueduclimat.org/ \"https://fresqueduclimat.org/\")\n\nMOOC INR pour les entreprises du numérique (La Rochelle)\n\n[https://www.academie-nr.org/?fbclid=IwAR0ByVywEq33Ups4pDHa1Juuh8MGk-3y9AYZoSEn1izaYcl9EzqkIH_6VDQ](https://www.academie-nr.org/?fbclid=IwAR0ByVywEq33Ups4pDHa1Juuh8MGk-3y9AYZoSEn1izaYcl9EzqkIH_6VDQ \"https://www.academie-nr.org/?fbclid=IwAR0ByVywEq33Ups4pDHa1Juuh8MGk-3y9AYZoSEn1izaYcl9EzqkIH_6VDQ\")\n\nContact : Pierre Lancelot [pierre arobase aepsilon.com](mailto:pierre@aepsilon.com)\n\n[https://www.linkedin.com/in/pierrelancelot/](https://www.linkedin.com/in/pierrelancelot/ \"https://www.linkedin.com/in/pierrelancelot/\")"
+richtext = "Sites des associations :\n\n2 tonnes.org (devenu international) : [https://www.2tonnes.org/](https://www.2tonnes.org/ \"https://www.2tonnes.org/\")\n\nEt Fresque du Climat : [https://fresqueduclimat.org/](https://fresqueduclimat.org/ \"https://fresqueduclimat.org/\")\n\n###### \n\nMOOC INR pour les entreprises du numérique (La Rochelle)\n\n[https://www.academie-nr.org/?fbclid=IwAR0ByVywEq33Ups4pDHa1Juuh8MGk-3y9AYZoSEn1izaYcl9EzqkIH_6VDQ](https://www.academie-nr.org/?fbclid=IwAR0ByVywEq33Ups4pDHa1Juuh8MGk-3y9AYZoSEn1izaYcl9EzqkIH_6VDQ \"https://www.academie-nr.org/?fbclid=IwAR0ByVywEq33Ups4pDHa1Juuh8MGk-3y9AYZoSEn1izaYcl9EzqkIH_6VDQ\")\n\n###### \n\nContact : Pierre Lancelot [pierre arobase aepsilon.com](mailto:pierre@aepsilon.com)\n\n[https://www.linkedin.com/in/pierrelancelot/](https://www.linkedin.com/in/pierrelancelot/ \"https://www.linkedin.com/in/pierrelancelot/\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
