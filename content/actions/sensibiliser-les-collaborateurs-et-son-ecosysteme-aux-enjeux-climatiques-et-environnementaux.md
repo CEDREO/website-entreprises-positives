@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Aepsilon"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : sensibiliser les collaborateurs et son écosystème aux enjeux climatiques et environnementaux"
 draft = true
 financialinvest = "Moyen"
 hreflangs = []
