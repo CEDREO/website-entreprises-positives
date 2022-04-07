@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Société de conseil en ingénierie du numérique (et conseil en management et transition) créée il y a 13 ans et basée à Sophia Antipolis. Elle compte une trentaine de collaborateurs."
+richtext = "Société de conseil en ingénierie du numérique, management et transition, créée en 2009 et basée à Sophia Antipolis. Aepsilon compte une trentaine de collaborateurs."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
