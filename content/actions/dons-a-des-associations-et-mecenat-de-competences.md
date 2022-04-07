@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Cedreo"
 contentonly = false
 description = "Fiche pratique RSE : dons à des associations et mécénat de compétences"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Moyen"
