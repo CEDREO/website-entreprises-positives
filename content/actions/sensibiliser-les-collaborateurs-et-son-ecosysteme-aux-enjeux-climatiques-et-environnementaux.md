@@ -82,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Il a fallu structurer le parcours d’intégration en ajoutant 2 étapes d’une demi-journée par rapport au parcours initial. En plus de cela, s’ajoute dans le parcours un Mooc sur le Numérique Responsable d’une demi-journée sous forme de travail individuel.\n\nLes deux ateliers sont applicables pour tous, tandis que le Mooc est vraiment spécifique à notre domaine d’activité.\n\nQuant à notre offre d’animation d’ateliers sous forme de team building, nous avons fait en sorte que cela soit le moins chronophage possible en proposant des sessions le midi ou en fin de journée, pour que cela ne nécessite pas de mobiliser systématiquement une demi-journée."
+richtext = "Il a fallu structurer le parcours d’intégration en ajoutant ces 2 étapes de 3 heures dans le parcours initial. En plus de cela, s’ajoute le Mooc de l’Institut du Numérique Responsable d’une demi-journée sous forme de travail individuel.\n\nLes deux ateliers sont applicables à toutes les organisations, tandis que le Mooc sur la sobriété numérique est spécifique à notre domaine d’activité.\n\nCes ateliers sont réalisés sous forme de team building, nous avons fait en sorte que cela soit le moins chronophage possible en proposant des sessions le midi ou en fin de journée, pour que cela ne nécessite pas de mobiliser systématiquement une demi-journée."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
