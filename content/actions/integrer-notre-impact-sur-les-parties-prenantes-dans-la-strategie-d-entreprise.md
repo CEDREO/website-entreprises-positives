@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Cedreo"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : intégrer notre impact sur les parties prenantes dans la stratégie d'entreprise"
 draft = true
 financialinvest = "Important"
 hreflangs = []
