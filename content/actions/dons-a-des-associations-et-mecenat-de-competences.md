@@ -120,7 +120,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Difficile à dire car cette première année “test” n’est pas encore terminée, c’est la première fois que l’action est aussi structurée.\n\nNous nous attendions à plus de réponses de la part des associations, et à être plus sollicités, mais ce n’est pas grave car cela permet de bien s’impliquer sur les projets des associations choisies.\n\nL’idée est que cela implique tous les salariés de l’entreprise, ce n’est pas l’objectif d’impliquer seulement le pilier Territoire dans ces missions d’accompagnement. A ce jour, 6 salariés hors du pilier se sont positionnés sur les différents projets."
+richtext = "Difficile à dire car cette première année “test” n’est pas encore terminée, c’est la première fois que l’action est aussi structurée.\n\nNous nous attendions à plus de réponses de la part des associations, et à être plus sollicités, mais ce n’est pas grave car cela permet de bien s’impliquer sur les projets des associations choisies.\n\nL’idée est que cela implique tous les salariés de l’entreprise, ce n’est pas l’objectif d’impliquer seulement le pilier Territoire dans ces missions d’accompagnement. A ce jour, 6 salariés hors du pilier se sont positionnés sur les différents projets (soit 10 personnes au total)."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
