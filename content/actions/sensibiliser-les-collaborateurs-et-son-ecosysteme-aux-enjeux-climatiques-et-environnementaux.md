@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "L’objectif est de sensibiliser les collaborateurs et tout notre écosystème aux enjeux climatiques et environnementaux en organisant une fresque du climat et un atelier 2 tonnes : deux ateliers collaboratifs qui se complètent.\n\nCes ateliers permettent d’engager tout le monde, de créer une dynamique.\n\nCela fait partie du statut de l’entreprise Aepsilon, qui est une entreprise à mission : l'impact de ce que nous produisons doit être le plus raisonné possible."
+richtext = "L’objectif est de sensibiliser les collaborateurs et tout notre écosystème aux enjeux climatiques et environnementaux en organisant une fresque du climat et un atelier 2 tonnes : deux ateliers collaboratifs qui se complètent.\n\nCes ateliers permettent d’engager tout le monde, de créer une dynamique.\n\nCela fait partie du statut de notre entreprise, qui est une entreprise à mission : “la raison d'être de la société est de mettre le numérique et l'influence de l'entreprise au service de la transition sociale, économique et écologique, des causes qu'elle défend telles que la lutte contre le réchauffement climatique, contre l'extinction de la biodiversité et contre l'accroissement des inégalités, la lutte pour l'égalité des genres et la justice sociale.\\[...\\]”"
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
