@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Cedreo"
 contentonly = false
 description = "Fiche pratique RSE : accueil de stagiaires de 3ème"
 financialinvest = "Faible"
@@ -10,7 +10,7 @@ maturity = "Premières actions"
 nature = ["Territoire"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = "accueil-stagiaires-3eme"
 title = "Accueil de stagiaires de 3ème"
