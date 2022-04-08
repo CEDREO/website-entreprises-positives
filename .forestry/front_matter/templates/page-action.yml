@@ -102,6 +102,7 @@ fields:
   label: Content only
   description: For debug purpose, please left it unset
 pages:
+- content/actions/accueil-de-stagiaires-de-3eme.md
 - content/actions/adapter-l-ergonomie-des-postes-de-travail-a-l-aide-d-un-ergonome.md
 - content/actions/agir-en-faveur-de-l-emploi-des-personnes-handicapees-mettre-en-place-1-journee-duoday.md
 - content/actions/allouer-un-budget-libre-chaque-annee-a-chaque-salarie.md
