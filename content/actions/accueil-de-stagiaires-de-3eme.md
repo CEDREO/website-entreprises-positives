@@ -3,7 +3,6 @@ breadcrumb = ""
 company = ""
 contentonly = false
 description = "Fiche pratique RSE : accueil de stagiaires de 3ème"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
