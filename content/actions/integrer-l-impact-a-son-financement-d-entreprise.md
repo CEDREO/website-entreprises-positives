@@ -1,19 +1,19 @@
 +++
 breadcrumb = ""
-company = ""
+company = "We Do Good"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : intégrer l'impact à son financement d'entreprise"
 draft = true
-financialinvest = ""
+financialinvest = "Faible"
 hreflangs = []
-humaninvest = ""
-maturity = ""
-nature = []
+humaninvest = "Moyen"
+maturity = "Premières actions"
+nature = ["Gouvernance"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
-slug = ""
+slug = "intégrer-impact-financement-entreprise"
 title = "Intégrer l'impact à son financement d'entreprise"
 trackers = []
 [[blocs]]
