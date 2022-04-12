@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "We Do Good"
 contentonly = false
 description = "Fiche pratique RSE : intégrer l'impact à son financement d'entreprise"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
