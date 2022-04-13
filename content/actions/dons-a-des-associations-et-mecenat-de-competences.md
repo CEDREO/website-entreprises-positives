@@ -138,7 +138,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Il faut qu’il y ait une volonté de l’entreprise de dégager du temps et du budget pour accompagner pleinement les projets. Il est également important d'essayer de se structurer et d'avancer progressivement.\n\nIl faut être agile, savoir se remettre en cause, et à l’écoute des besoins. Être humble dans notre démarche, ne pas arriver en “sauveur”. \n\nCôté équipe, avoir une équipe sensibilisée et imaginative (force de proposition) est essentiel. Pour que les projets soient portés et s'inscrivent dans une bonne dynamique, il est nécessaire de récolter les besoins des salariés et associations en amont."
+richtext = "Il faut qu’il y ait une volonté de l’entreprise de dégager du temps et du budget pour accompagner pleinement les projets. Il est également important d'essayer de se structurer et d'avancer progressivement.\n\nIl faut être agile, savoir se remettre en cause, et à l’écoute des besoins. Être humble dans notre démarche, ne pas arriver en “sauveur”.\n\nCôté équipe, avoir une équipe sensibilisée et imaginative (force de proposition) est essentiel. Pour que les projets soient portés et s'inscrivent dans une bonne dynamique, il nous semble nécessaire de récolter les compétences des salariés et les besoins des associations en amont."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
