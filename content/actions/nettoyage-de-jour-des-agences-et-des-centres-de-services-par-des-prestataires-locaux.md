@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Tibco"
 contentonly = false
 description = ""
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Moyen"
