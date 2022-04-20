@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Thierry Immobilier"
 contentonly = false
 description = "Fiche pratique RSE : mécénat de compétences à l'aide d'un outil et mécénat financier"
 draft = true
@@ -11,7 +11,7 @@ maturity = "Progresser"
 nature = ["Territoire"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = "mecenat-competences-outil-et-mecenat-financier"
 title = "Mécénat de compétences à l'aide d'un outil et Mécénat financier"
