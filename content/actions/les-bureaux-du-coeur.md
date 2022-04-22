@@ -177,7 +177,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Site Bureaux du Coeur : [https://www.bureauxducoeur.org/les-bureaux-du-coeur/](https://www.bureauxducoeur.org/les-bureaux-du-coeur/ \"https://www.bureauxducoeur.org/les-bureaux-du-coeur/\")\n\nPrésentation Youtube : [https://www.youtube.com/watch?v=g0kt7V6LUg0](https://www.youtube.com/watch?v=g0kt7V6LUg0 \"https://www.youtube.com/watch?v=g0kt7V6LUg0\")\n\nContact : Pierre-Yves Loaëc - [https://www.linkedin.com/in/pyloaec/?originalSubdomain=fr](https://www.linkedin.com/in/pyloaec/?originalSubdomain=fr \"https://www.linkedin.com/in/pyloaec/?originalSubdomain=fr\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
