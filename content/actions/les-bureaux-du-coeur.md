@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Nobilito"
 contentonly = false
 description = "Fiche pratique RSE : les bureaux du Coeur"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
