@@ -14,7 +14,7 @@ schemajson = ""
 sector = "Entreprises qui ont des locaux qui ne sont pas des locaux commerciaux"
 seotexts = []
 slug = "bureaux-du-coeur"
-title = "Les Bureaux du Coeur"
+title = "Accueillir des personnes en réinsertion dans les locaux de notre entreprise : les Bureaux du Cœur"
 trackers = []
 [[blocs]]
 forestrylabel = "Entreprise témoin"
