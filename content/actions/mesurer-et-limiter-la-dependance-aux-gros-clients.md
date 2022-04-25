@@ -63,7 +63,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Cette stratégie a été mise en place dès la création de l'entreprise ; c'est le fruit d'une réflexion sur l'importance de ne pas dépendre de quelques clients pour se prémunir contre ce type de risque."
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
