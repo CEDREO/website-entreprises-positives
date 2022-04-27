@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Proselis"
 contentonly = false
 description = "Fiche pratique RSE : mesurer et limiter la dépendance aux gros clients"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
