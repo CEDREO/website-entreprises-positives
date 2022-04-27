@@ -22,7 +22,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Delia Technologies est un cabinet IT qui accompagne les entreprises de la métropole nantaise dans leur transformation numérique. Notre entreprise compte une 50aine de Développeurs, Ingénieurs DevOps, Product Owner et Chefs de Projet."
+richtext = "Delia Technologies est un cabinet IT qui accompagne les entreprises de la métropole nantaise dans leur transformation numérique. Notre entreprise compte une cinquantaine de Développeurs, Ingénieurs DevOps, Product Owner et Chefs de Projet."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
