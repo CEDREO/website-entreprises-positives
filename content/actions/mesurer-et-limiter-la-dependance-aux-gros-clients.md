@@ -158,7 +158,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "La limite eut été d'avoir un modèle économique inadapté aux besoins des entreprises. La notion de \"à la demande\" a permis de répondre aux besoins des entreprises , donnant ainsi l'occasion d'acquérir un équilibre naturel."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
