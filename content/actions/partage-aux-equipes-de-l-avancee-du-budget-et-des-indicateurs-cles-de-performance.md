@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Delia Technologies"
 contentonly = false
 description = "Fiche pratique RSE : partage aux équipes de l’avancée du budget et des indicateurs clés de performance"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
