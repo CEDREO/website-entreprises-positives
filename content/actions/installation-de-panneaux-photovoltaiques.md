@@ -66,8 +66,13 @@ richtext = "Étant acteur de l’IT, nous avons conscience de l’importance de 
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = "part énergies renouvelables en France"
+image = "/uploads/_2021_energie-az_enr-production2019_france.png"
+shadowed = false
+size = "Large"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
