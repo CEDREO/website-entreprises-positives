@@ -43,6 +43,13 @@ url = "https://nantes.delia.tech/"
 alt = "Logo Delia"
 image = "/uploads/logo_delia.jpg"
 [[blocs.logos]]
+forestrylabel = "Aepsilon"
+name = "Aepsilon"
+url = "https://aepsilon.com/"
+[blocs.logos.logo]
+alt = "Logo Aepsilon"
+image = "/uploads/logos_aepsilon.jpg"
+[[blocs.logos]]
 forestrylabel = "Toolin"
 name = "Toolin"
 url = "https://www.toolin.fr/"
@@ -113,13 +120,6 @@ url = "https://www.appstud.com/"
 alt = "Logo Appstud"
 image = "/uploads/logo_appstud.jpg"
 [[blocs.logos]]
-forestrylabel = "Aepsilon"
-name = "Aepsilon"
-url = "https://aepsilon.com/"
-[blocs.logos.logo]
-alt = "Logo Aepsilon"
-image = "/uploads/logos_aepsilon.jpg"
-[[blocs.logos]]
 forestrylabel = "Notchup"
 name = "Notchup"
 url = "http://www.notchup.fr/"
@@ -182,6 +182,13 @@ url = "https://www.vivolum.fr/"
 [blocs.logos.logo]
 alt = "Logo Vivolum"
 image = "/uploads/logo_vivolum.jpg"
+[[blocs.logos]]
+forestrylabel = "We Do Good"
+name = "We Do Good"
+url = "https://www.wedogood.co/"
+[blocs.logos.logo]
+alt = "Logo We do Good"
+image = "/uploads/logo-wedogood-final-web-1.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
