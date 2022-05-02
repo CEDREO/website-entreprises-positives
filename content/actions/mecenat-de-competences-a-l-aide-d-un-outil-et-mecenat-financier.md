@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Thierry Immobilier"
 contentonly = false
 description = "Fiche pratique RSE : mécénat de compétences à l'aide d'un outil et mécénat financier"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
