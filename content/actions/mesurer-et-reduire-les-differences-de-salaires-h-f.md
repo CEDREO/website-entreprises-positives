@@ -129,7 +129,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous partageons en interne ces indicateurs qui sont accessibles par tous et nous faisons une communication spécifique sur le sujet tous les 3 mois dans le cadre de nos plénières trimestrielles."
+richtext = "Nous partageons en interne ces indicateurs qui sont accessibles par tous et nous faisons une communication spécifique sur le sujet tous les 3 mois dans le cadre de nos plénières trimestrielles.\n\nCette action n'a donc engagé aucun frais spécifique, car elle fait partie de notre gestion RH récurrente. On estime qu’elle représente entre 0,5 et 1 jour homme par mois selon notre actualité, incluant la consolidation des indicateurs et leur communication."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
