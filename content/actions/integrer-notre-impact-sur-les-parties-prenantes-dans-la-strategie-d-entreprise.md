@@ -100,7 +100,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous avons doté le comité d’impact positif de moyens : 6 jours par an et par salarié. Chaque salarié peut proposer des actions ou s’inscrire dans des actions définies sur les piliers qui leur parlent le plus. Cela nous donne des moyens concrets pour avancer.\n\nNous attribuons aussi 1% de notre chiffre d’affaires en budget pour ce comité. En pratique nous avons priorisé une contribution à la neutralité carbone pour la part de consommation carbone que nous n’avons pas encore réduite (et avons bien sûr un plan ambitieux en place pour réduire) et le reste du budget est ventilé par le comité d’impact positif en fonction des besoins et projets en cours dans les différents piliers."
+richtext = "Nous avons doté le comité d’impact positif de moyens : 6 jours par an et par salarié. Chaque salarié peut proposer des actions ou s’inscrire dans des actions définies sur les piliers qui leur parlent le plus. Cela nous donne des moyens concrets pour avancer.\n\nNous attribuons aussi 1% de notre chiffre d’affaires en budget pour ce comité. En pratique nous avons priorisé une contribution à la neutralité carbone pour la part de consommation carbone que nous n’avons pas encore réduite (et avons bien sûr un plan ambitieux en place pour réduire) et le reste du budget est ventilé par le comité d’impact positif en fonction des besoins et projets en cours dans les différents piliers.\n\nNous avons passé 10 jours à mettre en place cette action."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
