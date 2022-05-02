@@ -100,7 +100,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Là aussi la démarche est très simple ; après un échange avec la conseillère du service recrutement de Cap Emploi nous avons défini les contours du poste et les contraintes liées à la fonction.\n\nAu regard de l’expérience demandée et du rôle, la garantie de trouver une personne en situation de handicap n’était pas évidente ; peu de personnes souhaitent se déclarer en situation de handicap et celles qui le sont ne sont pas forcément qualifiées pour des postes d’un certain niveau ! Pour autant nous avons eu beaucoup de chance car dès les premières semaines nous avons reçu 5 candidatures !"
+richtext = "Là aussi la démarche est très simple ; après un échange avec la conseillère du service recrutement de Cap Emploi nous avons défini les contours du poste et les contraintes liées à la fonction.\n\nAu regard de l’expérience demandée et du rôle, la garantie de trouver une personne en situation de handicap n’était pas évidente ; peu de personnes souhaitent se déclarer en situation de handicap et celles qui le sont ne sont pas forcément qualifiées pour des postes d’un certain niveau ! Pour autant nous avons eu beaucoup de chance car dès les premières semaines nous avons reçu 5 candidatures !\n\nCette action ne nous a rien coûté, et il nous a fallu au total 3 rendez-vous avec des partenaires potentiels, rien de plus !"
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
