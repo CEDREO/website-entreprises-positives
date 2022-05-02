@@ -29,6 +29,13 @@ url = "https://www.planetrse.fr/"
 alt = "logo planet'rse"
 image = "/uploads/planet-rse.png"
 [[blocs.logos]]
+forestrylabel = "Nobilito"
+name = "Nobilito"
+url = "https://www.nobilito.fr/"
+[blocs.logos.logo]
+alt = ""
+image = ""
+[[blocs.logos]]
 forestrylabel = "Cedreo"
 name = "Cedreo"
 url = "https://cedreo.com"
