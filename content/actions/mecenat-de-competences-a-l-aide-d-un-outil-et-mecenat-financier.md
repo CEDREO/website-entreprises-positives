@@ -26,8 +26,13 @@ richtext = "Thierry Immobilier est un acteur de l’immobilier (vente, location,
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = "Logo Thierry Immobilier"
+image = "/uploads/logo_thierryimmo.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
@@ -58,12 +63,12 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Contexte"
+forestrylabel = "Contexte titre"
 template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "_Source : infographie Admical “Baromètre du Mécénat d’entreprise en France 2020”_\n\nMécénat financier = apport par une entreprise d’un montant en numéraire au profit d’un projet d’intérêt général, porté par une association ou une institution.\n\nMécénat de compétences = mise à disposition de salariés sur le temps de travail au profit d’un projet d’intérêt général.\n\nNous avons mis en place deux types de mécénat. Le premier et le plus évident a été la mise en place du mécénat financier, en 2015, mais uniquement décidé par la direction. Nous trouvions que cela manquait d’interaction avec les collaborateurs, de choix collectif, d’adhésion, et de contact humain. Il a donc été décidé qu’une partie du budget mécénat de l’entreprise serait confié au choix des équipes.\n\nLe mécénat de compétences, lui, a démarré il y a 3-4 ans, lorsqu’une responsable comptable gérance, son équipe et quelques autres collaborateurs sont allés nettoyer la plage de la Bernerie-en-Retz sur leur temps de travail. L’idée était de trouver une action qui fasse sens, et cette action a été menée sur la base du volontariat.\n\nNous avons ensuite souhaité que l’action se poursuive et que quelqu’un reprenne le lead pour organiser une journée à l‘extérieur avec 15-20 personnes. Cela n’a malheureusement pas été le cas, personne ne s’est manifesté.\n\nLa responsable RSE & Communication a eu pour mission de faciliter ce mécénat de compétences à grande échelle sur toutes les agences, et selon les préférences de chacun (environnement, social etc). Une start-up répondait à ces attentes : Wenabi. Le choix d’associations locales ou nationales est déjà établi, et cela regroupe des associations variées. Ils sont également à l’écoute de nouvelles associations à intégrer dans leur référencement."
+richtext = ""
 title = "Contexte"
 titlelevel = "2"
 [blocs.media]
@@ -72,6 +77,85 @@ position = ""
 [blocs.style]
 compactbottom = true
 compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Images"
+template = "ensemble-blocs-personalises"
+title = ""
+titlelevel = "2"
+[blocs.style]
+compactbottom = true
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = ""
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Top"
+[[blocs.parts.media.media]]
+alt = "Stats raisons engagement"
+image = "/uploads/thierry_immo_mecenat_comp_03.jpg"
+shadowed = false
+size = ""
+template = "image"
+[blocs.parts.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.parts.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = ""
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Top"
+[[blocs.parts.media.media]]
+alt = "Parts formes de mécénat"
+image = "/uploads/thierry_immo_mecenat_comp_02.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
+[blocs.parts.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.parts.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = "Texte"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "_Source : infographie Admical “Baromètre du Mécénat d’entreprise en France 2020”_\n\n<br>\n\nMécénat financier = apport par une entreprise d’un montant en numéraire au profit d’un projet d’intérêt général, porté par une association ou une institution.\n\nMécénat de compétences = mise à disposition de salariés sur le temps de travail au profit d’un projet d’intérêt général.\n\nNous avons mis en place deux types de mécénat. Le premier et le plus évident a été la mise en place du mécénat financier, en 2015, mais uniquement décidé par la direction. Nous trouvions que cela manquait d’interaction avec les collaborateurs, de choix collectif, d’adhésion, et de contact humain. Il a donc été décidé qu’une partie du budget mécénat de l’entreprise serait confié au choix des équipes.\n\nLe mécénat de compétences, lui, a démarré il y a 3-4 ans, lorsqu’une responsable comptable gérance, son équipe et quelques autres collaborateurs sont allés nettoyer la plage de la Bernerie-en-Retz sur leur temps de travail. L’idée était de trouver une action qui fasse sens, et cette action a été menée sur la base du volontariat.\n\nNous avons ensuite souhaité que l’action se poursuive et que quelqu’un reprenne le lead pour organiser une journée à l‘extérieur avec 15-20 personnes. Cela n’a malheureusement pas été le cas, personne ne s’est manifesté.\n\nLa responsable RSE & Communication a eu pour mission de faciliter ce mécénat de compétences à grande échelle sur toutes les agences, et selon les préférences de chacun (environnement, social etc). Une start-up répondait à ces attentes : Wenabi. Le choix d’associations locales ou nationales est déjà établi, et cela regroupe des associations variées. Ils sont également à l’écoute de nouvelles associations à intégrer dans leur référencement."
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = true
 content = "Standard"
 [[blocs.style.background]]
 color = "Blanc"
@@ -105,8 +189,13 @@ richtext = "Mécénat financier : une partie du budget mécénat de l’entrepri
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Screenshot 1 Tous en Coeur"
+image = "/uploads/thierry_immo_mecenat_comp_04.jpg"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
@@ -124,8 +213,13 @@ richtext = "Nous avons également fait des demandes auprès de Wenabi pour inté
 title = ""
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Screenshot 2 Tous en Coeur"
+image = "/uploads/thierry_immo_mecenat_comp_05.jpg"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
