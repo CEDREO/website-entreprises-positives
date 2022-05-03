@@ -81,7 +81,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Mise en place d’un incentive financier : 400€ maximum par collaborateur par an, en fonction du trajet parcouru, exonéré de cotisations et contributions sociales."
+richtext = "Mise en place d’un incentive financier : 400€ maximum par collaborateur par an, en fonction du trajet parcouru, exonéré de cotisations et contributions sociales.\n\nLa mise en place de l'indemnité vélo et des démarches administratives a demandé environ 3 jours homme. Pour faire la demande d’arceaux, il a fallu environ 2h/homme, et pour le changement de coursier, environ 1 jour/homme."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
