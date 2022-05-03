@@ -86,7 +86,7 @@ richtext = "Nous avons donc décidé de mettre en place le nettoyage des serveur
 title = ""
 titlelevel = "2"
 [blocs.media]
-position = ""
+position = "Top"
 [[blocs.media.media]]
 alt = "L'impact des emails"
 image = "/uploads/reso_cwcud_03.jpg"
