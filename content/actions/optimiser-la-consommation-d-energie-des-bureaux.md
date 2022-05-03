@@ -62,7 +62,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Une approche pragmatique et \"au fil de l'eau\" pour privilégier de meilleures pratiques.\n\nCommunication en interne.\n\nUn des critères de la grille Planet'RSE."
+richtext = "Une approche pragmatique et \"au fil de l'eau\" pour privilégier de meilleures pratiques.\n\nCommunication en interne.\n\nUn des critères de la grille Planet'RSE.\n\nNous avons dépensé environ 1000€ pour le changement des luminaires, et 3000€ pour la plus value des mobiles."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
