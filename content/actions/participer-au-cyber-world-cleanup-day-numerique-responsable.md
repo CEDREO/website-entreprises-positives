@@ -224,7 +224,7 @@ richtext = "Contact : Sarah Martin [https://www.linkedin.com/in/sarah-martin-ba3
 title = ""
 titlelevel = "2"
 [blocs.media]
-position = ""
+position = "Top"
 [[blocs.media.media]]
 alt = ""
 image = "/uploads/reso_cwcud_04.png"
