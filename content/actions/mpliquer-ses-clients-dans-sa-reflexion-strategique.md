@@ -62,7 +62,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "La méthode est simple : nous réunissons nos clients sur une journée (généralement 4 clients de profils différents : typologie métiers et pays).\n\nNous leur présentons nos axes stratégiques et les faisons travailler ensemble sur chacun d’entre eux. Eux, nous présentent leurs options que nous confrontons aux nôtres. Il s'ensuit des échanges entre nous. Puis sur une journée suivante, uniquement avec le comité projet de JEFO EUROPE, nous ré-adaptons notre plan d’actions initial en tenant compte de ce miroir."
+richtext = "La méthode est simple : nous réunissons nos clients sur une journée (généralement 4 clients de profils différents : typologie métiers et pays). Pour les clients français, cela représente un coût d'environ 30€ HT par client (le prix d'un déjeuner). Pour les clients étrangers, cela représente en moyenne 700€ HT par client (billets d’avion A/R, 1 nuit d’hôtel, 1 diner et 1 déjeuner).\n\nNous leur présentons nos axes stratégiques et les faisons travailler ensemble sur chacun d’entre eux. Eux, nous présentent leurs options que nous confrontons aux nôtres. Il s'ensuit des échanges entre nous. Puis sur une journée suivante, uniquement avec le comité projet de JEFO EUROPE, nous ré-adaptons notre plan d’actions initial en tenant compte de ce miroir."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
