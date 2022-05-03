@@ -105,7 +105,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Pour mettre en oeuvre le mécénat au sein de l’entreprise, il est nécessaire de s’assurer au préalable :\n\n* de l’existence d’un projet associatif au niveau de l’organisme soutenu (voir sur son site Internet, échange avec l’association,…),\n* que l’organisme est bien éligible au mécénat ouvrant droit à un avantage fiscal,\n* et qu’il soit en phase avec le projet de l’entreprise."
+richtext = "Pour mettre en œuvre le mécénat au sein de l’entreprise, il est nécessaire de s’assurer au préalable :\n\n* de l’existence d’un projet associatif au niveau de l’organisme soutenu (voir sur son site Internet, échange avec l’association,…),\n* que l’organisme est bien éligible au mécénat ouvrant droit à un avantage fiscal,\n* et qu’il soit en phase avec le projet de l’entreprise.\n\nMécénat avec associations : RDV et échanges avec association et évaluation du projet associatif en phase avec le projet RSE ou valeurs de l’entreprise.\n\nLa formalisation de la convention, le suivi de l’animation et communication ainsi que le suivi transmission du Cerfa a représenté au maximum 3 jours homme par an."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
