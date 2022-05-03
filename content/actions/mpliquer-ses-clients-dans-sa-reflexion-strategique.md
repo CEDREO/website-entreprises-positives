@@ -81,7 +81,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Le plus difficile est de convaincre nos clients que leur présence à cette journée va être utile à JEFO EUROPE. Ce dont ils doutent.\n\nLa journée « miroir clients » a été animée par 2 membres de l’équipe JEFO EUROPE, non membres du comité projet, composé de 7 personnes. Ceci a permis d’impliquer ces deux cadres importants de l’entreprise de façon significative sur l’élaboration finale du projet."
+richtext = "Nous avons consacré environ 12 jours hommes à mettre en place cette démarche. Le plus difficile est de convaincre nos clients que leur présence à cette journée va être utile à JEFO EUROPE. Ce dont ils doutent.\n\nLa journée « miroir clients » a été animée par 2 membres de l’équipe JEFO EUROPE, non membres du comité projet, composé de 7 personnes. Ceci a permis d’impliquer ces deux cadres importants de l’entreprise de façon significative sur l’élaboration finale du projet."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
