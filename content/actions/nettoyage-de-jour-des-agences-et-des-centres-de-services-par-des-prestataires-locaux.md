@@ -100,7 +100,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "La responsable des achats généraux a demandé à chaque responsable d'agence et de centre de service s'il connaissait une entreprise de nettoyage dans son entourage local. Quand la réponse était oui, un contact était pris, un essai était réalisé, et le contrat était établi.\n\nLorsque la réponse était non, un.e chef.fe de projets achats faisait une recherche de prestataire local, avant de prendre contact pour un essai, et de faire un contrat lorsque celui-ci était concluant.\n\nIl est arrivé qu’une petite minorité de prestataires n’aient pas fait des essais concluants, nous avons alors cherché un autre prestataire local."
+richtext = "La responsable des achats généraux a demandé à chaque responsable d'agence et de centre de service s'il connaissait une entreprise de nettoyage dans son entourage local. Quand la réponse était oui, un contact était pris, un essai était réalisé, et le contrat était établi.\n\nLorsque la réponse était non, un.e chef.fe de projets achats faisait une recherche de prestataire local, avant de prendre contact pour un essai, et de faire un contrat lorsque celui-ci était concluant.\n\nIl est arrivé qu’une petite minorité de prestataires n’aient pas fait des essais concluants, nous avons alors cherché un autre prestataire local.\n\nLe changement de prestataire a représenté 2 à 3 jours par agence ou centre de service, et il faut savoir que le coût de la prestation est légèrement plus élevé qu'une prestation standard délivrée par une entreprise de nettoyage d'envergure nationale."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
