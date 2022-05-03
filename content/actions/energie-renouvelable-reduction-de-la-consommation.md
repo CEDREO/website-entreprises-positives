@@ -62,7 +62,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Trois actions ont été travaillées :\n\n1. Changement de fournisseur d’énergie (avec l’aide d’un courtier en énergie).\n2. Mise en place de nouveaux équipements (ampoules LED, détecteurs de présence).\n3. Sensibilisation des collaborateurs."
+richtext = "Trois actions ont été travaillées :\n\n1. Changement de fournisseur d’énergie (avec l’aide d’un courtier en énergie).\n2. Mise en place de nouveaux équipements (ampoules LED, détecteurs de présence).\n3. Sensibilisation des collaborateurs.\n\nCela a représenté entre 30h et 40h de travail, pour un coût minimum de 2 000€ en fonction des locaux."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
