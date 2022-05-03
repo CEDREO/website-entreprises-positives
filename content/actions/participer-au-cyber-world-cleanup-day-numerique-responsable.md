@@ -82,7 +82,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous avons donc décidé de mettre en place le nettoyage des serveurs cette année avec pour but de le pérenniser, c’est pourquoi nous avons décidé de le coupler avec de la sensibilisation et du process : nous avons mis en place un tableau de bord pour le suivi de cette semaine de “nettoyage”. Nous l’avons instauré sur une semaine (du 14 au 18 mars).\n\n_Source :_ [_https://www.dolist.com/blog/strategie-email-digitale/emailing-impact-carbone/_](https://www.dolist.com/blog/strategie-email-digitale/emailing-impact-carbone/ \"https://www.dolist.com/blog/strategie-email-digitale/emailing-impact-carbone/\")"
+richtext = "_Source :_ [_https://www.dolist.com/blog/strategie-email-digitale/emailing-impact-carbone/_](https://www.dolist.com/blog/strategie-email-digitale/emailing-impact-carbone/ \"https://www.dolist.com/blog/strategie-email-digitale/emailing-impact-carbone/\")\n\nNous avons donc décidé de mettre en place le nettoyage des serveurs cette année avec pour but de le pérenniser, c’est pourquoi nous avons décidé de le coupler avec de la sensibilisation et du process : nous avons mis en place un tableau de bord pour le suivi de cette semaine de “nettoyage”. Nous l’avons instauré sur une semaine (du 14 au 18 mars)."
 title = ""
 titlelevel = "2"
 [blocs.media]
