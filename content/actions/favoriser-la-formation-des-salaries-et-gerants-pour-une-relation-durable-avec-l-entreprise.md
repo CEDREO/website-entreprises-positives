@@ -62,7 +62,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Sanctuariser le fait que chacun ait le droit à une formation par an sur le sujet de son choix, préparer en amont une liste de thématiques intéressante pour l’entreprise et pour le salarié mais sans obligation de choisir parmi cette liste. Se mettre d’accord sur la thématique (pas nécessairement en lien avec le poste) et anticiper les organismes et dates possibles."
+richtext = "Sanctuariser le fait que chacun ait le droit à une formation par an sur le sujet de son choix, préparer en amont une liste de thématiques intéressante pour l’entreprise et pour le salarié mais sans obligation de choisir parmi cette liste. Se mettre d’accord sur la thématique (pas nécessairement en lien avec le poste) et anticiper les organismes et dates possibles.\n\nLe coût engagé est variable en fonction des années et des prises en charge OPCO (entre 0 et 2000 € HT par personne par an). Nous consacrons environ  une demi-journée par an par personne pour échanger sur les besoins de chacun. Avec le temps passé à monter les dossiers administratifs et le temps des formations, cela représente environ 1 semaine maximum par an par personne."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
