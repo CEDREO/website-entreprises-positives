@@ -81,7 +81,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous avons raisonné sur la base de la segmentation clients."
+richtext = "Nous avons raisonné sur la base de la segmentation clients. La mise en place de cette démarche a représenté environ 4 jours homme."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
