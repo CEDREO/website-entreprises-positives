@@ -91,7 +91,7 @@ position = "Top"
 alt = "L'impact des emails"
 image = "/uploads/reso_cwcud_03.jpg"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
