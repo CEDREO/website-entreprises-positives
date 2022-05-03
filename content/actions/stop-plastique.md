@@ -81,7 +81,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "> Achat de vaisselle, carafes, mugs, tasses, verres...  \n> Location d’une machine à café et achat de café en vrac auprès de l’Espérance Café (torréfacteur nantais de l’île de Nantes). Il nous livre le café et récupère le marc.  \n> Achat de thés avec leurs boîtes réutilisables auprès du Voyage de Thé place Viarme (entreprise nantaise qui fait ses mélanges de thés originaux).  \n> Charte de bonne conduite à destination des collaborateurs pour leur donner des conseils pour réduire leur utilisation du plastique (sur la pause déjeuner et lors des réunions / séminaires client)  \n> Organisation de déjeuners \"zéro déchet\" les jeudis à l’agence avec identification des restaurants / snacking qui jouent le jeu."
+richtext = "> Achat de vaisselle, carafes, mugs, tasses, verres... L'investissement a représenté au total 200€ pour la vaisselle.  \n> Location d’une machine à café et achat de café en vrac auprès de l’Espérance Café (torréfacteur nantais de l’île de Nantes). Il nous livre le café et récupère le marc. Cela coûte environ 85€ par mois (location de machine et achat de café).  \n> Achat de thés avec leurs boîtes réutilisables auprès du Voyage de Thé place Viarme (entreprise nantaise qui fait ses mélanges de thés originaux), pour environ 50€ par mois.  \n> Charte de bonne conduite à destination des collaborateurs pour leur donner des conseils pour réduire leur utilisation du plastique (sur la pause déjeuner et lors des réunions / séminaires client)  \n> Organisation de déjeuners \"zéro déchet\" les jeudis à l’agence avec identification des restaurants / snacking qui jouent le jeu."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
