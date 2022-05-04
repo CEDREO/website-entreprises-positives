@@ -25,8 +25,13 @@ richtext = "JEFO EUROPE est la filiale européenne du groupe canadien JEFO. Nous
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logo_jefo.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
