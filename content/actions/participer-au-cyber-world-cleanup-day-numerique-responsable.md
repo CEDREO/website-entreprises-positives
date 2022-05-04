@@ -205,7 +205,7 @@ richtext = "Nous avons mis en ligne nos procédures, mais en soi il n’y a pas 
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
-position = "Top"
+position = "Bottom"
 [[blocs.media.media]]
 alt = ""
 image = "/uploads/reso_cwcud_04.png"
