@@ -28,7 +28,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/logo_greenspector.jpg"
+image = "/uploads/greenspector.png"
 shadowed = false
 size = "Medium"
 template = "image"
