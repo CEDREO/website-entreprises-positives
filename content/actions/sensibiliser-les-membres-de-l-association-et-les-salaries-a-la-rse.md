@@ -28,7 +28,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/cfe-cgc.png"
+image = "/uploads/logo_cfecgc.jpg"
 shadowed = false
 size = "Medium"
 template = "image"
