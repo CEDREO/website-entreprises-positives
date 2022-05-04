@@ -205,8 +205,13 @@ richtext = "Nous avons mis en ligne nos procédures, mais en soi il n’y a pas 
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
-media = []
 position = "Top"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/reso_cwcud_04.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
@@ -224,13 +229,8 @@ richtext = "Contact : Sarah Martin [https://www.linkedin.com/in/sarah-martin-ba3
 title = ""
 titlelevel = "2"
 [blocs.media]
+media = []
 position = "Top"
-[[blocs.media.media]]
-alt = ""
-image = "/uploads/reso_cwcud_04.png"
-shadowed = false
-size = ""
-template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
