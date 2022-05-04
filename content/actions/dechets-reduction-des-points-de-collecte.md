@@ -25,8 +25,13 @@ richtext = "Appstud est un studio de développement d'applications mobiles compo
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logo_appstud.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
