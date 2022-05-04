@@ -21,7 +21,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "La Confédération Française de l'Encadrement - Confédération Générale des Cadres (CFE-CGC) est un syndicat français de salariés, initié par les cadres du secteur privé et tous les agents du secteur public, fondé le 13 octobre 1944. Apolitique et catégorielle, la CGC a élargi son champ de syndicalisation en 1981 en devenant CFE-CGC, s'ouvrant aux techniciens, administratifs, agents de maîtrise, forces de vente, et ceux qui ont vocation à évoluer (salariés dont les fonctions comportent responsabilité, initiative et/ou commandement). La CFE-CGC fait partie des cinq confédérations considérées comme représentatives par l'État. Cela lui permet de participer aux négociations nationales interprofessionnelles et d'être représentée dans les organismes paritaires.\n\nElle compte 7000 adhérents sur la région Pays de la Loire, répartis dans le secteur privé comme public. Tous les secteurs sont représentés à travers les adhérent(e)s, élu(e)s CSE, délégué(e)s syndicaux. En Loire-Atlantique la section métallurgie est la principale à travers les sections, Stx, Airbus, Manitou et les autres fleurons du département."
+richtext = "La Confédération Française de l'Encadrement - Confédération Générale des Cadres (CFE-CGC) est un syndicat français de salariés, initié par les cadres du secteur privé et tous les agents du secteur public, fondé le 13 octobre 1944. Apolitique et catégorielle, la CGC a élargi son champ de syndicalisation en 1981 en devenant CFE-CGC, s'ouvrant aux techniciens, administratifs, agents de maîtrise, forces de vente, et ceux qui ont vocation à évoluer (salariés dont les fonctions comportent responsabilité, initiative et/ou commandement). La CFE-CGC fait partie des cinq confédérations considérées comme représentatives par l'État. Cela lui permet de participer aux négociations nationales interprofessionnelles et d'être représentée dans les organismes paritaires."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -36,6 +36,28 @@ template = "image"
 compactbottom = false
 compacttop = false
 content = "Standard"
+[[blocs.style.background]]
+centered = false
+darken = false
+fixed = false
+image = ""
+template = "image-de-fond"
+[[blocs]]
+forestrylabel = "Entreprise Témoin Part 2"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Elle compte 7000 adhérents sur la région Pays de la Loire, répartis dans le secteur privé comme public. Tous les secteurs sont représentés à travers les adhérent(e)s, élu(e)s CSE, délégué(e)s syndicaux. En Loire-Atlantique la section métallurgie est la principale à travers les sections, Stx, Airbus, Manitou et les autres fleurons du département."
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = ""
 [[blocs.style.background]]
 centered = false
 darken = false
