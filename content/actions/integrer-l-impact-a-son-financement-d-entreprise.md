@@ -30,7 +30,7 @@ position = "Right"
 alt = ""
 image = "/uploads/logo-wedogood-final-web-1.png"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = true
