@@ -25,8 +25,13 @@ richtext = "La Confédération Française de l'Encadrement - Confédération Gé
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logo_cfecgc.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
