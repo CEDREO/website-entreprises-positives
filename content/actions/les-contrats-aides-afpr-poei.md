@@ -30,7 +30,7 @@ position = "Right"
 alt = ""
 image = "/uploads/logo_appstud.jpg"
 shadowed = false
-size = "Small"
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = true
