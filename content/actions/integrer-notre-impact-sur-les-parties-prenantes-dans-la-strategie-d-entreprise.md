@@ -25,8 +25,13 @@ richtext = "Cedreo est un éditeur de logiciels SaaS. Nous proposons un logiciel
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logo-cedreo-white-2.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
