@@ -30,7 +30,7 @@ position = "Right"
 alt = ""
 image = "/uploads/delia.png"
 shadowed = false
-size = ""
+size = "Small"
 template = "image"
 [blocs.style]
 compactbottom = true
