@@ -25,8 +25,13 @@ richtext = "Delia Technologies est un cabinet IT qui accompagne les entreprises 
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/delia.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
