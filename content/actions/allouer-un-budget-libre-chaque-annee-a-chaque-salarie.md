@@ -25,8 +25,13 @@ richtext = "B Side est une agence conseil en communication corporate, dont le si
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logo_bside.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
