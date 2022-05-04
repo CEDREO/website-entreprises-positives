@@ -25,8 +25,13 @@ richtext = "Créée en 2003, Proselis collabore aujourd’hui avec plus de 500 c
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/proselis_website.png"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
