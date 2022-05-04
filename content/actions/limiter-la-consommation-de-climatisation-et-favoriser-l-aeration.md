@@ -25,8 +25,13 @@ richtext = "Aepsilon est une ESN basé à Sophia Antipolis (Alpes Maritimes), 30
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logos_aepsilon.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
