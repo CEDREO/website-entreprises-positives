@@ -206,7 +206,7 @@ title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
 media = []
-position = ""
+position = "Top"
 [blocs.style]
 compactbottom = false
 compacttop = false
