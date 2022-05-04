@@ -203,6 +203,13 @@ url = "https://www.wedogood.co/"
 [blocs.logos.logo]
 alt = "Logo We do Good"
 image = "/uploads/logo-wedogood-final-web-1.png"
+[[blocs.logos]]
+forestrylabel = "Reso"
+name = "Reso"
+url = "https://www.resoemploi.fr/"
+[blocs.logos.logo]
+alt = "Logo Reso"
+image = "/uploads/logo-reso-france.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
