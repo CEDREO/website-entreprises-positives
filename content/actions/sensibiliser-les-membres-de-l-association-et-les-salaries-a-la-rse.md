@@ -30,7 +30,7 @@ position = "Right"
 alt = ""
 image = "/uploads/cfe-cgc.png"
 shadowed = false
-size = "Medium"
+size = "Small"
 template = "image"
 [blocs.style]
 compactbottom = false
