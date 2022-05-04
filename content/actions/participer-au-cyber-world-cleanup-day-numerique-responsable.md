@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = "RESO"
+company = "Reso"
 contentonly = false
 description = "Fiche pratique RSE : participer au Cyber World Cleanup Day (numérique responsable)"
 draft = true
