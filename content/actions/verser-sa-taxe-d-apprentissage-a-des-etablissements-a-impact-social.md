@@ -28,7 +28,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/delia.png"
+image = "/uploads/logo_delia.jpg"
 shadowed = false
 size = "Medium"
 template = "image"
