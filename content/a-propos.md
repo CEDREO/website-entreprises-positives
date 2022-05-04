@@ -120,13 +120,6 @@ url = "https://www.faguo-store.com/fr/"
 alt = "Logo Faguo"
 image = "/uploads/logo_faguo.jpg"
 [[blocs.logos]]
-forestrylabel = "Tibco"
-name = "Tibco"
-url = "https://www.tibco.fr/"
-[blocs.logos.logo]
-alt = ""
-image = "/uploads/tibco.png"
-[[blocs.logos]]
 forestrylabel = "Appstud"
 name = "Appstud"
 url = "https://www.appstud.com/"
@@ -203,6 +196,13 @@ url = "https://www.wedogood.co/"
 [blocs.logos.logo]
 alt = "Logo We do Good"
 image = "/uploads/logo-wedogood-final-web-1.png"
+[[blocs.logos]]
+forestrylabel = "Tibco"
+name = "Tibco"
+url = "https://www.tibco.fr/"
+[blocs.logos.logo]
+alt = ""
+image = "/uploads/tibco.png"
 [[blocs.logos]]
 forestrylabel = "Reso"
 name = "Reso"
