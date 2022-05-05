@@ -159,7 +159,7 @@ template = "bloc-personalise"
 [blocs.parts.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Source : [https://www.initiative-nantes.fr/les-chiffres-cles.html](https://www.initiative-nantes.fr/les-chiffres-cles.html \"https://www.initiative-nantes.fr/les-chiffres-cles.html\")"
 title = ""
 titlelevel = "2"
 [blocs.parts.media]
