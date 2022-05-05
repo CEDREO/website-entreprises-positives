@@ -159,7 +159,7 @@ template = "bloc-personalise"
 [blocs.parts.content]
 align = ""
 cta = ""
-richtext = "Source : [https://www.initiative-nantes.fr/les-chiffres-cles.html](https://www.initiative-nantes.fr/les-chiffres-cles.html \"https://www.initiative-nantes.fr/les-chiffres-cles.html\")"
+richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.parts.media]
@@ -202,6 +202,28 @@ compactbottom = false
 compacttop = false
 content = ""
 [[blocs.parts.style.background]]
+centered = false
+darken = false
+fixed = false
+image = ""
+template = "image-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "Source : [https://www.initiative-nantes.fr/les-chiffres-cles.html](https://www.initiative-nantes.fr/les-chiffres-cles.html \"https://www.initiative-nantes.fr/les-chiffres-cles.html\")"
+title = "Résultat Part 3"
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = false
+content = ""
+[[blocs.style.background]]
 centered = false
 darken = false
 fixed = false
