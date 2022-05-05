@@ -25,8 +25,13 @@ richtext = "Le 1er janvier 2022, l’Université de Nantes s’est alliée à 6 
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logotype_nantesuniversite_vecto.png"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
