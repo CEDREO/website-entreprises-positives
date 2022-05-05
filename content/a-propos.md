@@ -197,6 +197,13 @@ url = "https://www.wedogood.co/"
 alt = "Logo We do Good"
 image = "/uploads/logo-wedogood-final-web-1.png"
 [[blocs.logos]]
+forestrylabel = "Nantes Université"
+name = "Nantes Université"
+url = "https://www.univ-nantes.fr/"
+[blocs.logos.logo]
+alt = ""
+image = "/uploads/logotype_nantesuniversite_vecto.png"
+[[blocs.logos]]
 forestrylabel = "Tibco"
 name = "Tibco"
 url = "https://www.tibco.fr/"
