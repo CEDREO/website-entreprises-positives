@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Nobilito"
 contentonly = false
-description = "Fiche pratique RSE : les bureaux du Coeur"
+description = "Fiche pratique RSE : les Bureaux du Coeur"
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
@@ -75,6 +75,30 @@ media = []
 position = ""
 [blocs.style]
 compactbottom = true
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+cta = ""
+richtext = "[_Source_](https://fr.statista.com/infographie/7851/4-millions-de-personnes-touchees-par-le-mal-logement/)"
+title = ""
+titlelevel = "2"
+[blocs.media]
+position = "Top"
+[[blocs.media.media]]
+alt = "Infographie mal logement"
+image = "/uploads/nobilito_bureauxducoeur_01.jpg"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.style]
+compactbottom = false
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
