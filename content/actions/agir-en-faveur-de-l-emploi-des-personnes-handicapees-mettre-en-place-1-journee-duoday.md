@@ -2,7 +2,7 @@
 breadcrumb = ""
 company = "Nantes Université"
 contentonly = false
-description = ""
+description = "Fiche RSE : Agir en faveur de l’emploi des personnes handicapées : mettre en place une journée DuoDay"
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
@@ -21,7 +21,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Le 1er janvier 2022, l’Université de Nantes s’est alliée à 6 autres structures (Centrale Nantes, le CHU, l’Inserm, l’école des Beaux-Arts Nantes-Saint-Nazaire, l’école nationale d’architecture de Nantes et l’Institut de recherche technologique_IRT Jules Verne) pour créer **Nantes Université** : un nouvel établissement public expérimental, s’appuyant sur l’interdisciplinarité et tourné vers l’international. Nantes Université représente 42 600 étudiants, 4 500 personnels administratifs et techniques, 1 150 enseignants et plus de 2 000 enseignants-chercheurs et personnels dédiés à la recherche.\n\n**La mission santé-handicap, rattachée à la Direction des ressources humaines et du dialogue social, regroupe 3 personnes et travaille à favoriser l’inclusion et le maintien dans l’emploi des personnels en situation de handicap au sein de l'établissement.**\n\nLes étudiants en situation de handicap sont pour leur part accompagnés par la Mission Relais Handicap, entité du Service de santé des étudiants."
+richtext = "Le 1er janvier 2022, l’Université de Nantes s’est alliée à 6 autres structures (Centrale Nantes, le CHU, l’Inserm, l’école des Beaux-Arts Nantes-Saint-Nazaire, l’école nationale d’architecture de Nantes et l’Institut de recherche technologique_IRT Jules Verne) pour créer **Nantes Université** : un nouvel établissement public expérimental, s’appuyant sur l’interdisciplinarité et tourné vers l’international. Nantes Université représente 42 600 étudiants, 4 500 personnels administratifs et techniques, 1 150 enseignants et plus de 2 000 enseignants-chercheurs et personnels dédiés à la recherche."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
@@ -42,6 +42,25 @@ darken = false
 fixed = false
 image = ""
 template = "image-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = "<br>\n\n**La mission santé-handicap, rattachée à la Direction des ressources humaines et du dialogue social, regroupe 3 personnes et travaille à favoriser l’inclusion et le maintien dans l’emploi des personnels en situation de handicap au sein de l'établissement.**\n\nLes étudiants en situation de handicap sont pour leur part accompagnés par la Mission Relais Handicap, entité du Service de santé des étudiants."
+title = ""
+titlelevel = "2"
+[blocs.media]
+media = []
+position = ""
+[blocs.style]
+compactbottom = false
+compacttop = true
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
 [[blocs]]
 forestrylabel = "Objectifs"
 template = "bloc-personalise"
