@@ -27,10 +27,10 @@ titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/logo-wedogood-final-web-1.png"
+alt = "Logo We Do Good"
+image = "/uploads/logo_wedogood_fiche.png"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = true
@@ -75,6 +75,54 @@ media = []
 position = ""
 [blocs.style]
 compactbottom = true
+compacttop = false
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.media]
+position = "Top"
+[[blocs.media.media]]
+alt = "Infographie typologie fonds collectés"
+image = "/uploads/wedogood_financement_01.png"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.content]
+align = "Center"
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.media]
+position = "Top"
+[[blocs.media.media]]
+alt = "Infographie 2"
+image = "/uploads/wedogood_financement_02.png"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.style]
+compactbottom = false
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
