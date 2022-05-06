@@ -27,8 +27,8 @@ titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/logo_faguo.jpg"
+alt = "logo Faguo"
+image = "/uploads/logo_faguo_fiche.png"
 shadowed = false
 size = "Medium"
 template = "image"
