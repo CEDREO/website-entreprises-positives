@@ -28,7 +28,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = ""
-image = "/uploads/tibco.png"
+image = "/uploads/200107-tibco-logo-pack2020-02.jpg"
 shadowed = false
 size = "Medium"
 template = "image"
