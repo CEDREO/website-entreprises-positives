@@ -27,8 +27,8 @@ titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/logo-cedreo-white-2.jpg"
+alt = "Logo Cedreo"
+image = "/uploads/logo_cedreo_fiche.png"
 shadowed = false
 size = "Medium"
 template = "image"
@@ -78,6 +78,66 @@ compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "ensemble-blocs-personalises"
+title = ""
+titlelevel = "2"
+[blocs.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = "Center"
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Top"
+[[blocs.parts.media.media]]
+alt = "Infographie étapes clés stage 3ème"
+image = "/uploads/cedreo_stage3eme_02.png"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.parts.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.parts.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = "Center"
+cta = ""
+richtext = ""
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Top"
+[[blocs.parts.media.media]]
+alt = "20 exemples d'activité pour un stagiaire 3ème"
+image = "/uploads/cedreo_stage3eme_01.png"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.parts.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.parts.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
