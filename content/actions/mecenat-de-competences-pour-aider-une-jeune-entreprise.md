@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Nouvelle Vague"
 contentonly = false
 description = "Fiche pratique RSE : mécénat de compétences pour aider une jeune entreprise"
-draft = true
 financialinvest = "Important"
 hreflangs = []
 humaninvest = "Important"
