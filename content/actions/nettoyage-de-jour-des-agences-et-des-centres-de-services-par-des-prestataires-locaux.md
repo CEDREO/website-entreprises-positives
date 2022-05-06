@@ -2,14 +2,14 @@
 breadcrumb = ""
 company = "Tibco"
 contentonly = false
-description = ""
+description = "Fiche pratique RSE : nettoyage de jour des agences par des prestataires locaux."
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Moyen"
 maturity = "Premières actions"
 nature = ["Territoire"]
 noindex = false
-schemajson = "Fiche pratique RSE : nettoyage de jour des agences par des prestataires locaux."
+schemajson = ""
 sector = "Secteur tertiaire"
 seotexts = []
 slug = "nettoyage-de-jour-des-agences-par-prestataires-locaux"
@@ -78,6 +78,66 @@ compactbottom = true
 compacttop = false
 content = "Standard"
 [[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs]]
+forestrylabel = ""
+template = "ensemble-blocs-personalises"
+title = ""
+titlelevel = "2"
+[blocs.style]
+compactbottom = true
+compacttop = true
+content = "Standard"
+[[blocs.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = "Center"
+cta = ""
+richtext = "[_Source_](https://www.monde-proprete.com/sites/default/files/chiffres-cles-proprete-2021-vf_0.pdf)"
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Top"
+[[blocs.parts.media.media]]
+alt = "Stats"
+image = "/uploads/tibco_menage_01.png"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.parts.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.parts.style.background]]
+color = "Blanc"
+template = "couleur-de-fond"
+[[blocs.parts]]
+forestrylabel = ""
+template = "bloc-personalise"
+[blocs.parts.content]
+align = "Center"
+cta = ""
+richtext = "Répartition du chiffre d’affaires par segment d’activités\n\n_Source : Enquête sectorielle 2019 (exercice 2018) - Le Monde de la Propreté_"
+title = ""
+titlelevel = "2"
+[blocs.parts.media]
+position = "Top"
+[[blocs.parts.media.media]]
+alt = "Répartition du chiffre d’affaires des agences de ménage par segment d’activités"
+image = "/uploads/tibco_menage_02_v2.png"
+shadowed = false
+size = "Large"
+template = "image"
+[blocs.parts.style]
+compactbottom = false
+compacttop = false
+content = "Standard"
+[[blocs.parts.style.background]]
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
