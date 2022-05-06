@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Reso"
 contentonly = false
 description = "Fiche pratique RSE : participer au Cyber World Cleanup Day (numérique responsable)"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
