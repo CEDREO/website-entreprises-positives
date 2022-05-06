@@ -27,8 +27,8 @@ titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/logo-cedreo-white-2.jpg"
+alt = "Logo Cedreo"
+image = "/uploads/logo_cedreo_fiche.png"
 shadowed = false
 size = "Medium"
 template = "image"
