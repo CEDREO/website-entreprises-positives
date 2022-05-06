@@ -201,7 +201,7 @@ forestrylabel = "Nantes Université"
 name = "Nantes Université"
 url = "https://www.univ-nantes.fr/"
 [blocs.logos.logo]
-alt = ""
+alt = "Logo Nantes Université"
 image = "/uploads/logotype_nantesuniversite_vecto.png"
 [[blocs.logos]]
 forestrylabel = "Tibco"
