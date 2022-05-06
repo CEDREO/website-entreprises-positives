@@ -27,8 +27,8 @@ titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/logo_thierryimmo.jpg"
+alt = "logo Thierry Immobilier"
+image = "/uploads/logo_thierry_immo_fiche.png"
 shadowed = false
 size = "Medium"
 template = "image"
