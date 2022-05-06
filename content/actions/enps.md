@@ -18,7 +18,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Left"
 richtext = "Cedreo est un éditeur de logiciels d’architecture 3D en mode SaaS composé de 35 personnes basées à Nantes, Atlanta et Munich."
-title = "Contexte de mise en oeuvre"
+title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.style]
 content = "Standard"
