@@ -217,6 +217,13 @@ url = "https://www.resoemploi.fr/"
 [blocs.logos.logo]
 alt = "Logo Reso"
 image = "/uploads/logo-reso-france.png"
+[[blocs.logos]]
+forestrylabel = "Nouvelle Vague"
+name = "Nouvelle Vague"
+url = "https://nouvellevague.fr/"
+[blocs.logos.logo]
+alt = "Logo Nouvelle Vague"
+image = "/uploads/nouvelle-vague-logo.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
