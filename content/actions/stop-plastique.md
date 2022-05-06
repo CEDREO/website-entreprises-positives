@@ -27,8 +27,8 @@ titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/logo_notchup.jpg"
+alt = "logo Notchup"
+image = "/uploads/logo_notchup_fiche.png"
 shadowed = false
 size = "Medium"
 template = "image"
