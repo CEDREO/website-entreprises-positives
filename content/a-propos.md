@@ -209,7 +209,7 @@ name = "Tibco"
 url = "https://www.tibco.fr/"
 [blocs.logos.logo]
 alt = ""
-image = "/uploads/tibco.png"
+image = "/uploads/200107-tibco-logo-pack2020-02.jpg"
 [[blocs.logos]]
 forestrylabel = "Reso"
 name = "Reso"
