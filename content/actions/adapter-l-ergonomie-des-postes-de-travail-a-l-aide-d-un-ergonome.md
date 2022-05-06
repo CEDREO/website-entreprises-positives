@@ -27,8 +27,8 @@ titlelevel = "2"
 [blocs.media]
 position = "Right"
 [[blocs.media.media]]
-alt = ""
-image = "/uploads/proselis_website.png"
+alt = "Logo Proselis"
+image = "/uploads/logo_proselis_fiche.png"
 shadowed = false
 size = "Medium"
 template = "image"
