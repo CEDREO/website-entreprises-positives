@@ -20,6 +20,13 @@ align = "Left"
 richtext = "Cedreo est un éditeur de logiciels d’architecture 3D en mode SaaS composé de 35 personnes basées à Nantes, Atlanta et Munich."
 title = "Entreprise témoin"
 titlelevel = "2"
+[blocs.media]
+position = "Right"
+[[blocs.media.media]]
+alt = "logo Cedreo"
+image = "/uploads/logo_cedreo_fiche.png"
+size = "Medium"
+template = "image"
 [blocs.style]
 content = "Standard"
 [[blocs.style.background]]
