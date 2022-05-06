@@ -86,7 +86,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Center"
 cta = ""
-richtext = ""
+richtext = "_Source :_ [_baromètre KPMG x FPF_](https://financeparticipative.org/wp-content/uploads/2019/01/Barom%C3%A8tre-du-crowdfunding-KPMG-et-FPF-%C3%A9dition-2018.pdf) _2018_"
 title = ""
 titlelevel = "2"
 [blocs.media]
@@ -110,7 +110,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = "Center"
 cta = ""
-richtext = ""
+richtext = "[_Source_](https://www.pretpro.fr/les-financements-alternatifs-des-entreprises-progressent-de-40/)"
 title = ""
 titlelevel = "2"
 [blocs.media]
