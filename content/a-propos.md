@@ -76,7 +76,7 @@ name = "Le Phare"
 url = "https://www.lephare.com/"
 [blocs.logos.logo]
 alt = "Logo Le Phare"
-image = "/uploads/logo_lephare.jpg"
+image = "/uploads/unnamed.png"
 [[blocs.logos]]
 forestrylabel = "Jefo"
 name = "Jefo"
