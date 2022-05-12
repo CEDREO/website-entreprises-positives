@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Scopic"
 contentonly = false
 description = "Fiche pratique RSE : Faire découvrir l'entrepreneuriat et l'entreprise à impact à des scolaires."
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Faible"
@@ -26,8 +25,13 @@ richtext = "SCOPIC est une agence conseil organisée autour de trois domaines de
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = "Logo Scopic"
+image = "/uploads/scopic.png"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
