@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Toolin"
 contentonly = false
 description = "Fiche pratique RSE : parrainage de nouveaux entrepreneurs"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
