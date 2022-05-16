@@ -129,8 +129,13 @@ richtext = "De mon côté, c’est une satisfaction personnelle de participer à
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
-media = []
 position = "Bottom"
+[[blocs.media.media]]
+alt = "Infographie chiffres réseau initiative"
+image = "/uploads/toolin_parrainage_entrepreneurs_03.jpg"
+shadowed = false
+size = "Large"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
@@ -139,81 +144,12 @@ content = "Standard"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
-forestrylabel = "Résultat Part 2"
-template = "ensemble-blocs-personalises"
-title = ""
-titlelevel = "2"
-[blocs.style]
-compactbottom = false
-compacttop = false
-content = ""
-[[blocs.style.background]]
-centered = false
-darken = false
-fixed = false
-image = ""
-template = "image-de-fond"
-[[blocs.parts]]
-forestrylabel = ""
-template = "bloc-personalise"
-[blocs.parts.content]
-align = ""
-cta = ""
-richtext = ""
-title = ""
-titlelevel = "2"
-[blocs.parts.media]
-position = "Top"
-[[blocs.parts.media.media]]
-alt = "Chiffres clés initiative Nantes 2"
-image = "/uploads/toolin_parrainage_entrepreneurs_02.png"
-shadowed = false
-size = "Large"
-template = "image"
-[blocs.parts.style]
-compactbottom = false
-compacttop = false
-content = ""
-[[blocs.parts.style.background]]
-centered = false
-darken = false
-fixed = false
-image = ""
-template = "image-de-fond"
-[[blocs.parts]]
-forestrylabel = ""
-template = "bloc-personalise"
-[blocs.parts.content]
-align = ""
-cta = ""
-richtext = ""
-title = ""
-titlelevel = "2"
-[blocs.parts.media]
-position = "Top"
-[[blocs.parts.media.media]]
-alt = "Chiffres clés Initiatives Nantes 1"
-image = "/uploads/toolin_mecenat_01.jpg"
-shadowed = false
-size = "Large"
-template = "image"
-[blocs.parts.style]
-compactbottom = false
-compacttop = false
-content = ""
-[[blocs.parts.style.background]]
-centered = false
-darken = false
-fixed = false
-image = ""
-template = "image-de-fond"
-[[blocs]]
 forestrylabel = "Résultats Part 3"
 template = "bloc-personalise"
 [blocs.content]
 align = "Center"
 cta = ""
-richtext = "Source : [https://www.initiative-nantes.fr/les-chiffres-cles.html](https://www.initiative-nantes.fr/les-chiffres-cles.html \"https://www.initiative-nantes.fr/les-chiffres-cles.html\")"
+richtext = "<br>Source : [https://www.initiative-nantes.fr/](https://www.initiative-nantes.fr/ \"https://www.initiative-nantes.fr/les-chiffres-cles.html\")"
 title = ""
 titlelevel = "2"
 [blocs.media]
