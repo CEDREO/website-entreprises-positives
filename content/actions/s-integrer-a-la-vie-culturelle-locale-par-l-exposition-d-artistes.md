@@ -131,7 +131,7 @@ template = "video"
 youtubeurl = "https://www.youtube.com/embed/dLC1e33lxQQ"
 [blocs.media.media.button]
 alt = "Exposition Thomas Lodin Notchup"
-image = "/uploads/notchup_thumbnail.png"
+image = "/uploads/notchup_thumbnail.jpg"
 text = ""
 [blocs.style]
 compactbottom = true
