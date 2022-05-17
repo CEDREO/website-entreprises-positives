@@ -165,7 +165,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Les artistes sont ravis et adhèrent tous au principe. Ils sont fiers de participer. Nous pourrons juger des résultats quand on aura communiqué, quand il y aura des retombées presse : nous pourrons ainsi mesurer la visibilité offerte à l’artiste.\n\nDes passants s’arrêtent et entrent pour nous demander où ils peuvent voir l’exposition complète, il y a donc une certaine visibilité, notamment car nous avons la chance d’être installés dans un quartier que l’on appelle le quartier de la création : les gens ont l’habitude de se balader pour découvrir, cela s’inscrit pleinement dans l’écosystème du quartier.\n\n  \nCe projet est l’un des projets qui s’est mis le plus rapidement en œuvre dans le cadre de notre démarche RSE, il est assez simple à mettre en place pour nous, et facile à pérenniser."
+richtext = "Les artistes sont ravis et adhèrent tous au principe. Ils sont fiers de participer. Nous pourrons juger des résultats quand nous aurons communiqué, quand il y aura des retombées presse : nous pourrons ainsi mesurer la visibilité offerte à l’artiste.\n\nDes passants s’arrêtent et entrent pour nous demander où ils peuvent voir l’exposition complète, il y a donc une certaine visibilité, notamment car nous avons la chance d’être installés dans un quartier que l’on appelle le quartier de la création : les gens ont l’habitude de se balader pour découvrir, cela s’inscrit pleinement dans l’écosystème du quartier.\n\nCe projet est l’un des projets qui s’est mis le plus rapidement en œuvre dans le cadre de notre démarche RSE, il est assez simple à mettre en place pour nous, et facile à pérenniser."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
