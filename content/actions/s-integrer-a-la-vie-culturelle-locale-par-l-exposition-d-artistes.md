@@ -124,7 +124,7 @@ richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.media]
-position = ""
+position = "Bottom"
 [[blocs.media.media]]
 borders = false
 template = "video"
@@ -134,7 +134,7 @@ alt = "Exposition Thomas Lodin Notchup"
 image = "/uploads/notchup_thumbnail.png"
 text = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = ""
 [[blocs.style.background]]
@@ -153,7 +153,7 @@ titlelevel = "2"
 media = []
 position = ""
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = ""
 [[blocs.style.background]]
