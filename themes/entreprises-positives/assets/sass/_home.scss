@@ -36,3 +36,8 @@
     }
   }
 }
+
+.img-fluid-h-1dot5r {
+  max-height: calc(100% - 1.5rem);
+  width: auto;
+}
