@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Notchup"
 contentonly = false
 description = "Fiche pratique RSE : s'intégrer à la vie culturelle locale par l’exposition d'artistes"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Moyen"
