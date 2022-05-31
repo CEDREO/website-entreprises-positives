@@ -52,8 +52,13 @@ richtext = "**Hellopure :** Hellopure propose des services de ménage et de lava
 title = ""
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = "Logo Hellopure"
+image = "/uploads/logo_hellopure_512px.png"
+shadowed = false
+size = "Large"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
