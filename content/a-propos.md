@@ -224,6 +224,13 @@ url = "https://nouvellevague.fr/"
 [blocs.logos.logo]
 alt = "Logo Nouvelle Vague"
 image = "/uploads/nouvelle-vague-logo.png"
+[[blocs.logos]]
+forestrylabel = "Hellopure"
+name = "Hellopure"
+url = "https://www.hellopure.fr/"
+[blocs.logos.logo]
+alt = "Logo Hellopure"
+image = "/uploads/logo_hellopure_512px.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
