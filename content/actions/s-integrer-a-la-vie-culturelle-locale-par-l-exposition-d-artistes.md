@@ -25,8 +25,13 @@ richtext = "Notchup est une agence de communication située à Nantes dans le qu
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = "Logo Notchup"
+image = "/uploads/logo_notchup_fiche.png"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
