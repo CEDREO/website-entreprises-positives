@@ -31,7 +31,7 @@ position = "Right"
 alt = "Logo Beapp"
 image = "/uploads/beapp-2.jpg"
 shadowed = false
-size = ""
+size = "Small"
 template = "image"
 [blocs.style]
 compactbottom = true
