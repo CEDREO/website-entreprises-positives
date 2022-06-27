@@ -231,6 +231,13 @@ url = "https://nouvellevague.fr/"
 [blocs.logos.logo]
 alt = "Logo Nouvelle Vague"
 image = "/uploads/nouvelle-vague-logo.png"
+[[blocs.logos]]
+forestrylabel = "Beapp"
+name = "Beapp"
+url = "https://corp.beapp.fr/"
+[blocs.logos.logo]
+alt = "Logo Beapp"
+image = "/uploads/beapp-2.jpg"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
