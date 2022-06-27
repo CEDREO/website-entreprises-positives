@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Beapp"
 contentonly = false
 description = "Fiche pratique RSE : mettre en place un comité RSE"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
