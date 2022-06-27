@@ -29,7 +29,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.media.media]]
 alt = "Logo Beapp"
-image = "/uploads/beapp.jpg"
+image = "/uploads/beapp-2.jpg"
 shadowed = false
 size = ""
 template = "image"
