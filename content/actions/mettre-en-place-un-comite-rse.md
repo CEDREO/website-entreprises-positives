@@ -1,6 +1,6 @@
 +++
 breadcrumb = ""
-company = ""
+company = "Beapp"
 contentonly = false
 description = "Fiche pratique RSE : mettre en place un comité RSE"
 draft = true
@@ -11,7 +11,7 @@ maturity = "Premières actions"
 nature = ["Gouvernance"]
 noindex = false
 schemajson = ""
-sector = ""
+sector = "Tous secteurs"
 seotexts = []
 slug = ""
 title = "Mettre en place un comité RSE"
