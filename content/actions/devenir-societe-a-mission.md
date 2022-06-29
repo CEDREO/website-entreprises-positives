@@ -204,7 +204,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous nous sommes rapprochés de Geneviève Ferrone et de Climène Koechlin pour trouver les informations dont nous avions besoin au départ.\n\nLivre de Geneviève Férone, éditions Prophil et Sycomore - Guide des entreprises à mission. Très léger, mais il y a vraiment l’essentiel dedans, nous nous en sommes vraiment inspirés.\n\nMais aussi le livre “La permaentreprise : Un modèle viable pour un futur vivable, inspiré de la permaculture”, de Sylvain Breuzard.\n\nHubert Poupelin : h.poupelin arobase connexing.com\n\n[https://www.linkedin.com/in/hubert-poupelin/](https://www.linkedin.com/in/hubert-poupelin/ \"https://www.linkedin.com/in/hubert-poupelin/\")"
+richtext = "Nous nous sommes rapprochés de Geneviève Ferrone et de Climène Koechlin pour trouver les informations dont nous avions besoin au départ.\n\nLivre de Geneviève Férone, éditions Prophil et Sycomore - Guide des entreprises à mission. Très léger, mais il y a vraiment l’essentiel dedans, nous nous en sommes vraiment inspirés.\n\nMais aussi le livre “La permaentreprise : Un modèle viable pour un futur vivable, inspiré de la permaculture”, de Sylvain Breuzard.\n\nContact : Hubert Poupelin : h.poupelin arobase connexing.com\n\n[https://www.linkedin.com/in/hubert-poupelin/](https://www.linkedin.com/in/hubert-poupelin/ \"https://www.linkedin.com/in/hubert-poupelin/\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
