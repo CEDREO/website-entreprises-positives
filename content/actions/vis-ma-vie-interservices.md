@@ -135,7 +135,7 @@ position = "Left"
 alt = "Rapport d'étonnement Someva"
 image = "/uploads/capture2.PNG"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.parts.style]
 compactbottom = false
@@ -162,7 +162,7 @@ position = "Right"
 alt = "Rapport d'étonnement Someva Part 2"
 image = "/uploads/capture3.PNG"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.parts.style]
 compactbottom = false
