@@ -50,13 +50,6 @@ url = "https://aepsilon.com/"
 alt = "Logo Aepsilon"
 image = "/uploads/logos_aepsilon.jpg"
 [[blocs.logos]]
-forestrylabel = "Toolin"
-name = "Toolin"
-url = "https://www.toolin.fr/"
-[blocs.logos.logo]
-alt = "Logo Toolin"
-image = "/uploads/logo_toolin_fiche-1.png"
-[[blocs.logos]]
 forestrylabel = "Abokine"
 name = "Abokine"
 url = "Abokine"
@@ -203,6 +196,13 @@ url = "https://www.univ-nantes.fr/"
 [blocs.logos.logo]
 alt = "Logo Nantes Université"
 image = "/uploads/logotype_nantesuniversite_vecto.png"
+[[blocs.logos]]
+forestrylabel = "Toolin"
+name = "Toolin"
+url = "https://www.toolin.fr/"
+[blocs.logos.logo]
+alt = "Logo Toolin"
+image = "/uploads/logo_toolin_fiche-1.png"
 [[blocs.logos]]
 forestrylabel = "Tibco"
 name = "Tibco"
