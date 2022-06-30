@@ -94,7 +94,7 @@ titlelevel = "2"
 position = "Bottom"
 [[blocs.media.media]]
 alt = "Tableau d'attentes croisées"
-image = "/uploads/unnamed-2.png"
+image = "/uploads/capture.PNG"
 shadowed = false
 size = ""
 template = "image"
@@ -133,7 +133,7 @@ titlelevel = "2"
 position = "Left"
 [[blocs.parts.media.media]]
 alt = "Rapport d'étonnement Someva"
-image = "/uploads/unnamed-4.png"
+image = "/uploads/capture2.PNG"
 shadowed = false
 size = ""
 template = "image"
@@ -160,7 +160,7 @@ titlelevel = "2"
 position = "Right"
 [[blocs.parts.media.media]]
 alt = "Rapport d'étonnement Someva Part 2"
-image = "/uploads/unnamed-5.png"
+image = "/uploads/capture3.PNG"
 shadowed = false
 size = ""
 template = "image"
