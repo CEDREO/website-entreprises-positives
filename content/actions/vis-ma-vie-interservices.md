@@ -130,7 +130,7 @@ richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.parts.media]
-position = "Left"
+position = "Top"
 [[blocs.parts.media.media]]
 alt = "Rapport d'étonnement Someva"
 image = "/uploads/capture2.PNG"
@@ -157,7 +157,7 @@ richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.parts.media]
-position = "Right"
+position = "Top"
 [[blocs.parts.media.media]]
 alt = "Rapport d'étonnement Someva Part 2"
 image = "/uploads/capture3.PNG"
@@ -256,7 +256,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Site de l’ARACT “Vis mon travail” : [https://www.aractidf.org/vis-mon-travail](https://www.aractidf.org/vis-mon-travail \"https://www.aractidf.org/vis-mon-travail\")\n\nRapport d’étonnement (individuel à chaque personne – qu’est ce qui m’a surpris ?)\n\nTableau d’attente croisés (Attente à deux)\n\n<br>\n\nContacts : Justine Ricaud – Service Dessin/Design & membre de l’équipe RSE\n\nJustine Frémondière – Service Dessin/Design & membre de l’équipe RSE\n\nMarie Samson – Service Dessin/Design – Pilote du projet\n\nAu 0240339543"
+richtext = "Site de l’ARACT “Vis mon travail” : [https://www.aractidf.org/vis-mon-travail](https://www.aractidf.org/vis-mon-travail \"https://www.aractidf.org/vis-mon-travail\")\n\nRapport d’étonnement (individuel à chaque personne – qu’est ce qui m’a surpris ?)\n\nTableau d’attente croisés (Attente à deux)\n\n<br>\n\n**Contacts :** Justine Ricaud – Service Dessin/Design & membre de l’équipe RSE\n\nJustine Frémondière – Service Dessin/Design & membre de l’équipe RSE\n\nMarie Samson – Service Dessin/Design – Pilote du projet\n\nAu 0240339543"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
