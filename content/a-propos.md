@@ -245,6 +245,13 @@ url = "https://fr.connexing.com/"
 [blocs.logos.logo]
 alt = "Logo Forestry"
 image = "/uploads/logo_connexing_corporate.png"
+[[blocs.logos]]
+forestrylabel = "Someva"
+name = "Someva"
+url = "https://www.someva.fr/"
+[blocs.logos.logo]
+alt = "Logo Someva"
+image = "/uploads/unnamed-1.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
