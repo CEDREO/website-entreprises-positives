@@ -197,6 +197,13 @@ url = "https://www.univ-nantes.fr/"
 alt = "Logo Nantes Université"
 image = "/uploads/logotype_nantesuniversite_vecto.png"
 [[blocs.logos]]
+forestrylabel = "Hellopure"
+name = "Hellopure"
+url = "https://www.hellopure.fr/"
+[blocs.logos.logo]
+alt = "Logo Hellopure"
+image = "/uploads/logo_hellopure_512px.png"
+[[blocs.logos]]
 forestrylabel = "Tibco"
 name = "Tibco"
 url = "https://www.tibco.fr/"
@@ -210,13 +217,6 @@ url = "https://www.resoemploi.fr/"
 [blocs.logos.logo]
 alt = "Logo Reso"
 image = "/uploads/logo-reso-france.png"
-[[blocs.logos]]
-forestrylabel = "Hellopure"
-name = "Hellopure"
-url = "https://www.hellopure.fr/"
-[blocs.logos.logo]
-alt = "Logo Hellopure"
-image = "/uploads/logo_hellopure_512px.png"
 [[blocs.logos]]
 forestrylabel = "Toolin"
 name = "Toolin"
