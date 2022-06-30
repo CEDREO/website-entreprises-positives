@@ -238,6 +238,13 @@ url = "https://corp.beapp.fr/"
 [blocs.logos.logo]
 alt = "Logo Beapp"
 image = "/uploads/beapp-2.jpg"
+[[blocs.logos]]
+forestrylabel = "Connexing"
+name = "Connexing"
+url = "https://fr.connexing.com/"
+[blocs.logos.logo]
+alt = "Logo Forestry"
+image = "/uploads/logo_connexing_corporate.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
