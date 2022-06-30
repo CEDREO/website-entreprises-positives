@@ -147,7 +147,7 @@ position = "Top"
 alt = "Rapport d'étonnement Someva"
 image = "/uploads/capture3.PNG"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
