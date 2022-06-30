@@ -21,7 +21,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Toolin est une entreprise de 10 personnes intervenant sur l’ouest de la France en temps que DSI externalisée. Accompagnement numérique des entreprises à travers du conseil et des solutions informatiques adaptées."
+richtext = "Toolin est une entreprise de 10 personnes intervenant sur l’ouest de la France en temps que DSI externalisée. Elle réalise de l'accompagnement numérique à travers du conseil et des solutions informatiques adaptées auprès d'entreprises."
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
