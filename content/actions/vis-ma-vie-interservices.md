@@ -145,7 +145,7 @@ titlelevel = "2"
 position = "Top"
 [[blocs.media.media]]
 alt = "Rapport d'étonnement Someva"
-image = "/uploads/capture3.PNG"
+image = "/uploads/capture4.PNG"
 shadowed = false
 size = "Large"
 template = "image"
