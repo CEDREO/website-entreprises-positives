@@ -118,12 +118,12 @@ titlelevel = "2"
 position = "Top"
 [[blocs.media.media]]
 alt = "Rapport d'étonnement Someva"
-image = "/uploads/capture2.PNG"
+image = "/uploads/someva1.PNG"
 shadowed = false
 size = "Large"
 template = "image"
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = ""
 [[blocs.style.background]]
@@ -145,13 +145,13 @@ titlelevel = "2"
 position = "Top"
 [[blocs.media.media]]
 alt = "Rapport d'étonnement Someva"
-image = "/uploads/capture6.PNG"
+image = "/uploads/someva2.PNG"
 shadowed = false
 size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
-compacttop = false
+compacttop = true
 content = ""
 [[blocs.style.background]]
 centered = false
