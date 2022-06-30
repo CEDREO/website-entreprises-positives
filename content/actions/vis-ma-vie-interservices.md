@@ -162,7 +162,7 @@ position = "Right"
 alt = "Rapport d'étonnement Someva Part 2"
 image = "/uploads/capture3.PNG"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.parts.style]
 compactbottom = false
