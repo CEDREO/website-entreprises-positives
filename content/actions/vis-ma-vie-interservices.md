@@ -150,7 +150,7 @@ shadowed = false
 size = "Large"
 template = "image"
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = true
 content = ""
 [[blocs.style.background]]
@@ -165,7 +165,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Les échanges se font sur 2 jours. La collaboratrice qui pilote le projet l’a mis en place dans un premier temps sur un service, et prépare un rétroplanning global (mois et personnes concernées), ainsi que les documents à remplir pour chacun.\n\nLe planning des collaborateurs est adapté pour que ce soit le plus approprié possible (pour qu’ils ne fassent pas uniquement de la route si le collaborateur est avec un commercial par exemple). Ensuite, chaque binôme prépare sa logistique (transport etc si besoin).\n\nDurant ces 2 jours, on remplit les documents (un rapport d’étonnement et un tableau d’attentes croisées). Lorsqu’on vit la vie d’un commercial par exemple, nous sommes en binôme avec lui toute la journée : participation aux rendez-vous clients, argumentation sur nos produits, route… Nous nous sommes aperçus qu’ils faisaient beaucoup de route, et qu’ils n’avaient pas toujours le temps pour valider les projets pour notre service.\n\nNous avons présenté la démarche à nos clients de façon transparente.\n\nNous réalisons depuis le début du projet 1 échange par mois, jusqu’à ce que tout le service soit passé (nous y arrivons d’ailleurs ce mois-ci). Il est ensuite temps d’élargir à d’autres services."
+richtext = "Les échanges se font sur 2 jours. La collaboratrice qui pilote le projet l’a mis en place dans un premier temps sur un service, et prépare un rétroplanning global (mois et personnes concernées), ainsi que les documents à remplir pour chacun. La mise en place a duré environ une semaine pour cette personne, étalé sur plusieurs semaines de la préparation des supports jusqu'à l'analyse des comptes-rendus. Cela n'a en revanche rien coûté, excepté quelques dépenses occasionnelles pour de la logistique tels que le transport.\n\nLe planning des collaborateurs est adapté pour que ce soit le plus approprié possible (pour qu’ils ne fassent pas uniquement de la route si le collaborateur est avec un commercial par exemple). Ensuite, chaque binôme prépare sa logistique (transport etc si besoin).\n\nDurant ces 2 jours, on remplit les documents (un rapport d’étonnement et un tableau d’attentes croisées). Lorsqu’on vit la vie d’un commercial par exemple, nous sommes en binôme avec lui toute la journée : participation aux rendez-vous clients, argumentation sur nos produits, route… Nous nous sommes aperçus qu’ils faisaient beaucoup de route, et qu’ils n’avaient pas toujours le temps pour valider les projets pour notre service.\n\nNous avons présenté la démarche à nos clients de façon transparente.\n\nNous réalisons depuis le début du projet 1 échange par mois, jusqu’à ce que tout le service soit passé (nous y arrivons d’ailleurs ce mois-ci). Il est ensuite temps d’élargir à d’autres services."
 title = "En pratique"
 titlelevel = "2"
 [blocs.media]
