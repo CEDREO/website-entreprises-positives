@@ -91,8 +91,13 @@ richtext = "**1 - Préparation d’un rétroplanning**\n\n**3 - Sélection des g
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = "Tableau d'attentes croisées"
+image = "/uploads/unnamed-2.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
@@ -125,36 +130,9 @@ richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.parts.media]
-position = "Bottom"
-[[blocs.parts.media.media]]
-alt = ""
-image = "/uploads/unnamed-2.png"
-shadowed = false
-size = ""
-template = "image"
-[blocs.parts.style]
-compactbottom = false
-compacttop = false
-content = ""
-[[blocs.parts.style.background]]
-centered = false
-darken = false
-fixed = false
-image = ""
-template = "image-de-fond"
-[[blocs.parts]]
-forestrylabel = ""
-template = "bloc-personalise"
-[blocs.parts.content]
-align = ""
-cta = ""
-richtext = ""
-title = ""
-titlelevel = "2"
-[blocs.parts.media]
 position = "Left"
 [[blocs.parts.media.media]]
-alt = ""
+alt = "Rapport d'étonnement Someva"
 image = "/uploads/unnamed-4.png"
 shadowed = false
 size = ""
@@ -181,7 +159,7 @@ titlelevel = "2"
 [blocs.parts.media]
 position = "Right"
 [[blocs.parts.media.media]]
-alt = ""
+alt = "Rapport d'étonnement Someva Part 2"
 image = "/uploads/unnamed-5.png"
 shadowed = false
 size = ""
