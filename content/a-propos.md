@@ -55,7 +55,7 @@ name = "Toolin"
 url = "https://www.toolin.fr/"
 [blocs.logos.logo]
 alt = "Logo Toolin"
-image = "/uploads/logo_toolin.jpg"
+image = "/uploads/logo_toolin_fiche-1.png"
 [[blocs.logos]]
 forestrylabel = "Abokine"
 name = "Abokine"
