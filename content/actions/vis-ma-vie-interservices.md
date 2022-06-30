@@ -115,12 +115,12 @@ richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.media]
-position = ""
+position = "Top"
 [[blocs.media.media]]
 alt = "Rapport d'étonnement Someva"
 image = "/uploads/capture2.PNG"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = false
@@ -142,12 +142,12 @@ richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.media]
-position = ""
+position = "Top"
 [[blocs.media.media]]
 alt = "Rapport d'étonnement Someva"
 image = "/uploads/capture3.PNG"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = false
