@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Someva"
 contentonly = false
 description = "Fiche pratique RSE : vis ma vie interservices"
-draft = true
 financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
