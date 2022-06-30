@@ -31,7 +31,7 @@ position = "Bottom"
 alt = ""
 image = "/uploads/logo_connexing_corporate.png"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = true
