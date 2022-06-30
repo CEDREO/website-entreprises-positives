@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Connexing"
 contentonly = false
 description = "Fiche pratique RSE : devenir société à mission"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Important"
