@@ -107,9 +107,21 @@ color = "Blanc"
 template = "couleur-de-fond"
 [[blocs]]
 forestrylabel = "Méthode Part 2"
-template = "ensemble-blocs-personalises"
+template = "bloc-personalise"
+[blocs.content]
+align = ""
+cta = ""
+richtext = ""
 title = ""
 titlelevel = "2"
+[blocs.media]
+position = ""
+[[blocs.media.media]]
+alt = "Rapport d'étonnement Someva"
+image = "/uploads/capture2.PNG"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = false
 compacttop = false
@@ -120,55 +132,28 @@ darken = false
 fixed = false
 image = ""
 template = "image-de-fond"
-[[blocs.parts]]
-forestrylabel = ""
+[[blocs]]
+forestrylabel = "Méthode Part 3"
 template = "bloc-personalise"
-[blocs.parts.content]
+[blocs.content]
 align = ""
 cta = ""
 richtext = ""
 title = ""
 titlelevel = "2"
-[blocs.parts.media]
-position = "Top"
-[[blocs.parts.media.media]]
+[blocs.media]
+position = ""
+[[blocs.media.media]]
 alt = "Rapport d'étonnement Someva"
-image = "/uploads/capture2.PNG"
-shadowed = false
-size = "Large"
-template = "image"
-[blocs.parts.style]
-compactbottom = false
-compacttop = false
-content = ""
-[[blocs.parts.style.background]]
-centered = false
-darken = false
-fixed = false
-image = ""
-template = "image-de-fond"
-[[blocs.parts]]
-forestrylabel = ""
-template = "bloc-personalise"
-[blocs.parts.content]
-align = ""
-cta = ""
-richtext = ""
-title = ""
-titlelevel = "2"
-[blocs.parts.media]
-position = "Top"
-[[blocs.parts.media.media]]
-alt = "Rapport d'étonnement Someva Part 2"
 image = "/uploads/capture3.PNG"
 shadowed = false
-size = "Large"
+size = ""
 template = "image"
-[blocs.parts.style]
+[blocs.style]
 compactbottom = false
 compacttop = false
 content = ""
-[[blocs.parts.style.background]]
+[[blocs.style.background]]
 centered = false
 darken = false
 fixed = false
