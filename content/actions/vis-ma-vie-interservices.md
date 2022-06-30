@@ -26,7 +26,7 @@ richtext = "Créé en 1973, Someva est à la fois concepteur et fabricant de mob
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-position = "Bottom"
+position = "Right"
 [[blocs.media.media]]
 alt = ""
 image = "/uploads/unnamed-1.png"
