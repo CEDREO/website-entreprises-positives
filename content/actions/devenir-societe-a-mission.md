@@ -26,8 +26,13 @@ richtext = "Connexing a été créée en 2009, avec pour objectif d’origine de
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Bottom"
+[[blocs.media.media]]
+alt = ""
+image = "/uploads/logo_connexing_corporate.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
