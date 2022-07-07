@@ -44,7 +44,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* **Assurer l’équité entre les salariés**\n* Garder nos collaborateurs\n* Offrir des opportunités d’évolutions / de formations\n* Reconnaître le travail des collaborateurs\n* Réagir rapidement en cas d’évolution du marché\n* Garder le contact et s’assurer que les salariés vont bien\n* Mutualiser les informations et n’oublier personne en termes d’évolutions professionnelles"
 title = "Objectifs"
 titlelevel = "2"
 [blocs.media]
