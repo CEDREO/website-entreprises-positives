@@ -151,7 +151,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Nous avons de bons retours de la part des collaborateurs concernant les conditions de travail, et sur cette formation en particulier.\n\nIl est difficile de dire combien de nos effectifs sont formés car nous sommes en recrutement permanent (il y a par exemple eu 50 recrutements depuis Janvier, ces collaborateurs n’ont donc pas encore l’ancienneté suffisante), mais une majorité a bénéficié de la formation (probablement les 2 tiers voire plus).\n\nEn 2020, 19 collaborateurs ont suivi cette formation.\n\nNous avons réduit les accidents du travail\n\nNous avons peu de turnover chez Yanet."
+richtext = "Nous avons de bons retours de la part des collaborateurs concernant les conditions de travail, et sur cette formation en particulier.\n\nEn 2020, 19 collaborateurs ont suivi cette formation. Il est difficile de dire combien de nos effectifs sont formés au total car nous sommes en recrutement permanent (il y a par exemple eu 50 recrutements depuis Janvier, ces collaborateurs n’ont donc pas encore l’ancienneté suffisante), mais une majorité a bénéficié de la formation (probablement les 2 tiers voire plus).\n\nNous avons réduit les accidents du travail, même si nous le quantifions pas spécifiquement.\n\nNous avons peu de turnover chez Yanet."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
