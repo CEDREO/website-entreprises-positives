@@ -89,7 +89,7 @@ titlelevel = "2"
 position = "Top"
 [[blocs.media.media]]
 alt = "Infographie Les TMS en entreprise"
-image = "/uploads/tms-chiffres-entreprise-1.jpeg"
+image = "/uploads/tms-chiffres-entreprise-1.jpg"
 shadowed = false
 size = ""
 template = "image"
