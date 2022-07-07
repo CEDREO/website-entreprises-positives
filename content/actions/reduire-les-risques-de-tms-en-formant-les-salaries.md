@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Yanet"
 contentonly = false
 description = "Fiche pratique RSE : réduire les risques de TMS en formant les salariés"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Moyen"
@@ -109,7 +108,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "Il faut trouver l’organisme adapté à nos besoins (nombre de séances, rythme, en fonction de notre cœur d’activités etc).\n\nChez Yanet, les formations se font sur 6 séances, à raison d’une séance de 2h par semaine, durant lesquelles différents conseils sont prodigués, notamment concernant la posture.\n\nCes séances qui s’inscrivent dans la durée (environ 2 mois) permettent de prendre de nouvelles habitudes sur le long terme. L’organisme qui organise ces formations, Ayog Formation, est spécialisé dans la gestion du stress et la prévention des TMS, et particulièrement dans les métiers de la propreté.\n\nL’OPCO prend en charge une partie du coût de la formation."
+richtext = "Il faut trouver l’organisme adapté à nos besoins (nombre de séances, rythme, en fonction de notre cœur d’activités etc).\n\nChez Yanet, les formations se font sur 6 séances, à raison d’une séance de 2h par semaine, durant lesquelles différents conseils sont prodigués, notamment concernant la posture.\n\nCes séances qui s’inscrivent dans la durée (environ 2 mois) permettent de prendre de nouvelles habitudes sur le long terme. L’organisme qui organise ces formations, Ayog Formation, est spécialisé dans la gestion du stress et la prévention des TMS, et particulièrement dans les métiers de la propreté.\n\nLe coût dépend du nombre de formations mises en place, et une partie est prise en charge par l’OPCO.\n\nA la mise en place de la démarche, nous avons investi dans l’achat de tapis de yoga."
 title = "Méthode"
 titlelevel = "2"
 [blocs.media]
