@@ -91,7 +91,7 @@ position = "Top"
 alt = "Infographie Les TMS en entreprise"
 image = "/uploads/tms-chiffres-entreprise.jpeg"
 shadowed = false
-size = "Medium"
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
