@@ -94,7 +94,7 @@ shadowed = false
 size = "Large"
 template = "image"
 [blocs.style]
-compactbottom = false
+compactbottom = true
 compacttop = false
 content = ""
 [[blocs.style.background]]
