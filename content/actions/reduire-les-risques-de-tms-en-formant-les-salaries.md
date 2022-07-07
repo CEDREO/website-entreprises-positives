@@ -118,7 +118,7 @@ position = "Bottom"
 alt = "Photo formation des salariés Yanet"
 image = "/uploads/formation-yanet_tms.jpg"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = true
