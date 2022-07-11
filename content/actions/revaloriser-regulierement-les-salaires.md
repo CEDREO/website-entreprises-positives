@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Syd Digital Care"
 contentonly = false
 description = "Fiche pratique RSE : revaloriser régulièrement les salaires"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Moyen"
