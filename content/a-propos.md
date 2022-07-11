@@ -22,13 +22,6 @@ titlelevel = "1"
 color = "Blanc"
 template = "couleur-de-fond"
 [[blocs.logos]]
-forestrylabel = "Grandjouan Propreté"
-name = "Grandjouan Propreté"
-url = "https://www.nas.fr/"
-[blocs.logos.logo]
-alt = "Logo Grandjouan Propreté"
-image = "/uploads/logo_quadri_grandjouan_baseline-1.png"
-[[blocs.logos]]
 forestrylabel = "Planet rse"
 name = "Planet'RSE"
 url = "https://www.planetrse.fr/"
@@ -266,6 +259,13 @@ url = "https://yanetrecrute.fr/"
 [blocs.logos.logo]
 alt = "Logo Yanet"
 image = "/uploads/logo-yanet-rvb.jpeg"
+[[blocs.logos]]
+forestrylabel = "Grandjouan Propreté"
+name = "Grandjouan Propreté"
+url = "https://www.nas.fr/"
+[blocs.logos.logo]
+alt = "Logo Grandjouan Propreté"
+image = "/uploads/logo_quadri_grandjouan_baseline-1.png"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
