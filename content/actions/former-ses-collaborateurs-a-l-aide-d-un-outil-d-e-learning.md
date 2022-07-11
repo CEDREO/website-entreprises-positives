@@ -134,7 +134,7 @@ richtext = ""
 title = ""
 titlelevel = "2"
 [blocs.media]
-position = ""
+position = "Top"
 [[blocs.media.media]]
 alt = "Visuel module Fidel Fillaud"
 image = "/uploads/formaction-3.PNG"
@@ -214,7 +214,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = "[Openclassroom](https://info.openclassrooms.com/fr/lp/decouvrez-lecole-en-ligne?utm_source=google&utm_medium=cpc&utm_campaign=paidsearch_google_fr_fr_b2c_s_bra_no-study-field_200602_00&gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=paidsearch_google_fr_fr_b2c_s_bra_no-study-field_200602_00&gclid=Cj0KCQjwlK-WBhDjARIsAO2sErRSxWCqrwUNGeG7e7IN4ouwfKIFa0lQfK8EvplJLydue4M48wN9ve4aAsNYEALw_wcB)s\n\n[Genially](https://genial.ly/fr/)\n\n[Canva](https://www.canva.com/)\n\nPower Point\n\n[Filmorama](https://filmora.wondershare.fr/)\n\n[Application 360 Learning](https://360learning.com/fr/)\n\n  \n<br>\n\nContact : [https://www.linkedin.com/company/fidel-fillaud/](https://www.linkedin.com/company/fidel-fillaud/ \"https://www.linkedin.com/company/fidel-fillaud/\")"
+richtext = "[Openclassrooms](https://info.openclassrooms.com/fr/lp/decouvrez-lecole-en-ligne?utm_source=google&utm_medium=cpc&utm_campaign=paidsearch_google_fr_fr_b2c_s_bra_no-study-field_200602_00&gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=paidsearch_google_fr_fr_b2c_s_bra_no-study-field_200602_00&gclid=Cj0KCQjwlK-WBhDjARIsAO2sErRSxWCqrwUNGeG7e7IN4ouwfKIFa0lQfK8EvplJLydue4M48wN9ve4aAsNYEALw_wcB)\n\n[Genially](https://genial.ly/fr/)\n\n[Canva](https://www.canva.com/)\n\nPower Point\n\n[Filmorama](https://filmora.wondershare.fr/)\n\n[Application 360 Learning](https://360learning.com/fr/)\n\n<br>\n\nContact : [https://www.linkedin.com/company/fidel-fillaud/](https://www.linkedin.com/company/fidel-fillaud/ \"https://www.linkedin.com/company/fidel-fillaud/\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
