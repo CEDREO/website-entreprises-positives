@@ -144,7 +144,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Il faut simplement avoir un toit adapté : un toit terrasse (jusqu’à 30° de pente) et sombre, et bien sûr dans une matière pouvant être peinte (pas de revêtement plastique type pvc, mais plutôt toitures métalliques, bac acier, béton, etc).\n\nDe plus, les entreprises propriétaires de leur bâtiment ont plus de facilité pour mettre ce projet en place."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -163,7 +163,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "Nous n’avons rencontré aucune difficulté, il faut simplement la volonté de le faire et d’investir. Bien sûr, les entreprises locataires de leurs locaux peuvent rencontrer un frein."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
