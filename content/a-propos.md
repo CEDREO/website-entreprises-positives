@@ -273,6 +273,13 @@ url = "https://www.syd.fr/"
 [blocs.logos.logo]
 alt = "Logo Syd Digital Care"
 image = "/uploads/logo-syd-article-news-syd.jpg"
+[[blocs.logos]]
+forestrylabel = "Fidel Fillaud"
+name = "Fidel Fillaud"
+url = "https://www.fidel-fillaud.com/fr/"
+[blocs.logos.logo]
+alt = "Logo Fidel Fillaud"
+image = "/uploads/logo-ff.PNG"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
