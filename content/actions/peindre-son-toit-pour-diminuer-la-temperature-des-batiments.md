@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Grandjouan Propreté"
 contentonly = false
 description = "Fiche pratique RSE : peindre son toit en blanc pour diminuer la température des bâtiments"
-draft = true
 financialinvest = "Moyen"
 hreflangs = []
 humaninvest = "Faible"
