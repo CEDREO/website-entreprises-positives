@@ -182,7 +182,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "[https://www.coolroof-france.com/](https://www.coolroof-france.com/ \"https://www.coolroof-france.com/\")\n\n[https://www.francetvinfo.fr/meteo/climat/les-toits-blancs-une-alternative-lumineuse-pour-diminuer-la-chaleur-naturellement_4027549.html](https://www.francetvinfo.fr/meteo/climat/les-toits-blancs-une-alternative-lumineuse-pour-diminuer-la-chaleur-naturellement_4027549.html \"https://www.francetvinfo.fr/meteo/climat/les-toits-blancs-une-alternative-lumineuse-pour-diminuer-la-chaleur-naturellement_4027549.html\")\n\n<br>\n\nContact : Thomas Grandjouan [tg arobase nas.fr](mailto:tg@nas.fr)\n\n02-51-89-12-89"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
