@@ -3,7 +3,6 @@ breadcrumb = ""
 company = "Fidel Fillaud"
 contentonly = false
 description = "Fiche pratique RSE : former ses équipes à l’aide de modules d’e-learning construit par les collaborateurs"
-draft = true
 financialinvest = "Important"
 hreflangs = []
 humaninvest = "Important"
