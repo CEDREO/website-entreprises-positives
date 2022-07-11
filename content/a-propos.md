@@ -266,6 +266,13 @@ url = "https://www.nas.fr/"
 [blocs.logos.logo]
 alt = "Logo Grandjouan Propreté"
 image = "/uploads/logo_quadri_grandjouan_baseline-1.png"
+[[blocs.logos]]
+forestrylabel = "Syd Digital Care"
+name = "Syd Digital Care"
+url = "https://www.syd.fr/"
+[blocs.logos.logo]
+alt = "Logo Syd Digital Care"
+image = "/uploads/logo-syd-article-news-syd.jpg"
 [[blocs]]
 forestrylabel = "Origines du projet"
 template = "bloc-personalise"
