@@ -26,8 +26,13 @@ richtext = "Grandjouan Propreté est une entreprise familiale de nettoyage et d�
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = "Logo Grandjouan Propreté"
+image = "/uploads/logo_quadri_grandjouan_baseline.png"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
