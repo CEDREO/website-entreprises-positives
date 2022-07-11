@@ -26,8 +26,13 @@ richtext = "Syd Digital Care est une entreprise de conseil informatique et ingé
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = "Logo Syd Digital Care"
+image = "/uploads/logo-syd-article-news-syd.jpg"
+shadowed = false
+size = ""
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
