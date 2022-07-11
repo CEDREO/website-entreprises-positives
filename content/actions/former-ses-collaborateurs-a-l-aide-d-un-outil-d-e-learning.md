@@ -157,7 +157,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* 100% des assistantes commerciales ont suivi le module sur leur parcours métier.\n* Le parcours produits et sécurité ont également été très bien suivis.\n* Nous avons eu de très bons retours de la part des collaborateurs, qui ont apprécié le côté ludique.\n* Chacun peut suivre ses modules de formation à son rythme, l’outil est disponible tout le temps !\n* Les quizz permettent de valider les connaissances\n* Petit gain de temps, mais en contrepartie d’un temps investi assez important donc difficile de quantifier le temps gagné, d’autant que ce n’est pas le plus important de la démarche.\n* Nous avons tous ressenti le côté “corporate” de la démarche : au lieu d’envoyer les gens en formation dans un organisme extérieur, nous avons travaillé ensemble sur ces modules, et notamment des personnes qui ne sont habituellement pas amenées à travailler ensemble (groupes de travail transverses).\n* De plus, le fait d’aider à la conception permet également de progresser et d’apprendre beaucoup de choses : on monte soi-même en compétences (utilisation d’outils comme Openclassroom, Canva…). Enfin, cela a un côté divertissant, cela change des sujets sur lesquels on travaille d’habitude."
 title = "Résultats"
 titlelevel = "2"
 [blocs.media]
@@ -176,7 +176,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Il est nécessaire que la direction et les managers soient impliqués, pour que chacun s’astreigne à le faire (car dans les faits, nous avons tous tendance à repousser ce type de projet qui sort de nos missions habituelles). Il faut pouvoir se dégager le temps nécessaire, car nous avons adapté le temps de travail et la priorisation des tâches des collaborateurs qui ont travaillé sur les modules.\n* Il est essentiel de s’entourer d’experts pour créer le contenu, mais aussi pour la pédagogie. Pour cela, les concepteurs se sont vraiment impliqués car ils ont suivi des Mooc sur Openclassroom pour être le plus pédagogues possible dans les modules par exemple."
 title = "Facteurs clés de succès"
 titlelevel = "2"
 [blocs.media]
@@ -195,7 +195,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "* Il faut trouver le bon équilibre, ne pas faire trop de modules pour que le nouvel arrivant ne passe pas trop de temps à suivre le parcours d’intégration.\n* La contrainte la plus importante est de se dégager du temps pour créer les modules : nous avons fait le souhait de déployer cela très vite, et nous avons mis 5 mois à partir du mois où nous avons eu l’application."
 title = "Contraintes et limites"
 titlelevel = "2"
 [blocs.media]
@@ -214,7 +214,7 @@ template = "bloc-personalise"
 [blocs.content]
 align = ""
 cta = ""
-richtext = ""
+richtext = "[Openclassroom](https://info.openclassrooms.com/fr/lp/decouvrez-lecole-en-ligne?utm_source=google&utm_medium=cpc&utm_campaign=paidsearch_google_fr_fr_b2c_s_bra_no-study-field_200602_00&gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=paidsearch_google_fr_fr_b2c_s_bra_no-study-field_200602_00&gclid=Cj0KCQjwlK-WBhDjARIsAO2sErRSxWCqrwUNGeG7e7IN4ouwfKIFa0lQfK8EvplJLydue4M48wN9ve4aAsNYEALw_wcB)s\n\n[Genially](https://genial.ly/fr/)\n\n[Canva](https://www.canva.com/)\n\nPower Point\n\n[Filmorama](https://filmora.wondershare.fr/)\n\n[Application 360 Learning](https://360learning.com/fr/)\n\n  \n<br>\n\nContact : [https://www.linkedin.com/company/fidel-fillaud/](https://www.linkedin.com/company/fidel-fillaud/ \"https://www.linkedin.com/company/fidel-fillaud/\")"
 title = "Outils et ressources"
 titlelevel = "2"
 [blocs.media]
