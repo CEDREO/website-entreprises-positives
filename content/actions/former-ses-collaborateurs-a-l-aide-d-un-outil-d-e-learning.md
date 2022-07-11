@@ -115,7 +115,7 @@ position = "Bottom"
 alt = "Visuel Module de formation sur le Covid"
 image = "/uploads/formaction-2-1.PNG"
 shadowed = false
-size = ""
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = true
@@ -139,7 +139,7 @@ position = "Top"
 alt = "Visuel module Fidel Fillaud"
 image = "/uploads/formaction-3.PNG"
 shadowed = false
-size = ""
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = false
