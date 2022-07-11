@@ -129,7 +129,7 @@ position = "Bottom"
 alt = "Photo toit Grandjouan Propreté"
 image = "/uploads/unnamed-2.jpg"
 shadowed = false
-size = ""
+size = "Large"
 template = "image"
 [blocs.style]
 compactbottom = true
