@@ -31,7 +31,7 @@ position = "Right"
 alt = "Logo Syd Digital Care"
 image = "/uploads/logo-syd-article-news-syd.jpg"
 shadowed = false
-size = ""
+size = "Medium"
 template = "image"
 [blocs.style]
 compactbottom = true
