@@ -8,7 +8,7 @@ financialinvest = "Faible"
 hreflangs = []
 humaninvest = "Moyen"
 maturity = "Progresser"
-nature = []
+nature = ["Gouvernance"]
 noindex = false
 schemajson = ""
 sector = "Tous secteurs"
@@ -26,8 +26,13 @@ richtext = "Depuis 2007, Wiztivi conçoit et développe des solutions numérique
 title = "Entreprise témoin"
 titlelevel = "2"
 [blocs.media]
-media = []
-position = ""
+position = "Right"
+[[blocs.media.media]]
+alt = "logo Wiztivi"
+image = "/uploads/logo_wiztivi.jpg"
+shadowed = false
+size = "Medium"
+template = "image"
 [blocs.style]
 compactbottom = true
 compacttop = false
